@@ -1,31 +1,38 @@
-# FF_WW2_Wehrmacht
+# Arma Reforger — WW2 Faction Pack for Freedom Fighters
 
-Wehrmacht (German Armed Forces) faction integration for **Freedom Fighters** on Arma Reforger.
+Standalone WW2 faction integrations for the **Freedom Fighters** game mode on Arma Reforger.
 
-Part of a WW2 conversion : 4 standalone factions for Freedom Fighters scenarios on WW2-themed terrains (Normandy, Eastern Front, etc.).
+Each faction is fully self-contained, no Morks dependency, built on top of Operation Overlord (AxisGear, GER/US Weapons, FIE Vehicles), Chungus Weapons, RMS_WW2_CORE, and other community assets.
 
-## Forces
+## Factions
 
-| Force | Role | Units |
+| Folder | Faction | Status |
 |---|---|---|
-| Heer | `REGULAR` | Rifleman, NCO, Officer, SMG, MG34, MG-assist, AT (Panzerfaust), Sniper, Medic |
-| Fallschirmjäger | `ELITE` (`FMJ`) | Rifleman (FG42), NCO, Officer, SMG, MG42, MG-assist, AT |
-| Waffen-SS | `SPECIAL` (`SS`) | Rifleman (G43), NCO (STG44), Officer, STG44, MG, Sniper, AT |
+| [`FF_WW2_Wehrmacht/`](FF_WW2_Wehrmacht/) | 🇩🇪 Wehrmacht (Heer + Fallschirmjäger + Waffen-SS) | ✅ Released |
+| `FF_WW2_USArmy/` | 🇺🇸 US Army (GI + 101st Airborne) | 🚧 In development |
+| `FF_WW2_RedArmy/` | ⭐ Red Army (Soviet) | 🚧 In development |
+| `FF_WW2_FFI/` | 🇫🇷 French Resistance (FFI / Maquis) | 🚧 In development |
 
-## Vehicles
+## Each mod includes
 
-Kübelwagen, Opel Blitz Transport, SdKfz 251 Halftrack, WW2 Bicycle, Panzer IV Ausf. J
+- A complete `JWK_FactionConfig` (Freedom Fighters integration)
+- An `SCR_Faction` registration patched into FF's `JWK_FactionManager`
+- Multiple forces (REGULAR / ELITE / SPECIAL) with their own characters and groups
+- Custom dogtags, faction flag, eagle/national logo
+- Combat compositions (checkpoints, fortifications)
+- Vehicles from FIE, SDKFZ251 and other WW2 vehicle mods
 
-## Dependencies
+## Contributing
 
-ArmaReforger base, FreedomFighters, OO_AxisGear + SGSGearSlots (uniforms), OO_GERWeapons + Chungus(SMGs/LMGs/WW2Launchers/Rifles), RMS_WW2_CORE (Wehrmacht flag + logos + checkpoint compositions), FIE vehicles (Kubelwagen, OpelBlitz, PanzerIV, PanzerII), SDKFZ251, WW2 Bicycle.
+PRs welcome ! Open an issue if you find a bug, want a new unit, or want to suggest balance tweaks. I'll review & merge regularly, then publish Workshop updates.
 
-## Integration
+## Credits
 
-- `Configs/AddonsIntegrations.conf` overrides FF master to register this mod (and OperationOverlordAxisGear)
-- `Configs/Addons/FF_WW2_Wehrmacht.conf` is the JWK_AddonIntegrationConfig
-- `Configs/Factions/FF_Wehrmacht.conf` is the JWK_FactionConfig (3 forces, with patrol/recon/specialist/HQ groups)
-- `Configs/Factions/WEHRMACHT.conf` is the SCR_Faction with German names, Wehrmacht flag, eagle logo
-- `Prefabs/GameMode/JWK_FactionManager.et` overrides FF's prefab to register WEHRMACHT as a vanilla SCR_Faction (alongside MEC/MEI/TKA)
-- Custom dogtags at `Prefabs/Items/Dogtag_Wehrmacht.et`
-- Combat compositions : medium + large checkpoints with PAK38 anti-tank gun
+- **Operation Overlord** team — AxisGear, US Gear, GER/US Weapons, FIE Vehicles
+- **BigChungus** — WW2 weapon packs (BoltGuns, SMGs, LMGs, Launchers, Rifles)
+- **RMS** — WW2 Core (flags, logos, checkpoint compositions), Ostfront Arms, PanzerIV alt, RedArmy gear
+- **JohnnyKerner** — Freedom Fighters game mode
+
+## License
+
+See each mod's folder for license details. Generally permissive for non-commercial mod usage.
