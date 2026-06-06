@@ -6,17 +6,28 @@ Each faction is fully self-contained, no Morks dependency, built on top of Opera
 
 ## Mods
 
-| Folder | Mod | Status |
-|---|---|---|
-| [`FF_WW2_Core/`](FF_WW2_Core/) | ⚙️ Registration hub — **required dependency** for any of the factions below | ✅ Released |
-| [`FF_WW2_Wehrmacht/`](FF_WW2_Wehrmacht/) | 🇩🇪 Wehrmacht (Heer + Fallschirmjäger + Waffen-SS) | ✅ Released |
-| [`FF_WW2_USArmy/`](FF_WW2_USArmy/) | 🇺🇸 US Army (GI + 101st Airborne) | ✅ Released |
-| [`FF_WW2_RedArmy/`](FF_WW2_RedArmy/) | ⭐ Red Army (Soviet) | ✅ Released |
-| [`FF_WW2_FFI/`](FF_WW2_FFI/) | 🇫🇷 French Resistance (FFI / Maquis) | ✅ Released (PLAYER faction) |
+| Folder | Mod | Status | FF dep? |
+|---|---|---|---|
+| [`FF_WW2_Core/`](FF_WW2_Core/) | ⚙️ Freedom Fighters integration hub — only needed for FF scenarios | ✅ Released | YES |
+| [`FF_WW2_Wehrmacht/`](FF_WW2_Wehrmacht/) | 🇩🇪 Wehrmacht (Heer + Fallschirmjäger + Waffen-SS) | ✅ Released | NO (standalone) |
+| [`FF_WW2_USArmy/`](FF_WW2_USArmy/) | 🇺🇸 US Army (GI + 101st Airborne) | ✅ Released | NO (standalone) |
+| [`FF_WW2_RedArmy/`](FF_WW2_RedArmy/) | ⭐ Red Army (Soviet) | ✅ Released | NO (standalone) |
+| [`FF_WW2_FFI/`](FF_WW2_FFI/) | 🇫🇷 French Resistance (FFI / Maquis) | ✅ Released (PLAYER) | NO (standalone) |
 
 ## Architecture
 
-Install **`FF_WW2_Core`** + any combination of faction mods. Each faction is independent — pick only the ones you want. `FF_WW2_Core` owns the master Freedom Fighters resource overrides (`AddonsIntegrations.conf` + `JWK_FactionManager.et`) and references each faction by path; missing factions are tolerated silently (same pattern FF itself uses for MEC/MEI/TKA).
+The faction mods are **pure content packs** — characters, AI groups, and vanilla `SCR_Faction` definitions. **No FreedomFighters dependency.** Usable in any vanilla scenario, custom game mode, sandbox, or Game Master.
+
+The **`FF_WW2_Core`** mod owns all the Freedom Fighters integration : `JWK_FactionConfig` for each faction, FF master overrides (`AddonsIntegrations.conf` + `JWK_FactionManager.et`), and custom dogtags. Install it only if you want to use these factions inside FF scenarios.
+
+### Use cases
+
+- **FF scenarios** : install `FF_WW2_Core` + the faction mods you want
+- **Custom scenarios / sandbox / Game Master / non-FF mods** : install only the faction mods (no Core, no FF needed)
+
+### Faction missing tolerance
+
+`FF_WW2_Core` references each faction's `SCR_Faction.conf` by path. If a faction mod isn't installed, the reference fails silently and that faction simply isn't available — same as how vanilla FF handles MEC/MEI/TKA when those mods aren't installed.
 
 ## Each mod includes
 

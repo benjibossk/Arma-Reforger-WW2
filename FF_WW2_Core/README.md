@@ -1,39 +1,56 @@
-# FF_WW2_Core — Registration Hub
+# FF_WW2_Core — Freedom Fighters Integration Hub
 
-**Required dependency for the WW2 faction pack.** This is a thin hub mod that owns the Freedom Fighters master overrides for all WW2 factions in this repo.
+This mod owns **all the Freedom Fighters integration** for the WW2 faction pack. Required to use any of the WW2 factions inside FF scenarios.
 
-## What it does
+The faction mods themselves (`FF_WW2_Wehrmacht`, `FF_WW2_USArmy`, `FF_WW2_RedArmy`, `FF_WW2_FFI`) are pure content packs (characters, AI groups, vanilla `SCR_Faction` definitions). They have **no FF dependency** and can be used standalone in any vanilla Arma Reforger scenario, custom game mode, or sandbox.
 
-Two overrides of FF master resources :
+## What this mod contains
 
-1. **`Prefabs/GameMode/JWK_FactionManager.et`** (override of FF's `{64B2F8D8059C822F}`)
-   Registers all 4 WW2 SCR_Factions (WEHRMACHT, US_WW2, RED_ARMY, FFI) alongside FF's vanilla SCR_Factions (MEC, MEI, TKA).
+### Master Freedom Fighters overrides (only ONE place owns these)
 
-2. **`Configs/AddonsIntegrations.conf`** (override of FF's `{A41CAA1E409C6244}`)
-   Lists the 4 WW2 mod integration configs + OperationOverlordAxisGear, so FF discovers and loads them at runtime.
+- **`Prefabs/GameMode/JWK_FactionManager.et`** — override of FF's master prefab. Registers all 4 WW2 `SCR_Faction` keys (WEHRMACHT, US_WW2, RED_ARMY, FFI) alongside FF's MEC/MEI/TKA.
+- **`Configs/AddonsIntegrations.conf`** — override of FF's master registry. Lists the 4 faction integration configs + OperationOverlordAxisGear.
 
-## Why a separate mod ?
+### Per-faction Freedom Fighters configs
 
-Enfusion does not aggregate overrides — only one override per resource wins (last loaded). So a single mod must own the FF master overrides and reference all faction sources by path.
+- **`Configs/Factions/FF_<Name>.conf`** — `JWK_FactionConfig` for each faction (forces, groups, vehicles, dogtag, traits, role bindings)
+- **`Configs/Addons/FF_WW2_<Name>.conf`** — `JWK_AddonIntegrationConfig` wrapper for each faction
 
-Each individual faction mod (Wehrmacht / USArmy / RedArmy / FFI) provides its own SCR_Faction `.conf` file at a known path. The Core mod's `JWK_FactionManager.et` references those paths. If a faction mod is not installed, its reference fails silently and that faction simply isn't available — exactly how vanilla FF handles MEI / TKA / MEC when those mods aren't installed.
+### FF-specific prefabs
+
+- **`Prefabs/Items/Dogtag_<Name>.et`** — custom dogtags (each inherits from FF's `Dogtags_Base.et`)
+
+## What's NOT here
+
+- Characters → in the faction mods (vanilla `SCR_ChimeraCharacter`)
+- AI Groups → in the faction mods (vanilla `SCR_AIGroup`)
+- `SCR_Faction` per-faction identity files (names, flag, visual identity) → in the faction mods (vanilla `SCR_Faction`)
 
 ## Installation
 
-Required mods :
+Required:
+- `ArmaReforger` (base game)
+- `FreedomFighters` (`CAFEBEEFF0CACC1A`)
 - **FF_WW2_Core** (this mod)
-- **FreedomFighters** (`CAFEBEEFF0CACC1A`)
-- **ArmaReforger** (base game)
 
-Then any combination of the faction mods :
+Then any combination of the faction mods:
 - `FF_WW2_Wehrmacht`
 - `FF_WW2_USArmy`
 - `FF_WW2_RedArmy`
 - `FF_WW2_FFI`
 
-## Dependencies
+If a faction mod is not installed, its references in this mod's `JWK_FactionManager.et` and `AddonsIntegrations.conf` fail silently — FF tolerates missing references (same pattern as vanilla FF for MEC/MEI/TKA when those mods aren't installed).
 
-ArmaReforger base + FreedomFighters only. No other content.
+## Dependencies in this mod's gproj
+
+Core references vehicle and composition prefabs in its `JWK_FactionConfig` files (e.g., Wehrmacht's PanzerIV, US's M4 Sherman, FIE Wehrmacht checkpoints). So Core has dependencies on:
+
+- ArmaReforger, FreedomFighters (required)
+- RMS_WW2_CORE (Wehrmacht flag + eagle logo, Allies flag, Wehrmacht checkpoint compositions)
+- OO_UsGear (US Military flag)
+- FIE_Core (composition prefabs)
+- FIE_Kubelwagen, FIE_OpelBlitz, FIE_PanzerIV, SDKFZ251, WW2_Bicycle (Wehrmacht vehicles)
+- FIE_WillysJeep, FIE_CCKW, M3A1Halftrack, FIE_M4Tank (US vehicles)
 
 ## GUID
 
