@@ -1,0 +1,14 @@
+GameProject {
+ ID "FF_WW2_Core"
+ GUID "C91F4FE946AF94A8"
+ TITLE "FF - WW2 Core (registration hub)"
+ Dependencies {
+  "58D0FB3206B6F859" "CAFEBEEFF0CACC1A"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}
