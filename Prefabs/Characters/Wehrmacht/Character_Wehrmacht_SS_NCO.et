@@ -1,0 +1,51 @@
+SCR_ChimeraCharacter : "{3ECA3A935BC069B9}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_BaseLoadout.et" {
+ ID "2606C0010A200002"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot { Enabled 0 }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Waffen-SS NCO (STG44)"
+    m_sFaction "WEHRMACHT"
+   }
+   m_VariantData SCR_EditableEntityVariantData "{2606C0010F200002}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {}
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{62A711001B8FDEEA}Prefabs/Weapons/Rifles/STG44/BC_Rifle_STG44.et"
+   WeaponSlotIndex 0
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{BA6F5A99F10C6EF1}Prefabs/Weapons/Handguns/P38/Handgun_P38.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat { Prefab "{5F04139AD86CE1E6}Prefabs/Characters/HeadGear/Sthalhiem/Camo/German Camo Helmet v2.et" }
+    LoadoutSlotInfo Jacket { Prefab "{5F04139AD86CE1E6}Prefabs/Characters/Uniforms/M43 Jacket/Peadot/Infantry/Peadot Inf SGT SS.et" }
+    LoadoutSlotInfo ArmoredVest { Enabled 0 }
+    LoadoutSlotInfo Pants { Prefab "{5F04139AD86CE1E6}Prefabs/Characters/Uniforms/M43 Pants/M43 Pants Boots/Splinter Pattern/Pants Boots Splinter.et" }
+    LoadoutSlotInfo Boots { Prefab "{817BDBD5432BCFB6}Prefabs/Characters/Footwear/1943 Gray Uniform/Tall Boots/M35 Boots.et" }
+    LoadoutSlotInfo Vest { Prefab "{5F04139AD86CE1E6}Prefabs/Characters/Vests/Sl Vest/Sl vest SS.et" }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{2606C0010E200002}" {
+     TargetStorage "Vest/Sl vest SS.et"
+     PrefabsToSpawn {
+      "{62A711001B8FDEEA}Prefabs/Weapons/Magazines/STG44/BC_Magazine_792x33mm_Kurz_STG44.et" "{62A711001B8FDEEA}Prefabs/Weapons/Magazines/STG44/BC_Magazine_792x33mm_Kurz_STG44.et" "{62A711001B8FDEEA}Prefabs/Weapons/Magazines/STG44/BC_Magazine_792x33mm_Kurz_STG44.et" "{62A711001B8FDEEA}Prefabs/Weapons/Magazines/STG44/BC_Magazine_792x33mm_Kurz_STG44.et" "{315028DA7FB3851F}Prefabs/Weapons/Magazines/P38/Magazine_9x19_P38_8rnd_Ball_OO.et" "{315028DA7FB3851F}Prefabs/Weapons/Magazines/P38/Magazine_9x19_P38_8rnd_Ball_OO.et" "{39846FB14FBA4296}Prefabs/Weapons/Grenades/Grenade_Stielhandgranate.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,20 @@
+# Arma Reforger Workbench build artifacts
+resourceDatabase.rdb
+resourceDatabase.rdb_*
+Cache/
+Backup/
+*.workspace
+*.tmp
+*.bak
+*.log
+
+# Workshop publish metadata
+meta/
+*_manifest.json
+
+# Internal scratch
+_guid_mapping.txt
+
+# OS
+Thumbs.db
+.DS_Store

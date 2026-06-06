@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1085BC95B13C3B21}Prefabs/Groups/Wehrmacht/Group_Wehrmacht_FMJ_SentryTeam.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

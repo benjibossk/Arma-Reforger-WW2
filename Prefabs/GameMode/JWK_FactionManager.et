@@ -1,0 +1,13 @@
+JWK_FactionManager : "{C359F61F9684FC75}Prefabs/GameMode/JWK_BaseFactionManager.et" {
+ ID "5D8CB07C66269E75"
+ Factions {
+  SCR_Faction "{65F4A880282CDA61}" : "{078966960951BF1E}Configs/Factions/MEC.conf" {
+  }
+  SCR_Faction "{65F4A88004A0E537}" : "{830970F42196ADAF}Configs/Factions/MEI.conf" {
+  }
+  SCR_Faction "{65F4A8822DC447B1}" : "{B9A127064FDC8FF6}Configs/Factions/TKA.conf" {
+  }
+  SCR_Faction "{2606C001B0000002}" : "{2606C001B0000099}Configs/Factions/WEHRMACHT.conf" {
+  }
+ }
+}
