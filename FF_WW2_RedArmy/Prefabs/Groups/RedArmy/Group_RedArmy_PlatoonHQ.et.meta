@@ -1,0 +1,11 @@
+MetaFileClass {
+ Name "{88EDCB3A97FD088F}Prefabs/Groups/RedArmy/Group_RedArmy_PlatoonHQ.et"
+ Configurations {
+  EntityTemplateResourceClass PC {}
+  EntityTemplateResourceClass XBOX_ONE : PC {}
+  EntityTemplateResourceClass XBOX_SERIES : PC {}
+  EntityTemplateResourceClass PS4 : PC {}
+  EntityTemplateResourceClass PS5 : PC {}
+  EntityTemplateResourceClass HEADLESS : PC {}
+ }
+}

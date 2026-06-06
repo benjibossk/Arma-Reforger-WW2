@@ -1,0 +1,11 @@
+MetaFileClass {
+ Name "{2608A001A0000002}Configs/Factions/FF_RedArmy.conf"
+ Configurations {
+  CONFResourceClass PC {}
+  CONFResourceClass XBOX_ONE : PC {}
+  CONFResourceClass XBOX_SERIES : PC {}
+  CONFResourceClass PS4 : PC {}
+  CONFResourceClass PS5 : PC {}
+  CONFResourceClass HEADLESS : PC {}
+ }
+}

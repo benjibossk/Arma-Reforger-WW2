@@ -1,0 +1,11 @@
+MetaFileClass {
+ Name "{F7A8FC1D2C7F112D}Prefabs/Characters/RedArmy/Character_RedArmy_NCO.et"
+ Configurations {
+  EntityTemplateResourceClass PC {}
+  EntityTemplateResourceClass XBOX_ONE : PC {}
+  EntityTemplateResourceClass XBOX_SERIES : PC {}
+  EntityTemplateResourceClass PS4 : PC {}
+  EntityTemplateResourceClass PS5 : PC {}
+  EntityTemplateResourceClass HEADLESS : PC {}
+ }
+}

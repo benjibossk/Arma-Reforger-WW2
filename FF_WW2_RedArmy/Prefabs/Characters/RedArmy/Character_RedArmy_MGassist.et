@@ -1,0 +1,37 @@
+SCR_ChimeraCharacter : "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et" {
+ ID "26060301A0000006"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot { Enabled 0 }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Red Army MG Assistant"
+    m_sFaction "RED_ARMY"
+   }
+   m_VariantData SCR_EditableEntityVariantData "{26060301F0000006}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {}
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{61BD6595183FCEBD}Prefabs/Weapons/Rifles/Mosin/BC_Rifle_Mosin_Nagant_9130.et"
+   WeaponSlotIndex 0
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat { Prefab "{696D2789DA813345}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSH40.et" }
+    LoadoutSlotInfo Jacket { Prefab "{696D2789DA813345}Prefabs/Characters/Uniforms/Jacket_M43.et" }
+    LoadoutSlotInfo ArmoredVest { Enabled 0 }
+    LoadoutSlotInfo Pants { Prefab "{696D2789DA813345}Prefabs/Characters/Uniforms/Pants_M43.et" }
+    LoadoutSlotInfo Boots { Prefab "{696D2789DA813345}Prefabs/Characters/Footwear/CombatBoots_RedArmy.et" }
+   }
+  }
+ }
+}

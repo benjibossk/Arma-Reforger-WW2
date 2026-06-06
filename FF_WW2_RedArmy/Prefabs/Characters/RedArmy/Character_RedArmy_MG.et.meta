@@ -1,0 +1,11 @@
+MetaFileClass {
+ Name "{27CB23A31CA60BFF}Prefabs/Characters/RedArmy/Character_RedArmy_MG.et"
+ Configurations {
+  EntityTemplateResourceClass PC {}
+  EntityTemplateResourceClass XBOX_ONE : PC {}
+  EntityTemplateResourceClass XBOX_SERIES : PC {}
+  EntityTemplateResourceClass PS4 : PC {}
+  EntityTemplateResourceClass PS5 : PC {}
+  EntityTemplateResourceClass HEADLESS : PC {}
+ }
+}
