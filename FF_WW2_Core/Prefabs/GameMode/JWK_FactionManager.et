@@ -15,5 +15,7 @@ JWK_FactionManager : "{C359F61F9684FC75}Prefabs/GameMode/JWK_BaseFactionManager.
   }
   SCR_Faction "{2609A001B0000010}" : "{2609A001A0000001}Configs/Factions/FFI.conf" {
   }
+  SCR_Faction "{260A0501B0000010}" : "{260A0501A0000002}Configs/Factions/CIV_WW2.conf" {
+  }
  }
 }
