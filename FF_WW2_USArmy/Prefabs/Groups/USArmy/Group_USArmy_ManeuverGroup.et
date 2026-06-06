@@ -1,0 +1,19 @@
+SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
+ ID "26060201B0000008"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" { DefaultFormation "StaggeredColumn" }
+  SCR_AIGroupMovementComponent "{6126A0E02097C7FF}" { DefaultFormation "StaggeredColumn" }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "US Army Maneuver Group"
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{3D433BEECA85F915}Prefabs/Characters/USArmy/Character_USArmy_NCO.et"
+  "{3D433BEECA85F915}Prefabs/Characters/USArmy/Character_USArmy_Rifleman.et"
+  "{3D433BEECA85F915}Prefabs/Characters/USArmy/Character_USArmy_Rifleman.et"
+  "{3D433BEECA85F915}Prefabs/Characters/USArmy/Character_USArmy_SMG.et"
+  "{3D433BEECA85F915}Prefabs/Characters/USArmy/Character_USArmy_MG.et"
+ }
+}
