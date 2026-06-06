@@ -10,6 +10,6 @@ SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
  m_aUnitPrefabSlots {
   "{FD027098ADD5B2D2}Prefabs/Characters/FFI/Character_FFI_CellLeader.et"
   "{FD027098ADD5B2D2}Prefabs/Characters/FFI/Character_FFI_AT.et"
-  "{FD027098ADD5B2D2}Prefabs/Characters/FFI/Character_FFI_Rifleman.et"
+  "{C292D77837D4AB83}Prefabs/Characters/FFI/Character_FFI_Rifleman_Garand.et"
  }
 }

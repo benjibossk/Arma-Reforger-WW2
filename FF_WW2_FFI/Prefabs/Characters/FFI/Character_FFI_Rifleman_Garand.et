@@ -1,5 +1,5 @@
 SCR_ChimeraCharacter : "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et" {
- ID "26060401A0000007"
+ ID "26060401A0000010"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
    components {
@@ -12,21 +12,17 @@ SCR_ChimeraCharacter : "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "FFI AT (Bazooka airdropped)"
+    Name "FFI Rifleman (Garand airdropped)"
     m_sFaction "FFI"
    }
-   m_VariantData SCR_EditableEntityVariantData "{26060401F0000007}" {
+   m_VariantData SCR_EditableEntityVariantData "{26060401F0000010}" {
     m_bRandomizeDefaultVariant 0
     m_aVariants {}
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{62A711001B8FDEEA}Prefabs/Weapons/Rifles/M1 Carbine/BC_Rifle_M1_Carbine.et"
+   WeaponTemplate "{62A711001B8FDEEA}Prefabs/Weapons/Rifles/M1 Garand/BC_Rifle_M1_Garand.et"
    WeaponSlotIndex 0
-  }
-  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
-   WeaponTemplate "{65E86BF91D510331}Prefabs/Weapons/Launchers/M1A1/BC_M1A1_Bazooka.et"
-   WeaponSlotIndex 1
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -39,10 +35,10 @@ SCR_ChimeraCharacter : "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{26060401E0000007}" {
+    ItemsInitConfigurationItem "{26060401E0000010}" {
      TargetStorage "Vest/Kar 98 vest.et"
      PrefabsToSpawn {
-      "{62A711001B8FDEEA}Prefabs/Weapons/Magazines/M1 Carbine/BC_Magazine_30_Carbine_M1_Carbine_15rnd_Ball.et" "{62A711001B8FDEEA}Prefabs/Weapons/Magazines/M1 Carbine/BC_Magazine_30_Carbine_M1_Carbine_15rnd_Ball.et" "{65E86BF91D510331}Prefabs/Weapons/Ammo/BC_Ammo_Rocket_M6A1_HEAT.et" "{65E86BF91D510331}Prefabs/Weapons/Ammo/BC_Ammo_Rocket_M6A1_HEAT.et" "{65E86BF91D510331}Prefabs/Weapons/Ammo/BC_Ammo_Rocket_M6A1_HEAT.et" "{6982459DD20FAAAF}Prefabs/Weapons/Grenades/Grenade_Mk2.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+      "{62A711001B8FDEEA}Prefabs/Weapons/Magazines/M1 Garand/BC_Clip_8rnd_M1_Garand.et" "{62A711001B8FDEEA}Prefabs/Weapons/Magazines/M1 Garand/BC_Clip_8rnd_M1_Garand.et" "{62A711001B8FDEEA}Prefabs/Weapons/Magazines/M1 Garand/BC_Clip_8rnd_M1_Garand.et" "{62A711001B8FDEEA}Prefabs/Weapons/Magazines/M1 Garand/BC_Clip_8rnd_M1_Garand.et" "{62A711001B8FDEEA}Prefabs/Weapons/Magazines/M1 Garand/BC_Clip_8rnd_M1_Garand.et" "{6982459DD20FAAAF}Prefabs/Weapons/Grenades/Grenade_Mk2.et" "{6982459DD20FAAAF}Prefabs/Weapons/Grenades/Grenade_Mk2.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
      }
     }
    }

@@ -21,7 +21,7 @@ SCR_ChimeraCharacter : "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{91A08549810A6AE1}Prefabs/Weapons/Rifles/K98/Rifle_k98k_OO.et"
+   WeaponTemplate "{62A711001B8FDEEA}Prefabs/Weapons/Rifles/M1 Carbine/BC_Rifle_M1_Carbine.et"
    WeaponSlotIndex 0
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
@@ -38,7 +38,7 @@ SCR_ChimeraCharacter : "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR
     ItemsInitConfigurationItem "{26060401E0000006}" {
      TargetStorage "Vest/Kar 98 vest.et"
      PrefabsToSpawn {
-      "{0C933836BFE21731}Prefabs/Weapons/Magazines/Kar98k/OO_Magazine_792x57_Stripper_5rnd_Kar98k.et" "{0C933836BFE21731}Prefabs/Weapons/Magazines/Kar98k/OO_Magazine_792x57_Stripper_5rnd_Kar98k.et" "{61344BDC155A5A28}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2.et" "{61344BDC155A5A28}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2.et" "{61344BDC155A5A28}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2.et" "{6982459DD20FAAAF}Prefabs/Weapons/Grenades/Grenade_Mk2.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+      "{62A711001B8FDEEA}Prefabs/Weapons/Magazines/M1 Carbine/BC_Magazine_30_Carbine_M1_Carbine_15rnd_Ball.et" "{62A711001B8FDEEA}Prefabs/Weapons/Magazines/M1 Carbine/BC_Magazine_30_Carbine_M1_Carbine_15rnd_Ball.et" "{61344BDC155A5A28}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2.et" "{61344BDC155A5A28}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2.et" "{61344BDC155A5A28}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2.et" "{6982459DD20FAAAF}Prefabs/Weapons/Grenades/Grenade_Mk2.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
      }
     }
    }
