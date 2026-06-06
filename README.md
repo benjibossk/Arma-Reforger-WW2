@@ -9,7 +9,7 @@ Each faction is fully self-contained, no Morks dependency, built on top of Opera
 | Folder | Faction | Status |
 |---|---|---|
 | [`FF_WW2_Wehrmacht/`](FF_WW2_Wehrmacht/) | 🇩🇪 Wehrmacht (Heer + Fallschirmjäger + Waffen-SS) | ✅ Released |
-| `FF_WW2_USArmy/` | 🇺🇸 US Army (GI + 101st Airborne) | 🚧 In development |
+| [`FF_WW2_USArmy/`](FF_WW2_USArmy/) | 🇺🇸 US Army (GI + 101st Airborne) | ✅ Released |
 | `FF_WW2_RedArmy/` | ⭐ Red Army (Soviet) | 🚧 In development |
 | `FF_WW2_FFI/` | 🇫🇷 French Resistance (FFI / Maquis) | 🚧 In development |
 
