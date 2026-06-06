@@ -13,5 +13,7 @@ JWK_FactionManager : "{C359F61F9684FC75}Prefabs/GameMode/JWK_BaseFactionManager.
   }
   SCR_Faction "{2608A001B0000010}" : "{2608A001A0000001}Configs/Factions/RED_ARMY.conf" {
   }
+  SCR_Faction "{2609A001B0000010}" : "{2609A001A0000001}Configs/Factions/FFI.conf" {
+  }
  }
 }

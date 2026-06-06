@@ -11,7 +11,7 @@ Each faction is fully self-contained, no Morks dependency, built on top of Opera
 | [`FF_WW2_Wehrmacht/`](FF_WW2_Wehrmacht/) | 🇩🇪 Wehrmacht (Heer + Fallschirmjäger + Waffen-SS) | ✅ Released |
 | [`FF_WW2_USArmy/`](FF_WW2_USArmy/) | 🇺🇸 US Army (GI + 101st Airborne) | ✅ Released |
 | [`FF_WW2_RedArmy/`](FF_WW2_RedArmy/) | ⭐ Red Army (Soviet) | ✅ Released |
-| `FF_WW2_FFI/` | 🇫🇷 French Resistance (FFI / Maquis) | 🚧 In development |
+| [`FF_WW2_FFI/`](FF_WW2_FFI/) | 🇫🇷 French Resistance (FFI / Maquis) | ✅ Released (PLAYER faction) |
 
 ## Each mod includes
 
