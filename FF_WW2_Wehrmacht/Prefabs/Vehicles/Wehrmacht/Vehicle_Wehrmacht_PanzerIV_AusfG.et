@@ -1,0 +1,10 @@
+Tank : "{692C3806D8C77463}Prefabs/Vehicles/Wheeled/M151A2/Panzer_IV_Ausf_G.et" {
+ ID "1F3BAF8354747C51"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "WEHRMACHT"
+   }
+  }
+ }
+}

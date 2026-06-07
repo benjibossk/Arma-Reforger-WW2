@@ -1,0 +1,11 @@
+MetaFileClass {
+ Name "{ED6F83E90556C99C}Prefabs/Vehicles/Wehrmacht/Vehicle_Wehrmacht_OpelBlitz.et"
+ Configurations {
+  EntityTemplateResourceClass PC {}
+  EntityTemplateResourceClass XBOX_ONE : PC {}
+  EntityTemplateResourceClass XBOX_SERIES : PC {}
+  EntityTemplateResourceClass PS4 : PC {}
+  EntityTemplateResourceClass PS5 : PC {}
+  EntityTemplateResourceClass HEADLESS : PC {}
+ }
+}

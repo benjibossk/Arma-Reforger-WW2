@@ -1,0 +1,11 @@
+MetaFileClass {
+ Name "{93A6A02423A71000}Prefabs/Vehicles/USArmy/Vehicle_USArmy_WC63.et"
+ Configurations {
+  EntityTemplateResourceClass PC {}
+  EntityTemplateResourceClass XBOX_ONE : PC {}
+  EntityTemplateResourceClass XBOX_SERIES : PC {}
+  EntityTemplateResourceClass PS4 : PC {}
+  EntityTemplateResourceClass PS5 : PC {}
+  EntityTemplateResourceClass HEADLESS : PC {}
+ }
+}

@@ -4,7 +4,8 @@ SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
   AIFormationComponent "{507E9DC12F541FE6}" { DefaultFormation "StaggeredColumn" }
   SCR_AIGroupMovementComponent "{6126A0E02097C7FF}" { DefaultFormation "StaggeredColumn" }
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
-   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" { Name "Red Army AT Team (PTRD)" }
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    m_sFaction "RED_ARMY" Name "Red Army AT Team (PTRD)" }
   }
  }
  m_aUnitPrefabSlots {

@@ -1,0 +1,10 @@
+Vehicle : "{65AD797399E3CF39}Prefabs/Vehicles/Wheeled/WC63/WC63_transport_Covered.et" {
+ ID "7FAFE9214FC6E3C7"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "US_WW2"
+   }
+  }
+ }
+}

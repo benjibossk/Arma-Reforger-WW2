@@ -1,0 +1,10 @@
+Tank : "{649942D9C90389E3}Prefabs/Vehicles/Tracked/Us/Sherman medium/Sherman Medium.et" {
+ ID "961E4A2B833E2B65"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "US_WW2"
+   }
+  }
+ }
+}

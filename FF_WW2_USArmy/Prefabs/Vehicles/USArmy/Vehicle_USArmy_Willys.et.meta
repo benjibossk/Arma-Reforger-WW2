@@ -1,0 +1,11 @@
+MetaFileClass {
+ Name "{D25561C4F9886C42}Prefabs/Vehicles/USArmy/Vehicle_USArmy_Willys.et"
+ Configurations {
+  EntityTemplateResourceClass PC {}
+  EntityTemplateResourceClass XBOX_ONE : PC {}
+  EntityTemplateResourceClass XBOX_SERIES : PC {}
+  EntityTemplateResourceClass PS4 : PC {}
+  EntityTemplateResourceClass PS5 : PC {}
+  EntityTemplateResourceClass HEADLESS : PC {}
+ }
+}

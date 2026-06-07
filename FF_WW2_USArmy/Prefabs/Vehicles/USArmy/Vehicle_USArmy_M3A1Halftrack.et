@@ -1,0 +1,10 @@
+Tank : "{65BD1CC2A0110122}Prefabs/Vehicles/Tracked/M3A1 HalfTrack/M3A1 HalfTrack_MG.et" {
+ ID "FABC1C8C20E7BE5B"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "US_WW2"
+   }
+  }
+ }
+}

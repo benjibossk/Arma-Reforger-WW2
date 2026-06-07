@@ -1,0 +1,10 @@
+Tank : "{65C7179DA0B82317}Prefabs/Vehicles/Sdkfz.251/Sd.kfz_251_Transport.et" {
+ ID "EE2DA5AE85FD1E1B"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "WEHRMACHT"
+   }
+  }
+ }
+}

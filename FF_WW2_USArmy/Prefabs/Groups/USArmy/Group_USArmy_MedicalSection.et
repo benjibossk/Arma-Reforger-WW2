@@ -5,6 +5,7 @@ SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
   SCR_AIGroupMovementComponent "{6126A0E02097C7FF}" { DefaultFormation "StaggeredColumn" }
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    m_sFaction "US_WW2"
     Name "US Army Medical Section"
    }
   }

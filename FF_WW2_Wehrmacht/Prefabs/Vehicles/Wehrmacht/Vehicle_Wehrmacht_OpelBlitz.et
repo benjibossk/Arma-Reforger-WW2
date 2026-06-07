@@ -1,0 +1,10 @@
+Vehicle : "{65AE1353B9C5BC41}Prefabs/Vehicles/Wheeled/OpelBlitz/Opel_Blitz_Covered.et" {
+ ID "A5A2F4CAE97DCED9"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "WEHRMACHT"
+   }
+  }
+ }
+}
