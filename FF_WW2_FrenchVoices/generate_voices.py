@@ -55,6 +55,13 @@ from pathlib import Path
 
 import requests
 
+# Locate ffmpeg — winget install Gyan.FFmpeg drops it under WinGet/Links.
+FFMPEG = (
+    shutil.which("ffmpeg")
+    or shutil.which("ffmpeg.exe")
+    or str(Path(os.environ["LOCALAPPDATA"]) / "Microsoft" / "WinGet" / "Links" / "ffmpeg.exe")
+)
+
 ROOT = Path(__file__).resolve().parent
 TRANSLATIONS_CSV = ROOT / "Translations_FR.csv"     # NORTHCOM-style radio protocol
 SPEECH_CSV = ROOT / "Speech_FR.csv"                 # FF SpeechBank dialogues
@@ -63,7 +70,7 @@ RADIO_SAMPLES_ROOT = ROOT / "Sounds" / "RadioProtocol" / "Samples" / "FR" / "Mal
 SPEECH_SAMPLES_ROOT = ROOT / "Sounds" / "Voices" / "Samples" / "FR"
 
 API_URL = "https://api.elevenlabs.io/v1/text-to-speech/{voice_id}"
-OUTPUT_FORMAT = "pcm_44100"
+OUTPUT_FORMAT = "mp3_44100_128"   # universal across all tiers (pcm_* requires Pro)
 
 # Map FF SpeechBank -> voice role.
 # AmbientCivilian gets a tuple to rotate across multiple voices for diversity.
@@ -91,6 +98,20 @@ ROLE_ENV_VARS = {
     "civilian3": "ELEVENLABS_VOICE_CIVILIAN3",
 }
 
+# Emotion tag prefix per role — only applied when --tag-role is set (requires eleven_v3).
+ROLE_TAGS = {
+    "soldier":   "[screaming][shouting][angry][combat][war zone]",
+    "officer":   "[urgent][commanding][barking]",
+    "player":    "[determined][tense][gritty]",
+    "operative": "[serious][tense][battle-hardened]",
+    "civilian1": "[scared][trembling]",
+    "civilian2": "[angry][hostile]",
+    "civilian3": "[stressed][nervous]",
+}
+
+# Roles whose text should be UPPERCASED before TTS — military shouts hit harder.
+SHOUT_ROLES = {"soldier"}
+
 
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description="Generate French radio + dialogue voice samples via ElevenLabs.")
@@ -98,10 +119,17 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--voice-id", default=os.environ.get("ELEVENLABS_VOICE_ID"), help="Fallback voice for any role missing a specific id")
     for role, env in ROLE_ENV_VARS.items():
         p.add_argument(f"--voice-{role}", default=os.environ.get(env), help=f"voice id for {role}")
-    p.add_argument("--model", default="eleven_multilingual_v2")
-    p.add_argument("--stability", type=float, default=0.5)
-    p.add_argument("--similarity", type=float, default=0.75)
-    p.add_argument("--style", type=float, default=0.3)
+    p.add_argument("--model", default="eleven_v3")
+    # Validated 1944 hostile-territory tuning:
+    # HIGH stability (0.75) = sharp, projected, consistent (military bark, no drift)
+    # HIGH style (0.95) = max aggression / emotional exaggeration
+    # Lower stability causes "drugged" drift — only useful for very calm narration.
+    p.add_argument("--stability", type=float, default=0.75)
+    p.add_argument("--similarity", type=float, default=0.85)
+    p.add_argument("--style", type=float, default=0.95)
+    p.add_argument("--tag-role", action="store_true", default=True,
+                   help="Wrap text with emotion tags per role (default on; --no-tag-role to disable).")
+    p.add_argument("--no-tag-role", action="store_false", dest="tag_role")
     p.add_argument("--force", action="store_true", help="Re-generate existing wavs")
     p.add_argument("--limit", type=int, default=0, help="Only process first N rows of each CSV")
     p.add_argument("--only", choices=["radio", "speech"], default=None)
@@ -130,7 +158,7 @@ def synth_one(text: str, voice_id: str, args: argparse.Namespace) -> bytes:
     headers = {
         "xi-api-key": args.api_key,
         "Content-Type": "application/json",
-        "Accept": "audio/pcm",
+        "Accept": "audio/mpeg",
     }
     body = {
         "text": text,
@@ -148,18 +176,17 @@ def synth_one(text: str, voice_id: str, args: argparse.Namespace) -> bytes:
     return r.content
 
 
-def pcm_to_wav(pcm_bytes: bytes, out_path: Path) -> None:
-    """Wrap raw PCM 44.1kHz mono 16-bit from ElevenLabs into a WAV file
-    resampled to 48kHz stereo PCM_S16LE — matches NORTHCOM's format."""
+def mp3_to_wav(mp3_bytes: bytes, out_path: Path) -> None:
+    """Decode ElevenLabs MP3 -> resample to 48kHz stereo PCM_S16LE WAV
+    matching NORTHCOM's format (verified via xxd on Jawohl.wav)."""
     out_path.parent.mkdir(parents=True, exist_ok=True)
     cmd = [
-        "ffmpeg", "-y", "-loglevel", "error",
-        "-f", "s16le", "-ar", "44100", "-ac", "1",
-        "-i", "pipe:0",
+        FFMPEG, "-y", "-loglevel", "error",
+        "-f", "mp3", "-i", "pipe:0",
         "-ar", "48000", "-ac", "2", "-c:a", "pcm_s16le",
         str(out_path),
     ]
-    proc = subprocess.run(cmd, input=pcm_bytes, capture_output=True)
+    proc = subprocess.run(cmd, input=mp3_bytes, capture_output=True)
     if proc.returncode != 0:
         raise RuntimeError(f"ffmpeg failed: {proc.stderr.decode(errors='replace')[:500]}")
 
@@ -180,13 +207,17 @@ def process_row(idx: int, row: dict, out_path: Path, role: str, voice_id: str,
         totals["skipped"] += 1
         return
 
+    # Uppercase shouted roles to push TTS intonation harder, then optionally
+    # prefix emotion tags for v3 model (military bark, scared civilian, etc.).
+    body = text.upper() if args.tag_role and role in SHOUT_ROLES else text
+    tagged = f"{ROLE_TAGS.get(role, '')} {body}".strip() if args.tag_role else body
     label = "DRY-RUN" if args.dry_run else f"GEN[{role}]"
-    print(f"[{idx:3}] {label:13}  {out_path.relative_to(ROOT)}  <- {text!r}")
+    print(f"[{idx:3}] {label:13}  {out_path.relative_to(ROOT)}  <- {tagged!r}")
     if args.dry_run:
         return
     try:
-        pcm = synth_one(text, voice_id, args)
-        pcm_to_wav(pcm, out_path)
+        mp3 = synth_one(tagged, voice_id, args)
+        mp3_to_wav(mp3, out_path)
         totals["done"] += 1
     except Exception as e:
         print(f"      FAILED: {e}", file=sys.stderr)
@@ -240,7 +271,7 @@ def print_voice_summary(args: argparse.Namespace) -> None:
     print("\nVoice assignments:")
     for role in ROLE_ENV_VARS:
         vid = resolve_voice(role, args)
-        marker = "✓" if vid else "✗"
+        marker = "[OK]" if vid else "[--]"
         print(f"  {marker} {role:11} -> {vid or '<missing>'}")
 
 
@@ -248,9 +279,6 @@ def main() -> int:
     args = parse_args()
     if not args.api_key:
         print("ERROR: set ELEVENLABS_API_KEY.", file=sys.stderr)
-        return 2
-    if not shutil.which("ffmpeg") and not args.dry_run:
-        print("ERROR: ffmpeg not in PATH.", file=sys.stderr)
         return 2
     print_voice_summary(args)
     totals = {"done": 0, "skipped": 0, "failed": 0}
