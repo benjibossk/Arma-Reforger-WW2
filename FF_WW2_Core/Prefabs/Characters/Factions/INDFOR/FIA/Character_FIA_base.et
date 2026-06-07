@@ -1,0 +1,18 @@
+SCR_ChimeraCharacter : "{37578B1666981FCE}Prefabs/Characters/Core/Character_Base.et" {
+ ID "C91F4FE946AF94B1"
+ components {
+  SCR_CommunicationSoundComponent "{54FD05D0C92D071F}" {
+   Filenames {
+    "{AF123222FD39FDB1}Sounds/Character/Character_Voice_Code_FR.acp"
+    "{AF123222FD39FDB1}Sounds/RadioProtocol/RadioProtocol_Actions_FR.acp"
+    "{AF123222FD39FDB1}Sounds/RadioProtocol/RadioProtocol_Campaign_SL_FR.acp"
+    "{AF123222FD39FDB1}Sounds/RadioProtocol/RadioProtocol_CombatPatrol_FR.acp"
+    "{AF123222FD39FDB1}Sounds/RadioProtocol/RadioProtocol_Combat_FR.acp"
+    "{AF123222FD39FDB1}Sounds/RadioProtocol/RadioProtocol_Confirmations_FR.acp"
+    "{AF123222FD39FDB1}Sounds/RadioProtocol/RadioProtocol_Movement_FR.acp"
+    "{AF123222FD39FDB1}Sounds/RadioProtocol/RadioProtocol_Report_2_FR.acp"
+    "{AF123222FD39FDB1}Sounds/RadioProtocol/RadioProtocol_Report_FR.acp"
+   }
+  }
+ }
+}
