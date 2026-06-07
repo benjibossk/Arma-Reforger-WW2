@@ -1,0 +1,10 @@
+SCR_DestructibleBuildingEntity : "{678574044F58E1CA}Prefabs/Modded/Structures/Houses/Village/House_Mountain_E_1I01/House_Mountain_E_1I01_short.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  JWK_PopulationComponent "{FFAA0B100000013A}" {
+   m_iCapacity 3
+  }
+  JWK_SpawnPointsContainerComponent "{FFAA0B100000013B}" {
+  }
+ }
+}

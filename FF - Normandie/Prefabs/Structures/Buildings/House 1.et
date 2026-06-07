@@ -1,0 +1,10 @@
+SCR_DestructibleBuildingEntity {
+ ID "646766551246D46C"
+ components {
+  JWK_PopulationComponent "{FFD00B100000001A}" {
+   m_iCapacity 3
+  }
+  JWK_SpawnPointsContainerComponent "{FFD00B100000001B}" {
+  }
+ }
+}

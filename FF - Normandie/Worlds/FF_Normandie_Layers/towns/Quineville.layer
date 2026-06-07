@@ -1,0 +1,139 @@
+$grp JWK_CheckpointEntity : "{45DDC606D9A685AE}Prefabs/Controllers/Loadtime/JWK_CheckpointController.et" {
+ MCP_KamenskS14 {
+  coords 2801.82 9.524 287.515
+  angles 0 4.808 0
+  {
+   SCR_SiteSlotEntity : "{B2C29D3B2F37D701}Prefabs/World/Slots/Checkpoint/JWK_CheckpointSlotSmall.et" {
+    components {
+     JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+      m_iSlotPurpose SUPPORT
+     }
+    }
+    coords -13.597 -0.832 11.395
+    angles 0 -90.186 0
+    {
+     StaticModelEntity {
+      ID "62A693F2AC4FB612"
+      coords 0 -0.151 0
+      angles 2.152 0 -0.413
+     }
+    }
+   }
+   $grp SCR_SiteSlotEntity : "{F73BB819723B9490}Prefabs/World/Slots/Checkpoint/JWK_CheckpointSlotSquareSmall.et" {
+    {
+     components {
+      JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+       m_iSlotPurpose FORTIFICATION
+       m_iRoadAlignment RIGHT
+       m_iSlotFacing FRONT
+      }
+     }
+     coords -15.47 -0.532 -13.83
+     angles 0 119.21 0
+     {
+      StaticModelEntity {
+       ID "62A693F2AC4FB612"
+       coords 0 -0.602 0
+       angles -2.068 0 -0.94
+      }
+     }
+    }
+    {
+     components {
+      JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+       m_iSlotPurpose FORTIFICATION
+       m_iRoadAlignment LEFT
+       m_iSlotFacing FRONT
+      }
+     }
+     coords 6.813 -0.977 -17.8
+     angles 0 -62.915 0
+     {
+      StaticModelEntity {
+       ID "62A693F2AC4FB612"
+       coords 0 -0.079 0
+      }
+     }
+    }
+   }
+  }
+ }
+ MCP_KamenskS15 {
+  coords 2622.384 6.926 168.499
+  angles 0 4.808 0
+  {
+   SCR_SiteSlotEntity : "{B2C29D3B2F37D701}Prefabs/World/Slots/Checkpoint/JWK_CheckpointSlotSmall.et" {
+    components {
+     JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+      m_iSlotPurpose SUPPORT
+     }
+    }
+    coords -8.805 -0.687 23.861
+    angles 0 -90.186 0
+    {
+     StaticModelEntity {
+      ID "62A693F2AC4FB612"
+      coords 0 0.37 0
+      angles 2.186 0 -0.377
+     }
+    }
+   }
+   $grp SCR_SiteSlotEntity : "{F73BB819723B9490}Prefabs/World/Slots/Checkpoint/JWK_CheckpointSlotSquareSmall.et" {
+    {
+     components {
+      JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+       m_iSlotPurpose FORTIFICATION
+       m_iRoadAlignment RIGHT
+       m_iSlotFacing FRONT
+      }
+     }
+     coords -2.047 -0.04 -8.898
+     angles 0 149.582 0
+     {
+      StaticModelEntity {
+       ID "62A693F2AC4FB612"
+       coords 0 -0.08 0
+       angles -0.773 0 -1.914
+      }
+     }
+    }
+    {
+     components {
+      JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+       m_iSlotPurpose FORTIFICATION
+       m_iRoadAlignment LEFT
+       m_iSlotFacing FRONT
+      }
+     }
+     coords 7.518 -0.819 -2.209
+     angles 0 -26.069 0
+     {
+      StaticModelEntity {
+       ID "62A693F2AC4FB612"
+       coords 0 1.058 0
+       angles 0.879 0 1.808
+      }
+     }
+    }
+   }
+  }
+ }
+}
+JWK_TownEntity TC_Mineraly3 : "{64B2F8D8059C97CC}Prefabs/Controllers/Loadtime/JWK_TownController.et" {
+ components {
+  JWK_NamedLocationComponent "{65C35A2F385D762F}" {
+   m_sName "Quinéville"
+  }
+  JWK_TownMilitaryActivityComponent "{64E347579D05582B}" {
+   m_iManpower 12
+   m_iPatrolMinThreatLevel 15
+   m_iPatrolMaxThreatLevel 60
+   m_fManpowerRegenerationRate 0.2
+  }
+  JWK_TownCiviliansControllerComponent "{6296F54A892986E3}" {
+   m_fPopulationSpawnFactor 0.2
+  }
+ }
+ coords 2734.385 6.737 228.951
+ m_iTownRange 120
+}

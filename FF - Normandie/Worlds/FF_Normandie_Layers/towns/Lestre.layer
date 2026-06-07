@@ -1,0 +1,183 @@
+$grp JWK_CheckpointEntity : "{45DDC606D9A685AE}Prefabs/Controllers/Loadtime/JWK_CheckpointController.et" {
+ MCP_KamenskS28 {
+  coords 3050.948 9.281 326.901
+  angles 0 4.808 0
+  {
+   SCR_SiteSlotEntity : "{B2C29D3B2F37D701}Prefabs/World/Slots/Checkpoint/JWK_CheckpointSlotSmall.et" {
+    components {
+     JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+      m_iSlotPurpose SUPPORT
+     }
+    }
+    coords 0.673 -0.809 -14.376
+    angles 0 -90.186 0
+    {
+     StaticModelEntity {
+      ID "62A693F2AC4FB612"
+      coords 0 0.277 0
+      angles 0 0 1.906
+     }
+    }
+   }
+   $grp SCR_SiteSlotEntity : "{F73BB819723B9490}Prefabs/World/Slots/Checkpoint/JWK_CheckpointSlotSquareSmall.et" {
+    {
+     components {
+      JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+       m_iSlotPurpose FORTIFICATION
+       m_iRoadAlignment RIGHT
+       m_iSlotFacing FRONT
+      }
+     }
+     coords -3.02 -0.485 22.636
+     angles 0 -177.052 0
+     {
+      StaticModelEntity {
+       ID "62A693F2AC4FB612"
+       coords 0 -0.252 0
+       angles 0 0 -0.827
+      }
+     }
+    }
+    {
+     components {
+      JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+       m_iSlotPurpose FORTIFICATION
+       m_iRoadAlignment LEFT
+       m_iSlotFacing FRONT
+      }
+     }
+     coords 21.843 -1.606 9.794
+     angles 0 5.046 0
+     {
+      StaticModelEntity {
+       ID "62A693F2AC4FB612"
+       coords 0 0.825 0
+      }
+     }
+    }
+   }
+  }
+ }
+ MCP_KamenskS29 {
+  coords 2905.901 10.142 561.612
+  angles 0 -5.669 0
+  {
+   SCR_SiteSlotEntity : "{B2C29D3B2F37D701}Prefabs/World/Slots/Checkpoint/JWK_CheckpointSlotSmall.et" {
+    components {
+     JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+      m_iSlotPurpose SUPPORT
+     }
+    }
+    coords 22.015 -2.877 8.265
+    angles 0 -90.186 0
+    {
+     StaticModelEntity {
+      ID "62A693F2AC4FB612"
+      coords 0 1.304 0
+      angles 0.046 0 -0.525
+     }
+    }
+   }
+   $grp SCR_SiteSlotEntity : "{F73BB819723B9490}Prefabs/World/Slots/Checkpoint/JWK_CheckpointSlotSquareSmall.et" {
+    {
+     components {
+      JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+       m_iSlotPurpose FORTIFICATION
+       m_iRoadAlignment RIGHT
+       m_iSlotFacing FRONT
+      }
+     }
+     coords -0.111 2.549 12.809
+     angles 0 148.306 0
+     {
+      StaticModelEntity {
+       ID "62A693F2AC4FB612"
+       coords 0 -2.237 0
+       angles 3.509 0 2.999
+      }
+     }
+    }
+    {
+     components {
+      JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+       m_iSlotPurpose FORTIFICATION
+       m_iRoadAlignment LEFT
+       m_iSlotFacing FRONT
+      }
+     }
+     coords -1.974 0.326 -11.691
+     angles 0 -34.37 0
+     {
+      StaticModelEntity {
+       ID "62A693F2AC4FB612"
+       coords 0 -1.795 0
+       angles 0 0 3.318
+      }
+     }
+    }
+   }
+  }
+ }
+ MCP_KamenskS30 {
+  coords 3329.491 7.118 540.451
+  angles 0 4.808 0
+  {
+   $grp SCR_SiteSlotEntity : "{F73BB819723B9490}Prefabs/World/Slots/Checkpoint/JWK_CheckpointSlotSquareSmall.et" {
+    {
+     components {
+      JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+       m_iSlotPurpose FORTIFICATION
+       m_iRoadAlignment RIGHT
+       m_iSlotFacing FRONT
+      }
+     }
+     coords -15.639 1.969 -16.659
+     angles 0 154.642 0
+     {
+      StaticModelEntity {
+       ID "62A693F2AC4FB612"
+       coords 0 -0.64 0
+       angles -0.799 0 -2.67
+      }
+     }
+    }
+    {
+     components {
+      JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+       m_iSlotPurpose FORTIFICATION
+       m_iRoadAlignment LEFT
+       m_iSlotFacing FRONT
+      }
+     }
+     coords 9.128 -0.699 -1.12
+     angles 0 -27.764 0
+     {
+      StaticModelEntity {
+       ID "62A693F2AC4FB612"
+       coords 0 0.164 0
+       angles 2.571 0 -3.227
+      }
+     }
+    }
+   }
+  }
+ }
+}
+JWK_TownEntity TC_Mineraly7 : "{64B2F8D8059C97CC}Prefabs/Controllers/Loadtime/JWK_TownController.et" {
+ components {
+  JWK_NamedLocationComponent "{65C35A2F385D762F}" {
+   m_sName "Lestre"
+  }
+  JWK_TownCiviliansControllerComponent "{6296F54A892986E3}" {
+   m_fPopulationSpawnFactor 0.15
+  }
+  JWK_TownMilitaryActivityComponent "{64E347579D05582B}" {
+   m_iPatrolMinThreatLevel 15
+   m_iPatrolMaxThreatLevel 60
+   m_fManpowerRegenerationRate 0.2
+   m_iManpower 6
+  }
+ }
+ coords 3129.574 8.5 432.188
+ m_iTownRange 90
+}

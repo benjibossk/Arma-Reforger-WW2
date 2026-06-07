@@ -1,0 +1,10 @@
+SCR_DestructibleBuildingEntity : "{18B2439FBF6CADFD}Prefabs/Structures/Houses/Farm/FarmHouse_E_1L01/FarmHouse_E_1L01_Wood.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  JWK_PopulationComponent "{FFAA0B100000012A}" {
+   m_iCapacity 4
+  }
+  JWK_SpawnPointsContainerComponent "{FFAA0B100000012B}" {
+  }
+ }
+}

@@ -1,0 +1,69 @@
+SCR_AIWorld : "{672531FAC0834C06}Prefabs/AI/SCR_AIWorld_Cain.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A297F9E52831}" {
+     NavmeshFile "{47AAC67BC4008B4B}Worlds/Navmesh/WW2_Soldier.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A297F3B4EE8A}" {
+     NavmeshFile "{4B5627BD3ECF8F8B}Worlds/Navmesh/WW2_BTR.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
+     NavmeshFile "{69312D923A3C066E}Worlds/Navmesh/WW2_Low.nmn"
+    }
+   }
+  }
+ }
+ coords 6272.942 428.267 6389.063
+}
+JWK_FactionManager JWK_FactionManager1 : "{64B2F8D8059C822F}Prefabs/GameMode/JWK_FactionManager.et" {
+ coords 6271.211 428.345 6391.764
+}
+JWK_GameMode FreedomFighters_Normandie : "{97F960A74BF216EA}Prefabs/GameMode/Scenario/FreedomFighters_Kolguyev.et" {
+ components {
+  JWK_RoadNetworkManagerComponent "{62E8ED08DB813AB6}" {
+   m_sFilePath "Normandie.json"
+  }
+  JWK_WorldSettingsComponent "{647AF28EDBAC9BE6}" {
+   m_sPlaceName "Normandie"
+  }
+ }
+ coords 6270.766 428.44 6393.434
+}
+RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
+ coords 6271.746 428.551 6393.331
+}
+ScriptedChatEntity : "{F69BC912AC8236F9}Prefabs/MP/ScriptedChatEntity.et" {
+ coords 6269.555 428.334 6393.694
+}
+JWK_WorldEntity JWK_World_Normandie : "{BFF5658EE06948C5}Prefabs/World/Terrains/JWK_World_Kolguyev.et" {
+ components {
+  JWK_FreedomFightersWorldSettingsComponent "{68DC9E718C4F1C59}" {
+   m_iHideoutMaxPreferredTownDistance 1500
+   m_iHideoutMinimumEnemySiteDistance 600
+  }
+ }
+ coords 6271.685 428.523 6393.146
+ m_vMapOffset 0 -204 0
+ m_vMapSize 4864 292 4864
+ m_sPersistenceKey "JWK_Normandie"
+ m_sRoadNetworkPath "Assets/JWK/RoadNetworks/Normandie.json"
+ m_fAmbientTrafficIntensity 0.4
+ m_iBiome WOODLAND
+ m_sPlaceName "Normandie"
+ m_sDefaultCurrencyFormat "%1₣"
+ m_iMinimumPoiPlayerDistance 1200
+ m_iMinimumPoiSelfSpacing 1500
+ m_sDefaultEnemyFaction "USSR"
+ m_sDefaultSupportingFaction "US"
+ m_sDefaultPlayerFaction "FIA"
+ m_sDefaultAmbientFaction "CIV"
+}

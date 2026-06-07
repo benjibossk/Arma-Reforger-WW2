@@ -1,0 +1,195 @@
+$grp JWK_CheckpointEntity : "{45DDC606D9A685AE}Prefabs/Controllers/Loadtime/JWK_CheckpointController.et" {
+ MCP_GorshkovoNE {
+  coords 3746.031 41.055 4459.213
+  {
+   $grp SCR_SiteSlotEntity : "{DC5D6161EF4471C6}Prefabs/World/Slots/Checkpoint/JWK_CheckpointSlotSquareMedium.et" {
+    {
+     components {
+      JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+       m_iSlotPurpose FORTIFICATION
+       m_iRoadAlignment LEFT
+       m_iSlotFacing FRONT
+      }
+     }
+     coords -9.892 0.34 -3.852
+     angles 0 21.509 0
+     {
+      StaticModelEntity {
+       ID "62A693F2AC4FB612"
+       coords 0 -0.001 0
+       angles 8.231 0 7.309
+      }
+     }
+    }
+    {
+     components {
+      JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+       m_iSlotPurpose FORTIFICATION
+       m_iRoadAlignment RIGHT
+       m_iSlotFacing 3
+      }
+     }
+     coords 11.23 0.093 -1.25
+     {
+      StaticModelEntity {
+       ID "62A693F2AC4FB612"
+       coords 0 0 0
+       angles 5.013 0 0.07
+      }
+     }
+    }
+   }
+  }
+ }
+ MCP_GorshkovoNW {
+  coords 3557.197 36.744 4684.283
+  m_iRange 60
+  {
+   $grp SCR_SiteSlotEntity : "{AAEC5B2584D74E4C}Prefabs/World/Slots/Checkpoint/JWK_CheckpointSlotSquareLarge.et" {
+    {
+     components {
+      JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+       m_iSlotPurpose FORTIFICATION
+       m_iRoadAlignment RIGHT
+       m_iSlotFacing 3
+      }
+     }
+     coords 19.187 1.214 -15.011
+     angles 0 -13.778 0
+     {
+      StaticModelEntity {
+       ID "62A693F2AC4FB612"
+       coords 0 2.354 0
+      }
+     }
+    }
+    {
+     components {
+      JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+       m_iSlotPurpose FORTIFICATION
+       m_iRoadAlignment LEFT
+       m_iSlotFacing FRONT
+      }
+     }
+     coords 0.112 -0.933 -20.613
+     angles 0 -9.288 0
+     {
+      StaticModelEntity {
+       ID "62A693F2AC4FB612"
+       coords 0 4.645 0
+       angles 0 0 -1.176
+      }
+     }
+    }
+   }
+  }
+ }
+ MCP_GorshkovoSW {
+  coords 3420.843 55.481 4349.017
+  {
+   SCR_SiteSlotEntity : "{B2C29D3B2F37D701}Prefabs/World/Slots/Checkpoint/JWK_CheckpointSlotSmall.et" {
+    components {
+     JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+      m_iSlotPurpose SUPPORT
+     }
+    }
+    coords -11.571 0.892 -1.118
+    angles 0 111.502 0
+    {
+     StaticModelEntity {
+      ID "62A693F2AC4FB612"
+      coords 0 0.016 0
+      angles 4.197 0 3.197
+     }
+    }
+   }
+   SCR_SiteSlotEntity : "{DC5D6161EF4471C6}Prefabs/World/Slots/Checkpoint/JWK_CheckpointSlotSquareMedium.et" {
+    components {
+     JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+      m_iSlotPurpose FORTIFICATION
+      m_iRoadAlignment RIGHT
+      m_iSlotFacing 3
+     }
+    }
+    coords 6.846 -0.436 -7.853
+    angles 0 -161.696 0
+    {
+     StaticModelEntity {
+      ID "62A693F2AC4FB612"
+      coords 0 0.207 0
+      angles -2.862 0 3.584
+     }
+    }
+   }
+  }
+ }
+ MCP_GorshkovoSE {
+  coords 3635.422 39.687 4125.353
+  {
+   $grp SCR_SiteSlotEntity : "{F73BB819723B9490}Prefabs/World/Slots/Checkpoint/JWK_CheckpointSlotSquareSmall.et" {
+    {
+     components {
+      JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+       m_iSlotPurpose FORTIFICATION
+       m_iRoadAlignment RIGHT
+      }
+     }
+     coords 16.596 0.816 -2.003
+     angles 0 -129.456 0
+     {
+      StaticModelEntity {
+       ID "62A693F2AC4FB612"
+       coords 0 -0.348 0
+       angles 1.858 0 -0.02
+      }
+     }
+    }
+    {
+     components {
+      JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+       m_iSlotPurpose FORTIFICATION
+       m_iRoadAlignment LEFT
+       m_iSlotFacing FRONT
+      }
+     }
+     coords -12.55 -0.621 -2.141
+     angles 0 -105.173 0
+     {
+      StaticModelEntity {
+       ID "62A693F2AC4FB612"
+       coords 0 0.095 0
+       angles 2.232 0 1.273
+      }
+     }
+    }
+   }
+  }
+ }
+}
+JWK_TownEntity TC_Gorshkovo : "{64B2F8D8059C97CC}Prefabs/Controllers/Loadtime/JWK_TownController.et" {
+ components {
+  JWK_NamedLocationComponent "{65C35A2F385D762F}" {
+   m_sName "Hubert"
+  }
+  JWK_TownMilitaryActivityComponent "{64E347579D05582B}" {
+   m_iManpower 30
+   m_iPatrolMinThreatLevel 5
+   m_iPatrolMaxThreatLevel 40
+   m_fManpowerRegenerationRate 0.5
+  }
+  JWK_TownCiviliansControllerComponent "{6296F54A892986E3}" {
+   m_fPopulationSpawnFactor 0.3
+  }
+ }
+ coords 3697.883 45.785 4398.936
+ m_iTownRange 120
+ m_iPopulation 34
+}
+SCR_DestructibleBuildingEntity : "{FF48B5059EB0AC65}Prefabs/Modded/Structures/Commercial/Shops/ShopHouse_E_2I01t_drugstore.et" {
+ components {
+  JWK_NavmeshRebuildComponent "{66BCF5E321AF9D6B}" {
+  }
+ }
+ coords 3687.282 0.778 4483.708
+ angles 0 25.611 0
+}

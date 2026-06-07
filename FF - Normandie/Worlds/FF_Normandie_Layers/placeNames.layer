@@ -1,0 +1,114 @@
+$grp GenericEntity : "{89C8DAC0DBDC79D4}Prefabs/World/Locations/Eden/Brecourt.et" {
+ SaintCome {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableLinkedContentBrowserUIInfo "{5298E609432D192D}" {
+     Name "Saint-Come-du-Mont"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Saint-Come-du-Mont"
+    MainType "Name Generic"
+   }
+  }
+  coords 2450 46.636 2413
+ }
+ Picauville {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableLinkedContentBrowserUIInfo "{5298E609432D192D}" {
+     Name "Picauville"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Picauville"
+    MainType "Name Generic"
+   }
+  }
+  coords 1360 55.369 2869
+ }
+ Foucarville {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableLinkedContentBrowserUIInfo "{5298E609432D192D}" {
+     Name "Foucarville"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Foucarville"
+    MainType "Name Generic"
+   }
+  }
+  coords 3725 8.455 1553
+ }
+ Quineville {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableLinkedContentBrowserUIInfo "{5298E609432D192D}" {
+     Name "Quineville"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Quineville"
+    MainType "Name Generic"
+   }
+  }
+  coords 2802 9.524 288
+ }
+ SaintMarcouf {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableLinkedContentBrowserUIInfo "{5298E609432D192D}" {
+     Name "Saint-Marcouf"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Saint-Marcouf"
+    MainType "Name Generic"
+   }
+  }
+  coords 2071 4.125 560
+ }
+ Carquebut {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableLinkedContentBrowserUIInfo "{5298E609432D192D}" {
+     Name "Carquebut"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Carquebut"
+    MainType "Name Generic"
+   }
+  }
+  coords 1028 4.593 2385
+ }
+ Beuzeville {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableLinkedContentBrowserUIInfo "{5298E609432D192D}" {
+     Name "Beuzeville-au-Plain"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Beuzeville-au-Plain"
+    MainType "Name Generic"
+   }
+  }
+  coords 2752 18.306 1331
+ }
+ Reuville {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableLinkedContentBrowserUIInfo "{5298E609432D192D}" {
+     Name "Reuville"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Reuville"
+    MainType "Name Generic"
+   }
+  }
+  coords 1307 22.559 1196
+ }
+}

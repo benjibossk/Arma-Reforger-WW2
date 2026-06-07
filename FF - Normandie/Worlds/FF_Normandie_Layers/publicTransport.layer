@@ -1,0 +1,68 @@
+$grp GenericEntity : "{7FCD4E7C25D886A8}Prefabs/Modded/Structures/Signs/Traffic/SignBusStop_01.et" {
+ {
+  coords 11972.083 3.702 10674.618
+  angles 0 89.129 0
+ }
+ {
+  coords 8957.546 90.396 9749.768
+  angles 0 -19.339 0
+ }
+ {
+  coords 6245.428 37.153 8020.049
+  angles 0 -35.814 0
+ }
+ {
+  coords 3566.061 4.58 7853.971
+  angles 0 158.157 0
+ }
+ {
+  coords 3350.707 268.106 6847.371
+  angles 0 -85.933 0
+ }
+ {
+  coords 3090.731 26.902 4900.064
+  angles 0 86.338 0
+ }
+ {
+  coords 3836.361 11.964 3850.406
+  angles 0 60.014 0
+ }
+ {
+  coords 4536.681 40.234 3476.353
+  angles 0 -164.921 0
+ }
+ {
+  coords 6510.738 24.798 3864.348
+  angles 0 136.158 0
+ }
+ {
+  coords 7391.928 3.317 4216.288
+  angles 0 -139.907 0
+ }
+ {
+  coords 8446.528 21.225 6493.573
+  angles 0 105.623 0
+ }
+}
+$grp GenericEntity : "{B70DA7DB72F1E3BE}Prefabs/Modded/Structures/Signs/Traffic/SignFerryStop.et" {
+ {
+  coords 2107 0.926 1180.42
+  angles 0 -178.906 0
+ }
+ {
+  coords 11384.556 3.05 2565.295
+  angles 0 55.982 0
+ }
+ {
+  coords 6856.246 2.359 3500.926
+  angles 0 -45.577 0
+ }
+ {
+  coords 7502.674 2.292 4103.208
+  angles 0 -53.548 0
+ }
+ {
+  coords 12136.773 2.389 10613.052
+  angles 0 -102.334 0
+ }
+}

@@ -1,0 +1,138 @@
+$grp JWK_CheckpointEntity : "{45DDC606D9A685AE}Prefabs/Controllers/Loadtime/JWK_CheckpointController.et" {
+ MCP_KamenskS8 {
+  coords 2449.99 46.636 2412.704
+  {
+   SCR_SiteSlotEntity : "{B2C29D3B2F37D701}Prefabs/World/Slots/Checkpoint/JWK_CheckpointSlotSmall.et" {
+    components {
+     JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+      m_iSlotPurpose SUPPORT
+     }
+    }
+    coords 7.836 -0.193 15.43
+    angles 0 -75.063 0
+    {
+     StaticModelEntity {
+      ID "62A693F2AC4FB612"
+      coords 0 0 0
+      angles -1.611 0 -0.462
+     }
+    }
+   }
+   $grp SCR_SiteSlotEntity : "{F73BB819723B9490}Prefabs/World/Slots/Checkpoint/JWK_CheckpointSlotSquareSmall.et" {
+    {
+     components {
+      JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+       m_iSlotPurpose FORTIFICATION
+       m_iRoadAlignment RIGHT
+       m_iSlotFacing FRONT
+      }
+     }
+     coords 3.518 -0.275 -16.825
+     angles 0 138.813 0
+     {
+      StaticModelEntity {
+       ID "62A693F2AC4FB612"
+       coords 0 0.073 0
+       angles 1.428 0 0.646
+      }
+     }
+    }
+    {
+     components {
+      JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+       m_iSlotPurpose FORTIFICATION
+       m_iRoadAlignment LEFT
+       m_iSlotFacing FRONT
+      }
+     }
+     coords -9.196 -0.5 2.113
+     angles 0 -122.796 0
+     {
+      StaticModelEntity {
+       ID "62A693F2AC4FB612"
+       coords 0 0.71 0
+       angles -1.505 0 0.894
+      }
+     }
+    }
+   }
+  }
+ }
+ MCP_KamenskS9 {
+  coords 2489.859 44.261 2318.956
+  {
+   SCR_SiteSlotEntity : "{B2C29D3B2F37D701}Prefabs/World/Slots/Checkpoint/JWK_CheckpointSlotSmall.et" {
+    components {
+     JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+      m_iSlotPurpose SUPPORT
+     }
+    }
+    coords 13.469 0.003 -2.513
+    angles 0 -75.063 0
+    {
+     StaticModelEntity {
+      ID "62A693F2AC4FB612"
+      coords 0 -0.07 0
+      angles 0.141 0 1.481
+     }
+    }
+   }
+   $grp SCR_SiteSlotEntity : "{F73BB819723B9490}Prefabs/World/Slots/Checkpoint/JWK_CheckpointSlotSquareSmall.et" {
+    {
+     components {
+      JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+       m_iSlotPurpose FORTIFICATION
+       m_iRoadAlignment RIGHT
+       m_iSlotFacing FRONT
+      }
+     }
+     coords -4.957 -0.98 -17.943
+     angles 0 112.808 0
+     {
+      StaticModelEntity {
+       ID "62A693F2AC4FB612"
+       coords 0 -0.004 0
+       angles -4.279 0 -3.5
+      }
+     }
+    }
+    {
+     components {
+      JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+       m_iSlotPurpose FORTIFICATION
+       m_iRoadAlignment LEFT
+       m_iSlotFacing FRONT
+      }
+     }
+     coords -9.788 -0.389 0.579
+     angles 0 -117.873 0
+     {
+      StaticModelEntity {
+       ID "62A693F2AC4FB612"
+       coords 0 0.242 0
+       angles 2.605 0 2.985
+      }
+     }
+    }
+   }
+  }
+ }
+}
+JWK_TownEntity TC_Mineraly : "{64B2F8D8059C97CC}Prefabs/Controllers/Loadtime/JWK_TownController.et" {
+ components {
+  JWK_NamedLocationComponent "{65C35A2F385D762F}" {
+   m_sName "Saint-Côme-du-Mont"
+  }
+  JWK_TownMilitaryActivityComponent "{64E347579D05582B}" {
+   m_iManpower 12
+   m_iPatrolMinThreatLevel 15
+   m_iPatrolMaxThreatLevel 60
+   m_fManpowerRegenerationRate 0.2
+  }
+  JWK_TownCiviliansControllerComponent "{6296F54A892986E3}" {
+   m_fPopulationSpawnFactor 0.2
+  }
+ }
+ coords 2485.366 48.288 2374.028
+ m_iTownRange 100
+}

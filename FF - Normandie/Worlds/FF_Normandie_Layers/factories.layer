@@ -1,0 +1,831 @@
+$grp JWK_FactoryEntity : "{644F3F0AD98280B4}Prefabs/Controllers/Loadtime/JWK_FactoryController.et" {
+ FC_Entrepot_Reuville {
+  components {
+   JWK_AIGarrisonComponent "{659EFEC227B5CEDE}" {
+    m_iBaseForceSize 15
+   }
+   JWK_NamedLocationComponent "{64E512EE3D735264}" {
+    m_sName "Entrepôt de Reuville"
+   }
+  }
+  coords 1142.439 11.842 596.742
+  {
+   GenericEntity Factory_ResourceStorage_66AF3E5213976F0B : "{34EE59A28125F95F}Prefabs/Compositions/Factory_ResourceStorage.et" {
+    coords 9.185 0.979 3.228
+    angles 0 -180 0
+    {
+     GenericEntity Factory_Storage_66AF3E5213976C5F {
+      ID "64D5310E6D3945D6"
+     }
+    }
+   }
+   PolylineShapeEntity : "{90B1B9EF2FCD1016}Prefabs/World/JWK_PolylineWorldZone.et" {
+    components {
+     JWK_WorldZoneComponent "{64B512D3082EC63A}" {
+      m_aTags {
+       POI_AREA
+       BATTLE_AREA
+       PLAYER_CONSTRUCTION
+      }
+     }
+    }
+    coords 0.927 -1.609 -0.446
+    Points {
+     ShapePoint "{698D42811930D8E3}" {
+      Position -43.485 2.246 39.364
+     }
+     ShapePoint "{698D428119B5B2C9}" {
+      Position -27.245 -0.599 -27.48
+     }
+     ShapePoint "{698D42811A3A351B}" {
+      Position 11.839 -0.408 -35.4
+     }
+     ShapePoint "{698D42811ADBB200}" {
+      Position 15.79 0.943 -15.278
+     }
+     ShapePoint "{66834CE1DFCE5B8E}" {
+      Position 24.663 5.955 48.678
+     }
+    }
+   }
+   GenericEntity : "{CBBCD1602FF8677E}Prefabs/Controllers/Loadtime/ParkingSpot/JWK_AmbientParkingSpot.et" {
+    coords -11.44 -1.446 -19.161
+    angles 3.616 2.808 -0.717
+   }
+  }
+ }
+ FC_Ferme_BrecourtEst {
+  components {
+   JWK_AIGarrisonComponent "{659EFEC227B5CEDE}" {
+    m_iBaseForceSize 6
+   }
+   JWK_NamedLocationComponent "{64E512EE3D735264}" {
+    m_sName "Ferme de Brécourt-Est"
+   }
+  }
+  coords 4060.984 46.281 3015.348
+  {
+   GenericEntity Factory_ResourceStorage_66AF3E536390AB49 : "{34EE59A28125F95F}Prefabs/Compositions/Factory_ResourceStorage.et" {
+    coords -17.896 0.031 1.777
+    angles 0 64.284 0
+    {
+     GenericEntity Factory_Storage_66AF3E536390A890 {
+      ID "64D5310E6D3945D6"
+     }
+    }
+   }
+   PolylineShapeEntity : "{90B1B9EF2FCD1016}Prefabs/World/JWK_PolylineWorldZone.et" {
+    components {
+     JWK_WorldZoneComponent "{64B512D3082EC63A}" {
+      m_aTags {
+       POI_AREA
+       BATTLE_AREA
+       PLAYER_CONSTRUCTION
+      }
+     }
+    }
+    coords -0.028 0 -0.03
+    Points {
+     ShapePoint "{698D4283B6CE0CB3}" {
+      Position 84.173 0.957 66.551
+     }
+     ShapePoint "{698D4283B740D2AB}" {
+      Position 100.534 0.421 45.403
+     }
+     ShapePoint "{698D4283B7BEF0AC}" {
+      Position 82.779 0.012 13.559
+     }
+     ShapePoint "{698D4283B0482F13}" {
+      Position 91.546 0 -24.988
+     }
+     ShapePoint "{698D4283B0B43684}" {
+      Position -67.015 0.032 -98.952
+     }
+     ShapePoint "{698D4283B2FE3A4F}" {
+      Position -86.644 0.53 -43.947
+     }
+     ShapePoint "{698D4283B283F4EA}" {
+      Position -115.784 0.555 -52.039
+     }
+     ShapePoint "{698D4283B324BF7F}" {
+      Position -149.948 -0.27 -10.825
+     }
+     ShapePoint "{669F45D284559E29}" {
+      Position -70.323 0.113 -0.943
+     }
+    }
+   }
+  }
+ }
+ FC_Scierie_SainteMereNE {
+  components {
+   JWK_AIGarrisonComponent "{659EFEC227B5CEDE}" {
+    m_iBaseForceSize 10
+   }
+   JWK_NamedLocationComponent "{64E512EE3D735264}" {
+    m_sName "Scierie de Sainte-Mère (NE)"
+   }
+  }
+  coords 4459.147 9.885 2353.437
+  {
+   GenericEntity Factory_ResourceStorage_66AF3E53C61DE9CA : "{34EE59A28125F95F}Prefabs/Compositions/Factory_ResourceStorage.et" {
+    coords 14.621 -3.928 11.416
+    angles 0 0.708 0
+    {
+     GenericEntity Factory_Storage_66AF3E53C61DE918 {
+      ID "64D5310E6D3945D6"
+     }
+    }
+   }
+   PolylineShapeEntity : "{90B1B9EF2FCD1016}Prefabs/World/JWK_PolylineWorldZone.et" {
+    components {
+     JWK_WorldZoneComponent "{64B512D3082EC63A}" {
+      m_aTags {
+       POI_AREA
+       BATTLE_AREA
+       PLAYER_CONSTRUCTION
+      }
+     }
+    }
+    coords 0.021 0.001 -0.082
+    Points {
+     ShapePoint "{698D42838F95DF00}" {
+      Position -3.85 -5.761 -76.604
+     }
+     ShapePoint "{698D428388BF1C80}" {
+      Position 54.671 -5.667 -39.495
+     }
+     ShapePoint "{698D428389550A32}" {
+      Position 59.442 -5.199 21.233
+     }
+     ShapePoint "{698D428389CEE439}" {
+      Position -30.215 -0.934 65.457
+     }
+     ShapePoint "{698D42838A2AF74E}" {
+      Position -63.19 -0.977 32.682
+     }
+     ShapePoint "{698D42838AC6DC1E}" {
+      Position -86.984 -3.454 -6.066
+     }
+     ShapePoint "{66834CE88207B530}" {
+      Position -59.439 -4.987 -31.832
+     }
+    }
+   }
+   $grp GenericEntity : "{CBBCD1602FF8677E}Prefabs/Controllers/Loadtime/ParkingSpot/JWK_AmbientParkingSpot.et" {
+    {
+     coords 7.15 -5.271 -27.83
+     angles -0.61 73.828 1.109
+    }
+    {
+     coords 17.186 -3.705 29.41
+     angles -2.532 86.848 2.824
+    }
+   }
+  }
+ }
+ FC_Ferme_FoucarvilleEst {
+  components {
+   JWK_AIGarrisonComponent "{659EFEC227B5CEDE}" {
+    m_iBaseForceSize 6
+   }
+   JWK_NamedLocationComponent "{64E512EE3D735264}" {
+    m_sName "Ferme de Foucarville (Est)"
+   }
+  }
+  coords 4465.178 9.961 1489.501
+  {
+   GenericEntity Factory_ResourceStorage_66AF3E53B438719D : "{34EE59A28125F95F}Prefabs/Compositions/Factory_ResourceStorage.et" {
+    coords -5.401 1.203 -17.369
+    angles -1.125 72.302 -0.581
+    {
+     GenericEntity Factory_Storage_66AF3E53B4388EC1 {
+      ID "64D5310E6D3945D6"
+     }
+    }
+   }
+   PolylineShapeEntity : "{90B1B9EF2FCD1016}Prefabs/World/JWK_PolylineWorldZone.et" {
+    components {
+     JWK_WorldZoneComponent "{64B512D3082EC63A}" {
+      m_aTags {
+       POI_AREA
+       BATTLE_AREA
+       PLAYER_CONSTRUCTION
+      }
+     }
+    }
+    coords 0.364 -0.025 -0.343
+    Points {
+     ShapePoint "{698D428D31A8384B}" {
+      Position -123.296 -0.971 51.439
+     }
+     ShapePoint "{698D428D3334FD26}" {
+      Position 39.186 -0.38 102.326
+     }
+     ShapePoint "{698D428D33D031BE}" {
+      Position 45.816 -0.525 82.465
+     }
+     ShapePoint "{698D428D4D5F8864}" {
+      Position 42.862 -0.035 48.557
+     }
+     ShapePoint "{698D428D4DDF2247}" {
+      Position 48.198 -0.221 -23.95
+     }
+     ShapePoint "{698D428D4E918DD7}" {
+      Position 48.666 -0.268 -57.988
+     }
+     ShapePoint "{698D428D45E6890E}" {
+      Position 59.141 -0.926 -94.642
+     }
+     ShapePoint "{698D428D46641EDA}" {
+      Position 47.86 -0.754 -107.622
+     }
+     ShapePoint "{698D428D46DB9B15}" {
+      Position -8.603 0.783 -124.082
+     }
+     ShapePoint "{698D428D474E2DBE}" {
+      Position -73.524 -0.594 -107.501
+     }
+     ShapePoint "{698D428D4038B5A9}" {
+      Position -107.548 2.664 -48.975
+     }
+     ShapePoint "{66834CE8B4130F12}" {
+      Position -125.553 -0.373 8.955
+     }
+    }
+   }
+   $grp GenericEntity : "{CBBCD1602FF8677E}Prefabs/Controllers/Loadtime/ParkingSpot/JWK_AmbientParkingSpot.et" {
+    {
+     coords -18.186 0.82 17.736
+     angles 1.689 70.652 -0.593
+    }
+    {
+     coords -59.699 0.281 6.858
+     angles 0.842 70.122 -0.304
+    }
+   }
+  }
+ }
+ FC_Ferme_QuinevilleNE {
+  components {
+   JWK_AIGarrisonComponent "{659EFEC227B5CEDE}" {
+    m_iBaseForceSize 6
+   }
+   JWK_NamedLocationComponent "{64E512EE3D735264}" {
+    m_sName "Ferme de Quinéville (NE)"
+   }
+  }
+  coords 3551.552 6.877 618.112
+  {
+   GenericEntity Factory_ResourceStorage_66AF3E53B438719D2 : "{34EE59A28125F95F}Prefabs/Compositions/Factory_ResourceStorage.et" {
+    coords -35.396 -1.262 -16.428
+    angles 0 84.335 0
+    {
+     GenericEntity Factory_Storage_66AF3E53B4388EC2 {
+      ID "64D5310E6D3945D6"
+     }
+    }
+   }
+   PolylineShapeEntity : "{90B1B9EF2FCD1016}Prefabs/World/JWK_PolylineWorldZone.et" {
+    components {
+     JWK_WorldZoneComponent "{64B512D3082EC63A}" {
+      m_aTags {
+       POI_AREA
+       BATTLE_AREA
+       PLAYER_CONSTRUCTION
+      }
+     }
+    }
+    coords 0.364 -0.025 -0.343
+    Points {
+     ShapePoint "{698D428CF4021DDF}" {
+      Position 26.567 1.648 0.006
+     }
+     ShapePoint "{698D428CF563231D}" {
+      Position 32.586 1.573 -63.095
+     }
+     ShapePoint "{698D428CF586686A}" {
+      Position 21.564 -2.606 -95.026
+     }
+     ShapePoint "{698D428CF61363D6}" {
+      Position -12.116 -2.727 -105.803
+     }
+     ShapePoint "{698D428CF0AF2330}" {
+      Position -38.383 -2.727 -70.114
+     }
+     ShapePoint "{698D428CF11812CD}" {
+      Position -82.634 -2.707 -47.807
+     }
+     ShapePoint "{698D428CF181E8ED}" {
+      Position -130.848 -2.727 -45.972
+     }
+     ShapePoint "{698D428CF2E8BFEC}" {
+      Position -103.22 -2.727 -16.608
+     }
+     ShapePoint "{698D428CF3467DD8}" {
+      Position -64.803 -1.852 19.006
+     }
+     ShapePoint "{698D428D0A84DFFD}" {
+      Position -44.574 -0.004 31.342
+     }
+     ShapePoint "{66834CE8B68809DA}" {
+      Position 19.589 1.648 29.504
+     }
+    }
+   }
+  }
+ }
+ FC_Scierie_BrecourtNO {
+  components {
+   JWK_AIGarrisonComponent "{659EFEC227B5CEDE}" {
+    m_iBaseForceSize 10
+   }
+   JWK_NamedLocationComponent "{64E512EE3D735264}" {
+    m_sName "Scierie de Brécourt (NO)"
+   }
+  }
+  coords 2653.072 55 3797.959
+  {
+   GenericEntity Factory_ResourceStorage_66AF3E53C61DE9CA2 : "{34EE59A28125F95F}Prefabs/Compositions/Factory_ResourceStorage.et" {
+    coords 22.774 0.404 19.359
+    angles -0.029 -178.136 0.895
+    {
+     GenericEntity Factory_Storage_66AF3E53C61DE2 {
+      ID "64D5310E6D3945D6"
+     }
+    }
+   }
+   PolylineShapeEntity : "{90B1B9EF2FCD1016}Prefabs/World/JWK_PolylineWorldZone.et" {
+    components {
+     JWK_WorldZoneComponent "{64B512D3082EC63A}" {
+      m_aTags {
+       POI_AREA
+       BATTLE_AREA
+       PLAYER_CONSTRUCTION
+      }
+     }
+    }
+    coords 0.021 0.001 -0.082
+    Points {
+     ShapePoint "{698D4281B8B35E64}" {
+      Position 36.148 -0.477 58.243
+     }
+     ShapePoint "{698D4281B9894AD3}" {
+      Position -12.124 -1.592 58.394
+     }
+     ShapePoint "{698D4281BAD85A3A}" {
+      Position -10.411 -0.96 -14.007
+     }
+     ShapePoint "{698D4281BBC8CAE2}" {
+      Position -10.677 -0.721 -67.328
+     }
+     ShapePoint "{66834CE896E77282}" {
+      Position 37.768 0.582 -68.125
+     }
+    }
+   }
+   GenericEntity : "{CBBCD1602FF8677E}Prefabs/Controllers/Loadtime/ParkingSpot/JWK_AmbientParkingSpot.et" {
+    coords -3.541 -0.125 -26.131
+    angles 0 0 0
+   }
+  }
+ }
+ FC_Entrepot_Hubert {
+  components {
+   JWK_AIGarrisonComponent "{659EFEC227B5CEDE}" {
+    m_iBaseForceSize 15
+   }
+   JWK_NamedLocationComponent "{64E512EE3D735264}" {
+    m_sName "Entrepôt d'Hubert"
+   }
+  }
+  coords 4319.458 27.147 3671.405
+  {
+   GenericEntity Factory_ResourceStorage_66AF3E5213976F0B2 : "{34EE59A28125F95F}Prefabs/Compositions/Factory_ResourceStorage.et" {
+    coords 17.622 0.31 19.34
+    angles -0.064 -107.302 -0.216
+    {
+     GenericEntity Factory_Storage_66AF3E5213976C5F2 {
+      ID "64D5310E6D3945D6"
+     }
+    }
+   }
+   PolylineShapeEntity : "{90B1B9EF2FCD1016}Prefabs/World/JWK_PolylineWorldZone.et" {
+    components {
+     JWK_WorldZoneComponent "{64B512D3082EC63A}" {
+      m_aTags {
+       POI_AREA
+       BATTLE_AREA
+       PLAYER_CONSTRUCTION
+      }
+     }
+    }
+    coords 0.927 -1.609 -0.446
+    Points {
+     ShapePoint "{698D4280DA095EBC}" {
+      Position 53.532 -1.007 3.526
+     }
+     ShapePoint "{698D4280DAC26DBB}" {
+      Position 42.586 2.117 42.519
+     }
+     ShapePoint "{698D4280DB3A2B51}" {
+      Position 18.225 3.895 46.549
+     }
+     ShapePoint "{698D4280DBEFEA11}" {
+      Position -32.564 6.286 41.319
+     }
+     ShapePoint "{698D4280D4592EF9}" {
+      Position -49.359 2.391 -5.313
+     }
+     ShapePoint "{698D4280D40331EE}" {
+      Position -37.439 -2.491 -42.167
+     }
+     ShapePoint "{698D4280D4AF7B55}" {
+      Position 1.059 -3.33 -40.918
+     }
+     ShapePoint "{66834CE1DDDA28CB}" {
+      Position 27.616 -6.559 -80.289
+     }
+    }
+   }
+   GenericEntity : "{CBBCD1602FF8677E}Prefabs/Controllers/Loadtime/ParkingSpot/JWK_AmbientParkingSpot.et" {
+    coords -16.555 -1.038 -4.607
+    angles -0.016 71.733 5.644
+   }
+  }
+ }
+ FC_Ferme_Picauville {
+  components {
+   JWK_AIGarrisonComponent "{659EFEC227B5CEDE}" {
+    m_iBaseForceSize 6
+   }
+   JWK_NamedLocationComponent "{64E512EE3D735264}" {
+    m_sName "Ferme de Picauville"
+   }
+  }
+  coords 1027.777 31.298 3737.787
+  {
+   GenericEntity Factory_ResourceStorage_66AF3E53B438719D3 : "{34EE59A28125F95F}Prefabs/Compositions/Factory_ResourceStorage.et" {
+    coords -10.841 -1.337 15.412
+    angles 0 -96.976 0
+    {
+     GenericEntity Factory_Storage_66AF3E53B4388EC3 {
+      ID "64D5310E6D3945D6"
+     }
+    }
+   }
+   PolylineShapeEntity : "{90B1B9EF2FCD1016}Prefabs/World/JWK_PolylineWorldZone.et" {
+    components {
+     JWK_WorldZoneComponent "{64B512D3082EC63A}" {
+      m_aTags {
+       POI_AREA
+       BATTLE_AREA
+       PLAYER_CONSTRUCTION
+      }
+     }
+    }
+    coords 0.364 -0.025 -0.343
+    Points {
+     ShapePoint "{698D428C9C5D395F}" {
+      Position 41.101 8.908 -64.604
+     }
+     ShapePoint "{698D428C9C832352}" {
+      Position -35.73 1.704 -39.731
+     }
+     ShapePoint "{698D428C9DFD0153}" {
+      Position -70.07 -2.606 16.833
+     }
+     ShapePoint "{698D428C9FC8C205}" {
+      Position -50.276 -2.927 23.529
+     }
+     ShapePoint "{698D428C985B61FB}" {
+      Position -62.123 -5.526 90.513
+     }
+     ShapePoint "{698D428C98CBB160}" {
+      Position -12.166 -9.343 94.227
+     }
+     ShapePoint "{66834CE8B68809DA}" {
+      Position 3.623 -7.111 52.451
+     }
+    }
+   }
+  }
+ }
+ FC_Ferme_LaRue {
+  components {
+   JWK_AIGarrisonComponent "{659EFEC227B5CEDE}" {
+    m_iBaseForceSize 6
+   }
+   JWK_NamedLocationComponent "{64E512EE3D735264}" {
+    m_sName "Ferme de La Rue"
+   }
+  }
+  coords 729.659 16.396 992.69
+  {
+   GenericEntity Factory_ResourceStorage_66AF3E53B438719D4 : "{34EE59A28125F95F}Prefabs/Compositions/Factory_ResourceStorage.et" {
+    coords 20.789 -0.865 -12.616
+    angles 0 179.589 0
+    {
+     GenericEntity Factory_Storage_66AF3E53B4388EC4 {
+      ID "64D5310E6D3945D6"
+     }
+    }
+   }
+   PolylineShapeEntity : "{90B1B9EF2FCD1016}Prefabs/World/JWK_PolylineWorldZone.et" {
+    components {
+     JWK_WorldZoneComponent "{64B512D3082EC63A}" {
+      m_aTags {
+       POI_AREA
+       BATTLE_AREA
+       PLAYER_CONSTRUCTION
+      }
+     }
+    }
+    coords 0.364 -0.025 -0.343
+    Points {
+     ShapePoint "{698D428C0222486E}" {
+      Position -5.047 0.208 3.253
+     }
+     ShapePoint "{698D428C1C371B31}" {
+      Position -0.976 -0.3 -33.207
+     }
+     ShapePoint "{698D428C1DFC2519}" {
+      Position -1.071 -2.636 -96.465
+     }
+     ShapePoint "{698D428C1D853526}" {
+      Position 53.797 -6.152 -95.86
+     }
+     ShapePoint "{698D428C1E244356}" {
+      Position 64.216 -3.283 -32.242
+     }
+     ShapePoint "{698D428C1EB3B151}" {
+      Position 135.392 -4.705 -7.755
+     }
+     ShapePoint "{698D428C1F5998F0}" {
+      Position 120.843 -1.602 42.112
+     }
+     ShapePoint "{698D428C1F92CE4E}" {
+      Position 88.115 0.011 38.414
+     }
+     ShapePoint "{698D428C4E15B431}" {
+      Position -4.477 0.381 20.216
+     }
+    }
+   }
+   GenericEntity : "{CBBCD1602FF8677E}Prefabs/Controllers/Loadtime/ParkingSpot/JWK_AmbientParkingSpot.et" {
+    coords 6.504 0.347 21.983
+    angles 0 -91.451 0
+   }
+  }
+ }
+ FC_Ferme_SaintMarcouf {
+  components {
+   JWK_AIGarrisonComponent "{659EFEC227B5CEDE}" {
+    m_iBaseForceSize 6
+   }
+   JWK_NamedLocationComponent "{64E512EE3D735264}" {
+    m_sName "Ferme de Saint-Marcouf"
+   }
+  }
+  coords 2067.81 14.178 1232.401
+  {
+   GenericEntity Factory_ResourceStorage_66AF3E53B438719D5 : "{34EE59A28125F95F}Prefabs/Compositions/Factory_ResourceStorage.et" {
+    coords -3.449 -1.402 -20.855
+    angles 0 162.35 0
+    {
+     GenericEntity Factory_Storage_66AF3E53B4388EC5 {
+      ID "64D5310E6D3945D6"
+     }
+    }
+   }
+   PolylineShapeEntity : "{90B1B9EF2FCD1016}Prefabs/World/JWK_PolylineWorldZone.et" {
+    components {
+     JWK_WorldZoneComponent "{64B512D3082EC63A}" {
+      m_aTags {
+       POI_AREA
+       BATTLE_AREA
+       PLAYER_CONSTRUCTION
+      }
+     }
+    }
+    coords 0.364 -0.025 -0.343
+    Points {
+     ShapePoint "{698D429C3BEEC841}" {
+      Position 19.791 1.256 35.95
+     }
+     ShapePoint "{698D429C342A8B9E}" {
+      Position -13.186 3.679 73.035
+     }
+     ShapePoint "{698D429C34A68E0C}" {
+      Position -58.399 1.752 35.53
+     }
+     ShapePoint "{698D429C3640F0F4}" {
+      Position -64.015 0.13 12.004
+     }
+     ShapePoint "{698D429C371EE31A}" {
+      Position -34.823 -4.028 -54.381
+     }
+     ShapePoint "{698D429C31757C09}" {
+      Position -18.851 -4.585 -124.398
+     }
+     ShapePoint "{698D429C311343BD}" {
+      Position 34.041 -5.024 -119.274
+     }
+     ShapePoint "{698D429C32ED8799}" {
+      Position 32.575 -5.279 -88.455
+     }
+     ShapePoint "{698D429C3284A496}" {
+      Position 26.192 -4.111 -47.557
+     }
+     ShapePoint "{66834CE8BF26151F}" {
+      Position 24.661 -1.73 -14.215
+     }
+    }
+   }
+  }
+ }
+ FC_Ferme_Beuzeville {
+  components {
+   JWK_AIGarrisonComponent "{659EFEC227B5CEDE}" {
+    m_iBaseForceSize 6
+   }
+   JWK_NamedLocationComponent "{64E512EE3D735264}" {
+    m_sName "Ferme de Beuzeville"
+   }
+  }
+  coords 2772.313 30.376 1864.253
+  {
+   GenericEntity Factory_ResourceStorage_66AF3E53B438719D6 : "{34EE59A28125F95F}Prefabs/Compositions/Factory_ResourceStorage.et" {
+    coords -12.894 0.863 -2.728
+    angles 0 78.07 0
+    {
+     GenericEntity Factory_Storage_66AF3E53B4388EC6 {
+      ID "64D5310E6D3945D6"
+     }
+    }
+   }
+   PolylineShapeEntity : "{90B1B9EF2FCD1016}Prefabs/World/JWK_PolylineWorldZone.et" {
+    components {
+     JWK_WorldZoneComponent "{64B512D3082EC63A}" {
+      m_aTags {
+       POI_AREA
+       BATTLE_AREA
+       PLAYER_CONSTRUCTION
+      }
+     }
+    }
+    coords 0.364 -0.025 -0.343
+    Points {
+     ShapePoint "{698D429C1F65DAFE}" {
+      Position -70.138 -1.089 9.284
+     }
+     ShapePoint "{698D429C1FF2C6D4}" {
+      Position -84.249 0.542 -15.291
+     }
+     ShapePoint "{698D429C187D0D4C}" {
+      Position -83.922 1.482 -75.706
+     }
+     ShapePoint "{698D429C18F1889D}" {
+      Position 43.181 5.782 -62.333
+     }
+     ShapePoint "{698D429C1972DFDE}" {
+      Position 43.955 -0.525 -23.133
+     }
+     ShapePoint "{698D429C19CDD883}" {
+      Position 14.541 -5.37 54.009
+     }
+     ShapePoint "{698D429C1A123BE4}" {
+      Position -37.187 -4.736 42.133
+     }
+     ShapePoint "{66834CE8B4130F12}" {
+      Position -92.332 -5.179 35.582
+     }
+    }
+   }
+  }
+ }
+ FC_Scierie_BrecourtSO {
+  components {
+   JWK_AIGarrisonComponent "{659EFEC227B5CEDE}" {
+    m_iBaseForceSize 10
+   }
+   JWK_NamedLocationComponent "{64E512EE3D735264}" {
+    m_sName "Scierie de Brécourt (SO)"
+   }
+  }
+  coords 2857.631 48.381 2984.361
+  {
+   GenericEntity Factory_ResourceStorage_66AF3E53C61DE9CA3 : "{34EE59A28125F95F}Prefabs/Compositions/Factory_ResourceStorage.et" {
+    coords 24.924 0.053 28.212
+    angles 0.649 133.602 0.617
+    {
+     GenericEntity Factory_Storage_66AF3E53C61DE3 {
+      ID "64D5310E6D3945D6"
+     }
+    }
+   }
+   PolylineShapeEntity : "{90B1B9EF2FCD1016}Prefabs/World/JWK_PolylineWorldZone.et" {
+    components {
+     JWK_WorldZoneComponent "{64B512D3082EC63A}" {
+      m_aTags {
+       POI_AREA
+       BATTLE_AREA
+       PLAYER_CONSTRUCTION
+      }
+     }
+    }
+    coords 0.021 0.001 -0.082
+    Points {
+     ShapePoint "{698D4294D48743F0}" {
+      Position -102.231 1.368 15.653
+     }
+     ShapePoint "{698D4294D5CB8117}" {
+      Position -34.263 -0.031 -75.678
+     }
+     ShapePoint "{698D4294D6597184}" {
+      Position 25.291 -3.121 -59.431
+     }
+     ShapePoint "{698D4294D6EDD5D2}" {
+      Position 101.729 -10.625 -33.027
+     }
+     ShapePoint "{698D4294D775F6D4}" {
+      Position 58.163 -2.284 20.556
+     }
+     ShapePoint "{698D4294D70D9A94}" {
+      Position 11.852 -1.525 71.788
+     }
+     ShapePoint "{66834CE896E77282}" {
+      Position -12.128 -0.809 95.464
+     }
+    }
+   }
+   GenericEntity : "{CBBCD1602FF8677E}Prefabs/Controllers/Loadtime/ParkingSpot/JWK_AmbientParkingSpot.et" {
+    coords 15.139 -0.227 5.014
+    angles 1.839 -40.172 0.79
+   }
+  }
+ }
+ FC_Ferme_Crosville {
+  components {
+   JWK_AIGarrisonComponent "{659EFEC227B5CEDE}" {
+    m_iBaseForceSize 6
+   }
+   JWK_NamedLocationComponent "{64E512EE3D735264}" {
+    m_sName "Ferme de Crosville"
+   }
+  }
+  coords 710.422 5.562 2000.465
+  {
+   GenericEntity Factory_ResourceStorage_66AF3E53B438719D7 : "{34EE59A28125F95F}Prefabs/Compositions/Factory_ResourceStorage.et" {
+    coords -3.849 0.009 -3.725
+    angles 0.8 116.694 0.402
+    {
+     GenericEntity Factory_Storage_66AF3E53B4388EC7 {
+      ID "64D5310E6D3945D6"
+     }
+    }
+   }
+   PolylineShapeEntity : "{90B1B9EF2FCD1016}Prefabs/World/JWK_PolylineWorldZone.et" {
+    components {
+     JWK_WorldZoneComponent "{64B512D3082EC63A}" {
+      m_aTags {
+       POI_AREA
+       BATTLE_AREA
+       PLAYER_CONSTRUCTION
+      }
+     }
+    }
+    coords 0.364 -0.025 -0.343
+    Points {
+     ShapePoint "{698F572845FFE4DB}" {
+      Position -41.195 0.22 18.382
+     }
+     ShapePoint "{698F5728476A493D}" {
+      Position -48.4 0.299 -7.693
+     }
+     ShapePoint "{698F572847E9D81A}" {
+      Position -37.208 -0.242 -9.636
+     }
+     ShapePoint "{698F57284054E54B}" {
+      Position 18.245 -0.058 -29.209
+     }
+     ShapePoint "{698F572840C28226}" {
+      Position 34.314 -0.478 -5.91
+     }
+     ShapePoint "{698F572841311283}" {
+      Position 23.568 -0.112 12.841
+     }
+     ShapePoint "{698F572841F1F2FC}" {
+      Position 2.909 -0.202 25.745
+     }
+     ShapePoint "{698F572841B4A10F}" {
+      Position -17.096 0.024 39.834
+     }
+     ShapePoint "{698D429C342A8B9E}" {
+      Position -29.574 -0.294 34.932
+     }
+    }
+   }
+  }
+ }
+}

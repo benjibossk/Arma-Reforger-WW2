@@ -1,0 +1,139 @@
+$grp JWK_CheckpointEntity : "{45DDC606D9A685AE}Prefabs/Controllers/Loadtime/JWK_CheckpointController.et" {
+ MCP_KamenskS24 {
+  coords 4486.838 4.125 515.556
+  angles 0 4.808 0
+  {
+   SCR_SiteSlotEntity : "{B2C29D3B2F37D701}Prefabs/World/Slots/Checkpoint/JWK_CheckpointSlotSmall.et" {
+    components {
+     JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+      m_iSlotPurpose SUPPORT
+     }
+    }
+    coords 4.292 -0.478 17.17
+    angles 0 -90.186 0
+    {
+     StaticModelEntity {
+      ID "62A693F2AC4FB612"
+      coords 0 0.478 0
+     }
+    }
+   }
+   $grp SCR_SiteSlotEntity : "{F73BB819723B9490}Prefabs/World/Slots/Checkpoint/JWK_CheckpointSlotSquareSmall.et" {
+    {
+     components {
+      JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+       m_iSlotPurpose FORTIFICATION
+       m_iRoadAlignment RIGHT
+       m_iSlotFacing FRONT
+      }
+     }
+     coords -11.341 -0.486 0.603
+     angles 0 150.781 0
+     {
+      StaticModelEntity {
+       ID "62A693F2AC4FB612"
+       coords 0 0.178 0
+       angles -4.215 0 -1.713
+      }
+     }
+    }
+    {
+     components {
+      JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+       m_iSlotPurpose FORTIFICATION
+       m_iRoadAlignment LEFT
+       m_iSlotFacing FRONT
+      }
+     }
+     coords 2.07 -0.825 -14.669
+     angles 0 -26.039 0
+     {
+      StaticModelEntity {
+       ID "62A693F2AC4FB612"
+       coords 0 0.953 0
+       angles -2.455 0 0
+      }
+     }
+    }
+   }
+  }
+ }
+ MCP_KamenskS25 {
+  coords 4635.783 4.979 832.209
+  angles 0 -5.669 0
+  {
+   SCR_SiteSlotEntity : "{B2C29D3B2F37D701}Prefabs/World/Slots/Checkpoint/JWK_CheckpointSlotSmall.et" {
+    components {
+     JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+      m_iSlotPurpose SUPPORT
+     }
+    }
+    coords 11.165 -2.78 -18.551
+    angles 0 -90.186 0
+    {
+     StaticModelEntity {
+      ID "62A693F2AC4FB612"
+      coords 0 1.926 0
+      angles 0 0 -0.002
+     }
+    }
+   }
+   $grp SCR_SiteSlotEntity : "{F73BB819723B9490}Prefabs/World/Slots/Checkpoint/JWK_CheckpointSlotSquareSmall.et" {
+    {
+     components {
+      JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+       m_iSlotPurpose FORTIFICATION
+       m_iRoadAlignment RIGHT
+       m_iSlotFacing FRONT
+      }
+     }
+     coords -15.792 1.883 5.617
+     angles 0 151.994 0
+     {
+      StaticModelEntity {
+       ID "62A693F2AC4FB612"
+       coords 0 -2.406 0
+       angles 2.008 0 1.439
+      }
+     }
+    }
+    {
+     components {
+      JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+       m_iSlotPurpose FORTIFICATION
+       m_iRoadAlignment LEFT
+       m_iSlotFacing FRONT
+      }
+     }
+     coords -4.612 1.505 15.713
+     angles 0 28.959 0
+     {
+      StaticModelEntity {
+       ID "62A693F2AC4FB612"
+       coords 0 -2.233 0
+       angles -0.093 0 -2.628
+      }
+     }
+    }
+   }
+  }
+ }
+}
+JWK_TownEntity TC_Mineraly5 : "{64B2F8D8059C97CC}Prefabs/Controllers/Loadtime/JWK_TownController.et" {
+ components {
+  JWK_NamedLocationComponent "{65C35A2F385D762F}" {
+   m_sName "Néville-sur-Mer"
+  }
+  JWK_TownCiviliansControllerComponent "{6296F54A892986E3}" {
+   m_fPopulationSpawnFactor 0.15
+  }
+  JWK_TownMilitaryActivityComponent "{64E347579D05582B}" {
+   m_iPatrolMinThreatLevel 15
+   m_iPatrolMaxThreatLevel 60
+   m_fManpowerRegenerationRate 0.2
+   m_iManpower 6
+  }
+ }
+ coords 4560.268 18.195 687.994
+ m_iTownRange 120
+}

@@ -1,0 +1,17 @@
+JWK_FuelStationEntity : "{5F0EF636CDF91862}Prefabs/Controllers/Loadtime/JWK_FuelStationController.et" {
+ coords 5702.357 2.186 8258.922
+}
+JWK_PortEntity JWK_PortController_66BB305AAA2A28E4 : "{64B2F8D8059CBCC4}Prefabs/Controllers/Loadtime/JWK_PortController.et" {
+ coords 7505.576 2.572 4150.592
+ {
+  GenericEntity Import_PickupArea_672AD7275010D327 : "{3138D9EFDCCCC3B3}Prefabs/Compositions/Import_PickupArea.et" {
+   coords -48.312 0.49 17.699
+   angles 0 -141.047 0
+   {
+    GenericEntity Port_Storage_66BB305A92F30245 {
+     ID "62CB07E11C777435"
+    }
+   }
+  }
+ }
+}

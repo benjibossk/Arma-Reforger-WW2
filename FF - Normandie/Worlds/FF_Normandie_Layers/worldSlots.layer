@@ -1,0 +1,270 @@
+$grp SCR_SiteSlotEntity : "{177E9F906BBB4FF5}Prefabs/World/Slots/Generic/JWK_GenericSlotMedium.et" {
+ {
+  coords 2797.226 38.136 3697.825
+  {
+   StaticModelEntity {
+    ID "62A693F2AC4FB612"
+    coords 0 17.668 0
+    angles -0.676 0 -0.201
+   }
+  }
+ }
+ {
+  coords 3885.216 46.812 2875.234
+  {
+   StaticModelEntity {
+    ID "62A693F2AC4FB612"
+    coords 0 0.01 0
+    angles 0.932 0 0.912
+   }
+  }
+ }
+ {
+  coords 3337.487 32.772 2486.956
+  {
+   StaticModelEntity {
+    ID "62A693F2AC4FB612"
+    coords 0 0.079 0
+    angles 0.309 0 1.465
+   }
+  }
+ }
+ {
+  coords 2597.073 19.04 2082.388
+  {
+   StaticModelEntity {
+    ID "62A693F2AC4FB612"
+    coords 0 0.15 0
+    angles -2.555 0 6.563
+   }
+  }
+ }
+ {
+  coords 2674.698 29.684 1484.578
+  {
+   StaticModelEntity {
+    ID "62A693F2AC4FB612"
+    coords 0 0.13 0
+    angles 1.587 0 3.543
+   }
+  }
+ }
+ {
+  coords 3189.373 8.5 891.072
+  {
+   StaticModelEntity {
+    ID "62A693F2AC4FB612"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 4218.094 8.5 619.841
+  {
+   StaticModelEntity {
+    ID "62A693F2AC4FB612"
+    coords 0 0.379 0
+    angles 0.818 0 -0.15
+   }
+  }
+ }
+ {
+  coords 4684.566 6.291 1053.99
+  {
+   StaticModelEntity {
+    ID "62A693F2AC4FB612"
+    coords 0 -0.066 0
+    angles -0.047 0 -4.666
+   }
+  }
+ }
+ {
+  coords 2985.205 8.5 948.383
+  {
+   StaticModelEntity {
+    ID "62A693F2AC4FB612"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 1172.772 4.988 95.188
+  {
+   StaticModelEntity {
+    ID "62A693F2AC4FB612"
+    coords 0 -0.041 0
+    angles -2.76 0 -0.205
+   }
+  }
+ }
+ {
+  coords 892.612 4.812 1615.223
+  {
+   StaticModelEntity {
+    ID "62A693F2AC4FB612"
+    coords 0 0.1 0
+    angles 0.154 0 -0.285
+   }
+  }
+ }
+ {
+  coords 1030.188 53.698 3157.62
+  {
+   StaticModelEntity {
+    ID "62A693F2AC4FB612"
+    coords 0 -0.219 0
+    angles -4.651 0 2.989
+   }
+  }
+ }
+ {
+  coords 3235.796 56.862 4557.621
+  {
+   StaticModelEntity {
+    ID "62A693F2AC4FB612"
+    coords 0 0.042 0
+    angles 2.43 0 -1.719
+   }
+  }
+ }
+}
+$grp SCR_SiteSlotEntity : "{8E504F41F7514AEE}Prefabs/World/Slots/Generic/JWK_GenericSlotSmall.et" {
+ {
+  coords 1708.159 44.898 3388.179
+  {
+   StaticModelEntity {
+    ID "62A693F2AC4FB612"
+    coords 0 -0.001 0
+    angles 5.067 0 2.688
+   }
+  }
+ }
+ {
+  coords 1545.488 20.697 3846.955
+  {
+   StaticModelEntity {
+    ID "62A693F2AC4FB612"
+    coords 0 0.038 0
+    angles 1.941 0 4.542
+   }
+  }
+ }
+ {
+  coords 2249.882 30.515 4372.303
+  {
+   StaticModelEntity {
+    ID "62A693F2AC4FB612"
+    coords 0 0.11 0
+    angles 0.155 0 8.457
+   }
+  }
+ }
+ {
+  coords 3072.617 55.417 4582.186
+  {
+   StaticModelEntity {
+    ID "62A693F2AC4FB612"
+    coords 0 0.003 0
+    angles 2.03 0 1.672
+   }
+  }
+ }
+ {
+  coords 3291.483 40.635 3680.673
+  {
+   StaticModelEntity {
+    ID "62A693F2AC4FB612"
+    coords 0 0.089 0
+    angles -0.072 0 -4.107
+   }
+  }
+ }
+ {
+  coords 3314.839 35.663 2274.463
+  {
+   StaticModelEntity {
+    ID "62A693F2AC4FB612"
+    coords 0 0.01 0
+    angles -0.42 0 -7.463
+   }
+  }
+ }
+ {
+  coords 3097.414 8.5 1048.93
+  {
+   StaticModelEntity {
+    ID "62A693F2AC4FB612"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 3241.677 8.5 219.933
+  {
+   StaticModelEntity {
+    ID "62A693F2AC4FB612"
+    coords 0 0 0
+   }
+  }
+ }
+}
+$grp SCR_SiteSlotEntity : "{D387AC7D01BD9032}Prefabs/World/Slots/Generic/JWK_GenericSlotLarge.et" {
+ {
+  coords 1771.188 48.719 3169.913
+  {
+   StaticModelEntity {
+    ID "62A693F2AC4FB612"
+    coords 0 -0 0
+   }
+  }
+ }
+ {
+  coords 1013.565 55.191 3323.809
+  {
+   StaticModelEntity {
+    ID "62A693F2AC4FB612"
+    coords 0 0.3 0
+    angles 0.013 0 -0.33
+   }
+  }
+ }
+ {
+  coords 937.972 4.781 1942.827
+  {
+   StaticModelEntity {
+    ID "62A693F2AC4FB612"
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 1514.046 4.781 478.888
+  {
+   StaticModelEntity {
+    ID "62A693F2AC4FB612"
+    coords 0 0.141 0
+    angles 0.359 0 0
+   }
+  }
+ }
+ {
+  coords 4084.79 39.043 3683.694
+  {
+   StaticModelEntity {
+    ID "62A693F2AC4FB612"
+    coords 0 -3.52 0
+    angles 1.31 0 1.298
+   }
+  }
+ }
+ {
+  coords 3573.133 46.313 2683.073
+  {
+   StaticModelEntity {
+    ID "62A693F2AC4FB612"
+    coords 0 0.046 0
+    angles 0.142 0 0.199
+   }
+  }
+ }
+}

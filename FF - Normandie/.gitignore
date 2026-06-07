@@ -1,0 +1,14 @@
+# Local backups created during dev iterations
+*.backup_*
+Worlds.backup_*
+**/Buildings.backup_*
+
+# Claude Code workspace metadata
+.claude/
+
+# OS / editor cruft
+Thumbs.db
+.DS_Store
+*~
+*.swp
+*.bak

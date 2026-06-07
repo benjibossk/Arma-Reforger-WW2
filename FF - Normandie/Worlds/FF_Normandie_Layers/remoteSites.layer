@@ -1,0 +1,123 @@
+$grp JWK_RemoteSiteEntity : "{A3ED6DA78DEB5E34}Prefabs/Controllers/Loadtime/JWK_RemoteSite.et" {
+ {
+  coords 4466.507 28.579 3814.637
+  {
+   GenericEntity : "{CBBCD1602FF8677E}Prefabs/Controllers/Loadtime/ParkingSpot/JWK_AmbientParkingSpot.et" {
+    coords 2.279 0.049 -5.726
+    angles 0 16.323 0
+   }
+  }
+ }
+ {
+  coords 3871.939 41.658 4068.454
+  angles 0 107.466 0
+  {
+   GenericEntity : "{CBBCD1602FF8677E}Prefabs/Controllers/Loadtime/ParkingSpot/JWK_AmbientParkingSpot.et" {
+    coords 2.279 0.049 -5.726
+    angles 0 16.323 0
+   }
+  }
+ }
+ {
+  coords 4228.774 44.194 2857.187
+  angles 0 107.466 0
+  {
+   GenericEntity : "{CBBCD1602FF8677E}Prefabs/Controllers/Loadtime/ParkingSpot/JWK_AmbientParkingSpot.et" {
+    coords 0.954 0.049 -1.418
+    angles 0 -20.171 0
+   }
+  }
+ }
+ {
+  coords 4326.282 4.125 2183.7
+  angles 0 107.466 0
+ }
+ {
+  coords 3973.003 10.804 1368.141
+  angles 0 107.466 0
+  {
+   GenericEntity : "{CBBCD1602FF8677E}Prefabs/Controllers/Loadtime/ParkingSpot/JWK_AmbientParkingSpot.et" {
+    coords 4.14 0.049 19.494
+    angles 0 -47.973 0
+   }
+  }
+ }
+ {
+  coords 3538.917 8.5 1380.444
+  angles 0 107.466 0
+  {
+   GenericEntity : "{CBBCD1602FF8677E}Prefabs/Controllers/Loadtime/ParkingSpot/JWK_AmbientParkingSpot.et" {
+    coords -6.306 0.049 -1.698
+    angles 0 -18.499 0
+   }
+  }
+ }
+ {
+  coords 2598.777 20.407 1870.786
+  angles 0 107.466 0
+  {
+   GenericEntity : "{CBBCD1602FF8677E}Prefabs/Controllers/Loadtime/ParkingSpot/JWK_AmbientParkingSpot.et" {
+    coords 13.971 1.796 7.826
+    angles 0 -47.973 0
+   }
+  }
+ }
+ {
+  coords 2476.26 13.252 1902.987
+  angles 0 107.466 0
+  {
+   GenericEntity : "{CBBCD1602FF8677E}Prefabs/Controllers/Loadtime/ParkingSpot/JWK_AmbientParkingSpot.et" {
+    coords 7.667 -2.056 -1.914
+    angles 0 -16.544 0
+   }
+  }
+ }
+ {
+  coords 2065.996 47.113 2379.382
+  angles 0 107.466 0
+  {
+   GenericEntity : "{CBBCD1602FF8677E}Prefabs/Controllers/Loadtime/ParkingSpot/JWK_AmbientParkingSpot.et" {
+    coords -4.591 -0.537 -9.746
+    angles 3.015 36.995 1.143
+   }
+  }
+ }
+ {
+  coords 1499.552 25.868 2242.701
+  angles 0 107.466 0
+  {
+   GenericEntity : "{CBBCD1602FF8677E}Prefabs/Controllers/Loadtime/ParkingSpot/JWK_AmbientParkingSpot.et" {
+    coords -13.134 -1.024 3.134
+    angles 3.215 20.588 0.245
+   }
+  }
+ }
+ {
+  coords 529.989 24.068 3355.294
+  angles 0 135.985 0
+  {
+   GenericEntity : "{CBBCD1602FF8677E}Prefabs/Controllers/Loadtime/ParkingSpot/JWK_AmbientParkingSpot.et" {
+    coords -7.48 1.297 -5.666
+    angles -5.966 22.255 4.286
+   }
+  }
+ }
+ {
+  coords 2206.919 6.205 892.954
+  {
+   GenericEntity : "{CBBCD1602FF8677E}Prefabs/Controllers/Loadtime/ParkingSpot/JWK_AmbientParkingSpot.et" {
+    coords -0.504 -0.161 -12.845
+    angles 0 166.055 0
+   }
+  }
+ }
+ {
+  coords 2058.499 48.654 2515.87
+  {
+   GenericEntity : "{CBBCD1602FF8677E}Prefabs/Controllers/Loadtime/ParkingSpot/JWK_AmbientParkingSpot.et" {
+    coords -19.474 -0.154 -10.149
+    angles 0 -176.889 0
+   }
+  }
+ }
+}

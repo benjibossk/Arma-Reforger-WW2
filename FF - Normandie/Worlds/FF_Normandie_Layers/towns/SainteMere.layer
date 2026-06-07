@@ -1,0 +1,167 @@
+$grp JWK_CheckpointEntity : "{45DDC606D9A685AE}Prefabs/Controllers/Loadtime/JWK_CheckpointController.et" {
+ MCP_KamenskS {
+  coords 3654.271 8.031 1636.287
+  {
+   SCR_SiteSlotEntity : "{B2C29D3B2F37D701}Prefabs/World/Slots/Checkpoint/JWK_CheckpointSlotSmall.et" {
+    components {
+     JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+      m_iSlotPurpose SUPPORT
+     }
+    }
+    coords 0.04 -0.353 19.207
+    angles 0 -75.063 0
+    {
+     StaticModelEntity {
+      ID "62A693F2AC4FB612"
+      coords 0 -0.062 0
+      angles 0.337 0 -1.364
+     }
+    }
+   }
+   $grp SCR_SiteSlotEntity : "{F73BB819723B9490}Prefabs/World/Slots/Checkpoint/JWK_CheckpointSlotSquareSmall.et" {
+    {
+     components {
+      JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+       m_iSlotPurpose FORTIFICATION
+       m_iRoadAlignment RIGHT
+       m_iSlotFacing FRONT
+      }
+     }
+     coords -22.049 -0.063 14.349
+     angles 0 136.678 0
+     {
+      StaticModelEntity {
+       ID "62A693F2AC4FB612"
+       coords 0 -1.557 0
+       angles -3.116 0 6.209
+      }
+     }
+    }
+    {
+     components {
+      JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+       m_iSlotPurpose FORTIFICATION
+       m_iRoadAlignment LEFT
+       m_iSlotFacing FRONT
+      }
+     }
+     coords 11.765 -0.069 0.425
+     angles 0 -138.216 0
+     {
+      StaticModelEntity {
+       ID "62A693F2AC4FB612"
+       coords 0 1.052 0
+       angles -0.814 0 2.232
+      }
+     }
+    }
+   }
+  }
+ }
+ MCP_KamenskW {
+  coords 3421.229 8.5 1444.544
+  {
+   SCR_SiteSlotEntity : "{B2C29D3B2F37D701}Prefabs/World/Slots/Checkpoint/JWK_CheckpointSlotSmall.et" {
+    components {
+     JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+      m_iSlotPurpose SUPPORT
+     }
+    }
+    coords 2.458 -0.357 0.084
+    angles 0 -77.312 0
+    {
+     StaticModelEntity {
+      ID "62A693F2AC4FB612"
+      coords 0 0.357 0
+      angles 0 0 -0.119
+     }
+    }
+   }
+   SCR_SiteSlotEntity : "{DC5D6161EF4471C6}Prefabs/World/Slots/Checkpoint/JWK_CheckpointSlotSquareMedium.et" {
+    components {
+     JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+      m_iSlotPurpose FORTIFICATION
+      m_iRoadAlignment LEFT
+      m_iSlotFacing 3
+     }
+    }
+    coords 4.087 0.77 -21.572
+    angles 0 -106.879 0
+    {
+     StaticModelEntity {
+      ID "62A693F2AC4FB612"
+      coords 0 -0.77 0
+     }
+    }
+   }
+   SCR_SiteSlotEntity : "{F73BB819723B9490}Prefabs/World/Slots/Checkpoint/JWK_CheckpointSlotSquareSmall.et" {
+    components {
+     JWK_CheckpointWorldSlotComponent "{62A693F5C5ABFB43}" {
+      m_iSlotPurpose FORTIFICATION
+      m_iRoadAlignment LEFT
+      m_iSlotFacing FRONT
+     }
+    }
+    coords -1.356 -0.867 18.614
+    angles 0 -122.145 0
+    {
+     StaticModelEntity {
+      ID "62A693F2AC4FB612"
+      coords 0 0.82 0
+      angles -0.298 0 -0.285
+     }
+    }
+   }
+  }
+ }
+}
+JWK_FuelStationEntity FSC_Kamensk : "{5F0EF636CDF91862}Prefabs/Controllers/Loadtime/JWK_FuelStationController.et" {
+ coords 3597.753 20.71 1896.699
+}
+JWK_TownEntity TC_Kamensk : "{64B2F8D8059C97CC}Prefabs/Controllers/Loadtime/JWK_TownController.et" {
+ components {
+  JWK_NamedLocationComponent "{65C35A2F385D762F}" {
+   m_sName "Sainte-Mère-Église"
+  }
+  JWK_TownMilitaryActivityComponent "{64E347579D05582B}" {
+   m_iManpower 30
+   m_iPatrolMinThreatLevel 5
+   m_iPatrolMaxThreatLevel 40
+   m_fManpowerRegenerationRate 0.5
+  }
+  JWK_TownCiviliansControllerComponent "{6296F54A892986E3}" {
+   m_fPopulationSpawnFactor 0.3
+  }
+ }
+ coords 3466.434 10.651 1884.872
+ m_iTownRange 300
+ m_iPopulation 81
+}
+$grp GenericEntity : "{6956B2B7D8A1A5E0}Prefabs/Controllers/Loadtime/JWK_TownDonationPoint.et" {
+ {
+  coords 3480.582 9.362 1787.965
+ }
+ {
+  coords 3494.907 4.281 1960.268
+ }
+ {
+  coords 3614.113 13.553 1740.345
+ }
+ {
+  coords 3492.372 6.25 1685.386
+ }
+ {
+  coords 3649.569 4.125 1924.202
+ }
+ {
+  coords 3409.399 4.958 1918.051
+ }
+}
+SCR_DestructibleBuildingEntity : "{92E8F78BCF17D93D}Prefabs/Modded/Structures/Commercial/Shops/ShopHouse_E_2I01t_clothesstore.et" {
+ components {
+  JWK_NavmeshRebuildComponent "{66BCFBE144D6019A}" {
+  }
+ }
+ coords 3379.589 0.9 1863.363
+ angles 0 153.403 0
+}

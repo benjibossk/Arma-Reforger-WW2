@@ -1,0 +1,700 @@
+$grp JWK_MilitaryBaseEntity : "{64B2F8D8059C58BE}Prefabs/Controllers/Loadtime/JWK_MilitaryBaseController.et" {
+ MBC_Stutzpunkt_LaRueSud {
+  components {
+   JWK_AIGarrisonComponent "{64A0C8691A55F98A}" {
+    m_iBaseForceSize 25
+   }
+   JWK_NamedLocationComponent "{65C2DD931B48E7EC}" {
+    m_sName "Stützpunkt La Rue Sud"
+   }
+  }
+  coords 308.937 3.68 304.119
+  {
+   PolylineShapeEntity : "{90B1B9EF2FCD1016}Prefabs/World/JWK_PolylineWorldZone.et" {
+    components {
+     JWK_WorldZoneComponent "{64B512D3082EC63A}" {
+      m_aTags {
+       POI_AREA
+       BATTLE_AREA
+       PLAYER_CONSTRUCTION
+      }
+     }
+    }
+    coords -0.233 0.001 -0.023
+    Points {
+     ShapePoint "{698D42800BB11300}" {
+      Position -28.097 2.571 -155.842
+     }
+     ShapePoint "{698D42800445F71F}" {
+      Position 41.333 3.687 -146.925
+     }
+     ShapePoint "{698D428005476547}" {
+      Position 156.713 10.047 -92.967
+     }
+     ShapePoint "{698D428005889497}" {
+      Position 209.139 0.424 27.51
+     }
+     ShapePoint "{698D428006F145C2}" {
+      Position 114.129 2.118 158.488
+     }
+     ShapePoint "{698D42800777EE47}" {
+      Position -62.04 1.028 165.315
+     }
+     ShapePoint "{698D428007F13CAC}" {
+      Position -131.301 0.444 136.684
+     }
+     ShapePoint "{66834CE549191312}" {
+      Position -116.626 4.877 -137.185
+     }
+    }
+   }
+  }
+ }
+ MBC_Stutzpunkt_SaintCome {
+  components {
+   JWK_AIGarrisonComponent "{64A0C8691A55F98A}" {
+    m_iBaseForceSize 35
+   }
+   JWK_NamedLocationComponent "{65C2DD931B48E7EC}" {
+    m_sName "Stützpunkt Saint-Côme"
+   }
+  }
+  coords 3033.458 51.087 2303.087
+  {
+   PolylineShapeEntity : "{90B1B9EF2FCD1016}Prefabs/World/JWK_PolylineWorldZone.et" {
+    components {
+     JWK_WorldZoneComponent "{64B512D3082EC63A}" {
+      m_aTags {
+       POI_AREA
+       BATTLE_AREA
+       PLAYER_CONSTRUCTION
+      }
+     }
+    }
+    coords 0.106 0.001 0.106
+    Points {
+     ShapePoint "{698D4287D7DEDF55}" {
+      Position 8.518 -19.364 98.467
+     }
+     ShapePoint "{698D4287D0079ED6}" {
+      Position -80.832 -16.18 43.251
+     }
+     ShapePoint "{698D4287D178CA14}" {
+      Position -91.176 -13.977 -91.977
+     }
+     ShapePoint "{698D4287D11344A0}" {
+      Position -43.616 -9.659 -170.294
+     }
+     ShapePoint "{698D4287D279AE79}" {
+      Position 2.863 -5.881 -180.708
+     }
+     ShapePoint "{698D4287D23513D5}" {
+      Position 68.718 2.306 -138.77
+     }
+     ShapePoint "{698D4287EC1B4415}" {
+      Position 94.838 -0.072 -55.759
+     }
+     ShapePoint "{698D4287ECCDBFB5}" {
+      Position 70.766 -9.246 42.944
+     }
+     ShapePoint "{66834CE6FF3113D0}" {
+      Position 53.988 -19.635 117.104
+     }
+    }
+   }
+  }
+ }
+ MBC_Stutzpunkt_PicauvilleNord {
+  components {
+   JWK_AIGarrisonComponent "{64A0C8691A55F98A}" {
+    m_iBaseForceSize 40
+   }
+   JWK_NamedLocationComponent "{65C2DD931B48E7EC}" {
+    m_sName "Stützpunkt Picauville Nord"
+   }
+  }
+  coords 1133.637 86.139 4258.465
+  {
+   PolylineShapeEntity : "{90B1B9EF2FCD1016}Prefabs/World/JWK_PolylineWorldZone.et" {
+    components {
+     JWK_WorldZoneComponent "{64B512D3082EC63A}" {
+      m_aTags {
+       POI_AREA
+       BATTLE_AREA
+       PLAYER_CONSTRUCTION
+      }
+     }
+    }
+    coords -0.338 0.011 -0.172
+    Points {
+     ShapePoint "{698D4280A3BFF4C5}" {
+      Position 84.41 -50.097 -175.523
+     }
+     ShapePoint "{698D4280BD79CCF0}" {
+      Position 78.242 -14.89 15.301
+     }
+     ShapePoint "{698D4280BDE0A173}" {
+      Position 37.448 -15.123 93.129
+     }
+     ShapePoint "{698D4280BE5A79A2}" {
+      Position -78.124 -22.283 70.138
+     }
+     ShapePoint "{698D4280BEDEE7C3}" {
+      Position -86.349 -16.802 -53.876
+     }
+     ShapePoint "{66834CE75C0B5CF3}" {
+      Position -11.641 -42.505 -184.045
+     }
+    }
+   }
+  }
+ }
+ MBC_Stutzpunkt_Carquebut {
+  components {
+   JWK_AIGarrisonComponent "{64A0C8691A55F98A}" {
+    m_iBaseForceSize 25
+   }
+   JWK_NamedLocationComponent "{65C2DD931B48E7EC}" {
+    m_sName "Stützpunkt Carquebut"
+   }
+  }
+  coords 290.984 47.968 3233.409
+  {
+   PolylineShapeEntity : "{90B1B9EF2FCD1016}Prefabs/World/JWK_PolylineWorldZone.et" {
+    components {
+     JWK_WorldZoneComponent "{64B512D3082EC63A}" {
+      m_aTags {
+       POI_AREA
+       BATTLE_AREA
+       PLAYER_CONSTRUCTION
+      }
+     }
+    }
+    coords 0.095 0 0.071
+    Points {
+     ShapePoint "{698D42805AF19FA9}" {
+      Position 96.251 -18.099 142.705
+     }
+     ShapePoint "{698D42805B73D9EC}" {
+      Position 63.266 -13.891 209.538
+     }
+     ShapePoint "{698D42805B0E3402}" {
+      Position -1.016 -17.565 227.599
+     }
+     ShapePoint "{698D42805457AEDC}" {
+      Position -48.144 -12.732 178.478
+     }
+     ShapePoint "{698D428055E58848}" {
+      Position -112.302 -23.666 132.752
+     }
+     ShapePoint "{698D428056687765}" {
+      Position -112.78 -20.026 58.776
+     }
+     ShapePoint "{698D428056E1019A}" {
+      Position -111.969 -20.625 -15.819
+     }
+     ShapePoint "{698D42802E8F3576}" {
+      Position -119.611 -22.789 -48.234
+     }
+     ShapePoint "{698D4280577ACB6B}" {
+      Position -113.279 -21.85 -61.91
+     }
+     ShapePoint "{698D428029F1DB5C}" {
+      Position -91.47 -22.8 -84.225
+     }
+     ShapePoint "{698D42802A42E5DA}" {
+      Position -53.85 -17.874 -99.064
+     }
+     ShapePoint "{698D428057170084}" {
+      Position 13.488 -20.93 -90.045
+     }
+     ShapePoint "{698D42805264A9B6}" {
+      Position 79.48 -26.198 -57.995
+     }
+     ShapePoint "{698D4280520A69EA}" {
+      Position 112.342 -19.727 -8.398
+     }
+     ShapePoint "{66834CE79FBDE646}" {
+      Position 99.415 -27.887 83.692
+     }
+    }
+   }
+  }
+ }
+ MBC_Stutzpunkt_PicauvilleNO {
+  components {
+   JWK_AIGarrisonComponent "{64A0C8691A55F98A}" {
+    m_iBaseForceSize 35
+   }
+   JWK_NamedLocationComponent "{65C2DD931B48E7EC}" {
+    m_sName "Stützpunkt Picauville Nord-Ouest"
+   }
+  }
+  coords 131.136 20.127 4481.854
+  {
+   PolylineShapeEntity : "{90B1B9EF2FCD1016}Prefabs/World/JWK_PolylineWorldZone.et" {
+    components {
+     JWK_WorldZoneComponent "{64B512D3082EC63A}" {
+      m_aTags {
+       POI_AREA
+       BATTLE_AREA
+       PLAYER_CONSTRUCTION
+      }
+     }
+    }
+    coords -0.041 -0.001 0.093
+    Points {
+     ShapePoint "{698D4287814092B7}" {
+      Position -81.364 -11.955 -102.353
+     }
+     ShapePoint "{698D428781A29AC9}" {
+      Position -59.947 -9.369 -134.68
+     }
+     ShapePoint "{698D428782CE78C4}" {
+      Position 6.616 -0.51 -155.572
+     }
+     ShapePoint "{698D4287837315A0}" {
+      Position 56.924 -8.848 -150.616
+     }
+     ShapePoint "{698D4287831A1242}" {
+      Position 105.142 -14.09 -152.2
+     }
+     ShapePoint "{698D4287988172FA}" {
+      Position 176.403 -18.644 -154.344
+     }
+     ShapePoint "{698D428799D2106A}" {
+      Position 179.449 -16.086 32.943
+     }
+     ShapePoint "{698D42879487CF60}" {
+      Position 176.592 -12.902 152.256
+     }
+     ShapePoint "{698D428797B0CEB8}" {
+      Position -16.236 -9.619 211.533
+     }
+     ShapePoint "{66834CE29C140DB2}" {
+      Position -81.492 -17.227 140.074
+     }
+    }
+   }
+   GenericEntity : "{CBBCD1602FF8677E}Prefabs/Controllers/Loadtime/ParkingSpot/JWK_AmbientParkingSpot.et" {
+    coords -17.565 -0.289 -33.177
+    angles 0 0 0
+   }
+  }
+ }
+ MBC_Stutzpunkt_LaRueNO {
+  components {
+   JWK_AIGarrisonComponent "{64A0C8691A55F98A}" {
+    m_iBaseForceSize 25
+   }
+   JWK_NamedLocationComponent "{65C2DD931B48E7EC}" {
+    m_sName "Stützpunkt La Rue Nord-Ouest"
+   }
+  }
+  coords 225.812 19.487 998.398
+  {
+   PolylineShapeEntity : "{90B1B9EF2FCD1016}Prefabs/World/JWK_PolylineWorldZone.et" {
+    components {
+     JWK_WorldZoneComponent "{64B512D3082EC63A}" {
+      m_aTags {
+       POI_AREA
+       BATTLE_AREA
+       PLAYER_CONSTRUCTION
+      }
+     }
+    }
+    coords 1.037 0 -1.802
+    Points {
+     ShapePoint "{698D4287FCBCDDCD}" {
+      Position 155.451 -12.467 -66.009
+     }
+     ShapePoint "{698D4287FD2F2B41}" {
+      Position 109.182 -14.815 -37.623
+     }
+     ShapePoint "{698D4287FDB383E0}" {
+      Position 102.807 -12.894 63.908
+     }
+     ShapePoint "{698D4287FE5B8A03}" {
+      Position 19.348 -13.19 103.755
+     }
+     ShapePoint "{698D4287FE0CAE06}" {
+      Position -107 -15.191 102.55
+     }
+     ShapePoint "{698D4287FE9B8552}" {
+      Position -119.938 -13.447 -12.536
+     }
+     ShapePoint "{698D4287FF3A32EC}" {
+      Position -115.766 -15.591 -154.706
+     }
+     ShapePoint "{698D4287FFA03497}" {
+      Position -62.965 -12.373 -223.075
+     }
+     ShapePoint "{698D4287F83F2B80}" {
+      Position -3.059 -9.31 -266.413
+     }
+     ShapePoint "{698D4287F8ECF47A}" {
+      Position 122.21 -7.906 -288.718
+     }
+     ShapePoint "{698D4287F8A3BA19}" {
+      Position 157.83 -9.434 -248.649
+     }
+     ShapePoint "{66BB3061A289A1F0}" {
+      Position 167.183 -13.063 -108.096
+     }
+    }
+   }
+  }
+ }
+ MBC_Stutzpunkt_PicauvilleEst {
+  components {
+   JWK_AIGarrisonComponent "{64A0C8691A55F98A}" {
+    m_iBaseForceSize 30
+   }
+   JWK_NamedLocationComponent "{65C2DD931B48E7EC}" {
+    m_sName "Stützpunkt Picauville Est"
+   }
+  }
+  coords 1806.25 51.063 2735.749
+  {
+   PolylineShapeEntity : "{90B1B9EF2FCD1016}Prefabs/World/JWK_PolylineWorldZone.et" {
+    components {
+     JWK_WorldZoneComponent "{64B512D3082EC63A}" {
+      m_aTags {
+       POI_AREA
+       BATTLE_AREA
+       PLAYER_CONSTRUCTION
+      }
+     }
+    }
+    coords -0.041 -0.001 0.093
+    Points {
+     ShapePoint "{698D428746CC8040}" {
+      Position 91.801 -2.343 -156.02
+     }
+     ShapePoint "{698D428740835AB6}" {
+      Position 103.607 -2.308 -21.826
+     }
+     ShapePoint "{698D42874122FCD6}" {
+      Position 87.932 -1.15 84.424
+     }
+     ShapePoint "{698D42874260DBE8}" {
+      Position -37.354 -2.343 160.616
+     }
+     ShapePoint "{698D428742D9F5A4}" {
+      Position -99.542 -2.287 74.752
+     }
+     ShapePoint "{698D4287437E6A40}" {
+      Position -109.244 -2.343 -59.775
+     }
+     ShapePoint "{698D42875C1B223E}" {
+      Position -57.714 -2.343 -104.29
+     }
+     ShapePoint "{66834CE29E2834A3}" {
+      Position 47.306 -2.343 -176.263
+     }
+    }
+   }
+   $grp GenericEntity : "{CBBCD1602FF8677E}Prefabs/Controllers/Loadtime/ParkingSpot/JWK_AmbientParkingSpot.et" {
+    {
+     coords 15.782 0 27.56
+     angles 0 0 0
+    }
+    {
+     coords 58.917 -2.344 -117.44
+     angles 0 0 0
+    }
+   }
+  }
+ }
+ MBC_Stutzpunkt_Brecourt {
+  components {
+   JWK_AIGarrisonComponent "{64A0C8691A55F98A}" {
+    m_iBaseForceSize 45
+   }
+   JWK_NamedLocationComponent "{65C2DD931B48E7EC}" {
+    m_sName "Stützpunkt Brécourt"
+   }
+  }
+  coords 3843.61 46.225 3397.546
+  {
+   PolylineShapeEntity : "{90B1B9EF2FCD1016}Prefabs/World/JWK_PolylineWorldZone.et" {
+    components {
+     JWK_WorldZoneComponent "{64B512D3082EC63A}" {
+      m_aTags {
+       POI_AREA
+       BATTLE_AREA
+       PLAYER_CONSTRUCTION
+      }
+     }
+    }
+    coords -0.041 -0.001 0.093
+    Points {
+     ShapePoint "{698D42871AB7E4C0}" {
+      Position -5.096 -0.052 62.543
+     }
+     ShapePoint "{698D42871B1A0BB5}" {
+      Position -17.391 1.272 33.205
+     }
+     ShapePoint "{698D42871BCE3B7A}" {
+      Position -35.573 1.254 -6.826
+     }
+     ShapePoint "{698D4287145DAD7D}" {
+      Position -54.088 -0.631 -56.722
+     }
+     ShapePoint "{698D428714F207B7}" {
+      Position -56.852 -0.735 -91.553
+     }
+     ShapePoint "{698D42871556B5FB}" {
+      Position 8.035 0.057 -106.527
+     }
+     ShapePoint "{698D42870AEC668B}" {
+      Position 18.773 0.057 -104.096
+     }
+     ShapePoint "{698D428715E85B24}" {
+      Position 31.132 0.057 -76.063
+     }
+     ShapePoint "{698D4287158159BA}" {
+      Position 43.342 0.057 -28.272
+     }
+     ShapePoint "{698D428716FA3226}" {
+      Position 74.059 -0.037 32.697
+     }
+     ShapePoint "{698D4287169337AD}" {
+      Position 63.743 -0.037 51.476
+     }
+     ShapePoint "{698D42871734F014}" {
+      Position 30.417 -0.211 77.482
+     }
+     ShapePoint "{66834CE29E2834A3}" {
+      Position -3.978 -0.364 82.784
+     }
+    }
+   }
+   GenericEntity : "{CBBCD1602FF8677E}Prefabs/Controllers/Loadtime/ParkingSpot/JWK_AmbientParkingSpot.et" {
+    coords 14.742 0.056 -84.413
+    angles 0 0 0
+   }
+  }
+ }
+ MBC_Stutzpunkt_Hubert {
+  components {
+   JWK_AIGarrisonComponent "{64A0C8691A55F98A}" {
+    m_iBaseForceSize 35
+   }
+   JWK_NamedLocationComponent "{65C2DD931B48E7EC}" {
+    m_sName "Stützpunkt Hubert"
+   }
+  }
+  coords 4262.764 41.532 4222.662
+  {
+   PolylineShapeEntity : "{90B1B9EF2FCD1016}Prefabs/World/JWK_PolylineWorldZone.et" {
+    components {
+     JWK_WorldZoneComponent "{64B512D3082EC63A}" {
+      m_aTags {
+       POI_AREA
+       BATTLE_AREA
+       PLAYER_CONSTRUCTION
+      }
+     }
+    }
+    coords -0.041 -0.001 0.093
+    Points {
+     ShapePoint "{698D428667111262}" {
+      Position 52.524 2.059 98.106
+     }
+     ShapePoint "{698D42866799941F}" {
+      Position 55.993 1.278 73.419
+     }
+     ShapePoint "{698D4286603C1C20}" {
+      Position 81.671 2.343 4.146
+     }
+     ShapePoint "{698D428660E687C4}" {
+      Position 49.132 1.061 -77.105
+     }
+     ShapePoint "{698D4286616A0428}" {
+      Position -85.557 -2.031 -72.405
+     }
+     ShapePoint "{698D428661DB9BF1}" {
+      Position -80.217 -2.125 65.796
+     }
+     ShapePoint "{698D42866273AC52}" {
+      Position -65.412 -0.54 124.273
+     }
+     ShapePoint "{66834CE2826AB452}" {
+      Position -16.946 0.314 120.497
+     }
+    }
+   }
+   GenericEntity : "{CBBCD1602FF8677E}Prefabs/Controllers/Loadtime/ParkingSpot/JWK_AmbientParkingSpot.et" {
+    coords -21.522 -1.071 86.363
+    angles 1.834 88.586 1.744
+   }
+  }
+ }
+ MBC_Stutzpunkt_Foucarville {
+  components {
+   JWK_AIGarrisonComponent "{64A0C8691A55F98A}" {
+    m_iBaseForceSize 40
+   }
+   JWK_NamedLocationComponent "{65C2DD931B48E7EC}" {
+    m_sName "Stützpunkt Foucarville"
+   }
+  }
+  coords 4433.259 4.995 2040.194
+  {
+   PolylineShapeEntity : "{90B1B9EF2FCD1016}Prefabs/World/JWK_PolylineWorldZone.et" {
+    components {
+     JWK_WorldZoneComponent "{64B512D3082EC63A}" {
+      m_aTags {
+       POI_AREA
+       BATTLE_AREA
+       PLAYER_CONSTRUCTION
+      }
+     }
+    }
+    coords -0.041 -0.001 0.093
+    Points {
+     ShapePoint "{698D42809E16D6B2}" {
+      Position -48.535 -0.869 13.92
+     }
+     ShapePoint "{698D42809F3AC804}" {
+      Position -48.268 -0.869 2.805
+     }
+     ShapePoint "{698D4280980DF06F}" {
+      Position -39.988 -0.829 -22.784
+     }
+     ShapePoint "{698D428098A58CB4}" {
+      Position -18.378 -0.63 -37.564
+     }
+     ShapePoint "{698D428099180922}" {
+      Position -8.407 0.023 -32.067
+     }
+     ShapePoint "{698D42809B4ED309}" {
+      Position 21.186 -0.27 -9.346
+     }
+     ShapePoint "{698D42809BB58E6F}" {
+      Position 15.733 -1.222 42.91
+     }
+     ShapePoint "{698D428086025747}" {
+      Position -1.545 -0.917 39.543
+     }
+     ShapePoint "{698D42809557F7B6}" {
+      Position -17.31 -0.869 40.114
+     }
+     ShapePoint "{698D428095CB682C}" {
+      Position -28.115 -0.869 35.971
+     }
+     ShapePoint "{66834CE29C140DB2}" {
+      Position -45.411 -0.869 21.612
+     }
+    }
+   }
+   GenericEntity : "{CBBCD1602FF8677E}Prefabs/Controllers/Loadtime/ParkingSpot/JWK_AmbientParkingSpot.et" {
+    coords -32.582 -0.858 -12.962
+    angles -0.619 -46.223 0.646
+   }
+  }
+ }
+ MBC_Stutzpunkt_SaintCome2 {
+  components {
+   JWK_AIGarrisonComponent "{64A0C8691A55F98A}" {
+    m_iBaseForceSize 25
+   }
+   JWK_NamedLocationComponent "{65C2DD931B48E7EC}" {
+    m_sName "Stützpunkt Saint-Côme Est"
+   }
+  }
+  coords 4405.382 46.78 3075.576
+  {
+   PolylineShapeEntity : "{90B1B9EF2FCD1016}Prefabs/World/JWK_PolylineWorldZone.et" {
+    components {
+     JWK_WorldZoneComponent "{64B512D3082EC63A}" {
+      m_aTags {
+       POI_AREA
+       BATTLE_AREA
+       PLAYER_CONSTRUCTION
+      }
+     }
+    }
+    coords 0.106 0.001 0.106
+    Points {
+     ShapePoint "{698F572C3E67597B}" {
+      Position 7.206 0.554 7.761
+     }
+     ShapePoint "{698F572C3F61C600}" {
+      Position 9.14 0.492 3.779
+     }
+     ShapePoint "{698F572C262874FE}" {
+      Position 22.089 0.7 1.536
+     }
+     ShapePoint "{698F572C3FC2DE64}" {
+      Position 40.238 0.508 3.985
+     }
+     ShapePoint "{698F572C38436208}" {
+      Position 41.424 -1.258 -25.188
+     }
+     ShapePoint "{698F572C38DB081C}" {
+      Position -12.104 -1.439 -37.883
+     }
+     ShapePoint "{698F572C388AF513}" {
+      Position -36.92 -1.216 -28.117
+     }
+     ShapePoint "{698F572C392422FA}" {
+      Position -45.294 -0.528 16.728
+     }
+     ShapePoint "{698F572C3100EBA4}" {
+      Position -39.683 -0.597 49.996
+     }
+     ShapePoint "{698D4287D178CA14}" {
+      Position -11.3 -0.265 55.357
+     }
+    }
+   }
+  }
+ }
+ MBC_Chateau_Crosville {
+  components {
+   JWK_AIGarrisonComponent "{64A0C8691A55F98A}" {
+    m_iBaseForceSize 20
+   }
+   JWK_NamedLocationComponent "{65C2DD931B48E7EC}" {
+    m_sName "Château de Crosville (abandonné)"
+   }
+  }
+  coords 573.494 48.547 1752.931
+  {
+   PolylineShapeEntity : "{90B1B9EF2FCD1016}Prefabs/World/JWK_PolylineWorldZone.et" {
+    components {
+     JWK_WorldZoneComponent "{64B512D3082EC63A}" {
+      m_aTags {
+       POI_AREA
+       BATTLE_AREA
+       PLAYER_CONSTRUCTION
+      }
+     }
+    }
+    coords 0.106 0.001 0.106
+    Points {
+     ShapePoint "{698F57281CAF4B88}" {
+      Position -38.927 -5.964 -35.296
+     }
+     ShapePoint "{698F57281D5F3CD6}" {
+      Position -23.441 -4.131 -34.475
+     }
+     ShapePoint "{698F57281D140C6F}" {
+      Position 9.169 -1.215 -31.927
+     }
+     ShapePoint "{698F57281DAAE7C8}" {
+      Position 23.053 -0.243 -17.605
+     }
+     ShapePoint "{698F57281E4A67A1}" {
+      Position 19.58 -3.865 27.11
+     }
+     ShapePoint "{698F572C392422FA}" {
+      Position -35.944 -1.422 26.88
+     }
+    }
+   }
+  }
+ }
+}

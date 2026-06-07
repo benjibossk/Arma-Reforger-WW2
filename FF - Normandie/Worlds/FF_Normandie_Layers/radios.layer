@@ -1,0 +1,130 @@
+$grp JWK_RadioSiteEntity : "{14C2550C9BBE7476}Prefabs/Controllers/Loadtime/JWK_RadioSiteController.et" {
+ RSC_Antenne_Hubert {
+  components {
+   JWK_NamedLocationComponent "{FFAA0B100000031A}" {
+    m_sName "Antenne radio Hubert"
+   }
+  }
+  coords 3209.782 45.354 3959.408
+  {
+   StaticModelEntity : "{01E409EF2B75692E}Prefabs/Modded/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_medium_base.et" {
+    coords -0.245 -0.002 -0.141
+   }
+   PolylineShapeEntity : "{90B1B9EF2FCD1016}Prefabs/World/JWK_PolylineWorldZone.et" {
+    components {
+     JWK_WorldZoneComponent "{64B512D3082EC63A}" {
+      m_aTags {
+       POI_AREA
+      }
+     }
+    }
+    coords -0.245 -0.002 -0.141
+    Points {
+     ShapePoint "{698F572F98EE324C}" {
+      Position 13.617 0.005 -17.493
+     }
+     ShapePoint "{698F572F99D137C5}" {
+      Position 9.219 -0.068 15.824
+     }
+     ShapePoint "{698F572F9A6ECD70}" {
+      Position -26.037 -0.438 5.528
+     }
+     ShapePoint "{66834CE7D2198DA0}" {
+      Position -14.615 0.412 -24.254
+     }
+    }
+   }
+  }
+ }
+ RSC_Antenne_SaintCome {
+  components {
+   JWK_NamedLocationComponent "{FFAA0B100000032A}" {
+    m_sName "Antenne radio Saint-Côme"
+   }
+  }
+  coords 2041.944 25.31 1828.388
+  {
+   StaticModelEntity : "{01E409EF2B75692E}Prefabs/Modded/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_medium_base.et" {
+    coords -0.245 -0.002 -0.141
+   }
+   PolylineShapeEntity : "{90B1B9EF2FCD1016}Prefabs/World/JWK_PolylineWorldZone.et" {
+    components {
+     JWK_WorldZoneComponent "{64B512D3082EC63A}" {
+      m_aTags {
+       POI_AREA
+      }
+     }
+    }
+    coords -0.245 -0.002 -0.141
+    Points {
+     ShapePoint "{698F572F78C7A29F}" {
+      Position -64.094 -5.508 -58.868
+     }
+     ShapePoint "{698F572F7933ACBF}" {
+      Position -104.659 -7.036 -13.969
+     }
+     ShapePoint "{698F572F79C2C175}" {
+      Position -26.958 -1.755 26.178
+     }
+     ShapePoint "{698F572F7A2758A5}" {
+      Position 19.769 -0.072 13.738
+     }
+     ShapePoint "{698F572F7BE34FE4}" {
+      Position 51.244 -3.266 -37.472
+     }
+     ShapePoint "{66834CE7D2198DA0}" {
+      Position -40.092 -4.638 -69.219
+     }
+    }
+   }
+   GenericEntity : "{CBBCD1602FF8677E}Prefabs/Controllers/Loadtime/ParkingSpot/JWK_AmbientParkingSpot.et" {
+    coords -53.564 -4.1 -31.421
+    angles 0 -33.625 0
+   }
+  }
+ }
+ RSC_Antenne_QuinevilleNE {
+  components {
+   JWK_NamedLocationComponent "{FFAA0B100000033A}" {
+    m_sName "Antenne radio Quinéville"
+   }
+  }
+  coords 3837.466 4.125 325.392
+  {
+   StaticModelEntity : "{01E409EF2B75692E}Prefabs/Modded/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_medium_base.et" {
+    coords -0.245 -0.002 -0.141
+   }
+   PolylineShapeEntity : "{90B1B9EF2FCD1016}Prefabs/World/JWK_PolylineWorldZone.et" {
+    components {
+     JWK_WorldZoneComponent "{64B512D3082EC63A}" {
+      m_aTags {
+       POI_AREA
+      }
+     }
+    }
+    coords -0.245 -0.002 -0.141
+    Points {
+     ShapePoint "{698F572F69F711C7}" {
+      Position -32.07 0.002 -9.132
+     }
+     ShapePoint "{698F572F6A7213DA}" {
+      Position 2.026 -0.157 -10.346
+     }
+     ShapePoint "{698F572F6A05CE57}" {
+      Position 25.505 -0.355 -3.351
+     }
+     ShapePoint "{698F572F6B73EC21}" {
+      Position 14.158 0.002 21.831
+     }
+     ShapePoint "{66834CE7CA914926}" {
+      Position -38.479 0.002 20.361
+     }
+    }
+   }
+   GenericEntity : "{CBBCD1602FF8677E}Prefabs/Controllers/Loadtime/ParkingSpot/JWK_AmbientParkingSpot.et" {
+    coords -12.712 -0.001 -3.257
+    angles 0 0.054 0
+   }
+  }
+ }
+}

@@ -1,0 +1,22 @@
+GameProject {
+ ID "FFNormandie"
+ GUID "672CD3AFEE5587DA"
+ TITLE "FF - Normandie"
+ Dependencies {
+  "58D0FB3206B6F859" "616D67C41B1DF93D" "CAFEBEEFF0CACC1A" "C91F4FE946AF94A8" "647804D31EC300F0"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}
