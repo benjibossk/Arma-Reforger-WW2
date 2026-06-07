@@ -761,31 +761,31 @@ AudioClass {
      SampleMetadata ""
     }
     AudioBankSampleClass "DontCall_01.snd" {
-     Filename "{28009609A2360510}Sounds/Voices/Samples/BaseVoice/DontCall_01.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/ResistanceOfficer/DONT_CALL.wav"
      Probability 100
      Index 11
      SampleMetadata ""
     }
     AudioBankSampleClass "HideoutLocationReplyA_01.snd" {
-     Filename "{40CBA0A070DCB3F4}Sounds/Voices/Samples/BaseVoice/HideoutLocationReplyA_01.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/ResistanceOfficer/HIDEOUT_OK_A.wav"
      Probability 100
      Index 12
      SampleMetadata ""
     }
     AudioBankSampleClass "HideoutLocationReplyB_02.snd" {
-     Filename "{6B025BD23299B1FC}Sounds/Voices/Samples/BaseVoice/HideoutLocationReplyB_02.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/ResistanceOfficer/HIDEOUT_OK_B.wav"
      Probability 100
      Index 13
      SampleMetadata ""
     }
     AudioBankSampleClass "HideoutLocationReplyNeg_01.snd" {
-     Filename "{07F19EEE6EB678C3}Sounds/Voices/Samples/BaseVoice/HideoutLocationReplyNeg_01.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/ResistanceOfficer/HIDEOUT_NONE.wav"
      Probability 100
      Index 14
      SampleMetadata ""
     }
     AudioBankSampleClass "PassOK_01.snd" {
-     Filename "{8A47E517B31BB6BE}Sounds/Voices/Samples/BaseVoice/PassOK_01.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/ResistanceOfficer/PASS_OK.wav"
      Probability 100
      Index 15
      SampleMetadata ""
@@ -863,25 +863,25 @@ AudioClass {
      SampleMetadata ""
     }
     AudioBankSampleClass "PhonePickupMP_01.snd" {
-     Filename "{1F91DB803E1A5071}Sounds/Voices/Samples/BaseVoice/PhonePickupMP_01.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/MilitaryPolice/MP_PHONE_PICKUP.wav"
      Probability 100
      Index 28
      SampleMetadata ""
     }
     AudioBankSampleClass "ReportResistance_01.snd" {
-     Filename "{9B82F9EF865C38CA}Sounds/Voices/Samples/BaseVoice/ReportResistance_01.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Player/MP_REPORT_RESISTANCE_01.wav"
      Probability 100
      Index 29
      SampleMetadata ""
     }
     AudioBankSampleClass "ResistanceReportReply_01.snd" {
-     Filename "{2B64DE4FC20A2EA6}Sounds/Voices/Samples/BaseVoice/ResistanceReportReply_01.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/MilitaryPolice/MP_RESISTANCE_REPORT_REPLY.wav"
      Probability 100
      Index 30
      SampleMetadata ""
     }
     AudioBankSampleClass "AskJob_01.snd" {
-     Filename "{CA77557EF17F400A}Sounds/Voices/Samples/BaseVoice/AskJob_01.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Player/RO_ASK_JOB.wav"
      Probability 100
      Index 31
      SampleMetadata ""
@@ -899,115 +899,115 @@ AudioClass {
      SampleMetadata ""
     }
     AudioBankSampleClass "JobReplyNeg_01.snd" {
-     Filename "{9D783DDF793DC342}Sounds/Voices/Samples/BaseVoice/JobReplyNeg_01.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/ResistanceOfficer/JOB_NONE.wav"
      Probability 100
      Index 34
      SampleMetadata ""
     }
     AudioBankSampleClass "JobReplyOkCache_01.snd" {
-     Filename "{F0E134CE2F11236A}Sounds/Voices/Samples/BaseVoice/JobReplyOkCache_01.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/ResistanceOfficer/JOB_DEAD_DROP.wav"
      Probability 100
      Index 35
      SampleMetadata ""
     }
     AudioBankSampleClass "JobReplyOkMeet_01.snd" {
-     Filename "{E4611F40A2FC30CC}Sounds/Voices/Samples/BaseVoice/JobReplyOkMeet_01.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/ResistanceOfficer/JOB_MEET.wav"
      Probability 100
      Index 36
      SampleMetadata ""
     }
     AudioBankSampleClass "JobReplyOkNotes_01.snd" {
-     Filename "{B7F48B58F340AAA1}Sounds/Voices/Samples/BaseVoice/JobReplyOkNotes_01.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/ResistanceOfficer/JOB_GIVE_NOTE.wav"
      Probability 100
      Index 37
      SampleMetadata ""
     }
     AudioBankSampleClass "JobReportOk_01.snd" {
-     Filename "{105F092BFBBFDAFD}Sounds/Voices/Samples/BaseVoice/JobReportOk_01.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/ResistanceOfficer/JOB_REPORT_OK.wav"
      Probability 100
      Index 38
      SampleMetadata ""
     }
     AudioBankSampleClass "RadioCalloutAnswer_01.snd" {
-     Filename "{60A71C074E56FC64}Sounds/Voices/Samples/BaseVoice/RadioCalloutAnswer_01.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/ResistanceOfficer/RADIO_CALLOUT_ANSWER.wav"
      Probability 100
      Index 39
      SampleMetadata ""
     }
     AudioBankSampleClass "RadioCalloutTail_01.snd" {
-     Filename "{3BFB38ABC72BF1FA}Sounds/Voices/Samples/BaseVoice/RadioCalloutTail_01.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Default/RADIO_CALLOUT_TAIL.wav"
      Probability 100
      Index 40
      SampleMetadata ""
     }
     AudioBankSampleClass "JobDoReport_01.snd" {
-     Filename "{ECBD47D746D05938}Sounds/Voices/Samples/FIA03/JobDoReport_01.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Player/JOB_REPORT_DONE_01.wav"
      Probability 100
      Index 41
      SampleMetadata ""
     }
     AudioBankSampleClass "Q_Intro_PlayerGreet.snd" {
-     Filename "{4AD92CF3883BCB74}Sounds/Voices/Samples/FIA03/Q_Intro_PlayerGreet.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Player/Q_PL_INTRO_1.wav"
      Probability 100
      Index 42
      SampleMetadata ""
     }
     AudioBankSampleClass "Q_Intro_RO_1.snd" {
-     Filename "{910305974B6DE9E4}Sounds/Voices/Samples/FIA02/Q_Intro_RO_1.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/ResistanceOfficerQuests/Q_RO_INTRO_1.wav"
      Probability 100
      Index 43
      SampleMetadata ""
     }
     AudioBankSampleClass "Q_Posters_RO_1.snd" {
-     Filename "{92860C115C064BB7}Sounds/Voices/Samples/FIA02/Q_Posters_RO_1.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/ResistanceOfficerQuests/Q_RO_POSTERS_1.wav"
      Probability 100
      Index 44
      SampleMetadata ""
     }
     AudioBankSampleClass "Q_Posters_RO_2.snd" {
-     Filename "{0B98B58841E17A27}Sounds/Voices/Samples/FIA02/Q_Posters_RO_2.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/ResistanceOfficerQuests/Q_RO_POSTERS_2.wav"
      Probability 100
      Index 45
      SampleMetadata ""
     }
     AudioBankSampleClass "Q_Posters_RO_3.snd" {
-     Filename "{7C92DD00B5439557}Sounds/Voices/Samples/FIA02/Q_Posters_RO_3.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/ResistanceOfficerQuests/Q_RO_POSTERS_3.wav"
      Probability 100
      Index 46
      SampleMetadata ""
     }
     AudioBankSampleClass "JobReportBackInPerson_01.snd" {
-     Filename "{69A7925C285846DF}Sounds/Voices/Samples/FIA02/JobReportBackInPerson_01.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/ResistanceOfficer/JOB_REQ_REPORT_PERSON.wav"
      Probability 100
      Index 47
      SampleMetadata ""
     }
     AudioBankSampleClass "AskForPosters.snd" {
-     Filename "{AFAC3A0DD0486799}Sounds/Voices/Samples/BaseVoice/AskForPosters.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Player/POSTERS_ASK.wav"
      Probability 100
      Index 48
      SampleMetadata ""
     }
     AudioBankSampleClass "AskPoster_AlreadyHave.snd" {
-     Filename "{05D1FF05EB1EF550}Sounds/Voices/Samples/BaseVoice/AskPoster_AlreadyHave.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/ResistanceOfficer/POSTERS_ALREADY_HAVE.wav"
      Probability 100
      Index 49
      SampleMetadata ""
     }
     AudioBankSampleClass "AskPoster_ComeLater.snd" {
-     Filename "{D859F969BB1FF59C}Sounds/Voices/Samples/BaseVoice/AskPoster_ComeLater.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/ResistanceOfficer/POSTERS_COME_LATER.wav"
      Probability 100
      Index 50
      SampleMetadata ""
     }
     AudioBankSampleClass "AskPoster_NoSpace.snd" {
-     Filename "{7D1F410E4BFB1AF4}Sounds/Voices/Samples/BaseVoice/AskPoster_NoSpace.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/ResistanceOfficer/POSTERS_NO_SPACE.wav"
      Probability 100
      Index 51
      SampleMetadata ""
     }
     AudioBankSampleClass "AskPoster_OK.snd" {
-     Filename "{D08C8AC2CFF97B34}Sounds/Voices/Samples/BaseVoice/AskPoster_OK.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/ResistanceOfficer/POSTERS_OK.wav"
      Probability 100
      Index 52
      SampleMetadata ""
@@ -1133,223 +1133,223 @@ AudioClass {
      SampleMetadata ""
     }
     AudioBankSampleClass "ConvertSupporter_01.snd" {
-     Filename "{C0C59BFC52053CAE}Sounds/Voices/Samples/BaseVoice/ConvertSupporter_01.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Player/CIV_CONVERT_01.wav"
      Probability 100
      Index 73
      SampleMetadata ""
     }
     AudioBankSampleClass "ConvertSupporter_02.snd" {
-     Filename "{59DB22654FE20D3E}Sounds/Voices/Samples/BaseVoice/ConvertSupporter_02.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Player/CIV_CONVERT_02.wav"
      Probability 100
      Index 74
      SampleMetadata ""
     }
     AudioBankSampleClass "ConvertSupporter_03.snd" {
-     Filename "{2ED14AEDBB40E24E}Sounds/Voices/Samples/BaseVoice/ConvertSupporter_03.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Player/CIV_CONVERT_03.wav"
      Probability 100
      Index 75
      SampleMetadata ""
     }
     AudioBankSampleClass "ConvertSupporter_04.snd" {
-     Filename "{2916B0BCDDC6588D}Sounds/Voices/Samples/BaseVoice/ConvertSupporter_04.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Player/CIV_CONVERT_04.wav"
      Probability 100
      Index 76
      SampleMetadata ""
     }
     AudioBankSampleClass "ConvertSupporter_05.snd" {
-     Filename "{5E1CD8342964B7FD}Sounds/Voices/Samples/BaseVoice/ConvertSupporter_05.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Player/CIV_CONVERT_05.wav"
      Probability 100
      Index 77
      SampleMetadata ""
     }
     AudioBankSampleClass "ConvertSupporter_06.snd" {
-     Filename "{C70261AD3483866D}Sounds/Voices/Samples/BaseVoice/ConvertSupporter_06.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Player/CIV_CONVERT_06.wav"
      Probability 100
      Index 78
      SampleMetadata ""
     }
     AudioBankSampleClass "ConvertSupporter_07.snd" {
-     Filename "{B0080925C021691D}Sounds/Voices/Samples/BaseVoice/ConvertSupporter_07.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Player/CIV_CONVERT_07.wav"
      Probability 100
      Index 79
      SampleMetadata ""
     }
     AudioBankSampleClass "ConvertSupporter_08.snd" {
-     Filename "{C88D950FF98EF3EB}Sounds/Voices/Samples/BaseVoice/ConvertSupporter_08.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Player/CIV_CONVERT_08.wav"
      Probability 100
      Index 80
      SampleMetadata ""
     }
     AudioBankSampleClass "ConvertSupporter_09.snd" {
-     Filename "{BF87FD870D2C1C9B}Sounds/Voices/Samples/BaseVoice/ConvertSupporter_09.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Player/CIV_CONVERT_09.wav"
      Probability 100
      Index 81
      SampleMetadata ""
     }
     AudioBankSampleClass "ConvertSupporter_10.snd" {
-     Filename "{43C7B4ECAB7ABBAA}Sounds/Voices/Samples/BaseVoice/ConvertSupporter_10.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Player/CIV_CONVERT_10.wav"
      Probability 100
      Index 82
      SampleMetadata ""
     }
     AudioBankSampleClass "ExtortCivilian_01.snd" {
-     Filename "{CE5D438921934E74}Sounds/Voices/Samples/BaseVoice/ExtortCivilian_01.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Player/CIV_EXTORT_01.wav"
      Probability 100
      Index 83
      SampleMetadata ""
     }
     AudioBankSampleClass "ExtortCivilian_02.snd" {
-     Filename "{5743FA103C747FE4}Sounds/Voices/Samples/BaseVoice/ExtortCivilian_02.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Player/CIV_EXTORT_02.wav"
      Probability 100
      Index 84
      SampleMetadata ""
     }
     AudioBankSampleClass "ExtortCivilian_03.snd" {
-     Filename "{20499298C8D69094}Sounds/Voices/Samples/BaseVoice/ExtortCivilian_03.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Player/CIV_EXTORT_03.wav"
      Probability 100
      Index 85
      SampleMetadata ""
     }
     AudioBankSampleClass "ExtortCivilian_04.snd" {
-     Filename "{278E68C9AE502A57}Sounds/Voices/Samples/BaseVoice/ExtortCivilian_04.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Player/CIV_EXTORT_04.wav"
      Probability 100
      Index 86
      SampleMetadata ""
     }
     AudioBankSampleClass "ExtortCivilian_05.snd" {
-     Filename "{508400415AF2C527}Sounds/Voices/Samples/BaseVoice/ExtortCivilian_05.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Player/CIV_EXTORT_05.wav"
      Probability 100
      Index 87
      SampleMetadata ""
     }
     AudioBankSampleClass "ExtortCivilianNeg_01.snd" {
-     Filename "{058793B763907797}Sounds/Voices/Samples/BaseVoice/ExtortCivilianNeg_01.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/AmbientCivilian/EXTORT_NEG_01.wav"
      Probability 100
      Index 88
      SampleMetadata ""
     }
     AudioBankSampleClass "ExtortCivilianNeg_02.snd" {
-     Filename "{9C992A2E7E774607}Sounds/Voices/Samples/BaseVoice/ExtortCivilianNeg_02.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/AmbientCivilian/EXTORT_NEG_02.wav"
      Probability 100
      Index 89
      SampleMetadata ""
     }
     AudioBankSampleClass "ExtortCivilianNeg_03.snd" {
-     Filename "{EB9342A68AD5A977}Sounds/Voices/Samples/BaseVoice/ExtortCivilianNeg_03.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/AmbientCivilian/EXTORT_NEG_03.wav"
      Probability 100
      Index 90
      SampleMetadata ""
     }
     AudioBankSampleClass "ExtortCivilianNeg_04.snd" {
-     Filename "{EC54B8F7EC5313B4}Sounds/Voices/Samples/BaseVoice/ExtortCivilianNeg_04.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/AmbientCivilian/EXTORT_NEG_04.wav"
      Probability 100
      Index 91
      SampleMetadata ""
     }
     AudioBankSampleClass "ExtortCivilianNeg_05.snd" {
-     Filename "{9B5ED07F18F1FCC4}Sounds/Voices/Samples/BaseVoice/ExtortCivilianNeg_05.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/AmbientCivilian/EXTORT_NEG_05.wav"
      Probability 100
      Index 92
      SampleMetadata ""
     }
     AudioBankSampleClass "ExtortCivilianOK_01.snd" {
-     Filename "{359EE21724C11AE7}Sounds/Voices/Samples/BaseVoice/ExtortCivilianOK_01.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/AmbientCivilian/EXTORT_OK_01.wav"
      Probability 100
      Index 93
      SampleMetadata ""
     }
     AudioBankSampleClass "ExtortCivilianOK_02.snd" {
-     Filename "{AC805B8E39262B77}Sounds/Voices/Samples/BaseVoice/ExtortCivilianOK_02.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/AmbientCivilian/EXTORT_OK_02.wav"
      Probability 100
      Index 94
      SampleMetadata ""
     }
     AudioBankSampleClass "ExtortCivilianOK_03.snd" {
-     Filename "{DB8A3306CD84C407}Sounds/Voices/Samples/BaseVoice/ExtortCivilianOK_03.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/AmbientCivilian/EXTORT_OK_03.wav"
      Probability 100
      Index 95
      SampleMetadata ""
     }
     AudioBankSampleClass "ExtortCivilianOK_04.snd" {
-     Filename "{DC4DC957AB027EC4}Sounds/Voices/Samples/BaseVoice/ExtortCivilianOK_04.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/AmbientCivilian/EXTORT_OK_04.wav"
      Probability 100
      Index 96
      SampleMetadata ""
     }
     AudioBankSampleClass "ExtortCivilianResistance_01.snd" {
-     Filename "{EEA00D0DA5529D3A}Sounds/Voices/Samples/BaseVoice/ExtortCivilianResistance_01.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/AmbientCivilian/EXTORT_RES_01.wav"
      Probability 100
      Index 97
      SampleMetadata ""
     }
     AudioBankSampleClass "ExtortCivilianResistance_02.snd" {
-     Filename "{77BEB494B8B5ACAA}Sounds/Voices/Samples/BaseVoice/ExtortCivilianResistance_02.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/AmbientCivilian/EXTORT_RES_02.wav"
      Probability 100
      Index 98
      SampleMetadata ""
     }
     AudioBankSampleClass "ExtortCivilianUndercover_01.snd" {
-     Filename "{2754469A659C432F}Sounds/Voices/Samples/BaseVoice/ExtortCivilianUndercover_01.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/AmbientCivilian/EXTORT_UND_01.wav"
      Probability 100
      Index 99
      SampleMetadata ""
     }
     AudioBankSampleClass "ExtortCivilianUndercover_02.snd" {
-     Filename "{BE4AFF03787B72BF}Sounds/Voices/Samples/BaseVoice/ExtortCivilianUndercover_02.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/AmbientCivilian/EXTORT_UND_02.wav"
      Probability 100
      Index 100
      SampleMetadata ""
     }
     AudioBankSampleClass "Q_Dogtags_PL_1.snd" {
-     Filename "{F68B9C8B46AAE3A2}Sounds/Voices/Samples/BaseVoice/Q_Dogtags_PL_1.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Player/Q_PL_DOGTAGS_1.wav"
      Probability 100
      Index 101
      SampleMetadata ""
     }
     AudioBankSampleClass "Q_Dogtags_RO_1.snd" {
-     Filename "{20B4B0749A79CD35}Sounds/Voices/Samples/BaseVoice/Q_Dogtags_RO_1.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/ResistanceOfficerQuests/Q_RO_DOGTAGS_1.wav"
      Probability 100
      Index 102
      SampleMetadata ""
     }
     AudioBankSampleClass "Q_Dogtags_RO_2.snd" {
-     Filename "{B9AA09ED879EFCA5}Sounds/Voices/Samples/BaseVoice/Q_Dogtags_RO_2.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/ResistanceOfficerQuests/Q_RO_DOGTAGS_2.wav"
      Probability 100
      Index 103
      SampleMetadata ""
     }
     AudioBankSampleClass "Q_Dogtags_RO_3.snd" {
-     Filename "{CEA06165733C13D5}Sounds/Voices/Samples/BaseVoice/Q_Dogtags_RO_3.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/ResistanceOfficerQuests/Q_RO_DOGTAGS_3.wav"
      Probability 100
      Index 104
      SampleMetadata ""
     }
     AudioBankSampleClass "Q_Dogtags_RO_4.snd" {
-     Filename "{C9679B3415BAA916}Sounds/Voices/Samples/BaseVoice/Q_Dogtags_RO_4.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/ResistanceOfficerQuests/Q_RO_DOGTAGS_4.wav"
      Probability 100
      Index 105
      SampleMetadata ""
     }
     AudioBankSampleClass "Q_Dogtags_RO_5.snd" {
-     Filename "{BE6DF3BCE1184666}Sounds/Voices/Samples/BaseVoice/Q_Dogtags_RO_5.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/ResistanceOfficerQuests/Q_RO_DOGTAGS_5.wav"
      Probability 100
      Index 106
      SampleMetadata ""
     }
     AudioBankSampleClass "Q_Fob_RO_1.snd" {
-     Filename "{12D3ED41AF601D9B}Sounds/Voices/Samples/BaseVoice/Q_Fob_RO_1.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/ResistanceOfficerQuests/Q_RO_FOB_1.wav"
      Probability 100
      Index 107
      SampleMetadata ""
     }
     AudioBankSampleClass "Q_Fob_RO_2.snd" {
-     Filename "{8BCD54D8B2872C0B}Sounds/Voices/Samples/BaseVoice/Q_Fob_RO_2.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/ResistanceOfficerQuests/Q_RO_FOB_2.wav"
      Probability 100
      Index 108
      SampleMetadata ""
     }
     AudioBankSampleClass "Q_Fob_RO_3.snd" {
-     Filename "{FCC73C504625C37B}Sounds/Voices/Samples/BaseVoice/Q_Fob_RO_3.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/ResistanceOfficerQuests/Q_RO_FOB_3.wav"
      Probability 100
      Index 109
      SampleMetadata ""
@@ -1397,13 +1397,13 @@ AudioClass {
      SampleMetadata ""
     }
     AudioBankSampleClass "TalkNoPants_01.snd" {
-     Filename "{C59852E55F1B1B30}Sounds/Voices/Samples/BaseVoice/TalkNoPants_01.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/AmbientCivilian/NO_PANTS_01.wav"
      Probability 100
      Index 117
      SampleMetadata ""
     }
     AudioBankSampleClass "TalkNoPants_02.snd" {
-     Filename "{5C86EB7C42FC2AA0}Sounds/Voices/Samples/BaseVoice/TalkNoPants_02.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/AmbientCivilian/NO_PANTS_02.wav"
      Probability 100
      Index 118
      SampleMetadata ""
@@ -1427,43 +1427,43 @@ AudioClass {
      SampleMetadata ""
     }
     AudioBankSampleClass "RO_JobResign_01.snd" {
-     Filename "{1C7BC47056CA1E91}Sounds/Voices/Samples/BaseVoice/RO_JobResign_01.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/ResistanceOfficerJobs/J_RO_JOB_RESIGN_01.wav"
      Probability 100
      Index 122
      SampleMetadata ""
     }
     AudioBankSampleClass "RO_JobResign_02.snd" {
-     Filename "{85657DE94B2D2F01}Sounds/Voices/Samples/BaseVoice/RO_JobResign_02.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/ResistanceOfficerJobs/J_RO_JOB_RESIGN_02.wav"
      Probability 100
      Index 123
      SampleMetadata ""
     }
     AudioBankSampleClass "RO_JobResign_03.snd" {
-     Filename "{F26F1561BF8FC071}Sounds/Voices/Samples/BaseVoice/RO_JobResign_03.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/ResistanceOfficerJobs/J_RO_JOB_RESIGN_03.wav"
      Probability 100
      Index 124
      SampleMetadata ""
     }
     AudioBankSampleClass "RO_JobDeliverItem1.snd" {
-     Filename "{D97DFD0DECEA6C81}Sounds/Voices/Samples/BaseVoice/RO_JobDeliverItem1.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/ResistanceOfficerJobs/J_RO_NEW_DELIVER_ITEM.wav"
      Probability 100
      Index 125
      SampleMetadata ""
     }
     AudioBankSampleClass "J_DeliverItem_OK_01.snd" {
-     Filename "{B937111D9ECCDFD5}Sounds/Voices/Samples/BaseVoice/J_DeliverItem_OK_01.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/ResistanceOperative/DELIVER_ITEM_OK.wav"
      Probability 100
      Index 126
      SampleMetadata ""
     }
     AudioBankSampleClass "LiberatePrisoner_01.snd" {
-     Filename "{0330B3A6F68A51FD}Sounds/Voices/Samples/BaseVoice/LiberatePrisoner_01.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Player/LIBERATE_CALL_01.wav"
      Probability 100
      Index 127
      SampleMetadata ""
     }
     AudioBankSampleClass "LiberatePrisoner_02.snd" {
-     Filename "{9A2E0A3FEB6D606D}Sounds/Voices/Samples/BaseVoice/LiberatePrisoner_02.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Player/LIBERATE_CALL_02.wav"
      Probability 100
      Index 128
      SampleMetadata ""
@@ -1481,13 +1481,13 @@ AudioClass {
      SampleMetadata ""
     }
     AudioBankSampleClass "StopFollow_01.snd" {
-     Filename "{427EEFBF9DAC031E}Sounds/Voices/Samples/BaseVoice/StopFollow_01.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/PlayerActions/ASK_STOP_FOLLOW_01.wav"
      Probability 100
      Index 131
      SampleMetadata ""
     }
     AudioBankSampleClass "StopFollow_02.snd" {
-     Filename "{DB605626804B328E}Sounds/Voices/Samples/BaseVoice/StopFollow_02.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/PlayerActions/ASK_STOP_FOLLOW_02.wav"
      Probability 100
      Index 132
      SampleMetadata ""
