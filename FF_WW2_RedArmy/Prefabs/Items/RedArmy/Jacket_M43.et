@@ -1,0 +1,8 @@
+GenericEntity : "{696D2789DA813345}Prefabs/Characters/Uniforms/Jacket_M43.et" {
+ ID "B535C92034393753"
+ components {
+  SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
+   "faction affiliation" "RED_ARMY"
+  }
+ }
+}

@@ -1,0 +1,8 @@
+GenericEntity : "{5F04139AD86CE1E6}Prefabs/Characters/Vests/Stg44 Vest/STG vest SS.et" {
+ ID "FCD45DECDB72365F"
+ components {
+  SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
+   "faction affiliation" "WEHRMACHT"
+  }
+ }
+}

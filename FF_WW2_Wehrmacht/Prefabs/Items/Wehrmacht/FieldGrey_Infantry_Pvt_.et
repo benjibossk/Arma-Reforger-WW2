@@ -1,0 +1,8 @@
+GenericEntity : "{4B2AE77C9A5481C6}Prefabs/Characters/Uniforms/M43 Jacket/Fieldgray/Infantry/FieldGrey Infantry Pvt .et" {
+ ID "14E108EDA29B52D1"
+ components {
+  SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
+   "faction affiliation" "WEHRMACHT"
+  }
+ }
+}

@@ -1,0 +1,8 @@
+GenericEntity : "{69713EEF88AEB163}Prefabs/Weapons/Magazines/G43/Magazine_792x57_G43_10rnd_Ball_OO.et" {
+ ID "71A0B61BB31FB9C3"
+ components {
+  SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
+   "faction affiliation" "WEHRMACHT"
+  }
+ }
+}

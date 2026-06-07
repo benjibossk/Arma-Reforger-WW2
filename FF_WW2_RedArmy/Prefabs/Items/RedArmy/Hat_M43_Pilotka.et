@@ -1,0 +1,8 @@
+GenericEntity : "{696D2789DA813345}Prefabs/Characters/HeadGear/Hat_M88_01/Hat_M43_Pilotka.et" {
+ ID "D3ED66FECB6BBEC3"
+ components {
+  SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
+   "faction affiliation" "RED_ARMY"
+  }
+ }
+}

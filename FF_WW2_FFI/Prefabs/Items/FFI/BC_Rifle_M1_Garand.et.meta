@@ -1,0 +1,11 @@
+MetaFileClass {
+ Name "{A48E7BD551F83BBD}Prefabs/Items/FFI/BC_Rifle_M1_Garand.et"
+ Configurations {
+  EntityTemplateResourceClass PC {}
+  EntityTemplateResourceClass XBOX_ONE : PC {}
+  EntityTemplateResourceClass XBOX_SERIES : PC {}
+  EntityTemplateResourceClass PS4 : PC {}
+  EntityTemplateResourceClass PS5 : PC {}
+  EntityTemplateResourceClass HEADLESS : PC {}
+ }
+}

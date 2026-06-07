@@ -1,0 +1,8 @@
+GenericEntity : "{6982459DD20FAAAF}Prefabs/Weapons/Rifles/VZ58/M1A1_PARA.et" {
+ ID "35BD5E55B5B85065"
+ components {
+  SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
+   "faction affiliation" "US_WW2"
+  }
+ }
+}

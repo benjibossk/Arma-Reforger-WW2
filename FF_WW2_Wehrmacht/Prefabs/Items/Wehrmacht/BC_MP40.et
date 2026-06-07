@@ -1,0 +1,8 @@
+GenericEntity : "{BFE79C383ABDE6D2}Prefabs/Weapons/Rifles/MP40/BC_MP40.et" {
+ ID "5FBBC29139270E17"
+ components {
+  SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
+   "faction affiliation" "WEHRMACHT"
+  }
+ }
+}

@@ -1,0 +1,8 @@
+GenericEntity : "{61BD6595183FCEBD}Prefabs/Weapons/Rifles/Mosin/BC_Rifle_Mosin_Nagant_9130.et" {
+ ID "19E91B8B9B9D6772"
+ components {
+  SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
+   "faction affiliation" "RED_ARMY"
+  }
+ }
+}

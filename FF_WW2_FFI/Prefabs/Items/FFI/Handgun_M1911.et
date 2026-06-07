@@ -1,0 +1,8 @@
+GenericEntity : "{6982459DD20FAAAF}Prefabs/Weapons/Handguns/M1911a1/Handgun_M1911.et" {
+ ID "03484732AB058E3A"
+ components {
+  SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
+   "faction affiliation" "FFI"
+  }
+ }
+}

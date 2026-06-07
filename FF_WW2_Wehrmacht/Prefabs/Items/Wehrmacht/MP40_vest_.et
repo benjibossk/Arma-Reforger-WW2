@@ -1,0 +1,8 @@
+GenericEntity : "{5F04139AD86CE1E6}Prefabs/Characters/Vests/Mp40 Vest/MP40 vest .et" {
+ ID "34084CAB263BA710"
+ components {
+  SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
+   "faction affiliation" "WEHRMACHT"
+  }
+ }
+}

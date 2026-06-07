@@ -1,0 +1,8 @@
+GenericEntity : "{697A574590311DA1}Prefabs/Weapons/Rifles/VZ58/PTRD41.et" {
+ ID "DD934AF266B8FE6E"
+ components {
+  SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
+   "faction affiliation" "RED_ARMY"
+  }
+ }
+}

@@ -1,0 +1,8 @@
+GenericEntity : "{69713EEF88AEB163}Prefabs/Weapons/Rifles/G43/Rifle_G43_OO.et" {
+ ID "EDAC044EEACE9465"
+ components {
+  SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
+   "faction affiliation" "WEHRMACHT"
+  }
+ }
+}

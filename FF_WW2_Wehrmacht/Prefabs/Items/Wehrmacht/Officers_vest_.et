@@ -1,0 +1,8 @@
+GenericEntity : "{5F04139AD86CE1E6}Prefabs/Characters/Vests/Officers Vest/Officers vest .et" {
+ ID "CBD7FC437BF12027"
+ components {
+  SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
+   "faction affiliation" "WEHRMACHT"
+  }
+ }
+}

@@ -1,0 +1,11 @@
+MetaFileClass {
+ Name "{CBFF32497A305BBB}Prefabs/Items/USArmy/Helmet_M1_WW2_1stLt.et"
+ Configurations {
+  EntityTemplateResourceClass PC {}
+  EntityTemplateResourceClass XBOX_ONE : PC {}
+  EntityTemplateResourceClass XBOX_SERIES : PC {}
+  EntityTemplateResourceClass PS4 : PC {}
+  EntityTemplateResourceClass PS5 : PC {}
+  EntityTemplateResourceClass HEADLESS : PC {}
+ }
+}

@@ -1,0 +1,8 @@
+GenericEntity : "{69713EEF88AEB163}Prefabs/Weapons/MachineGuns/FG42/Rifle_FG42_OO.et" {
+ ID "B8678CD1A47FCB76"
+ components {
+  SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
+   "faction affiliation" "WEHRMACHT"
+  }
+ }
+}

@@ -1,0 +1,8 @@
+GenericEntity : "{5D838074E66C006C}Prefabs/Weapons/MachineGuns/M60/MG_MG34.et" {
+ ID "C2C44ED3A6B45579"
+ components {
+  SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
+   "faction affiliation" "WEHRMACHT"
+  }
+ }
+}

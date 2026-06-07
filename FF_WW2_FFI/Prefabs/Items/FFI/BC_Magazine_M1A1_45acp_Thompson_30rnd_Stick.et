@@ -1,0 +1,8 @@
+GenericEntity : "{60E6F54E174C53C5}Prefabs/Weapons/Magazines/Thompson/BC_Magazine_M1A1_45acp_Thompson_30rnd_Stick.et" {
+ ID "F1EEA7455C2FC202"
+ components {
+  SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
+   "faction affiliation" "FFI"
+  }
+ }
+}

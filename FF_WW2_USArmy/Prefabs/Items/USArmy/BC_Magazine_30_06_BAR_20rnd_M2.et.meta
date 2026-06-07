@@ -1,0 +1,11 @@
+MetaFileClass {
+ Name "{C4E80C88FE03043E}Prefabs/Items/USArmy/BC_Magazine_30_06_BAR_20rnd_M2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {}
+  EntityTemplateResourceClass XBOX_ONE : PC {}
+  EntityTemplateResourceClass XBOX_SERIES : PC {}
+  EntityTemplateResourceClass PS4 : PC {}
+  EntityTemplateResourceClass PS5 : PC {}
+  EntityTemplateResourceClass HEADLESS : PC {}
+ }
+}

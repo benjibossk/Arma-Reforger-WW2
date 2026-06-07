@@ -1,0 +1,11 @@
+MetaFileClass {
+ Name "{37DD2F21ADB23B0E}Prefabs/Items/FFI/BC_Rifle_Mosin_Nagant_9130_PU.et"
+ Configurations {
+  EntityTemplateResourceClass PC {}
+  EntityTemplateResourceClass XBOX_ONE : PC {}
+  EntityTemplateResourceClass XBOX_SERIES : PC {}
+  EntityTemplateResourceClass PS4 : PC {}
+  EntityTemplateResourceClass PS5 : PC {}
+  EntityTemplateResourceClass HEADLESS : PC {}
+ }
+}

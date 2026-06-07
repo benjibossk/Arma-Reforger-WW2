@@ -1,0 +1,8 @@
+GenericEntity : "{60E6F54E174C53C5}Prefabs/Characters/Uniforms/Jacket_Suit_01/BC_Jacket_Suit_01_black_V1.et" {
+ ID "967BD0F6CF421212"
+ components {
+  SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
+   "faction affiliation" "FFI"
+  }
+ }
+}

@@ -1,0 +1,8 @@
+GenericEntity : "{0C66741E8B41E731}Prefabs/Characters/Uniforms/M43 Pants/M43 Pants Boots/Pants Boots fieldgray.et" {
+ ID "FEF3D163A06DD887"
+ components {
+  SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
+   "faction affiliation" "WEHRMACHT"
+  }
+ }
+}

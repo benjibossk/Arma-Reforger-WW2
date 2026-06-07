@@ -1,0 +1,8 @@
+GenericEntity : "{B3B3037EA7AB1DC7}Prefabs/Characters/Vests/Kar 98 Vest/Kar 98 vest.et" {
+ ID "2E95105D00A10EB3"
+ components {
+  SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
+   "faction affiliation" "FFI"
+  }
+ }
+}

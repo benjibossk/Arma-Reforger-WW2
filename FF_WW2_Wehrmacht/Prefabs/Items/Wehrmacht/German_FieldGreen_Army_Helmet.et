@@ -1,0 +1,8 @@
+GenericEntity : "{78EA818BAF11757B}Prefabs/Characters/HeadGear/Sthalhiem/Field green/Army/German FieldGreen Army Helmet.et" {
+ ID "DE6FB3C06623889B"
+ components {
+  SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
+   "faction affiliation" "WEHRMACHT"
+  }
+ }
+}

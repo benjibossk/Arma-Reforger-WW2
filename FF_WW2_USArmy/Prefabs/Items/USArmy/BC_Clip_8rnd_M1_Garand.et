@@ -1,0 +1,8 @@
+GenericEntity : "{62A711001B8FDEEA}Prefabs/Weapons/Magazines/M1 Garand/BC_Clip_8rnd_M1_Garand.et" {
+ ID "AF28FEC44240507A"
+ components {
+  SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
+   "faction affiliation" "US_WW2"
+  }
+ }
+}

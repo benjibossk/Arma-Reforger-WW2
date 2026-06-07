@@ -1,0 +1,11 @@
+MetaFileClass {
+ Name "{F238FD4EF005D08F}Prefabs/Items/Wehrmacht/OO_Magazine_792x57_Stripper_5rnd_Kar98k.et"
+ Configurations {
+  EntityTemplateResourceClass PC {}
+  EntityTemplateResourceClass XBOX_ONE : PC {}
+  EntityTemplateResourceClass XBOX_SERIES : PC {}
+  EntityTemplateResourceClass PS4 : PC {}
+  EntityTemplateResourceClass PS5 : PC {}
+  EntityTemplateResourceClass HEADLESS : PC {}
+ }
+}

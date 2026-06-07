@@ -1,0 +1,11 @@
+MetaFileClass {
+ Name "{D01FDA295ED5F0E6}Prefabs/Items/FFI/Magazine_1143x23_7rnd_Ball_OO.et"
+ Configurations {
+  EntityTemplateResourceClass PC {}
+  EntityTemplateResourceClass XBOX_ONE : PC {}
+  EntityTemplateResourceClass XBOX_SERIES : PC {}
+  EntityTemplateResourceClass PS4 : PC {}
+  EntityTemplateResourceClass PS5 : PC {}
+  EntityTemplateResourceClass HEADLESS : PC {}
+ }
+}

@@ -1,0 +1,8 @@
+GenericEntity : "{5EE4E278D8EF2466}Prefabs/Characters/Uniforms/Gi Gear/Tempurate/5th Grade/GI E4.et" {
+ ID "E52B5647B85347ED"
+ components {
+  SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
+   "faction affiliation" "US_WW2"
+  }
+ }
+}

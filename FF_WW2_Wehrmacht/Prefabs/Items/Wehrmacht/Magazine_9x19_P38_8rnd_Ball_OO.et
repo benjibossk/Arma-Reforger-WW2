@@ -1,0 +1,8 @@
+GenericEntity : "{315028DA7FB3851F}Prefabs/Weapons/Magazines/P38/Magazine_9x19_P38_8rnd_Ball_OO.et" {
+ ID "5EC5A33DF7334B87"
+ components {
+  SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
+   "faction affiliation" "WEHRMACHT"
+  }
+ }
+}

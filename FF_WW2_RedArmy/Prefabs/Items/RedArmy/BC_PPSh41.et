@@ -1,0 +1,8 @@
+GenericEntity : "{60E6F54E174C53C5}Prefabs/Weapons/Rifles/PPSH41/BC_PPSh41.et" {
+ ID "F6CEDF54F7343592"
+ components {
+  SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
+   "faction affiliation" "RED_ARMY"
+  }
+ }
+}

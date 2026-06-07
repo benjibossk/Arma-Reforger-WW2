@@ -1,0 +1,11 @@
+MetaFileClass {
+ Name "{E6DDE7FBD5A9FC1F}Prefabs/Items/Wehrmacht/MG_Vest.et"
+ Configurations {
+  EntityTemplateResourceClass PC {}
+  EntityTemplateResourceClass XBOX_ONE : PC {}
+  EntityTemplateResourceClass XBOX_SERIES : PC {}
+  EntityTemplateResourceClass PS4 : PC {}
+  EntityTemplateResourceClass PS5 : PC {}
+  EntityTemplateResourceClass HEADLESS : PC {}
+ }
+}

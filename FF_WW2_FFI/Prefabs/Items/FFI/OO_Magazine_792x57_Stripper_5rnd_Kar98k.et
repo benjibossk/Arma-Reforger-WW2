@@ -1,0 +1,8 @@
+GenericEntity : "{0C933836BFE21731}Prefabs/Weapons/Magazines/Kar98k/OO_Magazine_792x57_Stripper_5rnd_Kar98k.et" {
+ ID "0562DC114FB3A990"
+ components {
+  SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
+   "faction affiliation" "FFI"
+  }
+ }
+}

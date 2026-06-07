@@ -1,0 +1,8 @@
+GenericEntity : "{817BDBD5432BCFB6}Prefabs/Characters/Footwear/1943 Gray Uniform/Tall Boots/M35 Boots.et" {
+ ID "3D8CE299A6CE8824"
+ components {
+  SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
+   "faction affiliation" "WEHRMACHT"
+  }
+ }
+}

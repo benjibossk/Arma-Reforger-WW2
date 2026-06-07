@@ -1,0 +1,8 @@
+GenericEntity : "{5F04139AD86CE1E6}Prefabs/Characters/Uniforms/M43 Jacket/Peadot/Infantry/Peadot Inf SGT SS.et" {
+ ID "BB79923333DCA122"
+ components {
+  SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
+   "faction affiliation" "WEHRMACHT"
+  }
+ }
+}

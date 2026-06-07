@@ -1,0 +1,8 @@
+GenericEntity : "{697A574590311DA1}Prefabs/Weapons/Rifles/M14/DP-28.et" {
+ ID "92CF810D2E755CC4"
+ components {
+  SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
+   "faction affiliation" "RED_ARMY"
+  }
+ }
+}

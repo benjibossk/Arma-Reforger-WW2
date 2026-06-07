@@ -1,0 +1,8 @@
+GenericEntity : "{5F04139AD86CE1E6}Prefabs/Characters/HeadGear/Sthalhiem/Camo/German Camo Helmet v2.et" {
+ ID "B4068C10B27D4739"
+ components {
+  SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
+   "faction affiliation" "WEHRMACHT"
+  }
+ }
+}

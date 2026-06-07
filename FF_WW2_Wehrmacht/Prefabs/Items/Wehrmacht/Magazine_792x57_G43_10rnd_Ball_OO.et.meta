@@ -1,0 +1,11 @@
+MetaFileClass {
+ Name "{5F086F787F9B2051}Prefabs/Items/Wehrmacht/Magazine_792x57_G43_10rnd_Ball_OO.et"
+ Configurations {
+  EntityTemplateResourceClass PC {}
+  EntityTemplateResourceClass XBOX_ONE : PC {}
+  EntityTemplateResourceClass XBOX_SERIES : PC {}
+  EntityTemplateResourceClass PS4 : PC {}
+  EntityTemplateResourceClass PS5 : PC {}
+  EntityTemplateResourceClass HEADLESS : PC {}
+ }
+}

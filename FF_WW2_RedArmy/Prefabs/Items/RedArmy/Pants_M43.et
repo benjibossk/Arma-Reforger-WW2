@@ -1,0 +1,8 @@
+GenericEntity : "{696D2789DA813345}Prefabs/Characters/Uniforms/Pants_M43.et" {
+ ID "626DCCF58E18E53F"
+ components {
+  SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
+   "faction affiliation" "RED_ARMY"
+  }
+ }
+}

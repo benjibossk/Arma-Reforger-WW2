@@ -1,0 +1,11 @@
+MetaFileClass {
+ Name "{78294AE5F326C981}Prefabs/Items/Wehrmacht/Pants_Boots_fieldgray.et"
+ Configurations {
+  EntityTemplateResourceClass PC {}
+  EntityTemplateResourceClass XBOX_ONE : PC {}
+  EntityTemplateResourceClass XBOX_SERIES : PC {}
+  EntityTemplateResourceClass PS4 : PC {}
+  EntityTemplateResourceClass PS5 : PC {}
+  EntityTemplateResourceClass HEADLESS : PC {}
+ }
+}

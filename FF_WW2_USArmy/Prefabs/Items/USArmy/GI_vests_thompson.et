@@ -1,0 +1,8 @@
+GenericEntity : "{5EE4E278D8EF2466}Prefabs/Characters/Vests/GI vests/thompson/GI vests thompson.et" {
+ ID "756A4047F8696773"
+ components {
+  SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
+   "faction affiliation" "US_WW2"
+  }
+ }
+}

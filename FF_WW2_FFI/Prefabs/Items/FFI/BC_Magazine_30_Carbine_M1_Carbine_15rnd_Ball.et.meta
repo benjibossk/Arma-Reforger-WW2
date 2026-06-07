@@ -1,0 +1,11 @@
+MetaFileClass {
+ Name "{555DCBB9238274CD}Prefabs/Items/FFI/BC_Magazine_30_Carbine_M1_Carbine_15rnd_Ball.et"
+ Configurations {
+  EntityTemplateResourceClass PC {}
+  EntityTemplateResourceClass XBOX_ONE : PC {}
+  EntityTemplateResourceClass XBOX_SERIES : PC {}
+  EntityTemplateResourceClass PS4 : PC {}
+  EntityTemplateResourceClass PS5 : PC {}
+  EntityTemplateResourceClass HEADLESS : PC {}
+ }
+}

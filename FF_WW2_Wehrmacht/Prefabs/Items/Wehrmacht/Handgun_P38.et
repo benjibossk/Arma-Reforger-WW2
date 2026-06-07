@@ -1,0 +1,8 @@
+GenericEntity : "{BA6F5A99F10C6EF1}Prefabs/Weapons/Handguns/P38/Handgun_P38.et" {
+ ID "F1C5F21C44071A64"
+ components {
+  SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
+   "faction affiliation" "WEHRMACHT"
+  }
+ }
+}

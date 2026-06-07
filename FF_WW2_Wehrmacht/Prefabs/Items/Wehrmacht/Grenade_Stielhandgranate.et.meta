@@ -1,0 +1,11 @@
+MetaFileClass {
+ Name "{546C07AB324F919C}Prefabs/Items/Wehrmacht/Grenade_Stielhandgranate.et"
+ Configurations {
+  EntityTemplateResourceClass PC {}
+  EntityTemplateResourceClass XBOX_ONE : PC {}
+  EntityTemplateResourceClass XBOX_SERIES : PC {}
+  EntityTemplateResourceClass PS4 : PC {}
+  EntityTemplateResourceClass PS5 : PC {}
+  EntityTemplateResourceClass HEADLESS : PC {}
+ }
+}
