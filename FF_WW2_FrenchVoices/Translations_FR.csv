@@ -1,0 +1,131 @@
+Category,Subcategory,WavName,EN_Label,FR_Translation,Notes
+Actions,BailOut,Bailout1.wav,Bail out,"Évacuez !",Order to leave vehicle
+Actions,BailOut,Bailout2.wav,Bail out,"Sortez du véhicule !",Alt
+Actions,BailOut,Bailout3.wav,Bail out,"Tout le monde dehors !",Alt loud
+Actions,BailOut,MountUp1.wav,Mount up,"Embarquez !",Get in vehicle
+Actions,BailOut,MountUp2.wav,Mount up,"Tout le monde dans le véhicule !",Alt
+Actions,BailOut,MountUp3.wav,Mount up,"En voiture !",Alt informal
+Actions,Covering,Covering1.wav,Covering,"Je couvre !",I'm covering
+Actions,Covering,Covering2.wav,Covering,"Couverture !",Short
+Actions,Covering,Covering3.wav,Covering,"Je te couvre !",Familiar
+Actions,Covering,Covering4.wav,Covering,"Restez à couvert !",Tell others
+Actions,Covering,Covering5.wav,Covering,"Je vous couvre !",Plural
+Actions,Door,Door1.wav,Door,"Porte !",Spotting a door
+Actions,Door,Door2.wav,Door,"Attention porte !",Warning
+Actions,Door,Door3.wav,Door,"Porte droite !",Position
+Actions,Door,Door4.wav,Door,"Porte gauche !",Position
+Actions,Door,Door5.wav,Door,"Couvrez la porte !",Order
+Actions,Door,Door6.wav,Door,"Surveillez la porte !",Watch
+Actions,RadioReconfigure,RadioReconfigure.wav,Radio reconfigure,"Reconfiguration radio.",
+Actions,RadioReconfigure,RadioReconfigure2.wav,Radio reconfigure,"Je change de fréquence.",
+Actions,RadioReconfigure,RadioReconfigure3.wav,Radio reconfigure,"Radio en cours de réglage.",
+Actions,RadioReconfigure,RadioReconfigure4.wav,Radio reconfigure,"Une seconde, je règle la radio.",
+Actions,Rearm,SearchForAmmo.wav,Search for ammo,"Je cherche des munitions.",
+Actions,ShowLocation,Look1.wav,Look,"Regardez !",Imperative
+Actions,ShowLocation,Look2.wav,Look,"Voyez !",Alt formal
+Actions,ShowLocation,Look3.wav,Look,"Regarde !",Familiar singular
+Actions,ShowLocation,Look4.wav,Look,"Là !",Pointing
+Actions,ShowLocation,LookOverThere1.wav,Look over there,"Là-bas !",
+Actions,ShowLocation,LookOverThere2.wav,Look over there,"Regardez là-bas !",
+Actions,ShowLocation,LookOverThere3.wav,Look over there,"Voyez là-bas !",
+Actions,ShowLocation,LookOverThere4.wav,Look over there,"Par là !",
+Combat,CeaseFire,CeaseFire1.wav,Cease fire,"Cessez le feu !",
+Combat,CeaseFire,CeaseFire2.wav,Cease fire,"Halte au feu !",Alt
+Combat,Defend,HoldYourGroundAtAllCosts.wav,Hold your ground at all costs,"Tenez la position coûte que coûte !",
+Combat,Defend,SecureThisArea.wav,Secure this area,"Sécurisez le secteur !",
+Combat,FireAtWill,Fire.wav,Fire,"Feu !",Short
+Combat,FireAtWill,FireAtWill1.wav,Fire at will,"Feu à volonté !",
+Combat,FireAtWill,FireAtWill2.wav,Fire at will,"Tirez à volonté !",Alt
+Combat,FireAtWill,FireAtWill3.wav,Fire at will,"Ouvrez le feu !",Alt
+Combat,FireAtWill,KillEveryone.wav,Kill everyone,"Abattez-les tous !",
+Combat,FireAtWill,LeaveNoSurvivors.wav,Leave no survivors,"Aucun survivant !",
+Combat,FireAtWill,ShootTheseDogs.wav,Shoot these dogs,"Tirez sur ces chiens !",
+Combat,ReturnFire,OnlyReturnFire.wav,Only return fire,"Ne ripostez que sous le feu !",
+Combat,ReturnFire,OnlyReturnFire2.wav,Only return fire,"Riposte uniquement !",Alt
+Combat,Suppress,SuppressiveFireThere.wav,Suppressive fire there,"Tir de couverture là-bas !",
+Confirmations,NegativeFeedback,No1.wav,No,"Non !",
+Confirmations,NegativeFeedback,No2.wav,No,"Négatif !",Alt military
+Confirmations,PositiveFeedback,Jawohl.wav,Jawohl (yes sir),"Oui chef !",FR equivalent
+Confirmations,PositiveFeedback,Understood.wav,Understood,"Compris !",
+Confirmations,PositiveFeedback,Understood2.wav,Understood,"Bien reçu !",Radio formal
+Confirmations,PositiveFeedback,Yes.wav,Yes,"Oui !",
+General,Base,MakeReady.wav,Make ready,"Préparez-vous !",
+General,CardinalDirection,East.wav,East,"Est",
+General,CardinalDirection,North.wav,North,"Nord",
+General,CardinalDirection,NorthEast.wav,North-East,"Nord-est",
+General,CardinalDirection,NorthWest.wav,North-West,"Nord-ouest",
+General,CardinalDirection,South.wav,South,"Sud",
+General,CardinalDirection,Southeast.wav,South-East,"Sud-est",
+General,CardinalDirection,Southwest.wav,South-West,"Sud-ouest",
+General,CardinalDirection,West.wav,West,"Ouest",
+General,Direction,Behind.wav,Behind,"Derrière",
+General,Direction,Front.wav,Front,"Devant",
+General,Direction,Left.wav,Left,"Gauche",
+General,Direction,Right.wav,Right,"Droite",
+General,Distance,50Meter.wav,50 meters,"Cinquante mètres",
+General,Distance,75Meter.wav,75 meters,"Soixante-quinze mètres",
+General,Distance,100Meter.wav,100 meters,"Cent mètres",
+General,Distance,200Meter.wav,200 meters,"Deux cents mètres",
+General,Distance,300Meter.wav,300 meters,"Trois cents mètres",
+General,Distance,400Meter.wav,400 meters,"Quatre cents mètres",
+General,Distance,500Meter.wav,500 meters,"Cinq cents mètres",
+General,Distance,600Meter.wav,600 meters,"Six cents mètres",
+General,Distance,700Meter.wav,700 meters,"Sept cents mètres",
+General,Distance,800Meter.wav,800 meters,"Huit cents mètres",
+General,Distance,900Meter.wav,900 meters,"Neuf cents mètres",
+General,Distance,1000Meter.wav,1000 meters,"Mille mètres",
+General,Distance,1500Meter.wav,1500 meters,"Mille cinq cents mètres",
+General,Distance,"2,5Kilometer.wav",2.5 kilometers,"Deux kilomètres et demi",
+General,Distance,2500Meter.wav,2500 meters,"Deux mille cinq cents mètres",
+General,Distance,2Kilometer.wav,2 kilometers,"Deux kilomètres",
+General,FactionAndObject,MachineGun.wav,Machine gun,"Mitrailleuse",
+General,FactionAndObject,Soldier.wav,Soldier,"Soldat",
+General,FactionAndObject/Civilian/Character,Civilian.wav,Civilian,"Civil",
+General,FactionAndObject/Enemy/Character,HostileSoldier.wav,Hostile soldier,"Soldat ennemi",
+General,FactionAndObject/Enemy/Vehicle,EnemyVehicle.wav,Enemy vehicle,"Véhicule ennemi",
+General,FactionAndObject/Friendly/Character,FriendlySoldier.wav,Friendly soldier,"Soldat allié",
+General,FactionAndObject/Friendly/Vehicle,FriendlyVehicle.wav,Friendly vehicle,"Véhicule allié",
+General,FactionAndObject/Unknown/Character,Man.wav,Man,"Homme",
+General,GridCoordinates,GridMarked.wav,Grid marked,"Coordonnées notées",
+General,Soldier,0.wav,Zero,"Zéro",
+General,Soldier,1.wav,One,"Un",
+General,Soldier,2.wav,Two,"Deux",
+General,Soldier,3.wav,Three,"Trois",
+General,Soldier,4.wav,Four,"Quatre",
+General,Soldier,5.wav,Five,"Cinq",
+General,Soldier,6.wav,Six,"Six",
+General,Soldier,7.wav,Seven,"Sept",
+General,Soldier,8.wav,Eight,"Huit",
+General,Soldier,9.wav,Nine,"Neuf",
+Movement,Move,GetReadyToMove.wav,Get ready to move,"Préparez-vous à avancer !",
+Movement,Move,ImMoving(Calm).wav,I'm moving (calm),"J'avance.",
+Movement,Move,ImMoving(Loud).wav,I'm moving (loud),"J'avance !",
+Movement,Retreat,FollowMe.wav,Follow me,"Suivez-moi !",
+Movement,Retreat,ToMe.wav,To me,"À moi !",
+Movement,Stop,Halt.wav,Halt,"Halte !",
+Movement,Stop,Stop.wav,Stop,"Stop !",Or "Arrêtez !"
+Reports,ManDown,ComradeWounded.wav,Comrade wounded,"Camarade blessé !",
+Reports,ManDown,MedicHesWounded.wav,Medic he's wounded,"Médic, il est blessé !",
+Reports,Recruit,JoinThem(Dismiss).wav,Join them (dismiss),"Rejoignez-les.",Dismissive
+Reports,Recruit,Recruit1.wav,Recruit,"Engagez-vous !",
+Reports,Recruit,Recruit2.wav,Recruit,"Rejoignez la Résistance !",
+Reports,Recruit,Recruit3.wav,Recruit,"Battez-vous avec nous !",
+Reports,Spotted,Contact.wav,Contact,"Contact !",
+Uncategorized,,AttackingTheEnemy.wav,Attacking the enemy,"On attaque l'ennemi !",
+Uncategorized,,BringMeAmmo.wav,Bring me ammo,"Apportez-moi des munitions !",
+Uncategorized,,Healing1.wav,Healing,"Je me soigne.",
+Uncategorized,,Healing2.wav,Healing,"Pansement.",
+Uncategorized,,Healing3.wav,Healing,"Premiers soins.",
+Uncategorized,,Healing4.wav,Healing,"Je panse mes blessures.",
+Uncategorized,,Healing5.wav,Healing,"Ça va aller.",
+Uncategorized,,Healing6.wav,Healing,"Je tiens le coup.",
+Uncategorized,,ImHit1.wav,I'm hit,"Touché !",
+Uncategorized,,ImHit2.wav,I'm hit,"Je suis touché !",
+Uncategorized,,ImHit3.wav,I'm hit,"Merde, touché !",Profane
+Uncategorized,,ImHit4.wav,I'm hit,"Je suis blessé !",
+Uncategorized,,ImHit5.wav,I'm hit,"Touché, putain !",Profane alt
+Uncategorized,,MoveThere.wav,Move there,"Allez là-bas !",
+Uncategorized,,StayDown(Whisper).wav,Stay down (whisper),"Reste à terre.",Whisper
+Uncategorized,,StayInCover(Whisper).wav,Stay in cover (whisper),"Reste à couvert.",Whisper
+Uncategorized,,UseThatMachineGun.wav,Use that machine gun,"Utilise cette mitrailleuse !",
+Uncategorized,,WeAreUnderAttack.wav,We are under attack,"On nous attaque !",

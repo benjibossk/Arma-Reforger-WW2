@@ -1,0 +1,14 @@
+GameProject {
+ ID "FrenchVoices"
+ GUID "AF123222FD39FDB1"
+ TITLE "FF - WW2 French Voices"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

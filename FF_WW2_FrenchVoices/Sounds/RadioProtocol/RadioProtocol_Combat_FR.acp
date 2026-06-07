@@ -1,0 +1,5042 @@
+AudioClass {
+ signals {
+  SignalClass "183309" {
+   id 183309
+   name "Weapon_Shooting_Directivity"
+   tl 1098.547 337.807
+   res "{43C50EB8DB8DE747}Sounds/_SharedData/Signals/Weapons/Weapon_Shooting_Directivity.sig"
+   inputsport {
+    1
+   }
+   outputsport {
+    5
+   }
+   inputvalues {
+    0
+   }
+   inputvaluesmin {
+    0
+   }
+   inputvaluesmax {
+    1
+   }
+   path "{43C50EB8DB8DE747}Sounds/_SharedData/Signals/Weapons/Weapon_Shooting_Directivity.sig"
+  }
+  SignalClass "186381" {
+   id 186381
+   name "RadioProtocol_Callsign"
+   tl -232.509 910.121
+   res "{1885339839FB3B9A}Sounds/RadioProtocol/RadioProtocol_Callsign.sig"
+   inputsport {
+    1 3 5 10 11 12 13 15
+   }
+   outputsport {
+    2 4 6 7 8 9 14 16
+   }
+   inputvalues {
+    0 0 0 0 0 4 10 1000
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    1 1 1 1 1 10 10 1000
+   }
+   path "{1885339839FB3B9A}Sounds/RadioProtocol/RadioProtocol_Callsign.sig"
+  }
+  SignalClass "208909" {
+   id 208909
+   name "RadioProtocol_Object"
+   tl -232.509 1146.313
+   res "{4956269CCBBCF753}Sounds/RadioProtocol/RadioProtocol_Object.sig"
+   inputsport {
+    1 2 3 4
+   }
+   outputsport {
+    5 6 7 8
+   }
+   inputvalues {
+    1 7 7 8
+   }
+   inputvaluesmin {
+    0 0 0 0
+   }
+   inputvaluesmax {
+    2 8 8 13
+   }
+   path "{4956269CCBBCF753}Sounds/RadioProtocol/RadioProtocol_Object.sig"
+  }
+  SignalClass "232461" {
+   id 232461
+   name "RadioProtocol_Seed"
+   tl -232.509 755.919
+   res "{3FA9C6AA5B19608E}Sounds/RadioProtocol/RadioProtocol_Seed.sig"
+   inputsport {
+    1
+   }
+   outputsport {
+    2
+   }
+   inputvalues {
+    1
+   }
+   inputvaluesmin {
+    0
+   }
+   inputvaluesmax {
+    1
+   }
+   path "{3FA9C6AA5B19608E}Sounds/RadioProtocol/RadioProtocol_Seed.sig"
+  }
+  SignalClass "246797" {
+   id 246797
+   name "Character_Occlusion"
+   tl 1376 435.721
+   res "{2DE6099BBD60C620}Sounds/_SharedData/Signals/Character/Character_Occlusion.sig"
+   inputsport {
+    2 8 20 50
+   }
+   outputsport {
+    36
+   }
+   inputvalues {
+    0 1 1 1000
+   }
+   inputvaluesmin {
+    0 0 0 0
+   }
+   inputvaluesmax {
+    1 1 1 10000
+   }
+   path "{2DE6099BBD60C620}Sounds/_SharedData/Signals/Character/Character_Occlusion.sig"
+  }
+  SignalClass "267277" {
+   id 267277
+   name "Character_Voice_IdentityVoice"
+   tl -232.509 819.881
+   res "{83682B34590341BC}Sounds/_SharedData/Signals/Character/Character_Voice_IdentityVoice.sig"
+   inputsport {
+    1 16
+   }
+   outputsport {
+    2 8
+   }
+   inputvalues {
+    2 0
+   }
+   inputvaluesmin {
+    0 0
+   }
+   inputvaluesmax {
+    2 2
+   }
+   path "{83682B34590341BC}Sounds/_SharedData/Signals/Character/Character_Voice_IdentityVoice.sig"
+  }
+  SignalClass "316429" {
+   id 316429
+   name "Signal Reverb"
+   tl 1882.808 765.989
+   res "{76CBB40EF7F227B6}Sounds/_SharedData/Signals/Reverb/Reverb_Base.sig"
+   inputsport {
+    1 35 112
+   }
+   outputsport {
+    39 105 107 106 110
+   }
+   inputvalues {
+    40 0.04 16000
+   }
+   inputvaluesmin {
+    0 0 0
+   }
+   inputvaluesmax {
+    100 1 16000
+   }
+   path "{76CBB40EF7F227B6}Sounds/_SharedData/Signals/Reverb/Reverb_Base.sig"
+  }
+  SignalClass "327693" {
+   id 327693
+   name "RadioProtocol_GridCoordinates"
+   tl -232.509 4685.766
+   res "{4CC88280CD8042F3}Sounds/RadioProtocol/RadioProtocol_GridCoordinates.sig"
+   inputsport {
+    1
+   }
+   outputsport {
+    2 3 4 5 6 7
+   }
+   inputvalues {
+    123456
+   }
+   inputvaluesmin {
+    0
+   }
+   inputvaluesmax {
+    1000000
+   }
+   path "{4CC88280CD8042F3}Sounds/RadioProtocol/RadioProtocol_GridCoordinates.sig"
+  }
+ }
+ sounds {
+  SoundClass "154633" : "{F15CE4B7EFD759CD}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol_AI.conf" {
+   id 154633
+   name "SOUND_CP_FIRE"
+   version 5
+   tl 1664 768
+   parent "{F15CE4B7EFD759CD}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol_AI.conf"
+   ins {
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "153618:65" {
+       id 153618
+       port 65
+      }
+     }
+    }
+   }
+   outState 115723
+   outStatePort 19463
+  }
+  SoundClass "161801" : "{F15CE4B7EFD759CD}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol_AI.conf" {
+   id 161801
+   name "SOUND_CP_TARGET"
+   version 5
+   tl 1674.612 1201.175
+   parent "{F15CE4B7EFD759CD}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol_AI.conf"
+   Metadata "#AR-Comm_Combat_Target_US"
+   ins {
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "160786:65" {
+       id 160786
+       port 65
+      }
+     }
+    }
+   }
+   outState 115723
+   outStatePort 19463
+  }
+  SoundClass "168969" : "{F15CE4B7EFD759CD}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol_AI.conf" {
+   id 168969
+   name "SOUND_CP_DEFEND_POSITION"
+   version 5
+   tl 1674.612 1695.4
+   parent "{F15CE4B7EFD759CD}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol_AI.conf"
+   ins {
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "170002:65" {
+       id 170002
+       port 65
+      }
+     }
+    }
+   }
+   outState 115723
+   outStatePort 19463
+  }
+  SoundClass "177161" : "{F15CE4B7EFD759CD}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol_AI.conf" {
+   id 177161
+   name "SOUND_CP_DEFEND_PERIMETER"
+   version 5
+   tl 1674.612 2126.526
+   parent "{F15CE4B7EFD759CD}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol_AI.conf"
+   ins {
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "176146:65" {
+       id 176146
+       port 65
+      }
+     }
+    }
+   }
+   outState 115723
+   outStatePort 19463
+  }
+  SoundClass "254985" : "{F15CE4B7EFD759CD}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol_AI.conf" {
+   id 254985
+   name "SOUND_CP_SEARCH_AND_DESTROY"
+   version 5
+   tl 1674.612 2559.279
+   parent "{F15CE4B7EFD759CD}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol_AI.conf"
+   ins {
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "256018:65" {
+       id 256018
+       port 65
+      }
+     }
+    }
+   }
+   outState 115723
+   outStatePort 19463
+  }
+  SoundClass "279561" : "{F15CE4B7EFD759CD}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol_AI.conf" {
+   id 279561
+   name "SOUND_CP_COMBAT_SUPPRESSING"
+   version 5
+   tl 1674.612 2991.384
+   parent "{F15CE4B7EFD759CD}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol_AI.conf"
+   ins {
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "281618:65" {
+       id 281618
+       port 65
+      }
+     }
+    }
+   }
+   outState 115723
+   outStatePort 19463
+  }
+  SoundClass "285705" : "{F15CE4B7EFD759CD}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol_AI.conf" {
+   id 285705
+   name "SOUND_CP_COMBAT_ORDER_SUPPRESS"
+   version 5
+   tl 1674.612 3221.025
+   parent "{F15CE4B7EFD759CD}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol_AI.conf"
+   ins {
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "286738:65" {
+       id 286738
+       port 65
+      }
+     }
+    }
+   }
+   outState 115723
+   outStatePort 19463
+  }
+  SoundClass "294921" : "{F15CE4B7EFD759CD}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol_AI.conf" {
+   id 294921
+   name "SOUND_CP_HOLD_FIRE"
+   version 5
+   tl 1674.612 3436.775
+   parent "{F15CE4B7EFD759CD}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol_AI.conf"
+   ins {
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "298002:65" {
+       id 298002
+       port 65
+      }
+     }
+    }
+   }
+   outState 115723
+   outStatePort 19463
+  }
+  SoundClass "302089" : "{F15CE4B7EFD759CD}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol_AI.conf" {
+   id 302089
+   name "SOUND_CP_FIRE_AT_WILL"
+   version 5
+   tl 1674.612 3779.959
+   parent "{F15CE4B7EFD759CD}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol_AI.conf"
+   ins {
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "303122:65" {
+       id 303122
+       port 65
+      }
+     }
+    }
+   }
+   outState 115723
+   outStatePort 19463
+  }
+  SoundClass "309257" : "{F15CE4B7EFD759CD}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol_AI.conf" {
+   id 309257
+   name "SOUND_CP_RETURN_FIRE"
+   version 5
+   tl 1674.612 4140
+   parent "{F15CE4B7EFD759CD}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol_AI.conf"
+   ins {
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "312338:65" {
+       id 312338
+       port 65
+      }
+     }
+    }
+   }
+   outState 115723
+   outStatePort 19463
+  }
+  SoundClass "332809" : "{F15CE4B7EFD759CD}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol_AI.conf" {
+   id 332809
+   name "SOUND_CP_FIRE_GRID"
+   version 5
+   tl 1674.612 4624.887
+   parent "{F15CE4B7EFD759CD}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol_AI.conf"
+   ins {
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "331794:65" {
+       id 331794
+       port 65
+      }
+     }
+    }
+   }
+   outState 115723
+   outStatePort 19463
+  }
+ }
+ buses {
+  BusClass "337927" {
+   id 337927
+   name "Bus Voice Amlitude"
+   version 7
+   tl 1072 768
+   ins {
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "259078:65" {
+       id 259078
+       port 65
+      }
+     }
+    }
+   }
+   varLocName "VoiceAmplitude"
+   varLocalResource "{BA5100577C0511F6}Sounds/_SharedData/LocalVariables/LocalVariables_Voice.conf"
+  }
+  BusClass "338951" {
+   id 338951
+   name "Bus Voice Amlitude"
+   version 7
+   tl 1072 1184
+   ins {
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "261126:65" {
+       id 261126
+       port 65
+      }
+     }
+    }
+   }
+   varLocName "VoiceAmplitude"
+   varLocalResource "{BA5100577C0511F6}Sounds/_SharedData/LocalVariables/LocalVariables_Voice.conf"
+  }
+  BusClass "339975" {
+   id 339975
+   name "Bus Voice Amlitude"
+   version 7
+   tl 1072 1680
+   ins {
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "262150:65" {
+       id 262150
+       port 65
+      }
+     }
+    }
+   }
+   varLocName "VoiceAmplitude"
+   varLocalResource "{BA5100577C0511F6}Sounds/_SharedData/LocalVariables/LocalVariables_Voice.conf"
+  }
+  BusClass "340999" {
+   id 340999
+   name "Bus Voice Amlitude"
+   version 7
+   tl 1072 2112
+   ins {
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "263174:65" {
+       id 263174
+       port 65
+      }
+     }
+    }
+   }
+   varLocName "VoiceAmplitude"
+   varLocalResource "{BA5100577C0511F6}Sounds/_SharedData/LocalVariables/LocalVariables_Voice.conf"
+  }
+  BusClass "342023" {
+   id 342023
+   name "Bus Voice Amlitude"
+   version 7
+   tl 1072 2544
+   ins {
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "264198:65" {
+       id 264198
+       port 65
+      }
+     }
+    }
+   }
+   varLocName "VoiceAmplitude"
+   varLocalResource "{BA5100577C0511F6}Sounds/_SharedData/LocalVariables/LocalVariables_Voice.conf"
+  }
+  BusClass "343047" {
+   id 343047
+   name "Bus Voice Amlitude"
+   version 7
+   tl 1072 2976
+   ins {
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "277508:65" {
+       id 277508
+       port 65
+      }
+     }
+    }
+   }
+   varLocName "VoiceAmplitude"
+   varLocalResource "{BA5100577C0511F6}Sounds/_SharedData/LocalVariables/LocalVariables_Voice.conf"
+  }
+  BusClass "344071" {
+   id 344071
+   name "Bus Voice Amlitude"
+   version 7
+   tl 1072 3200
+   ins {
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "283654:65" {
+       id 283654
+       port 65
+      }
+     }
+    }
+   }
+   varLocName "VoiceAmplitude"
+   varLocalResource "{BA5100577C0511F6}Sounds/_SharedData/LocalVariables/LocalVariables_Voice.conf"
+  }
+  BusClass "345095" {
+   id 345095
+   name "Bus Voice Amlitude"
+   version 7
+   tl 1072 3424
+   ins {
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "300038:65" {
+       id 300038
+       port 65
+      }
+     }
+    }
+   }
+   varLocName "VoiceAmplitude"
+   varLocalResource "{BA5100577C0511F6}Sounds/_SharedData/LocalVariables/LocalVariables_Voice.conf"
+  }
+  BusClass "346119" {
+   id 346119
+   name "Bus Voice Amlitude"
+   version 7
+   tl 1072 3760
+   ins {
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "306182:65" {
+       id 306182
+       port 65
+      }
+     }
+    }
+   }
+   varLocName "VoiceAmplitude"
+   varLocalResource "{BA5100577C0511F6}Sounds/_SharedData/LocalVariables/LocalVariables_Voice.conf"
+  }
+  BusClass "347143" {
+   id 347143
+   name "Bus Voice Amlitude"
+   version 7
+   tl 1072 4128
+   ins {
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "313350:65" {
+       id 313350
+       port 65
+      }
+     }
+    }
+   }
+   varLocName "VoiceAmplitude"
+   varLocalResource "{BA5100577C0511F6}Sounds/_SharedData/LocalVariables/LocalVariables_Voice.conf"
+  }
+  BusClass "348167" {
+   id 348167
+   name "Bus Voice Amlitude"
+   version 7
+   tl 1072 4640
+   ins {
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "330758:65" {
+       id 330758
+       port 65
+      }
+     }
+    }
+   }
+   varLocName "VoiceAmplitude"
+   varLocalResource "{BA5100577C0511F6}Sounds/_SharedData/LocalVariables/LocalVariables_Voice.conf"
+  }
+ }
+ selectors {
+  SelectorClass "211974" : "{0183DE0E90293EC2}Sounds/_SharedData/Configs/Selector/RadioProtocol/Selector_RadioProtocol_ObjectType.conf" {
+   id 211974
+   version 5
+   tl 206.607 1174.066
+   parent "{0183DE0E90293EC2}Sounds/_SharedData/Configs/Selector/RadioProtocol/Selector_RadioProtocol_ObjectType.conf"
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "208909:5" {
+       id 208909
+       port 5
+      }
+     }
+    }
+    ConnectionsClass "con:35377237" {
+     id 35377237
+     links {
+      ConnectionClass "240644:65" {
+       id 240644
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:223315080" {
+     id 223315080
+     links {
+      ConnectionClass "242692:65" {
+       id 242692
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1320768096" {
+     id 1320768096
+     links {
+      ConnectionClass "241668:65" {
+       id 241668
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   ports {
+    PortClass Character {
+     default 1
+    }
+    PortClass Vehicle {
+    }
+    PortClass Miscellaneous {
+    }
+   }
+  }
+  SelectorClass "233478" {
+   id 233478
+   name "Seed Selector"
+   version 5
+   tl 206.607 2099.417
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "232461:2" {
+       id 232461
+       port 2
+      }
+     }
+    }
+    ConnectionsClass "con:3120" {
+     id 3120
+     links {
+      ConnectionClass "205828:65" {
+       id 205828
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:3121" {
+     id 3121
+     links {
+      ConnectionClass "228356:65" {
+       id 228356
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:3122" {
+     id 3122
+     links {
+      ConnectionClass "229380:65" {
+       id 229380
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   ports {
+    PortClass S1 {
+     max 0.3
+    }
+    PortClass S2 {
+     min 0.3
+     max 0.7
+    }
+    PortClass S3 {
+     min 0.7
+     max 2
+    }
+   }
+  }
+  SelectorClass "235526" {
+   id 235526
+   name "Seed Selector"
+   version 5
+   tl 206.607 1668.291
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "232461:2" {
+       id 232461
+       port 2
+      }
+     }
+    }
+    ConnectionsClass "con:3120" {
+     id 3120
+     links {
+      ConnectionClass "204804:65" {
+       id 204804
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:3121" {
+     id 3121
+     links {
+      ConnectionClass "224260:65" {
+       id 224260
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:3122" {
+     id 3122
+     links {
+      ConnectionClass "225284:65" {
+       id 225284
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   ports {
+    PortClass S1 {
+     max 0.3
+    }
+    PortClass S2 {
+     min 0.3
+     max 0.7
+    }
+    PortClass S3 {
+     min 0.7
+     max 2
+    }
+   }
+  }
+  SelectorClass "236550" {
+   id 236550
+   name "Seed Selector"
+   version 5
+   tl 206.607 744.174
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "232461:2" {
+       id 232461
+       port 2
+      }
+     }
+    }
+    ConnectionsClass "con:3120" {
+     id 3120
+     links {
+      ConnectionClass "201732:65" {
+       id 201732
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:3121" {
+     id 3121
+     links {
+      ConnectionClass "216068:65" {
+       id 216068
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:3122" {
+     id 3122
+     links {
+      ConnectionClass "217092:65" {
+       id 217092
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   ports {
+    PortClass S1 {
+     max 0.3
+    }
+    PortClass S2 {
+     min 0.3
+     max 0.7
+    }
+    PortClass S3 {
+     min 0.7
+     max 2
+    }
+   }
+  }
+  SelectorClass "252934" {
+   id 252934
+   name "Seed Selector"
+   version 5
+   tl 206.607 2532.17
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "232461:2" {
+       id 232461
+       port 2
+      }
+     }
+    }
+    ConnectionsClass "con:3120" {
+     id 3120
+     links {
+      ConnectionClass "251908:65" {
+       id 251908
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:3121" {
+     id 3121
+     links {
+      ConnectionClass "249860:65" {
+       id 249860
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:3122" {
+     id 3122
+     links {
+      ConnectionClass "250884:65" {
+       id 250884
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   ports {
+    PortClass S1 {
+     max 0.3
+    }
+    PortClass S2 {
+     min 0.3
+     max 0.7
+    }
+    PortClass S3 {
+     min 0.7
+     max 2
+    }
+   }
+  }
+  SelectorClass "259078" {
+   id 259078
+   name "Callsign Switch"
+   version 5
+   tl 720 756.174
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "186381:16" {
+       id 186381
+       port 16
+      }
+     }
+    }
+    ConnectionsClass "con:610018705" {
+     id 610018705
+     links {
+      ConnectionClass "260120:65" {
+       id 260120
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1115433382" {
+     id 1115433382
+     links {
+      ConnectionClass "236550:65" {
+       id 236550
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   ports {
+    PortClass CallSign {
+     max 9
+     default 1
+    }
+    PortClass NoCallSign {
+     min 9
+     max 1000
+    }
+   }
+  }
+  SelectorClass "261126" {
+   id 261126
+   name "Callsign Switch"
+   version 5
+   tl 720 1186.066
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "186381:16" {
+       id 186381
+       port 16
+      }
+     }
+    }
+    ConnectionsClass "con:610018705" {
+     id 610018705
+     links {
+      ConnectionClass "188440:65" {
+       id 188440
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1115433382" {
+     id 1115433382
+     links {
+      ConnectionClass "211974:65" {
+       id 211974
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   ports {
+    PortClass CallSign {
+     max 9
+     default 1
+    }
+    PortClass NoCallSign {
+     min 9
+     max 1000
+    }
+   }
+  }
+  SelectorClass "262150" {
+   id 262150
+   name "Callsign Switch"
+   version 5
+   tl 720 1680.291
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "186381:16" {
+       id 186381
+       port 16
+      }
+     }
+    }
+    ConnectionsClass "con:610018705" {
+     id 610018705
+     links {
+      ConnectionClass "265240:65" {
+       id 265240
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1115433382" {
+     id 1115433382
+     links {
+      ConnectionClass "235526:65" {
+       id 235526
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   ports {
+    PortClass CallSign {
+     max 9
+     default 1
+    }
+    PortClass NoCallSign {
+     min 9
+     max 1000
+    }
+   }
+  }
+  SelectorClass "263174" {
+   id 263174
+   name "Callsign Switch"
+   version 5
+   tl 720 2111.417
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "186381:16" {
+       id 186381
+       port 16
+      }
+     }
+    }
+    ConnectionsClass "con:610018705" {
+     id 610018705
+     links {
+      ConnectionClass "266264:65" {
+       id 266264
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1115433382" {
+     id 1115433382
+     links {
+      ConnectionClass "233478:65" {
+       id 233478
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   ports {
+    PortClass CallSign {
+     max 9
+     default 1
+    }
+    PortClass NoCallSign {
+     min 9
+     max 1000
+    }
+   }
+  }
+  SelectorClass "264198" {
+   id 264198
+   name "Callsign Switch"
+   version 5
+   tl 720 2544.17
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "186381:16" {
+       id 186381
+       port 16
+      }
+     }
+    }
+    ConnectionsClass "con:610018705" {
+     id 610018705
+     links {
+      ConnectionClass "253976:65" {
+       id 253976
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1115433382" {
+     id 1115433382
+     links {
+      ConnectionClass "252934:65" {
+       id 252934
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   ports {
+    PortClass CallSign {
+     max 9
+     default 1
+    }
+    PortClass NoCallSign {
+     min 9
+     max 1000
+    }
+   }
+  }
+  SelectorClass "283654" {
+   id 283654
+   name "Callsign Switch"
+   version 5
+   tl 720 3205.916
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "186381:16" {
+       id 186381
+       port 16
+      }
+     }
+    }
+    ConnectionsClass "con:610018705" {
+     id 610018705
+     links {
+      ConnectionClass "288792:65" {
+       id 288792
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1115433382" {
+     id 1115433382
+     links {
+      ConnectionClass "290820:65" {
+       id 290820
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   ports {
+    PortClass CallSign {
+     max 9
+     default 1
+    }
+    PortClass NoCallSign {
+     min 9
+     max 1000
+    }
+   }
+  }
+  SelectorClass "300038" {
+   id 300038
+   name "Callsign Switch"
+   version 5
+   tl 720 3421.666
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "186381:16" {
+       id 186381
+       port 16
+      }
+     }
+    }
+    ConnectionsClass "con:610018705" {
+     id 610018705
+     links {
+      ConnectionClass "295960:65" {
+       id 295960
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1115433382" {
+     id 1115433382
+     links {
+      ConnectionClass "296964:65" {
+       id 296964
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   ports {
+    PortClass CallSign {
+     max 9
+     default 1
+    }
+    PortClass NoCallSign {
+     min 9
+     max 1000
+    }
+   }
+  }
+  SelectorClass "306182" {
+   id 306182
+   name "Callsign Switch"
+   version 5
+   tl 752 3760
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "186381:16" {
+       id 186381
+       port 16
+      }
+     }
+    }
+    ConnectionsClass "con:610018705" {
+     id 610018705
+     links {
+      ConnectionClass "305176:65" {
+       id 305176
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1115433382" {
+     id 1115433382
+     links {
+      ConnectionClass "352262:65" {
+       id 352262
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   ports {
+    PortClass CallSign {
+     max 9
+     default 1
+    }
+    PortClass NoCallSign {
+     min 9
+     max 1000
+    }
+   }
+  }
+  SelectorClass "313350" {
+   id 313350
+   name "Callsign Switch"
+   version 5
+   tl 720 4124.891
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "186381:16" {
+       id 186381
+       port 16
+      }
+     }
+    }
+    ConnectionsClass "con:610018705" {
+     id 610018705
+     links {
+      ConnectionClass "310296:65" {
+       id 310296
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1115433382" {
+     id 1115433382
+     links {
+      ConnectionClass "349190:65" {
+       id 349190
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   ports {
+    PortClass CallSign {
+     max 9
+     default 1
+    }
+    PortClass NoCallSign {
+     min 9
+     max 1000
+    }
+   }
+  }
+  SelectorClass "330758" {
+   id 330758
+   name "Callsign Switch"
+   version 5
+   tl 728.698 4517.202
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "186381:16" {
+       id 186381
+       port 16
+      }
+     }
+    }
+    ConnectionsClass "con:610018705" {
+     id 610018705
+     links {
+      ConnectionClass "329752:65" {
+       id 329752
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1115433382" {
+     id 1115433382
+     links {
+      ConnectionClass "334872:65" {
+       id 334872
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   ports {
+    PortClass CallSign {
+     max 9
+     default 1
+    }
+    PortClass NoCallSign {
+     min 9
+     max 1000
+    }
+   }
+  }
+  SelectorClass "349190" {
+   id 349190
+   name "Seed Selector"
+   version 5
+   tl 256 4240
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "232461:2" {
+       id 232461
+       port 2
+      }
+     }
+    }
+    ConnectionsClass "con:3120" {
+     id 3120
+     links {
+      ConnectionClass "311300:65" {
+       id 311300
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:3121" {
+     id 3121
+     links {
+      ConnectionClass "350212:65" {
+       id 350212
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   ports {
+    PortClass S1 {
+     max 0.5
+    }
+    PortClass S2 {
+     min 0.5
+     max 1
+     default 1
+    }
+   }
+  }
+  SelectorClass "352262" {
+   id 352262
+   name "Seed Selector"
+   version 5
+   tl 240 3856
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "232461:2" {
+       id 232461
+       port 2
+      }
+     }
+    }
+    ConnectionsClass "con:3120" {
+     id 3120
+     links {
+      ConnectionClass "307204:65" {
+       id 307204
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:3121" {
+     id 3121
+     links {
+      ConnectionClass "351236:65" {
+       id 351236
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   ports {
+    PortClass S1 {
+     max 0.5
+    }
+    PortClass S2 {
+     min 0.5
+     max 1
+     default 1
+    }
+   }
+  }
+ }
+ generators {
+  GeneratorClass "325637" {
+   id 325637
+   name "Silence"
+   version 6
+   tl -27.003 5020.211
+   function Silence
+   time 230
+  }
+ }
+ mixers {
+  MixerClass "115723" {
+   id 115723
+   name "OutputState 113"
+   version 4
+   tl 1882.808 1063.164
+   res "{B764D803219C775E}Sounds/FinalMix.afm"
+   ins {
+    ConnectionsClass "con:19463" {
+     id 19463
+     links {
+      ConnectionClass "168969:65" {
+       id 168969
+       port 65
+      }
+      ConnectionClass "161801:65" {
+       id 161801
+       port 65
+      }
+      ConnectionClass "154633:65" {
+       id 154633
+       port 65
+      }
+      ConnectionClass "302089:65" {
+       id 302089
+       port 65
+      }
+      ConnectionClass "177161:65" {
+       id 177161
+       port 65
+      }
+      ConnectionClass "254985:65" {
+       id 254985
+       port 65
+      }
+      ConnectionClass "279561:65" {
+       id 279561
+       port 65
+      }
+      ConnectionClass "285705:65" {
+       id 285705
+       port 65
+      }
+      ConnectionClass "294921:65" {
+       id 294921
+       port 65
+      }
+      ConnectionClass "309257:65" {
+       id 309257
+       port 65
+      }
+      ConnectionClass "332809:65" {
+       id 332809
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:197639" {
+     id 197639
+     links {
+      ConnectionClass "315421:65" {
+       id 315421
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:338951" {
+     id 338951
+     links {
+      ConnectionClass "319517:65" {
+       id 319517
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:339975" {
+     id 339975
+     links {
+      ConnectionClass "317469:65" {
+       id 317469
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:340999" {
+     id 340999
+     links {
+      ConnectionClass "318493:65" {
+       id 318493
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    -532676352 0
+   }
+   path "{B764D803219C775E}Sounds/FinalMix.afm"
+   inputs {
+    "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialog" "ENV_Doors" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb_OBSOLETE" "VON_Reverb_Small" "Dialog_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "ENV_AMB_3D_Reverb_Exterior" "SFX_Direct" "SFX_Reverb_Small" "SFX_Reverb_Medium" "SFX_Reverb_Large" "WPN_Shots_Player" "Dialog_Reverb_Small" "Dialog_Reverb_Medium" "Dialog_Reverb_Large" "WPN_TravelingProjectile" "Dialog_Delay_Exterior" "SFX_Reverb_InCabin" "VON_Reverb_Medium" "VON_Reverb_Large"
+   }
+  }
+ }
+ shaders {
+  ShaderClass "153618" {
+   id 153618
+   name "Shader 150"
+   version 5
+   tl 1392 768
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "336924:65" {
+       id 336924
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "182291:65" {
+       id 182291
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "181269:65" {
+       id 181269
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "337927:65" {
+       id 337927
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+  ShaderClass "160786" {
+   id 160786
+   name "Shader 157"
+   version 5
+   tl 1376 1189.175
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "336924:65" {
+       id 336924
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "182291:65" {
+       id 182291
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "181269:65" {
+       id 181269
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "338951:65" {
+       id 338951
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+  ShaderClass "170002" {
+   id 170002
+   name "Shader 166"
+   version 5
+   tl 1376 1683.4
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "336924:65" {
+       id 336924
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "182291:65" {
+       id 182291
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "181269:65" {
+       id 181269
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "339975:65" {
+       id 339975
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+  ShaderClass "176146" {
+   id 176146
+   name "Shader 172"
+   version 5
+   tl 1376 2114.526
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "336924:65" {
+       id 336924
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "182291:65" {
+       id 182291
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "181269:65" {
+       id 181269
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "340999:65" {
+       id 340999
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+  ShaderClass "256018" {
+   id 256018
+   name "Shader 172"
+   version 5
+   tl 1376 2547.279
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "336924:65" {
+       id 336924
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "182291:65" {
+       id 182291
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "181269:65" {
+       id 181269
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "342023:65" {
+       id 342023
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+  ShaderClass "281618" {
+   id 281618
+   name "Shader 189"
+   version 5
+   tl 1376 2979.384
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "336924:65" {
+       id 336924
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "182291:65" {
+       id 182291
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "181269:65" {
+       id 181269
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "343047:65" {
+       id 343047
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+  ShaderClass "286738" {
+   id 286738
+   name "Shader 172"
+   version 5
+   tl 1376 3209.025
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "336924:65" {
+       id 336924
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "182291:65" {
+       id 182291
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "181269:65" {
+       id 181269
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "344071:65" {
+       id 344071
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+  ShaderClass "298002" {
+   id 298002
+   name "Shader 150"
+   version 5
+   tl 1376 3424.775
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "336924:65" {
+       id 336924
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "182291:65" {
+       id 182291
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "181269:65" {
+       id 181269
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "345095:65" {
+       id 345095
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+  ShaderClass "303122" {
+   id 303122
+   name "Shader 150"
+   version 5
+   tl 1376 3767.959
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "336924:65" {
+       id 336924
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "182291:65" {
+       id 182291
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "181269:65" {
+       id 181269
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "346119:65" {
+       id 346119
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+  ShaderClass "312338" {
+   id 312338
+   name "Shader 150"
+   version 5
+   tl 1376 4128
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "336924:65" {
+       id 336924
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "182291:65" {
+       id 182291
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "181269:65" {
+       id 181269
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "347143:65" {
+       id 347143
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+  ShaderClass "331794" {
+   id 331794
+   name "Shader 150"
+   version 5
+   tl 1376 4642.079
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "336924:65" {
+       id 336924
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "182291:65" {
+       id 182291
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "181269:65" {
+       id 181269
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "348167:65" {
+       id 348167
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+ }
+ amplitudes {
+  AmplitudeClass "182291" : "{2D5607FF1ED3F5D3}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-35LUFS_to_-30LUFS.conf" {
+   id 182291
+   version 5
+   tl 1376 262.252
+   ctl 0 -21
+   parent "{2D5607FF1ED3F5D3}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-35LUFS_to_-30LUFS.conf"
+  }
+ }
+ frequency {
+  FrequencyClass "181269" : "{85F92D98658CB0F5}Sounds/_SharedData/Configs/Frequency/Character/Frequency_Character_Voice.conf" {
+   id 181269
+   version 5
+   tl 1376 338.224
+   parent "{85F92D98658CB0F5}Sounds/_SharedData/Configs/Frequency/Character/Frequency_Character_Voice.conf"
+   ins {
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "183309:5" {
+       id 183309
+       port 5
+      }
+     }
+    }
+    ConnectionsClass "con:4" {
+     id 4
+     links {
+      ConnectionClass "246797:36" {
+       id 246797
+       port 36
+      }
+     }
+    }
+   }
+   pi {
+    20 0
+   }
+   pu {
+    20 0
+   }
+  }
+ }
+ playlist {
+  PlaylistClass "188440" {
+   id 188440
+   name "Assemble Full"
+   version 5
+   tl 504.285 1198.066
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "185348:65" {
+       id 185348
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "211974:65" {
+       id 211974
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    6 0
+   }
+  }
+  PlaylistClass "253976" {
+   id 253976
+   name "Assemble Full"
+   version 5
+   tl 504.285 2556.17
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "292868:65" {
+       id 292868
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "252934:65" {
+       id 252934
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    6 0
+   }
+  }
+  PlaylistClass "260120" {
+   id 260120
+   name "Assemble Full"
+   version 5
+   tl 504.285 768.174
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "185348:65" {
+       id 185348
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "236550:65" {
+       id 236550
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    6 0
+   }
+  }
+  PlaylistClass "265240" {
+   id 265240
+   name "Assemble Full"
+   version 5
+   tl 504.285 1692.291
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "292868:65" {
+       id 292868
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "235526:65" {
+       id 235526
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    6 0
+   }
+  }
+  PlaylistClass "266264" {
+   id 266264
+   name "Assemble Full"
+   version 5
+   tl 504.285 2123.417
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "185348:65" {
+       id 185348
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "233478:65" {
+       id 233478
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    6 0
+   }
+  }
+  PlaylistClass "288792" {
+   id 288792
+   name "Assemble Full"
+   version 5
+   tl 504.285 3217.916
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "185348:65" {
+       id 185348
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "290820:65" {
+       id 290820
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    6 0
+   }
+  }
+  PlaylistClass "295960" {
+   id 295960
+   name "Assemble Full"
+   version 5
+   tl 504.285 3433.666
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "185348:65" {
+       id 185348
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "296964:65" {
+       id 296964
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    6 0
+   }
+  }
+  PlaylistClass "305176" {
+   id 305176
+   name "Assemble Full"
+   version 5
+   tl 504.285 3776.85
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "185348:65" {
+       id 185348
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "352262:65" {
+       id 352262
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    6 0
+   }
+  }
+  PlaylistClass "310296" {
+   id 310296
+   name "Assemble Full"
+   version 5
+   tl 504.285 4136.891
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "185348:65" {
+       id 185348
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "349190:65" {
+       id 349190
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    6 0
+   }
+  }
+  PlaylistClass "323608" {
+   id 323608
+   name "Assemble Grid Coord"
+   version 5
+   tl 163.665 4634.827
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "322564:65" {
+       id 322564
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "326660:65" {
+       id 326660
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "320516:65" {
+       id 320516
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:4" {
+     id 4
+     links {
+      ConnectionClass "325637:65" {
+       id 325637
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:5" {
+     id 5
+     links {
+      ConnectionClass "328708:65" {
+       id 328708
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:6" {
+     id 6
+     links {
+      ConnectionClass "321540:65" {
+       id 321540
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:7" {
+     id 7
+     links {
+      ConnectionClass "324612:65" {
+       id 324612
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    254 0
+   }
+   portsCount 7
+  }
+  PlaylistClass "329752" {
+   id 329752
+   name "Assemble Full"
+   version 5
+   tl 504.285 4513.695
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "185348:65" {
+       id 185348
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "334872:65" {
+       id 334872
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    6 0
+   }
+  }
+  PlaylistClass "334872" {
+   id 334872
+   name "Ass Command + Coord"
+   version 5
+   tl 322.25 4553.641
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "333828:65" {
+       id 333828
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "323608:65" {
+       id 323608
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    6 0
+   }
+  }
+ }
+ replacer {
+  ReplacerClass "268313" {
+   id 268313
+   name "Actor Replacer"
+   comment "Replaces part of filepath depending on signal"
+   version 5
+   tl -232.509 692.127
+   ctl 0 -21
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "267277:2" {
+       id 267277
+       port 2
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+  }
+ }
+ banks_local {
+  BankLocalClass "185348" {
+   id 185348
+   name "SoldierCalled"
+   version 7
+   tl -23.907 532.508
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "267277:8" {
+       id 267277
+       port 8
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "186381:16" {
+       id 186381
+       port 16
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "268313:65" {
+       id 268313
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    14 0
+   }
+   Selection CustomSignalIndex
+   Samples {
+    AudioBankSampleClass "0.wav" {
+     Filename "{021832E28C2CDB5A}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/0.wav"
+     Probability 100
+     Index 1000
+     SampleMetadata "#AR-Comm_Variable_Soldier_Squad_US"
+    }
+    AudioBankSampleClass "1.wav" {
+     Filename "{75125A6A788E342A}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/1.wav"
+     Probability 100
+     Index 0
+     SampleMetadata "#AR-Comm_Variable_Soldier_1_US"
+    }
+    AudioBankSampleClass "2.wav" {
+     Filename "{EC0CE3F3656905BA}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/2.wav"
+     Probability 100
+     Index 1
+     SampleMetadata "#AR-Comm_Variable_Soldier_2_US"
+    }
+    AudioBankSampleClass "3.wav" {
+     Filename "{9B068B7B91CBEACA}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/3.wav"
+     Probability 100
+     Index 2
+     SampleMetadata "#AR-Comm_Variable_Soldier_3_US"
+    }
+    AudioBankSampleClass "4.wav" {
+     Filename "{9CC1712AF74D5009}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/4.wav"
+     Probability 100
+     Index 3
+     SampleMetadata "#AR-Comm_Variable_Soldier_4_US"
+    }
+    AudioBankSampleClass "5.wav" {
+     Filename "{EBCB19A203EFBF79}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/5.wav"
+     Probability 100
+     Index 4
+     SampleMetadata "#AR-Comm_Variable_Soldier_5_US"
+    }
+    AudioBankSampleClass "6.wav" {
+     Filename "{72D5A03B1E088EE9}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/6.wav"
+     Probability 100
+     Index 5
+     SampleMetadata "#AR-Comm_Variable_Soldier_6_US"
+    }
+    AudioBankSampleClass "7.wav" {
+     Filename "{05DFC8B3EAAA6199}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/7.wav"
+     Probability 100
+     Index 6
+     SampleMetadata "#AR-Comm_Variable_Soldier_7_US"
+    }
+    AudioBankSampleClass "8.wav" {
+     Filename "{7D5A5499D305FB6F}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/8.wav"
+     Probability 100
+     Index 7
+     SampleMetadata "#AR-Comm_Variable_Soldier_8_US"
+    }
+    AudioBankSampleClass "9.wav" {
+     Filename "{0A503C1127A7141F}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/9.wav"
+     Probability 100
+     Index 8
+     SampleMetadata "#AR-Comm_Variable_Soldier_9_US"
+    }
+    AudioBankSampleClass "0.wav" {
+     Filename "{021832E28C2CDB5A}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/0.wav"
+     Probability 100
+     Index 9001
+     SampleMetadata "#AR-MilitaryAlphabet_Romeo"
+    }
+   }
+  }
+  BankLocalClass "201732" {
+   id 201732
+   name "CP_CEASEFIRE_S1_P1"
+   version 7
+   tl -23.907 768.174
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "267277:8" {
+       id 267277
+       port 8
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "268313:65" {
+       id 268313
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    10 0
+   }
+   Samples {
+    AudioBankSampleClass "CeaseFire1.wav" {
+     Filename "{8975B774922E50F5}Sounds/RadioProtocol/Samples/FR/Male1/Combat/CeaseFire/CeaseFire1.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "CeaseFire2.wav" {
+     Filename "{106B0EED8FC96165}Sounds/RadioProtocol/Samples/FR/Male1/Combat/CeaseFire/CeaseFire2.wav"
+     Probability 100
+     Index 1
+     SampleMetadata ""
+    }
+   }
+  }
+  BankLocalClass "204804" {
+   id 204804
+   name "CP_DEFEND_POSITION_S1_P1"
+   version 7
+   tl -23.907 1692.291
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "267277:8" {
+       id 267277
+       port 8
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "268313:65" {
+       id 268313
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    10 0
+   }
+   Samples {
+    AudioBankSampleClass "HoldYourGroundAtAllCosts.wav" {
+     Filename "{690CBA26AB36B295}Sounds/RadioProtocol/Samples/FR/Male1/Combat/Defend/HoldYourGroundAtAllCosts.wav"
+     Probability 100
+     Index 0
+     SampleMetadata "#AR-Comm_Defend_Position_1_US"
+    }
+    AudioBankSampleClass "SecureThisArea.wav" {
+     Filename "{5879AECEED9300D6}Sounds/RadioProtocol/Samples/FR/Male1/Combat/Defend/SecureThisArea.wav"
+     Probability 100
+     Index 1
+     SampleMetadata "#AR-Comm_Defend_Position_1_US"
+    }
+   }
+  }
+  BankLocalClass "205828" {
+   id 205828
+   name "CP_DEFEND_PERIMETER_S1_P1"
+   version 7
+   tl -23.907 2123.417
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "267277:8" {
+       id 267277
+       port 8
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "268313:65" {
+       id 268313
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    10 0
+   }
+   Samples {
+    AudioBankSampleClass "HoldYourGroundAtAllCosts.wav" {
+     Filename "{690CBA26AB36B295}Sounds/RadioProtocol/Samples/FR/Male1/Combat/Defend/HoldYourGroundAtAllCosts.wav"
+     Probability 100
+     Index 0
+     SampleMetadata "#AR-Comm_Defend_Perimeter_1_US"
+    }
+    AudioBankSampleClass "SecureThisArea.wav" {
+     Filename "{5879AECEED9300D6}Sounds/RadioProtocol/Samples/FR/Male1/Combat/Defend/SecureThisArea.wav"
+     Probability 100
+     Index 1
+     SampleMetadata "#AR-Comm_Defend_Perimeter_1_US"
+    }
+   }
+  }
+  BankLocalClass "216068" {
+   id 216068
+   name "CP_CEASEFIRE_S2_P1"
+   version 7
+   tl -23.907 896.302
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "267277:8" {
+       id 267277
+       port 8
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "268313:65" {
+       id 268313
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    10 0
+   }
+   Samples {
+    AudioBankSampleClass "CeaseFire1.wav" {
+     Filename "{8975B774922E50F5}Sounds/RadioProtocol/Samples/FR/Male1/Combat/CeaseFire/CeaseFire1.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "CeaseFire2.wav" {
+     Filename "{106B0EED8FC96165}Sounds/RadioProtocol/Samples/FR/Male1/Combat/CeaseFire/CeaseFire2.wav"
+     Probability 100
+     Index 1
+     SampleMetadata ""
+    }
+   }
+  }
+  BankLocalClass "217092" {
+   id 217092
+   name "CP_CEASEFIRE_S3_P1"
+   version 7
+   tl -23.907 1017.513
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "267277:8" {
+       id 267277
+       port 8
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "268313:65" {
+       id 268313
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    10 0
+   }
+   Samples {
+    AudioBankSampleClass "CeaseFire1.wav" {
+     Filename "{8975B774922E50F5}Sounds/RadioProtocol/Samples/FR/Male1/Combat/CeaseFire/CeaseFire1.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "CeaseFire2.wav" {
+     Filename "{106B0EED8FC96165}Sounds/RadioProtocol/Samples/FR/Male1/Combat/CeaseFire/CeaseFire2.wav"
+     Probability 100
+     Index 1
+     SampleMetadata ""
+    }
+   }
+  }
+  BankLocalClass "224260" {
+   id 224260
+   name "CP_DEFEND_POSITION_S2_P1"
+   version 7
+   tl -23.907 1817.441
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "267277:8" {
+       id 267277
+       port 8
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "268313:65" {
+       id 268313
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    10 0
+   }
+   Samples {
+    AudioBankSampleClass "HoldYourGroundAtAllCosts.wav" {
+     Filename "{690CBA26AB36B295}Sounds/RadioProtocol/Samples/FR/Male1/Combat/Defend/HoldYourGroundAtAllCosts.wav"
+     Probability 100
+     Index 0
+     SampleMetadata "#AR-Comm_Defend_Position_2_US"
+    }
+    AudioBankSampleClass "SecureThisArea.wav" {
+     Filename "{5879AECEED9300D6}Sounds/RadioProtocol/Samples/FR/Male1/Combat/Defend/SecureThisArea.wav"
+     Probability 100
+     Index 1
+     SampleMetadata "#AR-Comm_Defend_Position_2_US"
+    }
+   }
+  }
+  BankLocalClass "225284" {
+   id 225284
+   name "CP_DEFEND_POSITION_S3_P1"
+   version 7
+   tl -23.907 1941.334
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "267277:8" {
+       id 267277
+       port 8
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "268313:65" {
+       id 268313
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    10 0
+   }
+   Samples {
+    AudioBankSampleClass "HoldYourGroundAtAllCosts.wav" {
+     Filename "{690CBA26AB36B295}Sounds/RadioProtocol/Samples/FR/Male1/Combat/Defend/HoldYourGroundAtAllCosts.wav"
+     Probability 100
+     Index 0
+     SampleMetadata "#AR-Comm_Defend_Position_3_US"
+    }
+    AudioBankSampleClass "SecureThisArea.wav" {
+     Filename "{5879AECEED9300D6}Sounds/RadioProtocol/Samples/FR/Male1/Combat/Defend/SecureThisArea.wav"
+     Probability 100
+     Index 1
+     SampleMetadata "#AR-Comm_Defend_Position_3_US"
+    }
+   }
+  }
+  BankLocalClass "228356" {
+   id 228356
+   name "CP_DEFEND_PERIMETER_S2_P1"
+   version 7
+   tl -23.907 2248.233
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "267277:8" {
+       id 267277
+       port 8
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "268313:65" {
+       id 268313
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    10 0
+   }
+   Samples {
+    AudioBankSampleClass "HoldYourGroundAtAllCosts.wav" {
+     Filename "{690CBA26AB36B295}Sounds/RadioProtocol/Samples/FR/Male1/Combat/Defend/HoldYourGroundAtAllCosts.wav"
+     Probability 100
+     Index 0
+     SampleMetadata "#AR-Comm_Defend_Perimeter_2_US"
+    }
+    AudioBankSampleClass "SecureThisArea.wav" {
+     Filename "{5879AECEED9300D6}Sounds/RadioProtocol/Samples/FR/Male1/Combat/Defend/SecureThisArea.wav"
+     Probability 100
+     Index 1
+     SampleMetadata "#AR-Comm_Defend_Perimeter_2_US"
+    }
+   }
+  }
+  BankLocalClass "229380" {
+   id 229380
+   name "CP_DEFEND_PERIMETER_S3_P1"
+   version 7
+   tl -23.907 2370.695
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "267277:8" {
+       id 267277
+       port 8
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "268313:65" {
+       id 268313
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    10 0
+   }
+   Samples {
+    AudioBankSampleClass "HoldYourGroundAtAllCosts.wav" {
+     Filename "{690CBA26AB36B295}Sounds/RadioProtocol/Samples/FR/Male1/Combat/Defend/HoldYourGroundAtAllCosts.wav"
+     Probability 100
+     Index 0
+     SampleMetadata "#AR-Comm_Defend_Perimeter_3_US"
+    }
+    AudioBankSampleClass "SecureThisArea.wav" {
+     Filename "{5879AECEED9300D6}Sounds/RadioProtocol/Samples/FR/Male1/Combat/Defend/SecureThisArea.wav"
+     Probability 100
+     Index 1
+     SampleMetadata "#AR-Comm_Defend_Perimeter_3_US"
+    }
+   }
+  }
+  BankLocalClass "240644" {
+   id 240644
+   name "TargetCharacter"
+   version 7
+   tl -23.907 1186.066
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "267277:8" {
+       id 267277
+       port 8
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "208909:6" {
+       id 208909
+       port 6
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "268313:65" {
+       id 268313
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    14 0
+   }
+   Selection CustomSignalIndex
+   Samples {
+    AudioBankSampleClass "ShootTheseDogs.wav" {
+     Filename "{71E5C77313B39C4C}Sounds/RadioProtocol/Samples/FR/Male1/Combat/FireAtWill/ShootTheseDogs.wav"
+     Probability 100
+     Index 0
+     SampleMetadata "#AR-Comm_VariableLowCase_CharacterTarget_man_US"
+    }
+    AudioBankSampleClass "Fire.wav" {
+     Filename "{BD41A17B0EF2BB50}Sounds/RadioProtocol/Samples/FR/Male1/Combat/FireAtWill/Fire.wav"
+     Probability 100
+     Index 1
+     SampleMetadata "#AR-Comm_VariableLowCase_CharacterTarget_soldier_US"
+    }
+    AudioBankSampleClass "LeaveNoSurvivors.wav" {
+     Filename "{E65A48893518F09E}Sounds/RadioProtocol/Samples/FR/Male1/Combat/FireAtWill/LeaveNoSurvivors.wav"
+     Probability 100
+     Index 2
+     SampleMetadata "#AR-Comm_VariableLowCase_CharacterTarget_machinegunner_US"
+    }
+    AudioBankSampleClass "Fire.wav" {
+     Filename "{BD41A17B0EF2BB50}Sounds/RadioProtocol/Samples/FR/Male1/Combat/FireAtWill/Fire.wav"
+     Probability 100
+     Index 3
+     SampleMetadata "#AR-Comm_VariableLowCase_CharacterTarget_sniper_US"
+    }
+    AudioBankSampleClass "Fire.wav" {
+     Filename "{BD41A17B0EF2BB50}Sounds/RadioProtocol/Samples/FR/Male1/Combat/FireAtWill/Fire.wav"
+     Probability 100
+     Index 4
+     SampleMetadata "#AR-Comm_VariableLowCase_CharacterTarget_recon_US"
+    }
+    AudioBankSampleClass "ShootTheseDogs.wav" {
+     Filename "{71E5C77313B39C4C}Sounds/RadioProtocol/Samples/FR/Male1/Combat/FireAtWill/ShootTheseDogs.wav"
+     Probability 100
+     Index 5
+     SampleMetadata "#AR-Comm_VariableLowCase_CharacterTarget_ATsoldier_US"
+    }
+    AudioBankSampleClass "Fire.wav" {
+     Filename "{BD41A17B0EF2BB50}Sounds/RadioProtocol/Samples/FR/Male1/Combat/FireAtWill/Fire.wav"
+     Probability 100
+     Index 6
+     SampleMetadata "#AR-Comm_VariableLowCase_CharacterTarget_officer_US"
+    }
+    AudioBankSampleClass "Fire.wav" {
+     Filename "{BD41A17B0EF2BB50}Sounds/RadioProtocol/Samples/FR/Male1/Combat/FireAtWill/Fire.wav"
+     Probability 100
+     Index 7
+     SampleMetadata "#AR-Comm_VariableLowCase_CharacterTarget_radioman_US"
+    }
+   }
+  }
+  BankLocalClass "241668" {
+   id 241668
+   name "TargetMiscellaneous"
+   version 7
+   tl -23.907 1485
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "267277:8" {
+       id 267277
+       port 8
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "208909:8" {
+       id 208909
+       port 8
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "268313:65" {
+       id 268313
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    14 0
+   }
+   Selection CustomSignalIndex
+   Samples {
+    AudioBankSampleClass "Target_Tent.wav" {
+     Filename "{B366032AEA631335}Sounds/RadioProtocol/Samples/Eng/Male1/General/Target/Miscellaneous/Target_Tent.wav"
+     Probability 100
+     Index 0
+     SampleMetadata "#AR-Comm_VariableLowCase_MiscellaneousTarget_tent_US"
+    }
+    AudioBankSampleClass "Target_GasStation.wav" {
+     Filename "{9332D3932E9198BC}Sounds/RadioProtocol/Samples/Eng/Male1/General/Target/Miscellaneous/Target_GasStation.wav"
+     Probability 100
+     Index 1
+     SampleMetadata "#AR-Comm_VariableLowCase_MiscellaneousTarget_gasstation_US"
+    }
+    AudioBankSampleClass "Target_VehicleDepot.wav" {
+     Filename "{CFBCF81B69EF4866}Sounds/RadioProtocol/Samples/Eng/Male1/General/Target/Miscellaneous/Target_VehicleDepot.wav"
+     Probability 100
+     Index 2
+     SampleMetadata "#AR-Comm_VariableLowCase_MiscellaneousTarget_vehicledepot_US"
+    }
+    AudioBankSampleClass "Target_SupplyDepot.wav" {
+     Filename "{C7939A41BFD72852}Sounds/RadioProtocol/Samples/Eng/Male1/General/Target/Miscellaneous/Target_SupplyDepot.wav"
+     Probability 100
+     Index 3
+     SampleMetadata "#AR-Comm_VariableLowCase_MiscellaneousTarget_supplydepot_US"
+    }
+    AudioBankSampleClass "Target_Fortification.wav" {
+     Filename "{3B744C0922270FB1}Sounds/RadioProtocol/Samples/Eng/Male1/General/Target/Miscellaneous/Target_Fortification.wav"
+     Probability 100
+     Index 4
+     SampleMetadata "#AR-Comm_VariableLowCase_MiscellaneousTarget_fortification_US"
+    }
+    AudioBankSampleClass "Target_Bunker.wav" {
+     Filename "{CDCBCB0C169033FB}Sounds/RadioProtocol/Samples/Eng/Male1/General/Target/Miscellaneous/Target_Bunker.wav"
+     Probability 100
+     Index 5
+     SampleMetadata "#AR-Comm_VariableLowCase_MiscellaneousTarget_bunker_US"
+    }
+    AudioBankSampleClass "Target_Building.wav" {
+     Filename "{5780AE878F362A38}Sounds/RadioProtocol/Samples/Eng/Male1/General/Target/Miscellaneous/Target_Building.wav"
+     Probability 100
+     Index 6
+     SampleMetadata "#AR-Comm_VariableLowCase_MiscellaneousTarget_building_US"
+    }
+    AudioBankSampleClass "Target_CarWorkshop.wav" {
+     Filename "{57632CA39FF3BCDD}Sounds/RadioProtocol/Samples/Eng/Male1/General/Target/Miscellaneous/Target_CarWorkshop.wav"
+     Probability 100
+     Index 7
+     SampleMetadata "#AR-Comm_VariableLowCase_MiscellaneousTarget_carworkshop_US"
+    }
+    AudioBankSampleClass "Target_AmmunitionSupplyPoint.wav" {
+     Filename "{DBDDAF26EFFD958D}Sounds/RadioProtocol/Samples/Eng/Male1/General/Target/Miscellaneous/Target_AmmunitionSupplyPoint.wav"
+     Probability 100
+     Index 8
+     SampleMetadata "#AR-Comm_VariableLowCase_MiscellaneousTarget_ammunitionsupplypoint_US"
+    }
+    AudioBankSampleClass "Target_FuelDepot.wav" {
+     Filename "{8E62EE5D039A04A6}Sounds/RadioProtocol/Samples/Eng/Male1/General/Target/Miscellaneous/Target_FuelDepot.wav"
+     Probability 100
+     Index 9
+     SampleMetadata "#AR-Comm_VariableLowCase_MiscellaneousTarget_fueldepot_US"
+    }
+    AudioBankSampleClass "Target_RepairDepot.wav" {
+     Filename "{EF81AE3A8BE1CE45}Sounds/RadioProtocol/Samples/Eng/Male1/General/Target/Miscellaneous/Target_RepairDepot.wav"
+     Probability 100
+     Index 10
+     SampleMetadata "#AR-Comm_VariableLowCase_MiscellaneousTarget_repairdepot_US"
+    }
+   }
+  }
+  BankLocalClass "242692" {
+   id 242692
+   name "TargetVehicle"
+   version 7
+   tl -23.907 1337.571
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "267277:8" {
+       id 267277
+       port 8
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "208909:7" {
+       id 208909
+       port 7
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "268313:65" {
+       id 268313
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    14 0
+   }
+   Selection CustomSignalIndex
+   Samples {
+    AudioBankSampleClass "Fire.wav" {
+     Filename "{BD41A17B0EF2BB50}Sounds/RadioProtocol/Samples/FR/Male1/Combat/FireAtWill/Fire.wav"
+     Probability 100
+     Index 0
+     SampleMetadata "#AR-Comm_VariableLowCase_VehicleTarget_vehicle_US"
+    }
+    AudioBankSampleClass "ShootTheseDogs.wav" {
+     Filename "{71E5C77313B39C4C}Sounds/RadioProtocol/Samples/FR/Male1/Combat/FireAtWill/ShootTheseDogs.wav"
+     Probability 100
+     Index 1
+     SampleMetadata "#AR-Comm_VariableLowCase_VehicleTarget_car_US"
+    }
+    AudioBankSampleClass "Fire.wav" {
+     Filename "{BD41A17B0EF2BB50}Sounds/RadioProtocol/Samples/FR/Male1/Combat/FireAtWill/Fire.wav"
+     Probability 100
+     Index 2
+     SampleMetadata "#AR-Comm_VariableLowCase_VehicleTarget_truck_US"
+    }
+    AudioBankSampleClass "KillEveryone.wav" {
+     Filename "{6ECD610E19949741}Sounds/RadioProtocol/Samples/FR/Male1/Combat/FireAtWill/KillEveryone.wav"
+     Probability 100
+     Index 3
+     SampleMetadata "#AR-Comm_VariableLowCase_VehicleTarget_APC_US"
+    }
+    AudioBankSampleClass "LeaveNoSurvivors.wav" {
+     Filename "{E65A48893518F09E}Sounds/RadioProtocol/Samples/FR/Male1/Combat/FireAtWill/LeaveNoSurvivors.wav"
+     Probability 100
+     Index 4
+     SampleMetadata "#AR-Comm_VariableLowCase_VehicleTarget_fueltruck_US"
+    }
+    AudioBankSampleClass "FireAtWill1.wav" {
+     Filename "{8A155FFCA9816C67}Sounds/RadioProtocol/Samples/FR/Male1/Combat/FireAtWill/FireAtWill1.wav"
+     Probability 100
+     Index 5
+     SampleMetadata "#AR-Comm_VariableLowCase_VehicleTarget_commstruck_US"
+    }
+    AudioBankSampleClass "FireAtWill2.wav" {
+     Filename "{130BE665B4665DF7}Sounds/RadioProtocol/Samples/FR/Male1/Combat/FireAtWill/FireAtWill2.wav"
+     Probability 100
+     Index 6
+     SampleMetadata "#AR-Comm_VariableLowCase_VehicleTarget_supplytruck_US"
+    }
+    AudioBankSampleClass "FireAtWill3.wav" {
+     Filename "{64018EED40C4B287}Sounds/RadioProtocol/Samples/FR/Male1/Combat/FireAtWill/FireAtWill3.wav"
+     Probability 100
+     Index 7
+     SampleMetadata "#AR-Comm_VariableLowCase_VehicleTarget_mortarcarrier_US"
+    }
+    AudioBankSampleClass "ShootTheseDogs.wav" {
+     Filename "{71E5C77313B39C4C}Sounds/RadioProtocol/Samples/FR/Male1/Combat/FireAtWill/ShootTheseDogs.wav"
+     Probability 100
+     Index 8
+     SampleMetadata "#AR-Comm_VariableLowCase_VehicleTarget_Helicopter_US"
+    }
+   }
+  }
+  BankLocalClass "249860" {
+   id 249860
+   name "CP_SEARCH_AND_DESTROY_S2_P1"
+   version 7
+   tl -23.907 2673.845
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "267277:8" {
+       id 267277
+       port 8
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "268313:65" {
+       id 268313
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    10 0
+   }
+   Samples {
+    AudioBankSampleClass "ShootTheseDogs.wav" {
+     Filename "{71E5C77313B39C4C}Sounds/RadioProtocol/Samples/FR/Male1/Combat/FireAtWill/ShootTheseDogs.wav"
+     Probability 100
+     Index 0
+     SampleMetadata "#AR-Comm_Defend_SearchAndDestoy_2_US"
+    }
+    AudioBankSampleClass "KillEveryone.wav" {
+     Filename "{6ECD610E19949741}Sounds/RadioProtocol/Samples/FR/Male1/Combat/FireAtWill/KillEveryone.wav"
+     Probability 100
+     Index 1
+     SampleMetadata "#AR-Comm_Defend_SearchAndDestoy_2_US"
+    }
+   }
+  }
+  BankLocalClass "250884" {
+   id 250884
+   name "CP_SEARCH_AND_DESTROY_S3_P1"
+   version 7
+   tl -23.907 2797.735
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "267277:8" {
+       id 267277
+       port 8
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "268313:65" {
+       id 268313
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    10 0
+   }
+   Samples {
+    AudioBankSampleClass "ShootTheseDogs.wav" {
+     Filename "{71E5C77313B39C4C}Sounds/RadioProtocol/Samples/FR/Male1/Combat/FireAtWill/ShootTheseDogs.wav"
+     Probability 100
+     Index 0
+     SampleMetadata "#AR-Comm_Defend_SearchAndDestoy_3_US"
+    }
+    AudioBankSampleClass "LeaveNoSurvivors.wav" {
+     Filename "{E65A48893518F09E}Sounds/RadioProtocol/Samples/FR/Male1/Combat/FireAtWill/LeaveNoSurvivors.wav"
+     Probability 100
+     Index 1
+     SampleMetadata "#AR-Comm_Defend_SearchAndDestoy_3_US"
+    }
+   }
+  }
+  BankLocalClass "251908" {
+   id 251908
+   name "CP_SEARCH_AND_DESTROY_S1_P1"
+   version 7
+   tl -23.907 2556.17
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "267277:8" {
+       id 267277
+       port 8
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "268313:65" {
+       id 268313
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    10 0
+   }
+   Samples {
+    AudioBankSampleClass "KillEveryone.wav" {
+     Filename "{6ECD610E19949741}Sounds/RadioProtocol/Samples/FR/Male1/Combat/FireAtWill/KillEveryone.wav"
+     Probability 100
+     Index 0
+     SampleMetadata "#AR-Comm_Defend_SearchAndDestoy_1_US"
+    }
+    AudioBankSampleClass "LeaveNoSurvivors.wav" {
+     Filename "{E65A48893518F09E}Sounds/RadioProtocol/Samples/FR/Male1/Combat/FireAtWill/LeaveNoSurvivors.wav"
+     Probability 100
+     Index 1
+     SampleMetadata "#AR-Comm_Defend_SearchAndDestoy_1_US"
+    }
+   }
+  }
+  BankLocalClass "277508" {
+   id 277508
+   name "CP_COMBAT_SUPPRESSING_S1"
+   version 7
+   tl -23.907 2988.275
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "267277:8" {
+       id 267277
+       port 8
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "268313:65" {
+       id 268313
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    10 0
+   }
+   Samples {
+    AudioBankSampleClass "ShootTheseDogs.wav" {
+     Filename "{71E5C77313B39C4C}Sounds/RadioProtocol/Samples/FR/Male1/Combat/FireAtWill/ShootTheseDogs.wav"
+     Probability 100
+     Index 0
+     SampleMetadata "#AR-Comm_Combat_Suppressing_1_US"
+    }
+    AudioBankSampleClass "SuppressiveFireThere.wav" {
+     Filename "{4C09C4D098EE1BD8}Sounds/RadioProtocol/Samples/FR/Male1/Combat/Suppress/SuppressiveFireThere.wav"
+     Probability 100
+     Index 1
+     SampleMetadata "#AR-Comm_Combat_Suppressing_1_US"
+    }
+   }
+  }
+  BankLocalClass "290820" {
+   id 290820
+   name "CP_COMBAT_ORDER_SUPPRESS_S1"
+   version 7
+   tl -23.907 3217.916
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "267277:8" {
+       id 267277
+       port 8
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "268313:65" {
+       id 268313
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    10 0
+   }
+   Samples {
+    AudioBankSampleClass "SuppressiveFireThere.wav" {
+     Filename "{4C09C4D098EE1BD8}Sounds/RadioProtocol/Samples/FR/Male1/Combat/Suppress/SuppressiveFireThere.wav"
+     Probability 100
+     Index 0
+     SampleMetadata "#AR-Comm_Combat_Order_Suppress_1_US"
+    }
+    AudioBankSampleClass "SuppressiveFireThere.wav" {
+     Filename "{4C09C4D098EE1BD8}Sounds/RadioProtocol/Samples/FR/Male1/Combat/Suppress/SuppressiveFireThere.wav"
+     Probability 100
+     Index 1
+     SampleMetadata "#AR-Comm_Combat_Order_Suppress_1_US"
+    }
+   }
+  }
+  BankLocalClass "292868" {
+   id 292868
+   name "SoldierCalled_Calm"
+   version 7
+   tl -23.484 416.305
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "267277:8" {
+       id 267277
+       port 8
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "186381:16" {
+       id 186381
+       port 16
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "268313:65" {
+       id 268313
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    14 0
+   }
+   Selection CustomSignalIndex
+   Samples {
+    AudioBankSampleClass "0.wav" {
+     Filename "{021832E28C2CDB5A}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/0.wav"
+     Probability 100
+     Index 1000
+     SampleMetadata "#AR-Comm_Variable_Soldier_Squad_US"
+    }
+    AudioBankSampleClass "1.wav" {
+     Filename "{75125A6A788E342A}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/1.wav"
+     Probability 100
+     Index 0
+     SampleMetadata "#AR-Comm_Variable_Soldier_1_US"
+    }
+    AudioBankSampleClass "2.wav" {
+     Filename "{EC0CE3F3656905BA}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/2.wav"
+     Probability 100
+     Index 1
+     SampleMetadata "#AR-Comm_Variable_Soldier_2_US"
+    }
+    AudioBankSampleClass "3.wav" {
+     Filename "{9B068B7B91CBEACA}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/3.wav"
+     Probability 100
+     Index 2
+     SampleMetadata "#AR-Comm_Variable_Soldier_3_US"
+    }
+    AudioBankSampleClass "4.wav" {
+     Filename "{9CC1712AF74D5009}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/4.wav"
+     Probability 100
+     Index 3
+     SampleMetadata "#AR-Comm_Variable_Soldier_4_US"
+    }
+    AudioBankSampleClass "5.wav" {
+     Filename "{EBCB19A203EFBF79}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/5.wav"
+     Probability 100
+     Index 4
+     SampleMetadata "#AR-Comm_Variable_Soldier_5_US"
+    }
+    AudioBankSampleClass "6.wav" {
+     Filename "{72D5A03B1E088EE9}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/6.wav"
+     Probability 100
+     Index 5
+     SampleMetadata "#AR-Comm_Variable_Soldier_6_US"
+    }
+    AudioBankSampleClass "7.wav" {
+     Filename "{05DFC8B3EAAA6199}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/7.wav"
+     Probability 100
+     Index 6
+     SampleMetadata "#AR-Comm_Variable_Soldier_7_US"
+    }
+    AudioBankSampleClass "8.wav" {
+     Filename "{7D5A5499D305FB6F}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/8.wav"
+     Probability 100
+     Index 7
+     SampleMetadata "#AR-Comm_Variable_Soldier_8_US"
+    }
+    AudioBankSampleClass "9.wav" {
+     Filename "{0A503C1127A7141F}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/9.wav"
+     Probability 100
+     Index 8
+     SampleMetadata "#AR-Comm_Variable_Soldier_9_US"
+    }
+    AudioBankSampleClass "0.wav" {
+     Filename "{021832E28C2CDB5A}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/0.wav"
+     Probability 100
+     Index 9001
+     SampleMetadata "#AR-MilitaryAlphabet_Romeo"
+    }
+   }
+  }
+  BankLocalClass "296964" {
+   id 296964
+   name "CP_CEASEFIRE_S1_P1"
+   version 7
+   tl -23.907 3433.666
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "267277:8" {
+       id 267277
+       port 8
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "268313:65" {
+       id 268313
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    10 0
+   }
+   Samples {
+    AudioBankSampleClass "CeaseFire1.wav" {
+     Filename "{8975B774922E50F5}Sounds/RadioProtocol/Samples/FR/Male1/Combat/CeaseFire/CeaseFire1.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "CeaseFire2.wav" {
+     Filename "{106B0EED8FC96165}Sounds/RadioProtocol/Samples/FR/Male1/Combat/CeaseFire/CeaseFire2.wav"
+     Probability 100
+     Index 1
+     SampleMetadata ""
+    }
+   }
+  }
+  BankLocalClass "307204" {
+   id 307204
+   name "CP_FIRE_AT_WILL_S1_P1"
+   version 7
+   tl -32 3776
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "267277:8" {
+       id 267277
+       port 8
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "268313:65" {
+       id 268313
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    10 0
+   }
+   Samples {
+    AudioBankSampleClass "LeaveNoSurvivors.wav" {
+     Filename "{E65A48893518F09E}Sounds/RadioProtocol/Samples/FR/Male1/Combat/FireAtWill/LeaveNoSurvivors.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ShootTheseDogs.wav" {
+     Filename "{71E5C77313B39C4C}Sounds/RadioProtocol/Samples/FR/Male1/Combat/FireAtWill/ShootTheseDogs.wav"
+     Probability 100
+     Index 1
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "FireAtWill1.wav" {
+     Filename "{8A155FFCA9816C67}Sounds/RadioProtocol/Samples/FR/Male1/Combat/FireAtWill/FireAtWill1.wav"
+     Probability 100
+     Index 2
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "FireAtWill2.wav" {
+     Filename "{130BE665B4665DF7}Sounds/RadioProtocol/Samples/FR/Male1/Combat/FireAtWill/FireAtWill2.wav"
+     Probability 100
+     Index 3
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "FireAtWill3.wav" {
+     Filename "{64018EED40C4B287}Sounds/RadioProtocol/Samples/FR/Male1/Combat/FireAtWill/FireAtWill3.wav"
+     Probability 100
+     Index 4
+     SampleMetadata ""
+    }
+   }
+  }
+  BankLocalClass "311300" {
+   id 311300
+   name "CP_RETURN_FIRE_S1_P1"
+   version 7
+   tl -32 4160
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "267277:8" {
+       id 267277
+       port 8
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "268313:65" {
+       id 268313
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    10 0
+   }
+   Samples {
+    AudioBankSampleClass "OnlyReturnFire.wav" {
+     Filename "{87414CA6404A606D}Sounds/RadioProtocol/Samples/FR/Male1/Combat/ReturnFire/OnlyReturnFire.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "OnlyReturnFire2.wav" {
+     Filename "{81251EB3D49437B0}Sounds/RadioProtocol/Samples/FR/Male1/Combat/ReturnFire/OnlyReturnFire2.wav"
+     Probability 100
+     Index 1
+     SampleMetadata ""
+    }
+   }
+  }
+  BankLocalClass "320516" {
+   id 320516
+   name "Number 3"
+   version 7
+   tl -25.853 4892.423
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "267277:8" {
+       id 267277
+       port 8
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "327693:4" {
+       id 327693
+       port 4
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "268313:65" {
+       id 268313
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    14 0
+   }
+   Pitch -0.3
+   Selection CustomSignalIndex
+   Samples {
+    AudioBankSampleClass "0.wav" {
+     Filename "{021832E28C2CDB5A}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/0.wav"
+     Probability 100
+     Index 0
+     SampleMetadata "#AR-Comm_Variable_Grid_0_US"
+    }
+    AudioBankSampleClass "1.wav" {
+     Filename "{75125A6A788E342A}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/1.wav"
+     Probability 100
+     Index 1
+     SampleMetadata "#AR-Comm_Variable_Grid_1_US"
+    }
+    AudioBankSampleClass "2.wav" {
+     Filename "{EC0CE3F3656905BA}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/2.wav"
+     Probability 100
+     Index 2
+     SampleMetadata "#AR-Comm_Variable_Grid_2_US"
+    }
+    AudioBankSampleClass "3.wav" {
+     Filename "{9B068B7B91CBEACA}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/3.wav"
+     Probability 100
+     Index 3
+     SampleMetadata "#AR-Comm_Variable_Grid_3_US"
+    }
+    AudioBankSampleClass "4.wav" {
+     Filename "{9CC1712AF74D5009}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/4.wav"
+     Probability 100
+     Index 4
+     SampleMetadata "#AR-Comm_Variable_Grid_4_US"
+    }
+    AudioBankSampleClass "5.wav" {
+     Filename "{EBCB19A203EFBF79}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/5.wav"
+     Probability 100
+     Index 5
+     SampleMetadata "#AR-Comm_Variable_Grid_5_US"
+    }
+    AudioBankSampleClass "6.wav" {
+     Filename "{72D5A03B1E088EE9}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/6.wav"
+     Probability 100
+     Index 6
+     SampleMetadata "#AR-Comm_Variable_Grid_6_US"
+    }
+    AudioBankSampleClass "7.wav" {
+     Filename "{05DFC8B3EAAA6199}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/7.wav"
+     Probability 100
+     Index 7
+     SampleMetadata "#AR-Comm_Variable_Grid_7_US"
+    }
+    AudioBankSampleClass "8.wav" {
+     Filename "{7D5A5499D305FB6F}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/8.wav"
+     Probability 100
+     Index 8
+     SampleMetadata "#AR-Comm_Variable_Grid_8_US"
+    }
+    AudioBankSampleClass "9.wav" {
+     Filename "{0A503C1127A7141F}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/9.wav"
+     Probability 100
+     Index 9
+     SampleMetadata "#AR-Comm_Variable_Grid_9_US"
+    }
+   }
+  }
+  BankLocalClass "321540" {
+   id 321540
+   name "Number 5"
+   version 7
+   tl -27.003 5207.497
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "267277:8" {
+       id 267277
+       port 8
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "327693:6" {
+       id 327693
+       port 6
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "268313:65" {
+       id 268313
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    14 0
+   }
+   Selection CustomSignalIndex
+   Samples {
+    AudioBankSampleClass "0.wav" {
+     Filename "{021832E28C2CDB5A}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/0.wav"
+     Probability 100
+     Index 0
+     SampleMetadata "#AR-Comm_Variable_Grid_0_US"
+    }
+    AudioBankSampleClass "1.wav" {
+     Filename "{75125A6A788E342A}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/1.wav"
+     Probability 100
+     Index 1
+     SampleMetadata "#AR-Comm_Variable_Grid_1_US"
+    }
+    AudioBankSampleClass "2.wav" {
+     Filename "{EC0CE3F3656905BA}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/2.wav"
+     Probability 100
+     Index 2
+     SampleMetadata "#AR-Comm_Variable_Grid_2_US"
+    }
+    AudioBankSampleClass "3.wav" {
+     Filename "{9B068B7B91CBEACA}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/3.wav"
+     Probability 100
+     Index 3
+     SampleMetadata "#AR-Comm_Variable_Grid_3_US"
+    }
+    AudioBankSampleClass "4.wav" {
+     Filename "{9CC1712AF74D5009}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/4.wav"
+     Probability 100
+     Index 4
+     SampleMetadata "#AR-Comm_Variable_Grid_4_US"
+    }
+    AudioBankSampleClass "5.wav" {
+     Filename "{EBCB19A203EFBF79}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/5.wav"
+     Probability 100
+     Index 5
+     SampleMetadata "#AR-Comm_Variable_Grid_5_US"
+    }
+    AudioBankSampleClass "6.wav" {
+     Filename "{72D5A03B1E088EE9}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/6.wav"
+     Probability 100
+     Index 6
+     SampleMetadata "#AR-Comm_Variable_Grid_6_US"
+    }
+    AudioBankSampleClass "7.wav" {
+     Filename "{05DFC8B3EAAA6199}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/7.wav"
+     Probability 100
+     Index 7
+     SampleMetadata "#AR-Comm_Variable_Grid_7_US"
+    }
+    AudioBankSampleClass "8.wav" {
+     Filename "{7D5A5499D305FB6F}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/8.wav"
+     Probability 100
+     Index 8
+     SampleMetadata "#AR-Comm_Variable_Grid_8_US"
+    }
+    AudioBankSampleClass "9.wav" {
+     Filename "{0A503C1127A7141F}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/9.wav"
+     Probability 100
+     Index 9
+     SampleMetadata "#AR-Comm_Variable_Grid_9_US"
+    }
+   }
+  }
+  BankLocalClass "322564" {
+   id 322564
+   name "Number First"
+   version 7
+   tl -25.853 4645.012
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "267277:8" {
+       id 267277
+       port 8
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "327693:2" {
+       id 327693
+       port 2
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "268313:65" {
+       id 268313
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    14 0
+   }
+   Selection CustomSignalIndex
+   Silence 90
+   Samples {
+    AudioBankSampleClass "0.wav" {
+     Filename "{021832E28C2CDB5A}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/0.wav"
+     Probability 100
+     Index 0
+     SampleMetadata "#AR-Comm_Variable_Grid_0_US"
+    }
+    AudioBankSampleClass "1.wav" {
+     Filename "{75125A6A788E342A}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/1.wav"
+     Probability 100
+     Index 1
+     SampleMetadata "#AR-Comm_Variable_Grid_1_US"
+    }
+    AudioBankSampleClass "2.wav" {
+     Filename "{EC0CE3F3656905BA}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/2.wav"
+     Probability 100
+     Index 2
+     SampleMetadata "#AR-Comm_Variable_Grid_2_US"
+    }
+    AudioBankSampleClass "3.wav" {
+     Filename "{9B068B7B91CBEACA}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/3.wav"
+     Probability 100
+     Index 3
+     SampleMetadata "#AR-Comm_Variable_Grid_3_US"
+    }
+    AudioBankSampleClass "4.wav" {
+     Filename "{9CC1712AF74D5009}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/4.wav"
+     Probability 100
+     Index 4
+     SampleMetadata "#AR-Comm_Variable_Grid_4_US"
+    }
+    AudioBankSampleClass "5.wav" {
+     Filename "{EBCB19A203EFBF79}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/5.wav"
+     Probability 100
+     Index 5
+     SampleMetadata "#AR-Comm_Variable_Grid_5_US"
+    }
+    AudioBankSampleClass "6.wav" {
+     Filename "{72D5A03B1E088EE9}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/6.wav"
+     Probability 100
+     Index 6
+     SampleMetadata "#AR-Comm_Variable_Grid_6_US"
+    }
+    AudioBankSampleClass "7.wav" {
+     Filename "{05DFC8B3EAAA6199}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/7.wav"
+     Probability 100
+     Index 7
+     SampleMetadata "#AR-Comm_Variable_Grid_7_US"
+    }
+    AudioBankSampleClass "8.wav" {
+     Filename "{7D5A5499D305FB6F}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/8.wav"
+     Probability 100
+     Index 8
+     SampleMetadata "#AR-Comm_Variable_Grid_8_US"
+    }
+    AudioBankSampleClass "9.wav" {
+     Filename "{0A503C1127A7141F}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/9.wav"
+     Probability 100
+     Index 9
+     SampleMetadata "#AR-Comm_Variable_Grid_9_US"
+    }
+   }
+  }
+  BankLocalClass "324612" {
+   id 324612
+   name "Number Last"
+   version 7
+   tl -27.003 5321.124
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "267277:8" {
+       id 267277
+       port 8
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "327693:7" {
+       id 327693
+       port 7
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "268313:65" {
+       id 268313
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    14 0
+   }
+   Selection CustomSignalIndex
+   Samples {
+    AudioBankSampleClass "0.wav" {
+     Filename "{021832E28C2CDB5A}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/0.wav"
+     Probability 100
+     Index 0
+     SampleMetadata "#AR-Comm_Variable_Grid_0_US"
+    }
+    AudioBankSampleClass "1.wav" {
+     Filename "{75125A6A788E342A}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/1.wav"
+     Probability 100
+     Index 1
+     SampleMetadata "#AR-Comm_Variable_Grid_1_US"
+    }
+    AudioBankSampleClass "2.wav" {
+     Filename "{EC0CE3F3656905BA}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/2.wav"
+     Probability 100
+     Index 2
+     SampleMetadata "#AR-Comm_Variable_Grid_2_US"
+    }
+    AudioBankSampleClass "3.wav" {
+     Filename "{9B068B7B91CBEACA}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/3.wav"
+     Probability 100
+     Index 3
+     SampleMetadata "#AR-Comm_Variable_Grid_3_US"
+    }
+    AudioBankSampleClass "4.wav" {
+     Filename "{9CC1712AF74D5009}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/4.wav"
+     Probability 100
+     Index 4
+     SampleMetadata "#AR-Comm_Variable_Grid_4_US"
+    }
+    AudioBankSampleClass "5.wav" {
+     Filename "{EBCB19A203EFBF79}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/5.wav"
+     Probability 100
+     Index 5
+     SampleMetadata "#AR-Comm_Variable_Grid_5_US"
+    }
+    AudioBankSampleClass "6.wav" {
+     Filename "{72D5A03B1E088EE9}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/6.wav"
+     Probability 100
+     Index 6
+     SampleMetadata "#AR-Comm_Variable_Grid_6_US"
+    }
+    AudioBankSampleClass "7.wav" {
+     Filename "{05DFC8B3EAAA6199}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/7.wav"
+     Probability 100
+     Index 7
+     SampleMetadata "#AR-Comm_Variable_Grid_7_US"
+    }
+    AudioBankSampleClass "8.wav" {
+     Filename "{7D5A5499D305FB6F}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/8.wav"
+     Probability 100
+     Index 8
+     SampleMetadata "#AR-Comm_Variable_Grid_8_US"
+    }
+    AudioBankSampleClass "9.wav" {
+     Filename "{0A503C1127A7141F}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/9.wav"
+     Probability 100
+     Index 9
+     SampleMetadata "#AR-Comm_Variable_Grid_9_US"
+    }
+   }
+  }
+  BankLocalClass "326660" {
+   id 326660
+   name "Number 2"
+   version 7
+   tl -25.853 4767.624
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "267277:8" {
+       id 267277
+       port 8
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "327693:3" {
+       id 327693
+       port 3
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "268313:65" {
+       id 268313
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    14 0
+   }
+   Selection CustomSignalIndex
+   Samples {
+    AudioBankSampleClass "0.wav" {
+     Filename "{021832E28C2CDB5A}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/0.wav"
+     Probability 100
+     Index 0
+     SampleMetadata "#AR-Comm_Variable_Grid_0_US"
+    }
+    AudioBankSampleClass "1.wav" {
+     Filename "{75125A6A788E342A}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/1.wav"
+     Probability 100
+     Index 1
+     SampleMetadata "#AR-Comm_Variable_Grid_1_US"
+    }
+    AudioBankSampleClass "2.wav" {
+     Filename "{EC0CE3F3656905BA}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/2.wav"
+     Probability 100
+     Index 2
+     SampleMetadata "#AR-Comm_Variable_Grid_2_US"
+    }
+    AudioBankSampleClass "3.wav" {
+     Filename "{9B068B7B91CBEACA}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/3.wav"
+     Probability 100
+     Index 3
+     SampleMetadata "#AR-Comm_Variable_Grid_3_US"
+    }
+    AudioBankSampleClass "4.wav" {
+     Filename "{9CC1712AF74D5009}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/4.wav"
+     Probability 100
+     Index 4
+     SampleMetadata "#AR-Comm_Variable_Grid_4_US"
+    }
+    AudioBankSampleClass "5.wav" {
+     Filename "{EBCB19A203EFBF79}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/5.wav"
+     Probability 100
+     Index 5
+     SampleMetadata "#AR-Comm_Variable_Grid_5_US"
+    }
+    AudioBankSampleClass "6.wav" {
+     Filename "{72D5A03B1E088EE9}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/6.wav"
+     Probability 100
+     Index 6
+     SampleMetadata "#AR-Comm_Variable_Grid_6_US"
+    }
+    AudioBankSampleClass "7.wav" {
+     Filename "{05DFC8B3EAAA6199}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/7.wav"
+     Probability 100
+     Index 7
+     SampleMetadata "#AR-Comm_Variable_Grid_7_US"
+    }
+    AudioBankSampleClass "8.wav" {
+     Filename "{7D5A5499D305FB6F}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/8.wav"
+     Probability 100
+     Index 8
+     SampleMetadata "#AR-Comm_Variable_Grid_8_US"
+    }
+    AudioBankSampleClass "9.wav" {
+     Filename "{0A503C1127A7141F}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/9.wav"
+     Probability 100
+     Index 9
+     SampleMetadata "AR-Comm_Variable_Grid_9_US"
+    }
+   }
+  }
+  BankLocalClass "328708" {
+   id 328708
+   name "Number 4"
+   version 7
+   tl -27.003 5088.803
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "267277:8" {
+       id 267277
+       port 8
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "327693:5" {
+       id 327693
+       port 5
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "268313:65" {
+       id 268313
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    14 0
+   }
+   Selection CustomSignalIndex
+   Samples {
+    AudioBankSampleClass "0.wav" {
+     Filename "{021832E28C2CDB5A}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/0.wav"
+     Probability 100
+     Index 0
+     SampleMetadata "#AR-Comm_Variable_Grid_0_US"
+    }
+    AudioBankSampleClass "1.wav" {
+     Filename "{75125A6A788E342A}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/1.wav"
+     Probability 100
+     Index 1
+     SampleMetadata "#AR-Comm_Variable_Grid_1_US"
+    }
+    AudioBankSampleClass "2.wav" {
+     Filename "{EC0CE3F3656905BA}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/2.wav"
+     Probability 100
+     Index 2
+     SampleMetadata "#AR-Comm_Variable_Grid_2_US"
+    }
+    AudioBankSampleClass "3.wav" {
+     Filename "{9B068B7B91CBEACA}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/3.wav"
+     Probability 100
+     Index 3
+     SampleMetadata "#AR-Comm_Variable_Grid_3_US"
+    }
+    AudioBankSampleClass "4.wav" {
+     Filename "{9CC1712AF74D5009}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/4.wav"
+     Probability 100
+     Index 4
+     SampleMetadata "#AR-Comm_Variable_Grid_4_US"
+    }
+    AudioBankSampleClass "5.wav" {
+     Filename "{EBCB19A203EFBF79}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/5.wav"
+     Probability 100
+     Index 5
+     SampleMetadata "#AR-Comm_Variable_Grid_5_US"
+    }
+    AudioBankSampleClass "6.wav" {
+     Filename "{72D5A03B1E088EE9}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/6.wav"
+     Probability 100
+     Index 6
+     SampleMetadata "#AR-Comm_Variable_Grid_6_US"
+    }
+    AudioBankSampleClass "7.wav" {
+     Filename "{05DFC8B3EAAA6199}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/7.wav"
+     Probability 100
+     Index 7
+     SampleMetadata "#AR-Comm_Variable_Grid_7_US"
+    }
+    AudioBankSampleClass "8.wav" {
+     Filename "{7D5A5499D305FB6F}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/8.wav"
+     Probability 100
+     Index 8
+     SampleMetadata "#AR-Comm_Variable_Grid_8_US"
+    }
+    AudioBankSampleClass "9.wav" {
+     Filename "{0A503C1127A7141F}Sounds/RadioProtocol/Samples/FR/Male1/General/Soldier/9.wav"
+     Probability 100
+     Index 9
+     SampleMetadata "#AR-Comm_Variable_Grid_9_US"
+    }
+   }
+  }
+  BankLocalClass "333828" {
+   id 333828
+   name "CP_FIREGRID_S1_P1"
+   version 7
+   tl -30.417 4501.253
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "267277:8" {
+       id 267277
+       port 8
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "268313:65" {
+       id 268313
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    10 0
+   }
+   Samples {
+    AudioBankSampleClass "GridMarked.wav" {
+     Filename "{DD3BD490A33075DE}Sounds/RadioProtocol/Samples/FR/Male1/General/GridCoordinates/GridMarked.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+   }
+  }
+  BankLocalClass "350212" {
+   id 350212
+   name "CP_RETURN_FIRE_S2_P1"
+   version 7
+   tl -32 4304
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "267277:8" {
+       id 267277
+       port 8
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "268313:65" {
+       id 268313
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    10 0
+   }
+   Samples {
+    AudioBankSampleClass "OnlyReturnFire2.wav" {
+     Filename "{81251EB3D49437B0}Sounds/RadioProtocol/Samples/FR/Male1/Combat/ReturnFire/OnlyReturnFire2.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "OnlyReturnFire.wav" {
+     Filename "{87414CA6404A606D}Sounds/RadioProtocol/Samples/FR/Male1/Combat/ReturnFire/OnlyReturnFire.wav"
+     Probability 100
+     Index 1
+     SampleMetadata ""
+    }
+   }
+  }
+  BankLocalClass "351236" {
+   id 351236
+   name "CP_FIRE_AT_WILL_S2_P1"
+   version 7
+   tl -32 3920
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "267277:8" {
+       id 267277
+       port 8
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "268313:65" {
+       id 268313
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    10 0
+   }
+   Samples {
+    AudioBankSampleClass "ShootTheseDogs.wav" {
+     Filename "{71E5C77313B39C4C}Sounds/RadioProtocol/Samples/FR/Male1/Combat/FireAtWill/ShootTheseDogs.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "LeaveNoSurvivors.wav" {
+     Filename "{E65A48893518F09E}Sounds/RadioProtocol/Samples/FR/Male1/Combat/FireAtWill/LeaveNoSurvivors.wav"
+     Probability 100
+     Index 1
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "FireAtWill1.wav" {
+     Filename "{8A155FFCA9816C67}Sounds/RadioProtocol/Samples/FR/Male1/Combat/FireAtWill/FireAtWill1.wav"
+     Probability 100
+     Index 2
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "FireAtWill2.wav" {
+     Filename "{130BE665B4665DF7}Sounds/RadioProtocol/Samples/FR/Male1/Combat/FireAtWill/FireAtWill2.wav"
+     Probability 100
+     Index 3
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "FireAtWill3.wav" {
+     Filename "{64018EED40C4B287}Sounds/RadioProtocol/Samples/FR/Male1/Combat/FireAtWill/FireAtWill3.wav"
+     Probability 100
+     Index 4
+     SampleMetadata ""
+    }
+   }
+  }
+ }
+ spatialities {
+  SpatialityClass "336924" {
+   id 336924
+   name "Spatiality"
+   version 5
+   tl 1376 175.109
+   pi {
+    1 0
+   }
+   spatialFactor 1
+  }
+ }
+ auxOuts {
+  AuxOutClass "315421" {
+   id 315421
+   name "AuxOut Reverb EXT"
+   version 5
+   tl 1882.808 958.939
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "154633:5" {
+       id 154633
+       port 5
+      }
+      ConnectionClass "161801:5" {
+       id 161801
+       port 5
+      }
+      ConnectionClass "168969:5" {
+       id 168969
+       port 5
+      }
+      ConnectionClass "177161:5" {
+       id 177161
+       port 5
+      }
+      ConnectionClass "254985:5" {
+       id 254985
+       port 5
+      }
+      ConnectionClass "279561:5" {
+       id 279561
+       port 5
+      }
+      ConnectionClass "285705:5" {
+       id 285705
+       port 5
+      }
+      ConnectionClass "294921:5" {
+       id 294921
+       port 5
+      }
+      ConnectionClass "302089:5" {
+       id 302089
+       port 5
+      }
+      ConnectionClass "309257:5" {
+       id 309257
+       port 5
+      }
+      ConnectionClass "332809:5" {
+       id 332809
+       port 5
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "316429:105" {
+       id 316429
+       port 105
+      }
+     }
+    }
+   }
+   pi {
+    3 0
+   }
+   pu {
+    2 0
+   }
+   OSPort 197639
+  }
+  AuxOutClass "317469" {
+   id 317469
+   name "AuxOut Rev Medium"
+   version 5
+   tl 1882.808 1401.365
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "154633:5" {
+       id 154633
+       port 5
+      }
+      ConnectionClass "161801:5" {
+       id 161801
+       port 5
+      }
+      ConnectionClass "168969:5" {
+       id 168969
+       port 5
+      }
+      ConnectionClass "177161:5" {
+       id 177161
+       port 5
+      }
+      ConnectionClass "254985:5" {
+       id 254985
+       port 5
+      }
+      ConnectionClass "279561:5" {
+       id 279561
+       port 5
+      }
+      ConnectionClass "285705:5" {
+       id 285705
+       port 5
+      }
+      ConnectionClass "294921:5" {
+       id 294921
+       port 5
+      }
+      ConnectionClass "302089:5" {
+       id 302089
+       port 5
+      }
+      ConnectionClass "309257:5" {
+       id 309257
+       port 5
+      }
+      ConnectionClass "332809:5" {
+       id 332809
+       port 5
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "316429:106" {
+       id 316429
+       port 106
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "316429:39" {
+       id 316429
+       port 39
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+   pu {
+    6 0
+   }
+   OSPort 339975
+  }
+  AuxOutClass "318493" {
+   id 318493
+   name "AuxOut Rev Large"
+   version 5
+   tl 1882.808 1529.365
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "154633:5" {
+       id 154633
+       port 5
+      }
+      ConnectionClass "161801:5" {
+       id 161801
+       port 5
+      }
+      ConnectionClass "168969:5" {
+       id 168969
+       port 5
+      }
+      ConnectionClass "177161:5" {
+       id 177161
+       port 5
+      }
+      ConnectionClass "254985:5" {
+       id 254985
+       port 5
+      }
+      ConnectionClass "279561:5" {
+       id 279561
+       port 5
+      }
+      ConnectionClass "285705:5" {
+       id 285705
+       port 5
+      }
+      ConnectionClass "294921:5" {
+       id 294921
+       port 5
+      }
+      ConnectionClass "302089:5" {
+       id 302089
+       port 5
+      }
+      ConnectionClass "309257:5" {
+       id 309257
+       port 5
+      }
+      ConnectionClass "332809:5" {
+       id 332809
+       port 5
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "316429:110" {
+       id 316429
+       port 110
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "316429:39" {
+       id 316429
+       port 39
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+   pu {
+    6 0
+   }
+   OSPort 340999
+  }
+  AuxOutClass "319517" {
+   id 319517
+   name "AuxOut Rev Small"
+   version 5
+   tl 1882.808 1273.365
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "154633:5" {
+       id 154633
+       port 5
+      }
+      ConnectionClass "161801:5" {
+       id 161801
+       port 5
+      }
+      ConnectionClass "168969:5" {
+       id 168969
+       port 5
+      }
+      ConnectionClass "177161:5" {
+       id 177161
+       port 5
+      }
+      ConnectionClass "254985:5" {
+       id 254985
+       port 5
+      }
+      ConnectionClass "279561:5" {
+       id 279561
+       port 5
+      }
+      ConnectionClass "285705:5" {
+       id 285705
+       port 5
+      }
+      ConnectionClass "294921:5" {
+       id 294921
+       port 5
+      }
+      ConnectionClass "302089:5" {
+       id 302089
+       port 5
+      }
+      ConnectionClass "309257:5" {
+       id 309257
+       port 5
+      }
+      ConnectionClass "332809:5" {
+       id 332809
+       port 5
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "316429:107" {
+       id 316429
+       port 107
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "316429:39" {
+       id 316429
+       port 39
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+   pu {
+    6 0
+   }
+   OSPort 338951
+  }
+ }
+ groups {
+  GroupClass {
+   id 270339
+   name "DSP + Shadernodes"
+   children {
+    184348 245782 181269 182291 183309 244749 246797 336924
+   }
+   parent -1
+   Color 0.6 0.6 0.6 0.251
+  }
+  GroupClass {
+   id 271363
+   name "Order unit to hold fire"
+   children {
+    154633 236550 216068 217092 201732 259078 153618 260120 337927
+   }
+   parent -1
+   Color 0.557 0 0.565 0.329
+  }
+  GroupClass {
+   id 272387
+   name "Order unit to engage a specified target"
+   children {
+    240644 160786 211974 241668 261126 188440 161801 242692 338951
+   }
+   parent -1
+   Color 0.557 0 0.565 0.329
+  }
+  GroupClass {
+   id 273411
+   name "Order unit to defend a position"
+   children {
+    235526 224260 265240 262150 170002 168969 204804 225284 339975
+   }
+   parent -1
+   Color 0.557 0 0.565 0.329
+  }
+  GroupClass {
+   id 274435
+   name "Order unit to defend the perimeter"
+   children {
+    176146 177161 205828 263174 228356 229380 266264 233478 340999
+   }
+   parent -1
+   Color 0.557 0 0.565 0.329
+  }
+  GroupClass {
+   id 275459
+   name "Order unit to search and destroy targets"
+   children {
+    254985 251908 253976 256018 264198 252934 249860 250884 342023
+   }
+   parent -1
+   Color 0.557 0 0.565 0.329
+  }
+  GroupClass {
+   id 282627
+   name "Announce laying down suppressive fire"
+   children {
+    281618 279561 277508 343047
+   }
+   parent -1
+   Color 0.549 0.624 0 0.329
+  }
+  GroupClass {
+   id 291843
+   name "Order suppressive fire"
+   children {
+    284676 290820 283654 286738 289798 288792 285705 287748 344071
+   }
+   parent -1
+   Color 0.557 0 0.565 0.329
+  }
+  GroupClass {
+   id 293891
+   name "Shared Banks"
+   children {
+    185348 292868
+   }
+   parent -1
+   Color 0.392 0.624 0.157 1
+  }
+  GroupClass {
+   id 301059
+   name "Order hold fire"
+   children {
+    294921 298002 296964 295960 300038 345095
+   }
+   parent -1
+   Color 0.558 0 0.565 0.251
+  }
+  GroupClass {
+   id 308227
+   name "Order firing at will"
+   children {
+    305176 307204 303122 306182 302089 346119 352262 351236
+   }
+   parent -1
+   Color 0.558 0 0.565 0.251
+  }
+  GroupClass {
+   id 314371
+   name "Order return fire"
+   children {
+    311300 312338 313350 309257 310296 347143 349190 350212
+   }
+   parent -1
+   Color 0.558 0 0.565 0.251
+  }
+  GroupClass {
+   id 335875
+   name "Order firing at grid coordinate"
+   children {
+    334872 333828 328708 329752 323608 331794 322564 330758 321540 324612 325637 332809 320516 326660 348167
+   }
+   parent -1
+   Color 0.558 0 0.565 0.251
+  }
+ }
+ version 1
+ listenerWindowModel "{9F3AF591CD6DFE1A}Assets/Characters/Basebody/Basebody_Male_01.xob"
+}

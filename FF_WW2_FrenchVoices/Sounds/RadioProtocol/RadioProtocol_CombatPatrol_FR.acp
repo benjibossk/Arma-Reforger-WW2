@@ -1,0 +1,2384 @@
+AudioClass {
+ signals {
+  SignalClass {
+   id 226317
+   name "TimeOfDayToSeed"
+   tl -219.364 1427.472
+   res "{51B3E28FAEFE7386}Sounds/_SharedData/Signals/SimpleHelpers/TimeOfDayToSeed.sig"
+   conns {
+    IOPConnectionClass iopConnection {
+     port 39
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass connection {
+         id 227340
+         port 1
+        }
+       }
+      }
+     }
+    }
+   }
+   inputsport {
+    1 2 39
+   }
+   outputsport {
+    30
+   }
+   inputvalues {
+    0.932 21680 0
+   }
+   inputvaluesmin {
+    0 0 0
+   }
+   inputvaluesmax {
+    1 21680 1
+   }
+   path "{51B3E28FAEFE7386}Sounds/_SharedData/Signals/SimpleHelpers/TimeOfDayToSeed.sig"
+  }
+ }
+ filters {
+  FilterClass : "{5E613C9008123B4B}Sounds/_SharedData/Configs/Filter/RadioProtocol/Filter_RadioProtocol_BitCrusher.conf" {
+   id 119830
+   version 5
+   tl 438.357 -719.738
+   parent "{5E613C9008123B4B}Sounds/_SharedData/Configs/Filter/RadioProtocol/Filter_RadioProtocol_BitCrusher.conf"
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 225310
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    3 0
+   }
+   volume_dB 1
+  }
+  FilterClass : "{6322339741A563B7}Sounds/_SharedData/Configs/Filter/RadioProtocol/Filter_RadioProtocol_LPFilter.conf" {
+   id 120854
+   version 5
+   tl 438.357 -631.882
+   parent "{6322339741A563B7}Sounds/_SharedData/Configs/Filter/RadioProtocol/Filter_RadioProtocol_LPFilter.conf"
+   pi {
+    3 0
+   }
+  }
+  FilterClass : "{9D5F8A1F1997D843}Sounds/_SharedData/Configs/Filter/RadioProtocol/Filter_RadioProtocol_HPFilter.conf" {
+   id 121878
+   version 5
+   tl 438.357 -543.151
+   parent "{9D5F8A1F1997D843}Sounds/_SharedData/Configs/Filter/RadioProtocol/Filter_RadioProtocol_HPFilter.conf"
+   pi {
+    3 0
+   }
+  }
+  FilterClass : "{EAE903FA358E7F4C}Sounds/_SharedData/Configs/Filter/RadioProtocol/Filter_RadioProtocol_Compressor.conf" {
+   id 122902
+   version 5
+   tl 438.357 -808.468
+   parent "{EAE903FA358E7F4C}Sounds/_SharedData/Configs/Filter/RadioProtocol/Filter_RadioProtocol_Compressor.conf"
+   pi + {
+    0
+   }
+  }
+ }
+ filter_chain {
+  FilterChainClass {
+   id 118807
+   name "FilterChain 116"
+   version 5
+   tl 438.357 -455.024
+   ins {
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 122902
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 119830
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 3
+     links {
+      ConnectionClass connection {
+       id 120854
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 4
+     links {
+      ConnectionClass connection {
+       id 121878
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    30 0
+   }
+   ports 4
+  }
+ }
+ vars {
+  VariableClass {
+   id 152606
+   name "Variable VON_Radio"
+   comment "Duck when VON active"
+   version 5
+   tl 644.318 -419.024
+   ctl 0 -21
+   varName "VON_Radio"
+   varResource "{A60F08955792B575}Sounds/_SharedData/Variables/GlobalVariables.conf"
+   curve {
+    CurvePoint "1" {
+     X 0.2
+     Y 1
+    }
+    CurvePoint "2" {
+     X 0.7
+     Y 0.7
+    }
+    CurvePoint "3" {
+     X 1.4
+     Y 0.6
+    }
+   }
+  }
+  VariableClass {
+   id 225310
+   name "Variable TransmissionDegradation"
+   version 5
+   tl 18.512 -693
+   varName "TransmissionDegradation"
+   varResource "{A60F08955792B575}Sounds/_SharedData/Variables/GlobalVariables.conf"
+  }
+ }
+ sounds {
+  SoundClass : "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf" {
+   id 11273
+   name "SOUND_CP_IPL_1"
+   version 5
+   tl 644.318 284.333
+   parent "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf"
+   ins {
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 152606
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 14354
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    2 0
+   }
+   outState 13323
+   outStatePort 19463
+   delayTime 0
+  }
+  SoundClass : "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf" {
+   id 36873
+   name "SOUND_CP_IPL_2"
+   version 5
+   tl 644.318 456.667
+   parent "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf"
+   ins {
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 152606
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 155666
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    2 0
+   }
+   outState 13323
+   outStatePort 19463
+   delayTime 0
+  }
+  SoundClass : "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf" {
+   id 49161
+   name "SOUND_CP_IPL_3"
+   version 5
+   tl 644.318 616.947
+   parent "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf"
+   ins {
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 152606
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 48146
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    2 0
+   }
+   outState 13323
+   outStatePort 19463
+   delayTime 0
+  }
+  SoundClass : "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf" {
+   id 51209
+   name "SOUND_CP_TD_PCL"
+   version 5
+   tl 644.318 781.076
+   parent "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf"
+   ins {
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 152606
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 52242
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    2 0
+   }
+   outState 13323
+   outStatePort 19463
+   delayTime 0
+  }
+  SoundClass : "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf" {
+   id 66569
+   name "SOUND_CP_TD_VCL"
+   version 5
+   tl 644.318 945.756
+   parent "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf"
+   ins {
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 152606
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 65554
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    2 0
+   }
+   outState 13323
+   outStatePort 19463
+   delayTime 0
+  }
+  SoundClass : "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf" {
+   id 71689
+   name "SOUND_CP_TD_SCL"
+   version 5
+   tl 644.318 1101
+   parent "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf"
+   ins {
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 152606
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 74770
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    2 0
+   }
+   outState 13323
+   outStatePort 19463
+   delayTime 0
+  }
+  SoundClass : "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf" {
+   id 77833
+   name "SOUND_CP_TD_CCL"
+   version 5
+   tl 644.318 1261.416
+   parent "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf"
+   ins {
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 152606
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 76818
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    2 0
+   }
+   outState 13323
+   outStatePort 19463
+   delayTime 0
+  }
+  SoundClass : "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf" {
+   id 85001
+   name "SOUND_CP_TD_PC"
+   version 5
+   tl 644.318 1427.472
+   parent "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf"
+   ins {
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 152606
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 83986
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    2 0
+   }
+   outState 13323
+   outStatePort 19463
+   delayTime 0
+  }
+  SoundClass : "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf" {
+   id 89097
+   name "SOUND_CP_TD_VC"
+   version 5
+   tl 644.318 1633.295
+   parent "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf"
+   ins {
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 152606
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 88082
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    2 0
+   }
+   outState 13323
+   outStatePort 19463
+   delayTime 0
+  }
+  SoundClass : "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf" {
+   id 94217
+   name "SOUND_CP_TD_SC"
+   version 5
+   tl 644.318 1840.198
+   parent "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf"
+   ins {
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 152606
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 93202
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    2 0
+   }
+   outState 13323
+   outStatePort 19463
+   delayTime 0
+  }
+  SoundClass : "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf" {
+   id 98313
+   name "SOUND_CP_TD_CC"
+   version 5
+   tl 644.318 2045.167
+   parent "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf"
+   ins {
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 152606
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 97298
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    2 0
+   }
+   outState 13323
+   outStatePort 19463
+   delayTime 0
+  }
+  SoundClass {
+   id 137225
+   name "SOUND_RADIO_NOISE"
+   version 5
+   tl 644.318 -268.869
+   ins {
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 152606
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 3
+     links {
+      ConnectionClass connection {
+       id 11273
+       port 4
+      }
+      ConnectionClass connection {
+       id 77833
+       port 4
+      }
+      ConnectionClass connection {
+       id 49161
+       port 4
+      }
+      ConnectionClass connection {
+       id 36873
+       port 4
+      }
+      ConnectionClass connection {
+       id 51209
+       port 4
+      }
+      ConnectionClass connection {
+       id 66569
+       port 4
+      }
+      ConnectionClass connection {
+       id 71689
+       port 4
+      }
+      ConnectionClass connection {
+       id 85001
+       port 4
+      }
+      ConnectionClass connection {
+       id 89097
+       port 4
+      }
+      ConnectionClass connection {
+       id 94217
+       port 4
+      }
+      ConnectionClass connection {
+       id 98313
+       port 4
+      }
+      ConnectionClass connection {
+       id 197641
+       port 4
+      }
+      ConnectionClass connection {
+       id 194569
+       port 4
+      }
+      ConnectionClass connection {
+       id 190473
+       port 4
+      }
+      ConnectionClass connection {
+       id 172041
+       port 4
+      }
+      ConnectionClass connection {
+       id 177161
+       port 4
+      }
+      ConnectionClass connection {
+       id 180233
+       port 4
+      }
+      ConnectionClass connection {
+       id 181257
+       port 4
+      }
+      ConnectionClass connection {
+       id 185353
+       port 4
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 203794
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    14 0
+   }
+   outState 13323
+   outStatePort 19463
+   eventType "Start - Stop"
+  }
+  SoundClass : "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf" {
+   id 172041
+   name "SOUND_CP_TIF"
+   version 5
+   tl 644.318 2251.266
+   parent "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf"
+   ins {
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 152606
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 173074
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    2 0
+   }
+   outState 13323
+   outStatePort 19463
+   delayTime 0
+  }
+  SoundClass : "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf" {
+   id 177161
+   name "SOUND_CP_TACC"
+   version 5
+   tl 644.318 2413.766
+   parent "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf"
+   ins {
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 152606
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 176146
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    2 0
+   }
+   outState 13323
+   outStatePort 19463
+   delayTime 0
+  }
+  SoundClass : "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf" {
+   id 180233
+   name "SOUND_CP_TETL"
+   version 5
+   tl 644.318 2738.523
+   parent "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf"
+   ins {
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 152606
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 178194
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    2 0
+   }
+   outState 13323
+   outStatePort 19463
+   delayTime 0
+  }
+  SoundClass : "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf" {
+   id 181257
+   name "SOUND_CP_TETW"
+   version 5
+   tl 644.318 2899.141
+   parent "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf"
+   ins {
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 152606
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 182290
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    2 0
+   }
+   outState 13323
+   outStatePort 19463
+   delayTime 0
+  }
+  SoundClass : "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf" {
+   id 185353
+   name "SOUND_CP_TETN"
+   version 5
+   tl 644.318 2577.475
+   parent "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf"
+   ins {
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 152606
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 184338
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    2 0
+   }
+   outState 13323
+   outStatePort 19463
+   delayTime 0
+  }
+  SoundClass : "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf" {
+   id 190473
+   name "SOUND_CP_TEC"
+   version 5
+   tl 644.318 3063.032
+   parent "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf"
+   ins {
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 152606
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 192530
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    2 0
+   }
+   outState 13323
+   outStatePort 19463
+   delayTime 0
+  }
+  SoundClass : "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf" {
+   id 194569
+   name "SOUND_CP_TEF_1"
+   version 5
+   tl 644.318 3228.229
+   parent "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf"
+   ins {
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 152606
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 193554
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    2 0
+   }
+   outState 13323
+   outStatePort 19463
+   delayTime 0
+  }
+  SoundClass : "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf" {
+   id 197641
+   name "SOUND_CP_TEF_2"
+   version 5
+   tl 644.318 3394.509
+   parent "{958F18DD0AE58AAE}Sounds/_SharedData/Configs/Sound/RadioProtocol/Sound_RadioProtocol.conf"
+   ins {
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 152606
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 196626
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    2 0
+   }
+   outState 13323
+   outStatePort 19463
+   delayTime 0
+  }
+ }
+ buses {
+  BusClass {
+   id 125959
+   name "Noise Bus"
+   version 7
+   tl 217.333 -244.869
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 225310
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 124933
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+  }
+ }
+ selectors {
+  SelectorClass {
+   id 199686
+   name "Seed Selector"
+   version 5
+   tl 217.333 1427.472
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 226317
+       port 30
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 3120
+     links {
+      ConnectionClass connection {
+       id 161796
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 3121
+     links {
+      ConnectionClass connection {
+       id 165892
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   ports {
+    PortClass S1 {
+     max 0.5
+    }
+    PortClass S2 {
+     min 0.5
+     max 2
+    }
+   }
+  }
+  SelectorClass {
+   id 200710
+   name "Seed Selector"
+   version 5
+   tl 217.333 1633.295
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 226317
+       port 30
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 3120
+     links {
+      ConnectionClass connection {
+       id 162820
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 3121
+     links {
+      ConnectionClass connection {
+       id 166916
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   ports {
+    PortClass S1 {
+     max 0.5
+    }
+    PortClass S2 {
+     min 0.5
+     max 2
+    }
+   }
+  }
+  SelectorClass {
+   id 201734
+   name "Seed Selector"
+   version 5
+   tl 217.333 1840.198
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 226317
+       port 30
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 3120
+     links {
+      ConnectionClass connection {
+       id 163844
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 3121
+     links {
+      ConnectionClass connection {
+       id 167940
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   ports {
+    PortClass S1 {
+     max 0.5
+    }
+    PortClass S2 {
+     min 0.5
+     max 2
+    }
+   }
+  }
+  SelectorClass {
+   id 202758
+   name "Seed Selector"
+   version 5
+   tl 217.333 2045.167
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 226317
+       port 30
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 3120
+     links {
+      ConnectionClass connection {
+       id 164868
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 3121
+     links {
+      ConnectionClass connection {
+       id 169988
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   ports {
+    PortClass S1 {
+     max 0.5
+    }
+    PortClass S2 {
+     min 0.5
+     max 2
+    }
+   }
+  }
+ }
+ generators {
+  GeneratorClass {
+   id 124933
+   name "Generator Brown Noise"
+   version 6
+   tl 18.512 -232.869
+   function BrownianNoise
+   volume 0.079
+   volume_dB -22
+   time 100
+   infinite 1
+   "Attack Curve" SCurve
+   "Attack Time " 100
+  }
+ }
+ mixers {
+  MixerClass {
+   id 13323
+   name "OutputState"
+   version 4
+   tl 875.416 245.286
+   res "{B764D803219C775E}Sounds/FinalMix.afm"
+   ins {
+    ConnectionsClass connections {
+     id 19463
+     links {
+      ConnectionClass connection {
+       id 11273
+       port 65
+      }
+      ConnectionClass connection {
+       id 36873
+       port 65
+      }
+      ConnectionClass connection {
+       id 49161
+       port 65
+      }
+      ConnectionClass connection {
+       id 51209
+       port 65
+      }
+      ConnectionClass connection {
+       id 66569
+       port 65
+      }
+      ConnectionClass connection {
+       id 71689
+       port 65
+      }
+      ConnectionClass connection {
+       id 77833
+       port 65
+      }
+      ConnectionClass connection {
+       id 85001
+       port 65
+      }
+      ConnectionClass connection {
+       id 89097
+       port 65
+      }
+      ConnectionClass connection {
+       id 94217
+       port 65
+      }
+      ConnectionClass connection {
+       id 98313
+       port 65
+      }
+      ConnectionClass connection {
+       id 197641
+       port 65
+      }
+      ConnectionClass connection {
+       id 194569
+       port 65
+      }
+      ConnectionClass connection {
+       id 190473
+       port 65
+      }
+      ConnectionClass connection {
+       id 137225
+       port 65
+      }
+      ConnectionClass connection {
+       id 172041
+       port 65
+      }
+      ConnectionClass connection {
+       id 177161
+       port 65
+      }
+      ConnectionClass connection {
+       id 180233
+       port 65
+      }
+      ConnectionClass connection {
+       id 181257
+       port 65
+      }
+      ConnectionClass connection {
+       id 185353
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1280 0
+   }
+   path "{B764D803219C775E}Sounds/FinalMix.afm"
+   inputs {
+    "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialog" "Music" "ENV_Doors" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb" "VON_Reverb" "Dialog_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "UI" "ENV_AMB_3D_Reverb_Exterior" "SFX_Direct" "SFX_Reverb_Small" "SFX_Reverb_Medium" "SFX_Reverb_Large" "WPN_Shots_Player" "Dialog_Reverb_Small" "Dialog_Reverb_Medium" "Dialog_Reverb_Large" "WPN_TravelingProjectile" "Dialog_Delay_Exterior"
+   }
+  }
+ }
+ constants {
+  ConstantClass {
+   id 227340
+   name "Constant 222"
+   version 5
+   tl -442.364 1451.472
+   "Constant values" {
+    IOPConstantsValueClass INDEX_MAX {
+     Key "INDEX_MAX"
+     Value 1
+     Port 1
+    }
+   }
+  }
+ }
+ shaders {
+  ShaderClass {
+   id 14354
+   name "Shader 14"
+   version 5
+   tl 438.357 296.333
+   ins {
+    ConnectionsClass connections {
+     id 4
+     links {
+      ConnectionClass connection {
+       id 118807
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 153604
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    16 0
+   }
+  }
+  ShaderClass {
+   id 48146
+   name "Shader 47"
+   version 5
+   tl 438.357 628.947
+   ins {
+    ConnectionsClass connections {
+     id 4
+     links {
+      ConnectionClass connection {
+       id 118807
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 156676
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    16 0
+   }
+  }
+  ShaderClass {
+   id 52242
+   name "Shader 51"
+   version 5
+   tl 438.357 793.076
+   ins {
+    ConnectionsClass connections {
+     id 4
+     links {
+      ConnectionClass connection {
+       id 118807
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 157700
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    16 0
+   }
+  }
+  ShaderClass {
+   id 65554
+   name "Shader 64"
+   version 5
+   tl 438.357 957.756
+   ins {
+    ConnectionsClass connections {
+     id 4
+     links {
+      ConnectionClass connection {
+       id 118807
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 158724
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    16 0
+   }
+  }
+  ShaderClass {
+   id 74770
+   name "Shader 73"
+   version 5
+   tl 438.357 1113
+   ins {
+    ConnectionsClass connections {
+     id 4
+     links {
+      ConnectionClass connection {
+       id 118807
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 159748
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    16 0
+   }
+  }
+  ShaderClass {
+   id 76818
+   name "Shader 75"
+   version 5
+   tl 438.357 1273.416
+   ins {
+    ConnectionsClass connections {
+     id 4
+     links {
+      ConnectionClass connection {
+       id 118807
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 160772
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    16 0
+   }
+  }
+  ShaderClass {
+   id 83986
+   name "Shader 82"
+   version 5
+   tl 438.357 1439.472
+   ins {
+    ConnectionsClass connections {
+     id 4
+     links {
+      ConnectionClass connection {
+       id 118807
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 199686
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    16 0
+   }
+  }
+  ShaderClass {
+   id 88082
+   name "Shader 86"
+   version 5
+   tl 438.357 1645.295
+   ins {
+    ConnectionsClass connections {
+     id 4
+     links {
+      ConnectionClass connection {
+       id 118807
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 200710
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    16 0
+   }
+  }
+  ShaderClass {
+   id 93202
+   name "Shader 91"
+   version 5
+   tl 438.357 1852.198
+   ins {
+    ConnectionsClass connections {
+     id 4
+     links {
+      ConnectionClass connection {
+       id 118807
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 201734
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    16 0
+   }
+  }
+  ShaderClass {
+   id 97298
+   name "Shader 95"
+   version 5
+   tl 438.357 2057.167
+   ins {
+    ConnectionsClass connections {
+     id 4
+     links {
+      ConnectionClass connection {
+       id 118807
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 202758
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    16 0
+   }
+  }
+  ShaderClass {
+   id 155666
+   name "Shader 14"
+   version 5
+   tl 438.357 468.667
+   ins {
+    ConnectionsClass connections {
+     id 4
+     links {
+      ConnectionClass connection {
+       id 118807
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 154628
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    16 0
+   }
+  }
+  ShaderClass {
+   id 173074
+   name "Shader 96"
+   version 5
+   tl 438.357 2263.266
+   ins {
+    ConnectionsClass connections {
+     id 4
+     links {
+      ConnectionClass connection {
+       id 118807
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 174084
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    16 0
+   }
+  }
+  ShaderClass {
+   id 176146
+   name "Shader 96"
+   version 5
+   tl 438.357 2425.766
+   ins {
+    ConnectionsClass connections {
+     id 4
+     links {
+      ConnectionClass connection {
+       id 118807
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 175108
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    16 0
+   }
+  }
+  ShaderClass {
+   id 178194
+   name "Shader 96"
+   version 5
+   tl 438.357 2750.523
+   ins {
+    ConnectionsClass connections {
+     id 4
+     links {
+      ConnectionClass connection {
+       id 118807
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 179204
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    16 0
+   }
+  }
+  ShaderClass {
+   id 182290
+   name "Shader 96"
+   version 5
+   tl 438.357 2911.141
+   ins {
+    ConnectionsClass connections {
+     id 4
+     links {
+      ConnectionClass connection {
+       id 118807
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 183300
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    16 0
+   }
+  }
+  ShaderClass {
+   id 184338
+   name "Shader 96"
+   version 5
+   tl 438.357 2589.475
+   ins {
+    ConnectionsClass connections {
+     id 4
+     links {
+      ConnectionClass connection {
+       id 118807
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 186372
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    16 0
+   }
+  }
+  ShaderClass {
+   id 192530
+   name "Shader 96"
+   version 5
+   tl 438.357 3075.032
+   ins {
+    ConnectionsClass connections {
+     id 4
+     links {
+      ConnectionClass connection {
+       id 118807
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 191492
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    16 0
+   }
+  }
+  ShaderClass {
+   id 193554
+   name "Shader 96"
+   version 5
+   tl 438.357 3240.229
+   ins {
+    ConnectionsClass connections {
+     id 4
+     links {
+      ConnectionClass connection {
+       id 118807
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 195588
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    16 0
+   }
+  }
+  ShaderClass {
+   id 196626
+   name "Shader 96"
+   version 5
+   tl 439.468 3406.509
+   ins {
+    ConnectionsClass connections {
+     id 4
+     links {
+      ConnectionClass connection {
+       id 118807
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 198660
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    16 0
+   }
+  }
+  ShaderClass {
+   id 203794
+   name "Shader 152"
+   version 5
+   tl 438.357 -244.869
+   ins {
+    ConnectionsClass connections {
+     id 4
+     links {
+      ConnectionClass connection {
+       id 118807
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 125959
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    16 0
+   }
+  }
+ }
+ banks_local {
+  BankLocalClass {
+   id 153604
+   name "CP_IPL_1"
+   version 7
+   tl 18.512 308.333
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{822B01C004E50B72}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_IPL_1_S1_P1_V1.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{1B35B85919023AE2}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_IPL_1_S1_P1_V2.wav"
+     Index 1
+    }
+   }
+  }
+  BankLocalClass {
+   id 154628
+   name "CP_IPL_2"
+   version 7
+   tl 18.512 480.667
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{F99CA5EFFB7A2D5D}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_IPL_2_S1_P1_V1.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{60821C76E69D1CCD}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_IPL_2_S1_P1_V2.wav"
+     Index 1
+    }
+   }
+  }
+  BankLocalClass {
+   id 156676
+   name "CP_IPL_3"
+   version 7
+   tl 18.512 640.947
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{D0F1C60AAE0F30B8}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_IPL_3_S1_P1_V1.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{49EF7F93B3E80128}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_IPL_3_S1_P1_V2.wav"
+     Index 1
+    }
+   }
+  }
+  BankLocalClass {
+   id 157700
+   name "CP_TD_PCL"
+   version 7
+   tl 18.512 805.076
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{0B9A72976780363F}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TD_PCL_S1_P1_V1.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{9284CB0E7A6707AF}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TD_PCL_S1_P1_V2.wav"
+     Index 1
+    }
+   }
+  }
+  BankLocalClass {
+   id 158724
+   name "CP_TD_VCL"
+   version 7
+   tl 18.512 969.756
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{6808955F4673AEC9}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TD_VCL_S1_P1_V1.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{F1162CC65B949F59}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TD_VCL_S1_P1_V2.wav"
+     Index 1
+    }
+   }
+  }
+  BankLocalClass {
+   id 159748
+   name "CP_TD_SCL"
+   version 7
+   tl 18.512 1125
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{EC6497952B7627CD}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TD_SCL_S1_P1_V1.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{757A2E0C3691165D}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TD_SCL_S1_P1_V2.wav"
+     Index 1
+    }
+   }
+  }
+  BankLocalClass {
+   id 160772
+   name "CP_TD_CCL"
+   version 7
+   tl 18.512 1285.416
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{023B8F1FD66895E0}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TD_CCL_S1_P1_V1.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{9B253686CB8FA470}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TD_CCL_S1_P1_V2.wav"
+     Index 1
+    }
+   }
+  }
+  BankLocalClass {
+   id 161796
+   name "CP_TD_1PC"
+   version 7
+   tl 18.512 1451.472
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{8E75B5DA71C3DB92}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TD_1PC_S1_P1_V1.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{176B0C436C24EA02}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TD_1PC_S1_P1_V2.wav"
+     Index 1
+    }
+   }
+  }
+  BankLocalClass {
+   id 162820
+   name "CP_TD_1VC"
+   version 7
+   tl 18.512 1657.295
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{E9A7C0899D8FE92B}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TD_1VC_S1_P1_V1.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{70B979108068D8BB}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TD_1VC_S1_P1_V2.wav"
+     Index 1
+    }
+   }
+  }
+  BankLocalClass {
+   id 163844
+   name "CP_TD_1SC"
+   version 7
+   tl 18.512 1864.198
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{1CE4FF865310D987}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TD_1SC_S1_P1_V1.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{85FA461F4EF7E817}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TD_1SC_S1_P1_V2.wav"
+     Index 1
+    }
+   }
+  }
+  BankLocalClass {
+   id 164868
+   name "CP_TD_1CC"
+   version 7
+   tl 18.512 2069.167
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{0A19B7101CC65296}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TD_1CC_S1_P1_V1.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{93070E8901216306}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TD_1CC_S1_P1_V2.wav"
+     Index 1
+    }
+   }
+  }
+  BankLocalClass {
+   id 165892
+   name "CP_TD_2PC"
+   version 7
+   tl 18.512 1516.45
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{6DCBC243F08A602F}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TD_2PC_S1_P1_V1.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{F4D57BDAED6D51BF}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TD_2PC_S1_P1_V2.wav"
+     Index 1
+    }
+   }
+  }
+  BankLocalClass {
+   id 166916
+   name "CP_TD_2VC"
+   version 7
+   tl 18.512 1725.256
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{6DCBC243F08A6031}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TD_2VC_S1_P1_V1.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{F4D57BDAED6D51C1}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TD_2VC_S1_P1_V2.wav"
+     Index 1
+    }
+   }
+  }
+  BankLocalClass {
+   id 167940
+   name "CP_TD_2SC"
+   version 7
+   tl 18.512 1928.282
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{9888FD4C3E155083}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TD_2SC_S1_P1_V1.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{019644D523F26113}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TD_2SC_S1_P1_V2.wav"
+     Index 1
+    }
+   }
+  }
+  BankLocalClass {
+   id 169988
+   name "CP_TD_2CC"
+   version 7
+   tl 18.512 2133.98
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{0E59258BD179F8D9}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TD_2CC_S1_P1_V1.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{97479C12CC9EC949}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TD_2CC_S1_P1_V2.wav"
+     Index 1
+    }
+   }
+  }
+  BankLocalClass {
+   id 174084
+   name "CP_TIF"
+   version 7
+   tl 18.512 2275.266
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{6CE0A7218E7B6630}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TIF_S1_P1_V1.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{F5FE1EB8939C57A0}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TIF_S1_P1_V2.wav"
+     Index 1
+    }
+   }
+  }
+  BankLocalClass {
+   id 175108
+   name "CP_TACC"
+   version 7
+   tl 18.512 2437.766
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{0DDD929C70977015}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TACC_S1_P1_V1.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{94C32B056D704185}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TACC_S1_P1_V2.wav"
+     Index 1
+    }
+   }
+  }
+  BankLocalClass {
+   id 179204
+   name "CP_TETL"
+   version 7
+   tl 18.512 2762.523
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{29079412674EA417}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TETL_S1_P1_V1.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{B0192D8B7AA99587}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TETL_S1_P1_V2.wav"
+     Index 1
+    }
+   }
+  }
+  BankLocalClass {
+   id 183300
+   name "CP_TETW"
+   version 7
+   tl 18.512 2923.141
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{481C337E9E16E8F5}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TETW_S1_P1_V1.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{D1028AE783F1D965}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TETW_S1_P1_V2.wav"
+     Index 1
+    }
+   }
+  }
+  BankLocalClass {
+   id 186372
+   name "CP_TETN"
+   version 7
+   tl 18.512 2601.475
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{7BDD53D8CDA49FDD}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TETN_S1_P1_V1.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{E2C3EA41D043AE4D}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TETN_S1_P1_V2.wav"
+     Index 1
+    }
+   }
+  }
+  BankLocalClass {
+   id 191492
+   name "CP_TEC"
+   version 7
+   tl 18.512 3087.032
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{2F9CA1F656426933}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TEC_S1_P1_V1.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{B682186F4BA558A3}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TEC_S1_P1_V2.wav"
+     Index 1
+    }
+   }
+  }
+  BankLocalClass {
+   id 195588
+   name "CP_TEF_1"
+   version 7
+   tl 18.512 3252.229
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{B2C26DDDF60D526B}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TEF_1_S1_P1_V1.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{2BDCD444EBEA63FB}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TEF_1_S1_P1_V2.wav"
+     Index 1
+    }
+   }
+  }
+  BankLocalClass {
+   id 198660
+   name "CP_TEF_2"
+   version 7
+   tl 18.512 3418.509
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{C975C9F209927444}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TEF_2_S1_P1_V1.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{506B706B147545D4}Sounds/RadioProtocol/Samples/Eng/Male1/CombatPatrol/CP_TEF_2_S1_P1_V2.wav"
+     Index 1
+    }
+   }
+  }
+ }
+ groups {
+  GroupClass {
+   id 204803
+   name "Execute plan Firebug, asses tasking, infil"
+   children {
+    153604 11273 14354
+   }
+   parent -1
+   Color 0.969 0.286 1 0.329
+  }
+  GroupClass {
+   id 205827
+   name "Execute Plan Junkball, asses tasking, infil"
+   children {
+    155666 154628 36873
+   }
+   parent -1
+   Color 0.969 0.286 1 0.329
+  }
+  GroupClass {
+   id 206851
+   name "Execute Plan Moonshot, asses tasking, infil"
+   children {
+    48146 156676 49161
+   }
+   parent -1
+   Color 0.969 0.286 1 0.329
+  }
+  GroupClass {
+   id 207875
+   name "You got our guy, get to RV"
+   children {
+    157700 51209 52242
+   }
+   parent -1
+   Color 0.533 0.086 0.553 0.329
+  }
+  GroupClass {
+   id 208899
+   name "You knocked out our target, get to RV"
+   children {
+    65554 158724 66569
+   }
+   parent -1
+   Color 0.533 0.086 0.553 0.329
+  }
+  GroupClass {
+   id 209923
+   name "RadioNoise"
+   children {
+    203794 137225 125959 124933
+   }
+   parent -1
+   Color 0.6 0.6 0.6 0.251
+  }
+  GroupClass {
+   id 210947
+   name "You pulled off that demo job, get to RV"
+   children {
+    159748 74770 71689
+   }
+   parent -1
+   Color 0.533 0.086 0.553 0.329
+  }
+  GroupClass {
+   id 211971
+   name "You hit that Comms Array, get to RV"
+   children {
+    76818 77833 160772
+   }
+   parent -1
+   Color 0.533 0.086 0.553 0.329
+  }
+  GroupClass {
+   id 212995
+   name "You got our guy, proceed to next objective"
+   children {
+    165892 83986 161796 85001 199686
+   }
+   parent -1
+   Color 0.969 0.286 1 0.329
+  }
+  GroupClass {
+   id 214019
+   name "You knocked out our target, proceed to next objective"
+   children {
+    200710 89097 162820 166916 88082
+   }
+   parent -1
+   Color 0.969 0.286 1 0.329
+  }
+  GroupClass {
+   id 215043
+   name "You pulled off that demo job, proceed to next objective"
+   children {
+    167940 93202 201734 163844 94217
+   }
+   parent -1
+   Color 0.969 0.286 1 0.329
+  }
+  GroupClass {
+   id 216067
+   name "You hit that Comms Array, proceed to next objective"
+   children {
+    98313 169988 202758 164868 97298
+   }
+   parent -1
+   Color 0.969 0.286 1 0.329
+  }
+  GroupClass {
+   id 217091
+   name "We need that Intel, have it with you when RV"
+   children {
+    174084 173074 172041
+   }
+   parent -1
+   Color 0.533 0.086 0.553 0.329
+  }
+  GroupClass {
+   id 218115
+   name "Lots of enemy chatter, keep it up and exploit the situation"
+   children {
+    175108 176146 177161
+   }
+   parent -1
+   Color 0.533 0.086 0.553 0.329
+  }
+  GroupClass {
+   id 219139
+   name "Exfil to ERV Dinger, T + 30"
+   children {
+    179204 180233 178194
+   }
+   parent -1
+   Color 0.969 0.286 1 0.329
+  }
+  GroupClass {
+   id 220163
+   name "Exfil to ERV Dinger, T + 30"
+   children {
+    182290 183300 181257
+   }
+   parent -1
+   Color 0.969 0.286 1 0.329
+  }
+  GroupClass {
+   id 221187
+   name "Exfil to ERV Dinger"
+   children {
+    186372 184338 185353
+   }
+   parent -1
+   Color 0.969 0.286 1 0.329
+  }
+  GroupClass {
+   id 222211
+   name "Hold at the ERV, extraction inbound"
+   children {
+    190473 192530 191492
+   }
+   parent -1
+   Color 0.533 0.086 0.553 0.329
+  }
+  GroupClass {
+   id 223235
+   name "Extraction team under fire, abort mission and sit tight"
+   children {
+    194569 195588 193554
+   }
+   parent -1
+   Color 0.533 0.086 0.553 0.329
+  }
+  GroupClass {
+   id 224259
+   name "You took too long, abort mission and sit tight"
+   children {
+    196626 198660 197641
+   }
+   parent -1
+   Color 0.533 0.086 0.553 0.329
+  }
+ }
+ version 1
+}
