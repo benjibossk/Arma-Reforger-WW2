@@ -130,3 +130,5 @@ ResistanceOfficerQuests,Q_RO_FOB_1,107,JWK-Speech-RO-Fob-1,Votre prochaine tâch
 ResistanceOfficerQuests,Q_RO_FOB_2,108,JWK-Speech-RO-Fob-2,Choisissez un bon endroit pour l'installer. Vous pouvez utiliser votre carte pour vérifier quelles zones sont trop dangereuses.
 ResistanceOfficerQuests,Q_RO_FOB_3,109,JWK-Speech-RO-Fob-3,"Vous aurez besoin d'un peu d'argent pour démarrer. Oh, et n'oubliez pas une pelle."
 ResistanceOperative,DELIVER_ITEM_OK,126,JWK-Speech-ROB-ItemDelivered,Je t'attendais. Merci pour la livraison.
+Player,ASK_HIDEOUT_LOCATION_01,997,JWK-ConvoChoice-AskHideoutLocation,Où se trouve la planque la plus proche ?
+MilitaryPolice,MP_RESISTANCE_REPORT_REPLY_NEG,998,JWK-Speech-Side-ResistanceReportReplyNeg,Nous n'avons aucun signalement à cet endroit.

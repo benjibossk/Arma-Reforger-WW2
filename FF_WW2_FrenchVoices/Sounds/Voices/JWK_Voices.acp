@@ -695,7 +695,7 @@ AudioClass {
    Selection CustomSignalIndex
    Samples {
     AudioBankSampleClass "AskHideoutLocation_01.snd" {
-     Filename "{3EDB8D3F2D68D13E}Sounds/Voices/Samples/BaseVoice/AskHideoutLocation_01.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Player/ASK_HIDEOUT_LOCATION_01.wav"
      Probability 100
      Index 0
      SampleMetadata ""
@@ -1355,7 +1355,7 @@ AudioClass {
      SampleMetadata ""
     }
     AudioBankSampleClass "ResistanceReportReplyNeg_01.snd" {
-     Filename "{5EB2F80CC0FE35A7}Sounds/Voices/Samples/BaseVoice/ResistanceReportReplyNeg_01.snd"
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/MilitaryPolice/MP_RESISTANCE_REPORT_REPLY_NEG.wav"
      Probability 100
      Index 110
      SampleMetadata ""

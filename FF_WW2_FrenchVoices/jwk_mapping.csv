@@ -1,4 +1,5 @@
 JWK_Name,Bank,Our_SampleName,Status
+AskHideoutLocation_01.snd,Player,ASK_HIDEOUT_LOCATION_01,MATCH_EXPLICIT
 Digit_0.snd,Default,DIGIT_0,MATCH
 Digit_1.snd,Default,DIGIT_1,MATCH
 Digit_2.snd,Default,DIGIT_2,MATCH
@@ -108,6 +109,7 @@ Q_Dogtags_RO_5.snd,ResistanceOfficerQuests,Q_RO_DOGTAGS_5,MATCH_EXPLICIT
 Q_Fob_RO_1.snd,ResistanceOfficerQuests,Q_RO_FOB_1,MATCH_EXPLICIT
 Q_Fob_RO_2.snd,ResistanceOfficerQuests,Q_RO_FOB_2,MATCH_EXPLICIT
 Q_Fob_RO_3.snd,ResistanceOfficerQuests,Q_RO_FOB_3,MATCH_EXPLICIT
+ResistanceReportReplyNeg_01.snd,MilitaryPolice,MP_RESISTANCE_REPORT_REPLY_NEG,MATCH_EXPLICIT
 TurnDogtags.snd,Player,TURN_DOGTAGS,MATCH
 TurnDogtagsReply.snd,ResistanceOfficer,TURN_DOGTAGS_REPLY,MATCH
 NoTalk_01.snd,Default,NO_TALK_01,MATCH
@@ -130,8 +132,6 @@ AskFollow_01.snd,PlayerActions,ASK_FOLLOW_01,MATCH
 AskFollow_02.snd,PlayerActions,ASK_FOLLOW_02,MATCH
 StopFollow_01.snd,PlayerActions,ASK_STOP_FOLLOW_01,MATCH_EXPLICIT
 StopFollow_02.snd,PlayerActions,ASK_STOP_FOLLOW_02,MATCH_EXPLICIT
-AskHideoutLocation_01.snd,,,JWK_NO_MATCH
-ResistanceReportReplyNeg_01.snd,,,JWK_NO_MATCH
 ,AmbientCivilian,EXTORT_OK_01,OURS_UNUSED
 ,AmbientCivilian,EXTORT_OK_02,OURS_UNUSED
 ,AmbientCivilian,EXTORT_OK_03,OURS_UNUSED
@@ -208,3 +208,4 @@ ResistanceReportReplyNeg_01.snd,,,JWK_NO_MATCH
 ,ResistanceOfficerQuests,Q_RO_FOB_2,OURS_UNUSED
 ,ResistanceOfficerQuests,Q_RO_FOB_3,OURS_UNUSED
 ,ResistanceOperative,DELIVER_ITEM_OK,OURS_UNUSED
+,MilitaryPolice,MP_RESISTANCE_REPORT_REPLY_NEG,OURS_UNUSED

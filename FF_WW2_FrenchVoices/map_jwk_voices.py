@@ -113,6 +113,8 @@ EXPLICIT_MAP = {
     "StopFollow_02.snd":                  ("PlayerActions", "ASK_STOP_FOLLOW_02"),
     "TalkNoPants_01.snd":                 ("AmbientCivilian", "NO_PANTS_01"),
     "TalkNoPants_02.snd":                 ("AmbientCivilian", "NO_PANTS_02"),
+    "AskHideoutLocation_01.snd":          ("Player", "ASK_HIDEOUT_LOCATION_01"),
+    "ResistanceReportReplyNeg_01.snd":    ("MilitaryPolice", "MP_RESISTANCE_REPORT_REPLY_NEG"),
 }
 
 def norm(s):
