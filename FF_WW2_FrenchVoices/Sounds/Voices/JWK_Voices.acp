@@ -1,0 +1,1601 @@
+AudioClass {
+ signals {
+  SignalClass "135181" {
+   id 135181
+   name "Signal Spatial Factor"
+   tl -1191.981 2177.202
+   res "{A801B27A708153A6}Sounds/_SharedData/Signals/Character/Character_Spatiality.sig"
+   inputsport {
+    3
+   }
+   outputsport {
+    9
+   }
+   inputvalues {
+    0
+   }
+   inputvaluesmin {
+    0
+   }
+   inputvaluesmax {
+    1
+   }
+   path "{A801B27A708153A6}Sounds/_SharedData/Signals/Character/Character_Spatiality.sig"
+  }
+  SignalClass "138253" {
+   id 138253
+   name "Signal Occlusion"
+   tl -999.981 2353.202
+   res "{2DE6099BBD60C620}Sounds/_SharedData/Signals/Character/Character_Occlusion.sig"
+   inputsport {
+    2 8 20 50
+   }
+   outputsport {
+    36
+   }
+   inputvalues {
+    0 1 0 0
+   }
+   inputvaluesmin {
+    0 0 0 0
+   }
+   inputvaluesmax {
+    1 1 1 10000
+   }
+   path "{2DE6099BBD60C620}Sounds/_SharedData/Signals/Character/Character_Occlusion.sig"
+  }
+  SignalClass "141325" {
+   id 141325
+   name "Signal Directivitz"
+   tl -1176.118 2881.147
+   res "{43C50EB8DB8DE747}Sounds/_SharedData/Signals/Weapons/Weapon_Shooting_Directivity.sig"
+   inputsport {
+    1
+   }
+   outputsport {
+    5
+   }
+   inputvalues {
+    0
+   }
+   inputvaluesmin {
+    0
+   }
+   inputvaluesmax {
+    1
+   }
+   path "{43C50EB8DB8DE747}Sounds/_SharedData/Signals/Weapons/Weapon_Shooting_Directivity.sig"
+  }
+  SignalClass "144397" {
+   id 144397
+   name "Signal Reverb"
+   tl 54.007 3279.8
+   res "{90D469F083C44823}Sounds/_SharedData/Signals/Reverb/Reverb_Character.sig"
+   inputsport {
+    1 35 112 136
+   }
+   outputsport {
+    39 105 106 107 110
+   }
+   inputvalues {
+    0 0 0 0
+   }
+   inputvaluesmin {
+    0 0 0 0
+   }
+   inputvaluesmax {
+    100 1 16000 1
+   }
+   path "{90D469F083C44823}Sounds/_SharedData/Signals/Reverb/Reverb_Character.sig"
+  }
+  SignalClass "146445" {
+   id 146445
+   name "Voice signal"
+   tl -1729.395 3386.199
+   res "{C5A7529BDA8EE8BA}Sounds/JWK_Voice.sig"
+   inputsport {
+    1
+   }
+   outputsport {
+    2
+   }
+   inputvalues {
+    223
+   }
+   inputvaluesmin {
+    0
+   }
+   inputvaluesmax {
+    1000
+   }
+   path "{C5A7529BDA8EE8BA}Sounds/JWK_Voice.sig"
+  }
+  SignalClass "184333" {
+   id 184333
+   name "Signal 180"
+   tl -1833.928 4253.788
+   res "{BB5EFF59BC3C7737}Sounds/JWK_VoicePhoneFX.sig"
+   inputsport {
+    1
+   }
+   outputsport {
+    2
+   }
+   inputvalues {
+    0
+   }
+   inputvaluesmin {
+    0
+   }
+   inputvaluesmax {
+    1
+   }
+   path "{BB5EFF59BC3C7737}Sounds/JWK_VoicePhoneFX.sig"
+  }
+  SignalClass "185357" {
+   id 185357
+   name "Signal 181"
+   tl -1885.997 3850.075
+   res "{9E6A7D6F24A12B99}Sounds/JWK_VoiceRadioFX.sig"
+   inputsport {
+    1
+   }
+   outputsport {
+    2
+   }
+   inputvalues {
+    0
+   }
+   inputvaluesmin {
+    0
+   }
+   inputvaluesmax {
+    1
+   }
+   path "{9E6A7D6F24A12B99}Sounds/JWK_VoiceRadioFX.sig"
+  }
+  SignalClass "189453" {
+   id 189453
+   name "Line signal"
+   tl -1520.875 3589.265
+   res "{F135E57B5F570199}Sounds/JWK_VoiceLine.sig"
+   inputsport {
+    1
+   }
+   outputsport {
+    2
+   }
+   inputvalues {
+    113
+   }
+   inputvaluesmin {
+    0
+   }
+   inputvaluesmax {
+    1000
+   }
+   path "{F135E57B5F570199}Sounds/JWK_VoiceLine.sig"
+  }
+ }
+ filters {
+  FilterClass "172054" : "{6322339741A563B7}Sounds/_SharedData/Configs/Filter/RadioProtocol/Filter_RadioProtocol_LPFilter.conf" {
+   id 172054
+   name "Filter LowPass"
+   version 5
+   tl -1519.657 3863.228
+   parent "{6322339741A563B7}Sounds/_SharedData/Configs/Filter/RadioProtocol/Filter_RadioProtocol_LPFilter.conf"
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "185357:2" {
+       id 185357
+       port 2
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+  }
+  FilterClass "173078" : "{9D5F8A1F1997D843}Sounds/_SharedData/Configs/Filter/RadioProtocol/Filter_RadioProtocol_HPFilter.conf" {
+   id 173078
+   version 5
+   tl -1519.657 3954.219
+   parent "{9D5F8A1F1997D843}Sounds/_SharedData/Configs/Filter/RadioProtocol/Filter_RadioProtocol_HPFilter.conf"
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "185357:2" {
+       id 185357
+       port 2
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+  }
+  FilterClass "174102" : "{5E613C9008123B4B}Sounds/_SharedData/Configs/Filter/RadioProtocol/Filter_RadioProtocol_BitCrusher.conf" {
+   id 174102
+   version 5
+   tl -1518.657 3772.235
+   parent "{5E613C9008123B4B}Sounds/_SharedData/Configs/Filter/RadioProtocol/Filter_RadioProtocol_BitCrusher.conf"
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "185357:2" {
+       id 185357
+       port 2
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   volume_dB 1
+  }
+  FilterClass "187414" {
+   id 187414
+   name "Filter LowPass"
+   version 5
+   tl -1526.374 4242.688
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "184333:2" {
+       id 184333
+       port 2
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   DSPObject BiquadDSPTypeClass dsp {
+    fc 4000
+    Q 5.06
+   }
+  }
+  FilterClass "188438" {
+   id 188438
+   name "Filter HiPass"
+   version 5
+   tl -1526.374 4333.682
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "184333:2" {
+       id 184333
+       port 2
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   DSPObject BiquadDSPTypeClass dsp {
+    biquadType HighPass
+    fc 600
+    Q 3.3
+   }
+  }
+ }
+ filter_chain {
+  FilterChainClass "175127" {
+   id 175127
+   name "FilterChain"
+   version 5
+   tl -1166.396 4071.559
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "174102:65" {
+       id 174102
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "172054:65" {
+       id 172054
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "173078:65" {
+       id 173078
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:4" {
+     id 4
+     links {
+      ConnectionClass "187414:65" {
+       id 187414
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:5" {
+     id 5
+     links {
+      ConnectionClass "188438:65" {
+       id 188438
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    126 0
+   }
+   ports 5
+  }
+ }
+ sounds {
+  SoundClass "168969" : "{8CFE708E49BCF502}Sounds/_SharedData/Configs/Sound/VO/Sound_VO_Tutorial_Direct_Normal.conf" {
+   id 168969
+   name "JWK_SPEAK"
+   version 5
+   tl -318.117 3470.833
+   parent "{8CFE708E49BCF502}Sounds/_SharedData/Configs/Sound/VO/Sound_VO_Tutorial_Direct_Normal.conf"
+   ins {
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "170002:65" {
+       id 170002
+       port 65
+      }
+     }
+    }
+   }
+   outState 1035
+   outStatePort 19463
+  }
+ }
+ buses {
+  BusClass "190471" {
+   id 190471
+   name "Bus Voice Amplitude"
+   version 7
+   tl -857.982 3553.885
+   ins {
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "171012:65" {
+       id 171012
+       port 65
+      }
+     }
+    }
+   }
+   varLocName "VoiceAmplitude"
+   varLocalResource "{BA5100577C0511F6}Sounds/_SharedData/LocalVariables/LocalVariables_Voice.conf"
+  }
+ }
+ mixers {
+  MixerClass "1035" {
+   id 1035
+   name "Mixer"
+   version 4
+   tl 360.351 3808.369
+   res "{B764D803219C775E}Sounds/FinalMix.afm"
+   ins {
+    ConnectionsClass "con:19463" {
+     id 19463
+     links {
+      ConnectionClass "168969:65" {
+       id 168969
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:163847" {
+     id 163847
+     links {
+      ConnectionClass "142365:65" {
+       id 142365
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:197639" {
+     id 197639
+     links {
+      ConnectionClass "143389:65" {
+       id 143389
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    4260096 0
+   }
+   path "{B764D803219C775E}Sounds/FinalMix.afm"
+   inputs {
+    "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialog" "ENV_Doors" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb_OBSOLETE" "VON_Reverb_Small" "Dialog_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "ENV_AMB_3D_Reverb_Exterior" "SFX_Direct" "SFX_Reverb_Small" "SFX_Reverb_Medium" "SFX_Reverb_Large" "WPN_Shots_Player" "Dialog_Reverb_Small" "Dialog_Reverb_Medium" "Dialog_Reverb_Large" "WPN_TravelingProjectile" "Dialog_Delay_Exterior" "SFX_Reverb_InCabin" "VON_Reverb_Medium" "VON_Reverb_Large"
+   }
+  }
+ }
+ shaders {
+  ShaderClass "170002" {
+   id 170002
+   name "Shader 21"
+   version 5
+   tl -519.083 3472.683
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "140316:65" {
+       id 140316
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "139283:65" {
+       id 139283
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "136213:65" {
+       id 136213
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:4" {
+     id 4
+     links {
+      ConnectionClass "175127:65" {
+       id 175127
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "190471:65" {
+       id 190471
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    23 0
+   }
+  }
+ }
+ amplitudes {
+  AmplitudeClass "139283" : "{2D5607FF1ED3F5D3}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-35LUFS_to_-30LUFS.conf" {
+   id 139283
+   version 5
+   tl -999.981 2273.202
+   ctl 0 -21
+   parent "{2D5607FF1ED3F5D3}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-35LUFS_to_-30LUFS.conf"
+  }
+ }
+ frequency {
+  FrequencyClass "136213" : "{85F92D98658CB0F5}Sounds/_SharedData/Configs/Frequency/Character/Frequency_Character_Voice.conf" {
+   id 136213
+   version 5
+   tl -970.039 2895.227
+   parent "{85F92D98658CB0F5}Sounds/_SharedData/Configs/Frequency/Character/Frequency_Character_Voice.conf"
+   ins {
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "141325:5" {
+       id 141325
+       port 5
+      }
+     }
+    }
+    ConnectionsClass "con:4" {
+     id 4
+     links {
+      ConnectionClass "138253:36" {
+       id 138253
+       port 36
+      }
+     }
+    }
+   }
+   pi {
+    20 0
+   }
+   directivityFactor 0.75
+  }
+ }
+ replacer {
+  ReplacerClass "145433" {
+   id 145433
+   name "VOICES BANK"
+   comment "REGISTER CUSTOM VOICES HERE."
+   version 5
+   tl -1460.79 3383.981
+   ctl 0 -24
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "146445:2" {
+       id 146445
+       port 2
+      }
+     }
+    }
+   }
+   stringToReplace "/BaseVoice/"
+   replacementStrings {
+    ReplacementStringClass "/DefaultPlayer/" {
+     signalValue 1
+     replacementString "/DefaultPlayer/"
+    }
+    ReplacementStringClass "/DefaultMP/" {
+     signalValue 2
+     replacementString "/DefaultMP/"
+    }
+    ReplacementStringClass "/DefaultRO/" {
+     signalValue 3
+     replacementString "/DefaultRO/"
+    }
+    ReplacementStringClass "/FIA02/" {
+     signalValue 4
+     replacementString "/FIA02/"
+    }
+    ReplacementStringClass "/USSR01/" {
+     signalValue 5
+     replacementString "/USSR01/"
+    }
+    ReplacementStringClass "/FIA03/" {
+     signalValue 6
+     replacementString "/FIA03/"
+    }
+    ReplacementStringClass "/Civ01/" {
+     signalValue 21
+     replacementString "/Civ01/"
+    }
+    ReplacementStringClass "/Civ02/" {
+     signalValue 22
+     replacementString "/Civ02/"
+    }
+    ReplacementStringClass "/Civ03/" {
+     signalValue 23
+     replacementString "/Civ03/"
+    }
+    ReplacementStringClass "/Civ04/" {
+     signalValue 24
+     replacementString "/Civ04/"
+    }
+    ReplacementStringClass "/Civ05/" {
+     signalValue 25
+     replacementString "/Civ05/"
+    }
+    ReplacementStringClass "/Civ06/" {
+     signalValue 26
+     replacementString "/Civ06/"
+    }
+    ReplacementStringClass "/Civ07/" {
+     signalValue 27
+     replacementString "/Civ07/"
+    }
+    ReplacementStringClass "/ArPlayer/" {
+     signalValue 101
+     replacementString "/ArPlayer/"
+    }
+    ReplacementStringClass "/ArMP/" {
+     signalValue 102
+     replacementString "/ArMP/"
+    }
+    ReplacementStringClass "/ArRO/" {
+     signalValue 103
+     replacementString "/ArRO/"
+    }
+    ReplacementStringClass "/ArCiv01/" {
+     signalValue 121
+     replacementString "/ArCiv01/"
+    }
+    ReplacementStringClass "/ArCiv02/" {
+     signalValue 122
+     replacementString "/ArCiv02/"
+    }
+    ReplacementStringClass "/RuCiv01/" {
+     signalValue 221
+     replacementString "/RuCiv01/"
+    }
+    ReplacementStringClass "/RuCiv02/" {
+     signalValue 222
+     replacementString "/RuCiv02/"
+    }
+    ReplacementStringClass "/RuCiv03/" {
+     signalValue 223
+     replacementString "/RuCiv03/"
+    }
+    ReplacementStringClass "/RuCiv04/" {
+     signalValue 224
+     replacementString "/RuCiv04/"
+    }
+    ReplacementStringClass "/RuCiv05/" {
+     signalValue 225
+     replacementString "/RuCiv05/"
+    }
+    ReplacementStringClass "/RuCiv06/" {
+     signalValue 226
+     replacementString "/RuCiv06/"
+    }
+    ReplacementStringClass "/RuCiv07/" {
+     signalValue 227
+     replacementString "/RuCiv07/"
+    }
+   }
+  }
+ }
+ banks_local {
+  BankLocalClass "171012" {
+   id 171012
+   name "VOICELINES"
+   comment "REGISTER CUSTOM VOICELINES HERE."
+   version 7
+   tl -1130.864 3539.16
+   ctl 0 -24
+   ins {
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "189453:2" {
+       id 189453
+       port 2
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "145433:65" {
+       id 145433
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    8 0
+   }
+   Volume -6
+   Selection CustomSignalIndex
+   Samples {
+    AudioBankSampleClass "AskHideoutLocation_01.snd" {
+     Filename "{3EDB8D3F2D68D13E}Sounds/Voices/Samples/BaseVoice/AskHideoutLocation_01.snd"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Digit_0.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Default/DIGIT_0.wav"
+     Probability 100
+     Index 1
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Digit_1.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Default/DIGIT_1.wav"
+     Probability 100
+     Index 2
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Digit_2.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Default/DIGIT_2.wav"
+     Probability 100
+     Index 3
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Digit_3.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Default/DIGIT_3.wav"
+     Probability 100
+     Index 4
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Digit_4.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Default/DIGIT_4.wav"
+     Probability 100
+     Index 5
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Digit_5.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Default/DIGIT_5.wav"
+     Probability 100
+     Index 6
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Digit_6.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Default/DIGIT_6.wav"
+     Probability 100
+     Index 7
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Digit_7.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Default/DIGIT_7.wav"
+     Probability 100
+     Index 8
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Digit_8.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Default/DIGIT_8.wav"
+     Probability 100
+     Index 9
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Digit_9.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Default/DIGIT_9.wav"
+     Probability 100
+     Index 10
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "DontCall_01.snd" {
+     Filename "{28009609A2360510}Sounds/Voices/Samples/BaseVoice/DontCall_01.snd"
+     Probability 100
+     Index 11
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "HideoutLocationReplyA_01.snd" {
+     Filename "{40CBA0A070DCB3F4}Sounds/Voices/Samples/BaseVoice/HideoutLocationReplyA_01.snd"
+     Probability 100
+     Index 12
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "HideoutLocationReplyB_02.snd" {
+     Filename "{6B025BD23299B1FC}Sounds/Voices/Samples/BaseVoice/HideoutLocationReplyB_02.snd"
+     Probability 100
+     Index 13
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "HideoutLocationReplyNeg_01.snd" {
+     Filename "{07F19EEE6EB678C3}Sounds/Voices/Samples/BaseVoice/HideoutLocationReplyNeg_01.snd"
+     Probability 100
+     Index 14
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "PassOK_01.snd" {
+     Filename "{8A47E517B31BB6BE}Sounds/Voices/Samples/BaseVoice/PassOK_01.snd"
+     Probability 100
+     Index 15
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Passphrase_Agate.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Passphrases/PASSPHRASE_AGATE.wav"
+     Probability 100
+     Index 200
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Passphrase_Alligator.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Passphrases/PASSPHRASE_ALLIGATOR.wav"
+     Probability 100
+     Index 201
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Passphrase_Amber.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Passphrases/PASSPHRASE_AMBER.wav"
+     Probability 100
+     Index 202
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Passphrase_Bear.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Passphrases/PASSPHRASE_BEAR.wav"
+     Probability 100
+     Index 203
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Passphrase_Diamond.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Passphrases/PASSPHRASE_DIAMOND.wav"
+     Probability 100
+     Index 204
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Passphrase_Fox.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Passphrases/PASSPHRASE_FOX.wav"
+     Probability 100
+     Index 205
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Passphrase_Hawk.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Passphrases/PASSPHRASE_HAWK.wav"
+     Probability 100
+     Index 206
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Passphrase_Pearl.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Passphrases/PASSPHRASE_PEARL.wav"
+     Probability 100
+     Index 207
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Passphrase_Salamander.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Passphrases/PASSPHRASE_SALAMANDER.wav"
+     Probability 100
+     Index 208
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Passphrase_Topaz.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Passphrases/PASSPHRASE_TOPAZ.wav"
+     Probability 100
+     Index 209
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Passphrase_Wolf.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Passphrases/PASSPHRASE_WOLF.wav"
+     Probability 100
+     Index 210
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "PhonePickup_01.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Default/PHONE_PICKUP_01.wav"
+     Probability 100
+     Index 27
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "PhonePickupMP_01.snd" {
+     Filename "{1F91DB803E1A5071}Sounds/Voices/Samples/BaseVoice/PhonePickupMP_01.snd"
+     Probability 100
+     Index 28
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ReportResistance_01.snd" {
+     Filename "{9B82F9EF865C38CA}Sounds/Voices/Samples/BaseVoice/ReportResistance_01.snd"
+     Probability 100
+     Index 29
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ResistanceReportReply_01.snd" {
+     Filename "{2B64DE4FC20A2EA6}Sounds/Voices/Samples/BaseVoice/ResistanceReportReply_01.snd"
+     Probability 100
+     Index 30
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "AskJob_01.snd" {
+     Filename "{CA77557EF17F400A}Sounds/Voices/Samples/BaseVoice/AskJob_01.snd"
+     Probability 100
+     Index 31
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "StopNPC_02.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/PlayerActions/STOP_NPC_02.wav"
+     Probability 100
+     Index 32
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "StopNPC_01.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/PlayerActions/STOP_NPC_01.wav"
+     Probability 100
+     Index 33
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "JobReplyNeg_01.snd" {
+     Filename "{9D783DDF793DC342}Sounds/Voices/Samples/BaseVoice/JobReplyNeg_01.snd"
+     Probability 100
+     Index 34
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "JobReplyOkCache_01.snd" {
+     Filename "{F0E134CE2F11236A}Sounds/Voices/Samples/BaseVoice/JobReplyOkCache_01.snd"
+     Probability 100
+     Index 35
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "JobReplyOkMeet_01.snd" {
+     Filename "{E4611F40A2FC30CC}Sounds/Voices/Samples/BaseVoice/JobReplyOkMeet_01.snd"
+     Probability 100
+     Index 36
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "JobReplyOkNotes_01.snd" {
+     Filename "{B7F48B58F340AAA1}Sounds/Voices/Samples/BaseVoice/JobReplyOkNotes_01.snd"
+     Probability 100
+     Index 37
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "JobReportOk_01.snd" {
+     Filename "{105F092BFBBFDAFD}Sounds/Voices/Samples/BaseVoice/JobReportOk_01.snd"
+     Probability 100
+     Index 38
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "RadioCalloutAnswer_01.snd" {
+     Filename "{60A71C074E56FC64}Sounds/Voices/Samples/BaseVoice/RadioCalloutAnswer_01.snd"
+     Probability 100
+     Index 39
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "RadioCalloutTail_01.snd" {
+     Filename "{3BFB38ABC72BF1FA}Sounds/Voices/Samples/BaseVoice/RadioCalloutTail_01.snd"
+     Probability 100
+     Index 40
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "JobDoReport_01.snd" {
+     Filename "{ECBD47D746D05938}Sounds/Voices/Samples/FIA03/JobDoReport_01.snd"
+     Probability 100
+     Index 41
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Q_Intro_PlayerGreet.snd" {
+     Filename "{4AD92CF3883BCB74}Sounds/Voices/Samples/FIA03/Q_Intro_PlayerGreet.snd"
+     Probability 100
+     Index 42
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Q_Intro_RO_1.snd" {
+     Filename "{910305974B6DE9E4}Sounds/Voices/Samples/FIA02/Q_Intro_RO_1.snd"
+     Probability 100
+     Index 43
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Q_Posters_RO_1.snd" {
+     Filename "{92860C115C064BB7}Sounds/Voices/Samples/FIA02/Q_Posters_RO_1.snd"
+     Probability 100
+     Index 44
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Q_Posters_RO_2.snd" {
+     Filename "{0B98B58841E17A27}Sounds/Voices/Samples/FIA02/Q_Posters_RO_2.snd"
+     Probability 100
+     Index 45
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Q_Posters_RO_3.snd" {
+     Filename "{7C92DD00B5439557}Sounds/Voices/Samples/FIA02/Q_Posters_RO_3.snd"
+     Probability 100
+     Index 46
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "JobReportBackInPerson_01.snd" {
+     Filename "{69A7925C285846DF}Sounds/Voices/Samples/FIA02/JobReportBackInPerson_01.snd"
+     Probability 100
+     Index 47
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "AskForPosters.snd" {
+     Filename "{AFAC3A0DD0486799}Sounds/Voices/Samples/BaseVoice/AskForPosters.snd"
+     Probability 100
+     Index 48
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "AskPoster_AlreadyHave.snd" {
+     Filename "{05D1FF05EB1EF550}Sounds/Voices/Samples/BaseVoice/AskPoster_AlreadyHave.snd"
+     Probability 100
+     Index 49
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "AskPoster_ComeLater.snd" {
+     Filename "{D859F969BB1FF59C}Sounds/Voices/Samples/BaseVoice/AskPoster_ComeLater.snd"
+     Probability 100
+     Index 50
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "AskPoster_NoSpace.snd" {
+     Filename "{7D1F410E4BFB1AF4}Sounds/Voices/Samples/BaseVoice/AskPoster_NoSpace.snd"
+     Probability 100
+     Index 51
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "AskPoster_OK.snd" {
+     Filename "{D08C8AC2CFF97B34}Sounds/Voices/Samples/BaseVoice/AskPoster_OK.snd"
+     Probability 100
+     Index 52
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ConvertHostile_01.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/AmbientCivilian/CONVERT_HOS_01.wav"
+     Probability 100
+     Index 53
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ConvertHostile_02.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/AmbientCivilian/CONVERT_HOS_02.wav"
+     Probability 100
+     Index 54
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ConvertHostile_03.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/AmbientCivilian/CONVERT_HOS_03.wav"
+     Probability 100
+     Index 55
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ConvertHostile_04.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/AmbientCivilian/CONVERT_HOS_04.wav"
+     Probability 100
+     Index 56
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ConvertHostile_05.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/AmbientCivilian/CONVERT_HOS_05.wav"
+     Probability 100
+     Index 57
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ConvertNeedless_01.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/AmbientCivilian/CONVERT_NL_01.wav"
+     Probability 100
+     Index 58
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ConvertNeedless_02.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/AmbientCivilian/CONVERT_NL_02.wav"
+     Probability 100
+     Index 59
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ConvertNeedless_03.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/AmbientCivilian/CONVERT_NL_03.wav"
+     Probability 100
+     Index 60
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ConvertNeedless_04.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/AmbientCivilian/CONVERT_NL_04.wav"
+     Probability 100
+     Index 61
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ConvertNeg_01.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/AmbientCivilian/CONVERT_NEG_01.wav"
+     Probability 100
+     Index 62
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ConvertNeg_02.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/AmbientCivilian/CONVERT_NEG_02.wav"
+     Probability 100
+     Index 63
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ConvertNeg_03.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/AmbientCivilian/CONVERT_NEG_03.wav"
+     Probability 100
+     Index 64
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ConvertNeg_04.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/AmbientCivilian/CONVERT_NEG_04.wav"
+     Probability 100
+     Index 65
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ConvertNeg_05.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/AmbientCivilian/CONVERT_NEG_05.wav"
+     Probability 100
+     Index 66
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ConvertNeg_06.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/AmbientCivilian/CONVERT_NEG_06.wav"
+     Probability 100
+     Index 67
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ConvertOK_01.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/AmbientCivilian/CONVERT_OK_01.wav"
+     Probability 100
+     Index 68
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ConvertOK_02.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/AmbientCivilian/CONVERT_OK_02.wav"
+     Probability 100
+     Index 69
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ConvertOK_03.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/AmbientCivilian/CONVERT_OK_03.wav"
+     Probability 100
+     Index 70
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ConvertOK_04.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/AmbientCivilian/CONVERT_OK_04.wav"
+     Probability 100
+     Index 71
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ConvertOK_05.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/AmbientCivilian/CONVERT_OK_05.wav"
+     Probability 100
+     Index 72
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ConvertSupporter_01.snd" {
+     Filename "{C0C59BFC52053CAE}Sounds/Voices/Samples/BaseVoice/ConvertSupporter_01.snd"
+     Probability 100
+     Index 73
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ConvertSupporter_02.snd" {
+     Filename "{59DB22654FE20D3E}Sounds/Voices/Samples/BaseVoice/ConvertSupporter_02.snd"
+     Probability 100
+     Index 74
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ConvertSupporter_03.snd" {
+     Filename "{2ED14AEDBB40E24E}Sounds/Voices/Samples/BaseVoice/ConvertSupporter_03.snd"
+     Probability 100
+     Index 75
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ConvertSupporter_04.snd" {
+     Filename "{2916B0BCDDC6588D}Sounds/Voices/Samples/BaseVoice/ConvertSupporter_04.snd"
+     Probability 100
+     Index 76
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ConvertSupporter_05.snd" {
+     Filename "{5E1CD8342964B7FD}Sounds/Voices/Samples/BaseVoice/ConvertSupporter_05.snd"
+     Probability 100
+     Index 77
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ConvertSupporter_06.snd" {
+     Filename "{C70261AD3483866D}Sounds/Voices/Samples/BaseVoice/ConvertSupporter_06.snd"
+     Probability 100
+     Index 78
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ConvertSupporter_07.snd" {
+     Filename "{B0080925C021691D}Sounds/Voices/Samples/BaseVoice/ConvertSupporter_07.snd"
+     Probability 100
+     Index 79
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ConvertSupporter_08.snd" {
+     Filename "{C88D950FF98EF3EB}Sounds/Voices/Samples/BaseVoice/ConvertSupporter_08.snd"
+     Probability 100
+     Index 80
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ConvertSupporter_09.snd" {
+     Filename "{BF87FD870D2C1C9B}Sounds/Voices/Samples/BaseVoice/ConvertSupporter_09.snd"
+     Probability 100
+     Index 81
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ConvertSupporter_10.snd" {
+     Filename "{43C7B4ECAB7ABBAA}Sounds/Voices/Samples/BaseVoice/ConvertSupporter_10.snd"
+     Probability 100
+     Index 82
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ExtortCivilian_01.snd" {
+     Filename "{CE5D438921934E74}Sounds/Voices/Samples/BaseVoice/ExtortCivilian_01.snd"
+     Probability 100
+     Index 83
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ExtortCivilian_02.snd" {
+     Filename "{5743FA103C747FE4}Sounds/Voices/Samples/BaseVoice/ExtortCivilian_02.snd"
+     Probability 100
+     Index 84
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ExtortCivilian_03.snd" {
+     Filename "{20499298C8D69094}Sounds/Voices/Samples/BaseVoice/ExtortCivilian_03.snd"
+     Probability 100
+     Index 85
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ExtortCivilian_04.snd" {
+     Filename "{278E68C9AE502A57}Sounds/Voices/Samples/BaseVoice/ExtortCivilian_04.snd"
+     Probability 100
+     Index 86
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ExtortCivilian_05.snd" {
+     Filename "{508400415AF2C527}Sounds/Voices/Samples/BaseVoice/ExtortCivilian_05.snd"
+     Probability 100
+     Index 87
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ExtortCivilianNeg_01.snd" {
+     Filename "{058793B763907797}Sounds/Voices/Samples/BaseVoice/ExtortCivilianNeg_01.snd"
+     Probability 100
+     Index 88
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ExtortCivilianNeg_02.snd" {
+     Filename "{9C992A2E7E774607}Sounds/Voices/Samples/BaseVoice/ExtortCivilianNeg_02.snd"
+     Probability 100
+     Index 89
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ExtortCivilianNeg_03.snd" {
+     Filename "{EB9342A68AD5A977}Sounds/Voices/Samples/BaseVoice/ExtortCivilianNeg_03.snd"
+     Probability 100
+     Index 90
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ExtortCivilianNeg_04.snd" {
+     Filename "{EC54B8F7EC5313B4}Sounds/Voices/Samples/BaseVoice/ExtortCivilianNeg_04.snd"
+     Probability 100
+     Index 91
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ExtortCivilianNeg_05.snd" {
+     Filename "{9B5ED07F18F1FCC4}Sounds/Voices/Samples/BaseVoice/ExtortCivilianNeg_05.snd"
+     Probability 100
+     Index 92
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ExtortCivilianOK_01.snd" {
+     Filename "{359EE21724C11AE7}Sounds/Voices/Samples/BaseVoice/ExtortCivilianOK_01.snd"
+     Probability 100
+     Index 93
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ExtortCivilianOK_02.snd" {
+     Filename "{AC805B8E39262B77}Sounds/Voices/Samples/BaseVoice/ExtortCivilianOK_02.snd"
+     Probability 100
+     Index 94
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ExtortCivilianOK_03.snd" {
+     Filename "{DB8A3306CD84C407}Sounds/Voices/Samples/BaseVoice/ExtortCivilianOK_03.snd"
+     Probability 100
+     Index 95
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ExtortCivilianOK_04.snd" {
+     Filename "{DC4DC957AB027EC4}Sounds/Voices/Samples/BaseVoice/ExtortCivilianOK_04.snd"
+     Probability 100
+     Index 96
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ExtortCivilianResistance_01.snd" {
+     Filename "{EEA00D0DA5529D3A}Sounds/Voices/Samples/BaseVoice/ExtortCivilianResistance_01.snd"
+     Probability 100
+     Index 97
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ExtortCivilianResistance_02.snd" {
+     Filename "{77BEB494B8B5ACAA}Sounds/Voices/Samples/BaseVoice/ExtortCivilianResistance_02.snd"
+     Probability 100
+     Index 98
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ExtortCivilianUndercover_01.snd" {
+     Filename "{2754469A659C432F}Sounds/Voices/Samples/BaseVoice/ExtortCivilianUndercover_01.snd"
+     Probability 100
+     Index 99
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ExtortCivilianUndercover_02.snd" {
+     Filename "{BE4AFF03787B72BF}Sounds/Voices/Samples/BaseVoice/ExtortCivilianUndercover_02.snd"
+     Probability 100
+     Index 100
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Q_Dogtags_PL_1.snd" {
+     Filename "{F68B9C8B46AAE3A2}Sounds/Voices/Samples/BaseVoice/Q_Dogtags_PL_1.snd"
+     Probability 100
+     Index 101
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Q_Dogtags_RO_1.snd" {
+     Filename "{20B4B0749A79CD35}Sounds/Voices/Samples/BaseVoice/Q_Dogtags_RO_1.snd"
+     Probability 100
+     Index 102
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Q_Dogtags_RO_2.snd" {
+     Filename "{B9AA09ED879EFCA5}Sounds/Voices/Samples/BaseVoice/Q_Dogtags_RO_2.snd"
+     Probability 100
+     Index 103
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Q_Dogtags_RO_3.snd" {
+     Filename "{CEA06165733C13D5}Sounds/Voices/Samples/BaseVoice/Q_Dogtags_RO_3.snd"
+     Probability 100
+     Index 104
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Q_Dogtags_RO_4.snd" {
+     Filename "{C9679B3415BAA916}Sounds/Voices/Samples/BaseVoice/Q_Dogtags_RO_4.snd"
+     Probability 100
+     Index 105
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Q_Dogtags_RO_5.snd" {
+     Filename "{BE6DF3BCE1184666}Sounds/Voices/Samples/BaseVoice/Q_Dogtags_RO_5.snd"
+     Probability 100
+     Index 106
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Q_Fob_RO_1.snd" {
+     Filename "{12D3ED41AF601D9B}Sounds/Voices/Samples/BaseVoice/Q_Fob_RO_1.snd"
+     Probability 100
+     Index 107
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Q_Fob_RO_2.snd" {
+     Filename "{8BCD54D8B2872C0B}Sounds/Voices/Samples/BaseVoice/Q_Fob_RO_2.snd"
+     Probability 100
+     Index 108
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "Q_Fob_RO_3.snd" {
+     Filename "{FCC73C504625C37B}Sounds/Voices/Samples/BaseVoice/Q_Fob_RO_3.snd"
+     Probability 100
+     Index 109
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "ResistanceReportReplyNeg_01.snd" {
+     Filename "{5EB2F80CC0FE35A7}Sounds/Voices/Samples/BaseVoice/ResistanceReportReplyNeg_01.snd"
+     Probability 100
+     Index 110
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "TurnDogtags.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Player/TURN_DOGTAGS.wav"
+     Probability 100
+     Index 111
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "TurnDogtagsReply.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/ResistanceOfficer/TURN_DOGTAGS_REPLY.wav"
+     Probability 100
+     Index 112
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "NoTalk_01.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Default/NO_TALK_01.wav"
+     Probability 100
+     Index 113
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "NoTalk_02.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Default/NO_TALK_02.wav"
+     Probability 100
+     Index 114
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "NoTalk_03.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Default/NO_TALK_03.wav"
+     Probability 100
+     Index 115
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "NoTalk_04.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Default/NO_TALK_04.wav"
+     Probability 100
+     Index 116
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "TalkNoPants_01.snd" {
+     Filename "{C59852E55F1B1B30}Sounds/Voices/Samples/BaseVoice/TalkNoPants_01.snd"
+     Probability 100
+     Index 117
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "TalkNoPants_02.snd" {
+     Filename "{5C86EB7C42FC2AA0}Sounds/Voices/Samples/BaseVoice/TalkNoPants_02.snd"
+     Probability 100
+     Index 118
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "JobResign_01.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Player/JOB_RESIGN_01.wav"
+     Probability 100
+     Index 119
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "JobResign_02.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Player/JOB_RESIGN_02.wav"
+     Probability 100
+     Index 120
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "JobResign_03.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/Player/JOB_RESIGN_03.wav"
+     Probability 100
+     Index 121
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "RO_JobResign_01.snd" {
+     Filename "{1C7BC47056CA1E91}Sounds/Voices/Samples/BaseVoice/RO_JobResign_01.snd"
+     Probability 100
+     Index 122
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "RO_JobResign_02.snd" {
+     Filename "{85657DE94B2D2F01}Sounds/Voices/Samples/BaseVoice/RO_JobResign_02.snd"
+     Probability 100
+     Index 123
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "RO_JobResign_03.snd" {
+     Filename "{F26F1561BF8FC071}Sounds/Voices/Samples/BaseVoice/RO_JobResign_03.snd"
+     Probability 100
+     Index 124
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "RO_JobDeliverItem1.snd" {
+     Filename "{D97DFD0DECEA6C81}Sounds/Voices/Samples/BaseVoice/RO_JobDeliverItem1.snd"
+     Probability 100
+     Index 125
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "J_DeliverItem_OK_01.snd" {
+     Filename "{B937111D9ECCDFD5}Sounds/Voices/Samples/BaseVoice/J_DeliverItem_OK_01.snd"
+     Probability 100
+     Index 126
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "LiberatePrisoner_01.snd" {
+     Filename "{0330B3A6F68A51FD}Sounds/Voices/Samples/BaseVoice/LiberatePrisoner_01.snd"
+     Probability 100
+     Index 127
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "LiberatePrisoner_02.snd" {
+     Filename "{9A2E0A3FEB6D606D}Sounds/Voices/Samples/BaseVoice/LiberatePrisoner_02.snd"
+     Probability 100
+     Index 128
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "AskFollow_01.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/PlayerActions/ASK_FOLLOW_01.wav"
+     Probability 100
+     Index 129
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "AskFollow_02.snd" {
+     Filename "{AF123222FD39FDB1}Sounds/Voices/Samples/FR/PlayerActions/ASK_FOLLOW_02.wav"
+     Probability 100
+     Index 130
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "StopFollow_01.snd" {
+     Filename "{427EEFBF9DAC031E}Sounds/Voices/Samples/BaseVoice/StopFollow_01.snd"
+     Probability 100
+     Index 131
+     SampleMetadata ""
+    }
+    AudioBankSampleClass "StopFollow_02.snd" {
+     Filename "{DB605626804B328E}Sounds/Voices/Samples/BaseVoice/StopFollow_02.snd"
+     Probability 100
+     Index 132
+     SampleMetadata ""
+    }
+   }
+  }
+ }
+ spatialities {
+  SpatialityClass "140316" : "{E7A5A6AD7326FC7B}Sounds/_SharedData/Configs/Spatiality/Spatiality_Signal.conf" {
+   id 140316
+   version 5
+   tl -999.981 2177.202
+   parent "{E7A5A6AD7326FC7B}Sounds/_SharedData/Configs/Spatiality/Spatiality_Signal.conf"
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "135181:9" {
+       id 135181
+       port 9
+      }
+     }
+    }
+   }
+   pi + {
+    0
+   }
+  }
+ }
+ auxOuts {
+  AuxOutClass "142365" {
+   id 142365
+   name "AuxOut Reverb INT"
+   version 5
+   tl 361.107 3567.369
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "168969:5" {
+       id 168969
+       port 5
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "144397:34" {
+       id 144397
+       port 34
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "144397:39" {
+       id 144397
+       port 39
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+   OSPort 163847
+  }
+  AuxOutClass "143389" {
+   id 143389
+   name "AuxOut Reverb EXT"
+   version 5
+   tl 361.107 3695.369
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "168969:5" {
+       id 168969
+       port 5
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "144397:105" {
+       id 144397
+       port 105
+      }
+     }
+    }
+   }
+   pi {
+    3 0
+   }
+   OSPort 197639
+  }
+ }
+ version 1
+ acp_ins {
+  ACPInOut "VOICELINES|Index" {
+   piid 171012
+   port 2
+   id 828585065
+   group -1
+   flags 8
+  }
+ }
+}

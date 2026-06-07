@@ -1,0 +1,11 @@
+MetaFileClass {
+ Name "{293F68DCBEBA11F7}Sounds/Voices/JWK_Voices.acp"
+ Configurations {
+  AudioClassResourceClass PC {}
+  AudioClassResourceClass XBOX_ONE : PC {}
+  AudioClassResourceClass XBOX_SERIES : PC {}
+  AudioClassResourceClass PS4 : PC {}
+  AudioClassResourceClass PS5 : PC {}
+  AudioClassResourceClass HEADLESS : PC {}
+ }
+}
