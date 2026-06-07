@@ -12,6 +12,7 @@ The active mods now are:
 |---|---|---|
 | [`FF_WW2_Core/`](FF_WW2_Core/) | ⚙️ FF integration hub — overrides FF master configs, hooks community WW2 mods into FF gameplay | 🟢 Active |
 | [`FF_WW2_FrenchVoices/`](FF_WW2_FrenchVoices/) | 🇫🇷 French voice pack — 263 ElevenLabs-generated wavs covering Radio Protocol (130) + FF dialogue system (133) | 🟢 Active |
+| [`FF - Normandie/`](FF%20-%20Normandie/) | 🗺️ **Playable scenario** — June 1944 occupied Normandy, 16 named settlements, 12 Stützpunkte, 13 factories, RP-tuned garrisons & civilian densities | 🟢 Active |
 | `FF_WW2_Wehrmacht/`, `FF_WW2_USArmy/`, `FF_WW2_RedArmy/`, `FF_WW2_FFI/` | Original custom faction mods | 🟡 Legacy / paused — kept in tree as reference, NOT shipped as Workshop deps |
 
 ## How it works
@@ -32,8 +33,11 @@ The active mods now are:
 - Override `Character_FIA_base.et` + `JWK_Voices.acp` with French voices (FFI / civilians / officer / player)
 - Override the civilian loadout to strip Cold War items (jungle boots, trucker caps...) — only 1940s-era clothing
 - Block vanilla vehicle catalog imports so only WW2 vehicles spawn
+- Provide 7 FIA loadout sets (captured Kar98/MP40, airdropped Thompson/Garand/M1A1 Carbine/BAR/Bazooka)
 
-Result: **no custom characters/groups owned by this repo**. The community mods drive what spawns, we just route, brand, and voice it.
+`FF - Normandie` is the first **playable scenario** built on this stack: hand-placed settlements, military positions, factories and radio sites, all named with real Cotentin toponyms and balanced for RP-period feel.
+
+Result: **no custom characters/groups owned by this repo**. The community mods drive what spawns, we just route, brand, voice it, and place it on a map.
 
 ## Install (Workshop user perspective)
 
@@ -43,6 +47,7 @@ When the mods are published, the dependency chain a player needs:
 2. **FreedomFighters** (`CAFEBEEFF0CACC1A`)
 3. **FF_WW2_Core** (this hub)
 4. *(Optional)* **FF_WW2_FrenchVoices** (`AF123222FD39FDB1`) for French voices
+5. *(Scenario)* **FF - Normandie** + its terrain dep (Normandy `616D67C41B1DF93D`) + `WW2Assets`
 
 All Workshop dependencies (the 5 community WW2 mods, NORTHCOM German Voice Pack, OO vehicles, RMS Panzer IV, SDKFZ 251, Sherman Medium, M3A1 Halftrack, WW2 Bicycle) are pulled in automatically by `FF_WW2_Core.gproj`.
 
@@ -58,6 +63,10 @@ New-Item -ItemType Junction `
 New-Item -ItemType Junction `
   -Path "$env:USERPROFILE\Documents\My Games\ArmaReforgerWorkbench\addons\FF_WW2_FrenchVoices" `
   -Target "$env:USERPROFILE\dev\Arma-Reforger-WW2\FF_WW2_FrenchVoices"
+
+New-Item -ItemType Junction `
+  -Path "$env:USERPROFILE\Documents\My Games\ArmaReforgerWorkbench\addons\FF - Normandie" `
+  -Target "$env:USERPROFILE\dev\Arma-Reforger-WW2\FF - Normandie"
 ```
 
 Open the projects in Workbench, save once so it generates `.meta` GUIDs for all assets, then launch a FF scenario.
