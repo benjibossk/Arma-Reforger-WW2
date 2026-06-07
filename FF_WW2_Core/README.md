@@ -48,9 +48,9 @@ Core references vehicle and composition prefabs in its `JWK_FactionConfig` files
 - ArmaReforger, FreedomFighters (required)
 - ~~RMS_WW2_CORE~~ removed in v1.2 — Wehrmacht checkpoint compositions actually come from FIE_Core, and flag/icon textures fall back to vanilla SCR_Faction inheritance defaults
 - OO_UsGear (US Military flag)
-- FIE_Core (composition prefabs)
-- FIE_Kubelwagen, FIE_OpelBlitz, FIE_PanzerIV, SDKFZ251, WW2_Bicycle (Wehrmacht vehicles)
-- FIE_WillysJeep, FIE_CCKW, M3A1Halftrack, FIE_M4Tank (US vehicles)
+- FIE_Core (Wehrmacht + US checkpoint composition prefabs)
+- OOGermanVehicles (Kübelwagen + Opel Blitz), RMS Panzer IV, SDKFZ251, WW2_Bicycle (Wehrmacht vehicles)
+- OperationOverlordUSVehicles (Willys Jeep + Dodge WC63 truck), ShermanMedium, M3A1 Halftrack (US vehicles)
 
 ## GUID
 
