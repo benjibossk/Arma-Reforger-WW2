@@ -1,0 +1,51 @@
+SCR_ChimeraCharacter : "{3ECA3A935BC069B9}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_BaseLoadout.et" {
+ ID "EFD24227BA9D0AB7"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot { Enabled 0 }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "US Army NCO"
+    m_sFaction "US"
+   }
+   m_VariantData SCR_EditableEntityVariantData "{26060201F0000002}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {}
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{60E6F54E174C53C5}Prefabs/Weapons/Rifles/Thompson M1A1/BC_Rifle_Thompson_M1A1.et"
+   WeaponSlotIndex 0
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{6982459DD20FAAAF}Prefabs/Weapons/Handguns/M1911a1/Handgun_M1911.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat { Prefab "{5EE4E278D8EF2466}Prefabs/Characters/HeadGear/Helmet_M1_WW2/Helmet_M1_WW2_Nco.et" }
+    LoadoutSlotInfo Jacket { Prefab "{5EE4E278D8EF2466}Prefabs/Characters/Uniforms/Gi Gear/Tempurate/4th Grade/GI E5.et" }
+    LoadoutSlotInfo ArmoredVest { Enabled 0 }
+    LoadoutSlotInfo Pants { Prefab "{5EE4E278D8EF2466}Prefabs/Characters/Uniforms/Gi Gear/Tempurate/Pants/GI pants leggins.et" }
+    LoadoutSlotInfo Boots { Prefab "{5EE4E278D8EF2466}Prefabs/Characters/Footwear/GI Boots/WW2 GI Boots.et" }
+    LoadoutSlotInfo Vest { Prefab "{5EE4E278D8EF2466}Prefabs/Characters/Vests/GI vests/thompson/GI vests thompson.et" }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{26060201E0000002}" {
+     TargetStorage "Vest/GI vests thompson.et"
+     PrefabsToSpawn {
+      "{60E6F54E174C53C5}Prefabs/Weapons/Magazines/Thompson/BC_Magazine_M1A1_45acp_Thompson_30rnd_Stick.et" "{60E6F54E174C53C5}Prefabs/Weapons/Magazines/Thompson/BC_Magazine_M1A1_45acp_Thompson_30rnd_Stick.et" "{60E6F54E174C53C5}Prefabs/Weapons/Magazines/Thompson/BC_Magazine_M1A1_45acp_Thompson_30rnd_Stick.et" "{60E6F54E174C53C5}Prefabs/Weapons/Magazines/Thompson/BC_Magazine_M1A1_45acp_Thompson_30rnd_Stick.et" "{6982459DD20FAAAF}Prefabs/Weapons/Handguns/M1911a1/Magazine_1143x23_7rnd_Ball_OO.et" "{6982459DD20FAAAF}Prefabs/Weapons/Handguns/M1911a1/Magazine_1143x23_7rnd_Ball_OO.et" "{6982459DD20FAAAF}Prefabs/Weapons/Grenades/Grenade_Mk2.et" "{6982459DD20FAAAF}Prefabs/Weapons/Grenades/Grenade_Mk2.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,51 @@
+SCR_ChimeraCharacter : "{3ECA3A935BC069B9}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_BaseLoadout.et" {
+ ID "F269AEF5480467E4"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot { Enabled 0 }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Wehrmacht MG"
+    m_sFaction "USSR"
+   }
+   m_VariantData SCR_EditableEntityVariantData "{2606C0010F000005}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {}
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{5D838074E66C006C}Prefabs/Weapons/MachineGuns/M60/MG_MG34.et"
+   WeaponSlotIndex 0
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{BA6F5A99F10C6EF1}Prefabs/Weapons/Handguns/P38/Handgun_P38.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat { Prefab "{78EA818BAF11757B}Prefabs/Characters/HeadGear/Sthalhiem/Field green/Army/German FieldGreen Army Helmet.et" }
+    LoadoutSlotInfo Jacket { Prefab "{4B2AE77C9A5481C6}Prefabs/Characters/Uniforms/M43 Jacket/Fieldgray/Infantry/FieldGrey Infantry Pvt .et" }
+    LoadoutSlotInfo ArmoredVest { Enabled 0 }
+    LoadoutSlotInfo Pants { Prefab "{0C66741E8B41E731}Prefabs/Characters/Uniforms/M43 Pants/M43 Pants Boots/Pants Boots fieldgray.et" }
+    LoadoutSlotInfo Boots { Prefab "{817BDBD5432BCFB6}Prefabs/Characters/Footwear/1943 Gray Uniform/Tall Boots/M35 Boots.et" }
+    LoadoutSlotInfo Vest { Prefab "{607EE1B3F1322217}Prefabs/Characters/Vests/Mg Vest/MG Vest.et" }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{2606C0010E000005}" {
+     TargetStorage "Vest/MG Vest.et"
+     PrefabsToSpawn {
+      "{310CF986B1E05383}Prefabs/Weapons/Magazines/Drum_MG34.et" "{310CF986B1E05383}Prefabs/Weapons/Magazines/Drum_MG34.et" "{310CF986B1E05383}Prefabs/Weapons/Magazines/Drum_MG34.et" "{315028DA7FB3851F}Prefabs/Weapons/Magazines/P38/Magazine_9x19_P38_8rnd_Ball_OO.et" "{315028DA7FB3851F}Prefabs/Weapons/Magazines/P38/Magazine_9x19_P38_8rnd_Ball_OO.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+     }
+    }
+   }
+  }
+ }
+}

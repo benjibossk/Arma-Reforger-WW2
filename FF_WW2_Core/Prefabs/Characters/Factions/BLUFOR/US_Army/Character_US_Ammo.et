@@ -1,0 +1,48 @@
+SCR_ChimeraCharacter : "{3ECA3A935BC069B9}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_BaseLoadout.et" {
+ ID "91F37A9EA380CF3C"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot { Enabled 0 }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "US Army MG Assistant"
+    m_sFaction "US"
+   }
+   m_VariantData SCR_EditableEntityVariantData "{26060201F0000006}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {}
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{62A711001B8FDEEA}Prefabs/Weapons/Rifles/M1 Carbine/BC_Rifle_M1_Carbine.et"
+   WeaponSlotIndex 0
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat { Prefab "{5EE4E278D8EF2466}Prefabs/Characters/HeadGear/Helmet_M1_WW2/Helmet_M1_WW2.et" }
+    LoadoutSlotInfo Jacket { Prefab "{5EE4E278D8EF2466}Prefabs/Characters/Uniforms/Gi Gear/Tempurate/6th Grade/GI E2.et" }
+    LoadoutSlotInfo ArmoredVest { Enabled 0 }
+    LoadoutSlotInfo Pants { Prefab "{5EE4E278D8EF2466}Prefabs/Characters/Uniforms/Gi Gear/Tempurate/Pants/GI pants.et" }
+    LoadoutSlotInfo Boots { Prefab "{5EE4E278D8EF2466}Prefabs/Characters/Footwear/GI Boots/WW2 GI Boots.et" }
+    LoadoutSlotInfo Vest { Prefab "{5EE4E278D8EF2466}Prefabs/Characters/Vests/GI vests/GI vests.et" }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{26060201E0000006}" {
+     TargetStorage "Vest/GI vests.et"
+     PrefabsToSpawn {
+      "{62A711001B8FDEEA}Prefabs/Weapons/Magazines/M1 Carbine/BC_Magazine_30_Carbine_M1_Carbine_15rnd_Ball.et" "{62A711001B8FDEEA}Prefabs/Weapons/Magazines/M1 Carbine/BC_Magazine_30_Carbine_M1_Carbine_15rnd_Ball.et" "{61344BDC155A5A28}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2.et" "{61344BDC155A5A28}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2.et" "{61344BDC155A5A28}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2.et" "{61344BDC155A5A28}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2.et" "{6982459DD20FAAAF}Prefabs/Weapons/Grenades/Grenade_Mk2.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+     }
+    }
+   }
+  }
+ }
+}
