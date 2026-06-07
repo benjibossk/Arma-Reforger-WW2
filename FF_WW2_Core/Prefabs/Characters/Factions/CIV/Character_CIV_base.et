@@ -1,0 +1,10 @@
+SCR_ChimeraCharacter : "{37578B1666981FCE}Prefabs/Modded/Characters/Core/Character_Base.et" {
+ ID "C91F4FE946AF94C1"
+ components {
+  SCR_CommunicationSoundComponent "{54FD05D0C92D071F}" {
+   Filenames + {
+    "{293F68DCBEBA11F7}Sounds/Voices/JWK_Voices.acp"
+   }
+  }
+ }
+}
