@@ -23,7 +23,7 @@ The vanilla `SCR_Faction "US_WW2"` registration is in the **FF_WW2_Wehrmacht** m
 ## Vehicles
 
 - Willys MB Jeep (recon / officer transport)
-- GMC CCKW Cargo truck (troop transport)
+- Dodge WC63 transport (troop transport, OO US Vehicles)
 - M3A1 Halftrack with .50 cal MG (armored transport)
 - M4A2 Sherman 75mm (medium tank)
 
@@ -33,4 +33,4 @@ The vanilla `SCR_Faction "US_WW2"` registration is in the **FF_WW2_Wehrmacht** m
 
 ## Dependencies
 
-ArmaReforger base, FreedomFighters, OO_UsGear + OO_USWeapons + OO_Core, BigChungus weapons (BoltGuns, Rifles, SMGs, LMGs, WW2Launchers), FIE vehicles (Willys, CCKW, M3 Stuart, M4 Sherman, LCVP), M3A1 Halftrack, M16 Halftrack, M26 Pershing, Sherman Medium.
+ArmaReforger base, FreedomFighters, OO_UsGear + OO_USWeapons + OO_Core, BigChungus weapons (BoltGuns, Rifles, SMGs, LMGs, WW2Launchers), OperationOverlordUSVehicles (Willys Jeep + Dodge WC63), ShermanMedium, M3A1 Halftrack, FIE_Core (US checkpoint composition).
