@@ -46,7 +46,7 @@ If a faction mod is not installed, its references in this mod's `JWK_FactionMana
 Core references vehicle and composition prefabs in its `JWK_FactionConfig` files (e.g., Wehrmacht's PanzerIV, US's M4 Sherman, FIE Wehrmacht checkpoints). So Core has dependencies on:
 
 - ArmaReforger, FreedomFighters (required)
-- RMS_WW2_CORE (Wehrmacht flag + eagle logo, Allies flag, Wehrmacht checkpoint compositions)
+- ~~RMS_WW2_CORE~~ removed in v1.2 — Wehrmacht checkpoint compositions actually come from FIE_Core, and flag/icon textures fall back to vanilla SCR_Faction inheritance defaults
 - OO_UsGear (US Military flag)
 - FIE_Core (composition prefabs)
 - FIE_Kubelwagen, FIE_OpelBlitz, FIE_PanzerIV, SDKFZ251, WW2_Bicycle (Wehrmacht vehicles)

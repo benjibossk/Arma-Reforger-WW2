@@ -14,7 +14,7 @@ Part of the WW2 conversion pack.
 
 - `m_sFactionKey "RED_ARMY"`
 - `Language RUSSIAN`
-- Flag: Allies of WW2 (from RMS_WW2_CORE)
+- Flag: vanilla SCR_Faction inheritance default (RMS_WW2_CORE dep removed in v1.2)
 - 30 Russian first names
 
 The vanilla `SCR_Faction "RED_ARMY"` registration is in the **FF_WW2_Wehrmacht** mod's `JWK_FactionManager.et` override (it owns the master FF prefab override for all our WW2 factions). Same for `AddonsIntegrations.conf`. To use this mod, both `FF_WW2_Wehrmacht` and `FF_WW2_RedArmy` must be installed.
@@ -25,4 +25,4 @@ None currently — Red Army units are foot infantry (historically common for man
 
 ## Dependencies
 
-ArmaReforger base, FreedomFighters, RMS_RedArmyGear, RMS_RedArmyGuns (Mosin, PPSh, DP-28, TT-33, PTRD-41), ChungusCore, ChungusBoltGuns, ChungusSMGs, SGSGearSlots, RMS_WW2_CORE (for Allies flag).
+ArmaReforger base, FreedomFighters, RMS_RedArmyGear, RMS_RedArmyGuns (Mosin, PPSh, DP-28, TT-33, PTRD-41), ChungusCore, ChungusBoltGuns, ChungusSMGs, SGSGearSlots.

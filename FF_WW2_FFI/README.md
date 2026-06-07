@@ -17,7 +17,7 @@ The FFI / Maquis are civilians who took up arms against the German occupation (1
 - Configured as **PLAYER faction** — humans play this side
 - 30 French first names (Jean, Pierre, Jacques, Henri, Louis, Marcel, André, François…)
 - Civilian appearance (fedora, suit jacket, Maquis armband)
-- Flag: Allies of WW2 (RMS_WW2_CORE)
+- Flag: vanilla SCR_Faction inheritance default (RMS_WW2_CORE dep removed in v1.2)
 - Custom Dogtag_FFI
 
 ## Modern item filtering
@@ -41,4 +41,4 @@ The vanilla `SCR_Faction "FFI"` registration is in **FF_WW2_Wehrmacht** mod's `J
 
 ## Dependencies
 
-ArmaReforger base, FreedomFighters, OO_AxisGear (captured Wehrmacht gear), OO_GERWeapons (captured Kar98/MP40), OO_Core, OO_UsGear (Allied airdrops), OO_USWeapons (Thompson, BAR, Bazooka), ChungusCore, ChungusSMGs, ChungusLMGs, ChungusBoltGuns, ChungusRifles, ChungusWW2Launchers, SGSGearSlots, WW2_Bicycle, RMS_WW2_CORE (Allies flag).
+ArmaReforger base, FreedomFighters, OO_AxisGear (captured Wehrmacht gear), OO_GERWeapons (captured Kar98/MP40), OO_Core, OO_UsGear (Allied airdrops), OO_USWeapons (Thompson, BAR, Bazooka), ChungusCore, ChungusSMGs, ChungusLMGs, ChungusBoltGuns, ChungusRifles, ChungusWW2Launchers, SGSGearSlots, WW2_Bicycle.

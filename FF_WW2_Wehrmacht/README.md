@@ -42,7 +42,7 @@ To use these characters in your own scenario without Freedom Fighters :
 - `OO_AxisGear` + `SGSGearSlots` (uniforms : Stahlhelm, M43 jacket, M35 boots, vests)
 - `OO_GERWeapons` + Chungus (`SMGs`, `LMGs`, `WW2Launchers`, `Rifles`) — weapons (Kar98k, MP40, MG34/42, P38, STG44, FG42, Panzerfaust 60)
 - `RMS_OstfrontArms` — additional weapons
-- `RMS_WW2_CORE` — Wehrmacht flag + eagle logo + checkpoint compositions (referenced from `FF_WW2_Core` if FF integration used)
+- ~~RMS_WW2_CORE~~ — removed in v1.2. Wehrmacht checkpoint compositions actually live in `FIE_Core`, not RMS. Faction flag/icon now fall back to vanilla SCR_Faction OPFOR defaults.
 - FIE vehicle mods (Kubelwagen, OpelBlitz, PanzerIV, PanzerII), SDKFZ251, WW2 Bicycle — for related vehicle assets
 
 **No FreedomFighters dependency.** Pure vanilla content.

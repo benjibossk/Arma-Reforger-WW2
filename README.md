@@ -2,7 +2,7 @@
 
 Standalone WW2 faction integrations for the **Freedom Fighters** game mode on Arma Reforger.
 
-Each faction is fully self-contained, no Morks dependency, built on top of Operation Overlord (AxisGear, GER/US Weapons, FIE Vehicles), Chungus Weapons, RMS_WW2_CORE, and other community assets.
+Each faction is fully self-contained, no Morks dependency, built on top of Operation Overlord (AxisGear, GER/US Weapons, OO German/US Vehicles), BigChungus Weapons, RMS Panzer IV / Red Army gear & guns, ShermanMedium, FIE_Core (compositions), and other community assets.
 
 ## Mods
 
