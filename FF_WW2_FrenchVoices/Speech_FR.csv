@@ -1,0 +1,132 @@
+Bank,SampleName,Signal,SubtitleKey,FR_Translation
+AmbientCivilian,CONVERT_OK_01,68,JWK-Speech-AmbCiv-ConvertOk01,Comptez sur moi. Il est temps que quelqu'un leur tienne tête.
+AmbientCivilian,CONVERT_OK_02,69,JWK-Speech-AmbCiv-ConvertOk02,J'ai fini de regarder. Battons-nous.
+AmbientCivilian,CONVERT_OK_03,70,JWK-Speech-AmbCiv-ConvertOk03,Dites à votre équipe que je suis prêt. Mettons-nous au travail.
+AmbientCivilian,CONVERT_OK_04,71,JWK-Speech-AmbCiv-ConvertOk04,J'en suis. Dites-moi simplement ce qu'il faut faire.
+AmbientCivilian,CONVERT_OK_05,72,JWK-Speech-AmbCiv-ConvertOk05,Bien sûr que oui. Mettons-les dans le pétrin.
+AmbientCivilian,CONVERT_NL_01,58,JWK-Speech-AmbCiv-ConvertNl01,Déjà intégré. C'est juste que je n'en fais pas la publicité.
+AmbientCivilian,CONVERT_NL_02,59,JWK-Speech-AmbCiv-ConvertNl02,Vous n'êtes pas le premier à le demander. Je me suis inscrit il y a un certain temps.
+AmbientCivilian,CONVERT_NL_03,60,JWK-Speech-AmbCiv-ConvertNl03,Il faut vraiment que vous vous parliez. Je suis déjà avec vous.
+AmbientCivilian,CONVERT_NL_04,61,JWK-Speech-AmbCiv-ConvertNl04,Vous n'avez pas besoin de me convaincre. J'ai déjà saigné pour ça.
+AmbientCivilian,CONVERT_NEG_01,62,JWK-Speech-AmbCiv-ConvertNeg01,Cela ressemble à une autre façon de mourir.
+AmbientCivilian,CONVERT_NEG_02,63,JWK-Speech-AmbCiv-ConvertNeg02,Le changement ? C'est un conte de fées. J'essaie juste de rester en vie.
+AmbientCivilian,CONVERT_NEG_03,64,JWK-Speech-AmbCiv-ConvertNeg03,Dégagez. Je n'ai pas besoin de votre cause ni de vos problèmes.
+AmbientCivilian,CONVERT_NEG_04,65,JWK-Speech-AmbCiv-ConvertNeg04,Je ne suis pas fait pour ce genre de choses. Je suis désolée.
+AmbientCivilian,CONVERT_NEG_05,66,JWK-Speech-AmbCiv-ConvertNeg05,J'ai essayé une fois. Cela s'est mal terminé.
+AmbientCivilian,CONVERT_NEG_06,67,JWK-Speech-AmbCiv-ConvertNeg06,Vous rejoindre ? Je ne suis pas suicidaire.
+AmbientCivilian,CONVERT_HOS_01,53,JWK-Speech-AmbCiv-ConvertHos01,Vous êtes une bande de terroristes. Vous devriez être arrêtés.
+AmbientCivilian,CONVERT_HOS_02,54,JWK-Speech-AmbCiv-ConvertHos02,"Le régime a apporté l'ordre, et vous, vous ne voulez que le chaos."
+AmbientCivilian,CONVERT_HOS_03,55,JWK-Speech-AmbCiv-ConvertHos03,J'espère qu'ils vous trouveront. C'est moi qui pointerai l'arme.
+AmbientCivilian,CONVERT_HOS_04,56,JWK-Speech-AmbCiv-ConvertHos04,"Je suis du côté de ceux qui protègent cet endroit, pas du vôtre."
+AmbientCivilian,CONVERT_HOS_05,57,JWK-Speech-AmbCiv-ConvertHos05,Je veillerai à ce que les autorités en soient informées.
+AmbientCivilian,EXTORT_OK_01,93,JWK-Speech-AmbCiv-ExtortOk01,"D'accord, d'accord ! Ne me faites pas de mal !"
+AmbientCivilian,EXTORT_OK_02,94,JWK-Speech-AmbCiv-ExtortOk02,S'il vous plaît... laissez-moi tranquille.
+AmbientCivilian,EXTORT_OK_03,95,JWK-Speech-AmbCiv-ExtortOk03,C'était pour les médicaments de mon enfant... mais peu importe. Prends-le.
+AmbientCivilian,EXTORT_OK_04,96,JWK-Speech-AmbCiv-ExtortOk04,Vous n'êtes rien d'autre qu'un voyou.
+AmbientCivilian,EXTORT_NEG_01,88,JWK-Speech-AmbCiv-ExtortNeg01,C'est censé me faire peur ? Essayez plus fort.
+AmbientCivilian,EXTORT_NEG_02,89,JWK-Speech-AmbCiv-ExtortNeg02,"Je n'ai rien pour vous, sauf des regrets."
+AmbientCivilian,EXTORT_NEG_03,90,JWK-Speech-AmbCiv-ExtortNeg03,Wow. Extorsion. C'est très original.
+AmbientCivilian,EXTORT_NEG_04,91,JWK-Speech-AmbCiv-ExtortNeg04,"Va te faire voir, je n'ai pas peur de toi."
+AmbientCivilian,EXTORT_NEG_05,92,JWK-Speech-AmbCiv-ExtortNeg05,Vous n'êtes pas le premier à essayer.
+AmbientCivilian,EXTORT_RES_01,97,JWK-Speech-AmbCiv-ExtortRes01,Vous êtes pire que le régime.
+AmbientCivilian,EXTORT_RES_02,98,JWK-Speech-AmbCiv-ExtortRes02,"D'accord, mais vous venez de perdre un partisan."
+AmbientCivilian,EXTORT_UND_01,99,JWK-Speech-AmbCiv-ExtortUnd01,Je suis sûr que la résistance va payer pour cela.
+AmbientCivilian,EXTORT_UND_02,100,JWK-Speech-AmbCiv-ExtortUnd02,Vous n'êtes que des bandits en uniforme.
+AmbientCivilian,NO_PANTS_01,117,JWK-Speech-NoPants01,Va te mettre un pantalon avant de me parler.
+AmbientCivilian,NO_PANTS_02,118,JWK-Speech-NoPants02,Je ne parle pas à des inconnus à poil.
+Default,DIGIT_0,1,zero,zéro
+Default,DIGIT_1,2,one,un
+Default,DIGIT_2,3,two,deux
+Default,DIGIT_3,4,three,trois
+Default,DIGIT_4,5,four,quatre
+Default,DIGIT_5,6,five,cinq
+Default,DIGIT_6,7,six,six
+Default,DIGIT_7,8,seven,sept
+Default,DIGIT_8,9,eight,huit
+Default,DIGIT_9,10,nine,neuf
+Default,PHONE_PICKUP_01,27,JWK-Speech-PhonePickup01,"Oui, qui est là ?"
+Default,RADIO_CALLOUT_TAIL,40,JWK-Speech-RadioCalloutTail01,"Vous me lisez, terminé ?"
+Default,NO_TALK_01,113,JWK-Speech-NoTalk01,Je n'ai rien à te dire.
+Default,NO_TALK_02,114,JWK-Speech-NoTalk02,Je suis occupé là.
+Default,NO_TALK_03,115,JWK-Speech-NoTalk03,Laisse moi tranquille.
+Default,NO_TALK_04,116,JWK-Speech-NoTalk04,Ne me dérange pas.
+MilitaryPolice,MP_PHONE_PICKUP,28,JWK-Speech-Side-MilitaryPolicePickup01,Vous avez atteint le poste de la police militaire. Comment puis-je vous aider ?
+MilitaryPolice,MP_RESISTANCE_REPORT_REPLY,30,JWK-Speech-Side-ResistanceReportReply01,"Tenez bon, nous vous enverrons quelqu'un immédiatement."
+Passphrases,PASSPHRASE_AGATE,200,JWK-Speech-Pass-Agate,Agate.
+Passphrases,PASSPHRASE_ALLIGATOR,201,JWK-Speech-Pass-Alligator,Alligator.
+Passphrases,PASSPHRASE_AMBER,202,JWK-Speech-Pass-Amber,Ambre.
+Passphrases,PASSPHRASE_BEAR,203,JWK-Speech-Pass-Bear,Ours.
+Passphrases,PASSPHRASE_DIAMOND,204,JWK-Speech-Pass-Diamond,Diamant.
+Passphrases,PASSPHRASE_FOX,205,JWK-Speech-Pass-Fox,Renard.
+Passphrases,PASSPHRASE_HAWK,206,JWK-Speech-Pass-Hawk,Faucon.
+Passphrases,PASSPHRASE_PEARL,207,JWK-Speech-Pass-Pearl,Perle.
+Passphrases,PASSPHRASE_SALAMANDER,208,JWK-Speech-Pass-Salamander,Salamandre.
+Passphrases,PASSPHRASE_TOPAZ,209,JWK-Speech-Pass-Topaz,Topaze.
+Passphrases,PASSPHRASE_WOLF,210,JWK-Speech-Pass-Wolf,Loup.
+Player,MP_REPORT_RESISTANCE_01,29,JWK-Speech-Player-ReportResistance01,"Il y a des gens armés, nous avons peur, pouvez-vous envoyer une patrouille ici ?"
+Player,RO_ASK_JOB,31,JWK-Speech-Player-AskJob,Avez-vous quelque chose pour moi ?
+Player,Q_PL_INTRO_1,42,JWK-Speech-Player-Intro-1,"Hé, on s'est parlé tout à l'heure. Je veux me joindre au combat."
+Player,JOB_REPORT_DONE_01,41,JWK-Speech-Player-JobDone01,Le travail est fait.
+Player,JOB_RESIGN_01,119,JWK-Speech-Player-JobResign01,Je ne peux pas faire ce travail.
+Player,JOB_RESIGN_02,120,JWK-Speech-Player-JobResign02,Je dois laisser ça à quelqu'un d'autre.
+Player,JOB_RESIGN_03,121,JWK-Speech-Player-JobResign03,C'est pas un boulot pour moi.
+Player,POSTERS_ASK,48,JWK-Speech-Player-PostersAsk,Vous avez d'autres affiches ?
+Player,CIV_CONVERT_01,73,JWK-Speech-Player-CivConvert01,Vous avez l'air de quelqu'un qui en a assez. Rejoignez-nous.
+Player,CIV_CONVERT_02,74,JWK-Speech-Player-CivConvert02,J'en ai assez de ces porcs. Vous êtes avec nous ou vous faites que survivre?
+Player,CIV_CONVERT_03,75,JWK-Speech-Player-CivConvert03,"Si vous en avez assez de vous cacher, choisissez une cause qui vaut la peine d'y laisser votre vie."
+Player,CIV_CONVERT_04,76,JWK-Speech-Player-CivConvert04,Tout le monde n'est pas aveugle à ce qui se passe. Certains d'entre nous agissent.
+Player,CIV_CONVERT_05,77,JWK-Speech-Player-CivConvert05,Êtes-vous prêt à faire la différence ? Parce que nous le sommes.
+Player,CIV_CONVERT_06,78,JWK-Speech-Player-CivConvert06,"Nous avons le feu, nous avons un but - tout ce qui nous manque, c'est vous."
+Player,CIV_CONVERT_07,79,JWK-Speech-Player-CivConvert07,Vous voulez du changement ? Vous ne l'obtiendrez pas en restant les bras croisés. Rejoignez-nous.
+Player,CIV_CONVERT_08,80,JWK-Speech-Player-CivConvert08,Vous en avez assez de leur botte sur votre cou ? Il est peut-être temps de riposter.
+Player,CIV_CONVERT_09,81,JWK-Speech-Player-CivConvert09,Ordres ? Nous fabriquons nos propres ordres. Rejoignez-nous.
+Player,CIV_CONVERT_10,82,JWK-Speech-Player-CivConvert10,"Une guerre se prépare, que vous soyez prêts ou non. Mieux vaut être du bon côté."
+Player,CIV_EXTORT_01,83,JWK-Speech-Player-CivExtort01,"Je ne demanderai pas deux fois. De l'argent, maintenant."
+Player,CIV_EXTORT_02,84,JWK-Speech-Player-CivExtort02,"Vous payez maintenant, ou vous saignez plus tard. Le calcul est simple."
+Player,CIV_EXTORT_03,85,JWK-Speech-Player-CivExtort03,La protection n'est pas gratuite. Donnez-moi votre argent.
+Player,CIV_EXTORT_04,86,JWK-Speech-Player-CivExtort04,C'est le moment où vous me donnez ce que je veux.
+Player,CIV_EXTORT_05,87,JWK-Speech-Player-CivExtort05,Le dernier qui a dit non est encore en train de mâcher avec une paille.
+Player,Q_PL_DOGTAGS_1,101,JWK-Speech-Player-Dogtags-1,Je suis prêt à faire tout ce qu'il faut pour aider notre cause.
+Player,TURN_DOGTAGS,111,JWK-Speech-Player-TurnDogtags,De plus en plus d'ennemis mangent de la terre. En voici la preuve.
+Player,LIBERATE_CALL_01,127,JWK-Speech-Player-Liberate01,"Sors d'ici, tu es libre."
+Player,LIBERATE_CALL_02,128,JWK-Speech-Player-Liberate02,Je te sors d'ici.
+PlayerActions,STOP_NPC_01,32,JWK-Speech-Player-StopNpc01,Attendez un peu.
+PlayerActions,STOP_NPC_02,33,JWK-Speech-Player-StopNpc02,Excusez-moi.
+PlayerActions,ASK_FOLLOW_01,129,JWK-Speech-Player-AskFollow01,Viens avec moi.
+PlayerActions,ASK_FOLLOW_02,130,JWK-Speech-Player-AskFollow02,Suis-moi.
+PlayerActions,ASK_STOP_FOLLOW_01,131,JWK-Speech-Player-StopFollow01,Reste ici.
+PlayerActions,ASK_STOP_FOLLOW_02,132,JWK-Speech-Player-StopFollow02,Ne bouge plus.
+ResistanceOfficer,DONT_CALL,11,JWK-Speech-RO-DontCall,N'appelez pas ce numéro.
+ResistanceOfficer,HIDEOUT_NONE,14,JWK-Speech-RO-NoHideoutLocation,Je ne suis pas là. Contactez-moi quand les choses seront plus calmes.
+ResistanceOfficer,HIDEOUT_OK_A,12,JWK-Speech-RO-HideoutLocationA,Aller aux coordonnées
+ResistanceOfficer,HIDEOUT_OK_B,13,JWK-Speech-RO-HideoutLocationB,Assurez-vous que vous n'êtes pas suivi.
+ResistanceOfficer,PASS_OK,15,JWK-Speech-RO-PassOK,"D'accord, continuez."
+ResistanceOfficer,JOB_NONE,34,JWK-Speech-RO-NoJobAvailable,"Pas tout de suite, mais revenez plus tard."
+ResistanceOfficer,JOB_DEAD_DROP,35,JWK-Speech-RO-JobDeadDrop,Vous appelez juste à temps. Prenez les instructions au point de chute aux coordonnées :
+ResistanceOfficer,JOB_MEET,36,JWK-Speech-RO-JobMeet,Oui. Venez me rendre visite pour plus d'instructions.
+ResistanceOfficer,JOB_GIVE_NOTE,37,JWK-Speech-RO-JobNote,Je suis heureux que vous soyez venu. Prenez cette note avec les instructions.
+ResistanceOfficer,JOB_REPORT_OK,38,JWK-Speech-RO-JobReportOk01,C'est très bien. J'aimerais que nous ayons plus de gens comme vous dans nos rangs.
+ResistanceOfficer,JOB_REQ_REPORT_PERSON,47,JWK-Speech-RO-JobReqReportPerson01,Faites-moi un rapport en personne une fois le travail terminé.
+ResistanceOfficer,RADIO_CALLOUT_ANSWER,39,JWK-Speech-RO-RadioCalloutAnswer,"Fort et clair, terminé."
+ResistanceOfficer,TURN_DOGTAGS_REPLY,112,JWK-Speech-RO-TurnDogtagsReply,"Bon travail, voici votre récompense."
+ResistanceOfficer,POSTERS_ALREADY_HAVE,49,JWK-Speech-RO-PostersAlreadyHave,Vous avez déjà assez d'affiches avec vous. Il est trop dangereux d'en porter davantage.
+ResistanceOfficer,POSTERS_COME_LATER,50,JWK-Speech-RO-PostersComeLater,Je n'en ai plus pour le moment.
+ResistanceOfficer,POSTERS_NO_SPACE,51,JWK-Speech-RO-PostersNoSpace,Faites de la place dans votre sac si vous voulez les affiches.
+ResistanceOfficer,POSTERS_OK,52,JWK-Speech-RO-PostersOk,Voila.
+ResistanceOfficerJobs,J_RO_JOB_RESIGN_01,122,JWK-Speech-RO-JobResign01,Dommage... C'était important.
+ResistanceOfficerJobs,J_RO_JOB_RESIGN_02,123,JWK-Speech-RO-JobResign02,Pfff... Je pensais que tu en étais capable.
+ResistanceOfficerJobs,J_RO_JOB_RESIGN_03,124,JWK-Speech-RO-JobResign03,Réfléchis à deux fois avant de me faire perdre mon temps à nouveau.
+ResistanceOfficerJobs,J_RO_NEW_DELIVER_ITEM,125,JWK-Speech-RO-Job-DeliverItem,Prends cette mallette. Je veux que tu la remettes à quelqu'un. Ne regarde pas à l'intérieur.
+ResistanceOfficerQuests,Q_RO_INTRO_1,43,JWK-Speech-RO-Intro-1,"Très bien. Mais nous avons besoin de plus de monde avant de prendre les armes. En fait, il y a quelque chose que vous pouvez faire pour nous."
+ResistanceOfficerQuests,Q_RO_POSTERS_1,44,JWK-Speech-RO-Posters-1,Nous devons faire passer le message. Visitez les villes voisines et accrochez des affiches révolutionnaires.
+ResistanceOfficerQuests,Q_RO_POSTERS_2,45,JWK-Speech-RO-Posters-2,"Recherchez des panneaux, des vitrines, des enseignes et d'autres éléments qui attirent l'attention."
+ResistanceOfficerQuests,Q_RO_POSTERS_3,46,JWK-Speech-RO-Posters-3,"C'est illégal, assurez-vous de ne pas être vu en train de les installer, ou au moins de ne pas vous faire tuer."
+ResistanceOfficerQuests,Q_RO_DOGTAGS_1,102,JWK-Speech-RO-Dogtags-1,Vous voulez passer à la vitesse supérieure ?
+ResistanceOfficerQuests,Q_RO_DOGTAGS_2,103,JWK-Speech-RO-Dogtags-2,Nous avons mis en place un... euh... système d'incitation en quelque sorte.
+ResistanceOfficerQuests,Q_RO_DOGTAGS_3,104,JWK-Speech-RO-Dogtags-3,Certains amis de notre cause offrent de l'argent pour chaque soldat ennemi éliminé.
+ResistanceOfficerQuests,Q_RO_DOGTAGS_4,105,JWK-Speech-RO-Dogtags-4,"Ils ne nous croient pas sur parole, mais les plaques d'identification de l'ennemi sont une preuve solide."
+ResistanceOfficerQuests,Q_RO_DOGTAGS_5,106,JWK-Speech-RO-Dogtags-5,Apportez-m'en une poignée si vous ne plaisantez pas.
+ResistanceOfficerQuests,Q_RO_FOB_1,107,JWK-Speech-RO-Fob-1,Votre prochaine tâche consiste à mettre en place une base d'opérations sur le terrain.
+ResistanceOfficerQuests,Q_RO_FOB_2,108,JWK-Speech-RO-Fob-2,Choisissez un bon endroit pour l'installer. Vous pouvez utiliser votre carte pour vérifier quelles zones sont trop dangereuses.
+ResistanceOfficerQuests,Q_RO_FOB_3,109,JWK-Speech-RO-Fob-3,"Vous aurez besoin d'un peu d'argent pour démarrer. Oh, et n'oubliez pas une pelle."
+ResistanceOperative,DELIVER_ITEM_OK,126,JWK-Speech-ROB-ItemDelivered,Je t'attendais. Merci pour la livraison.
