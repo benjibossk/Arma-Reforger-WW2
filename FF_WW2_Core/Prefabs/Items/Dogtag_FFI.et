@@ -1,8 +1,0 @@
-GenericEntity : "{24F00E8AC2AC66DA}Prefabs/Items/Equipment/Accessories/Dogtags/Dogtags_Base.et" {
- ID "2609A001D0000001"
- components {
-  SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "FIA"
-  }
- }
-}

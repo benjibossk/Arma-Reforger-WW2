@@ -1,0 +1,11 @@
+MetaFileClass {
+ Name "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Base.et"
+ Configurations {
+  CONFResourceClass PC {}
+  CONFResourceClass XBOX_ONE : PC {}
+  CONFResourceClass XBOX_SERIES : PC {}
+  CONFResourceClass PS4 : PC {}
+  CONFResourceClass PS5 : PC {}
+  CONFResourceClass HEADLESS : PC {}
+ }
+}
