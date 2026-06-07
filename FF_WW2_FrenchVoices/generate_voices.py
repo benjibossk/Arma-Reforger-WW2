@@ -1,30 +1,43 @@
 """
 Batch ElevenLabs TTS -> WAV 48kHz stereo PCM 16-bit for FF_WW2_FrenchVoices.
 
-Reads Translations_FR.csv, calls the ElevenLabs API for each FR_Translation,
-pipes the PCM 44.1kHz output through ffmpeg to convert to 48kHz stereo
-PCM_S16LE WAV matching the NORTHCOM/Reforger expected format.
+Consumes BOTH:
+- Translations_FR.csv (135 NORTHCOM-style radio protocol lines)
+- Speech_FR.csv (131 FF speech dialogue lines)
 
-Usage:
-    set ELEVENLABS_API_KEY=sk_xxx
-    set ELEVENLABS_VOICE_ID=<voice_id>      # any French male voice
-    python generate_voices.py
+Routes each line to a different voice based on narrative context:
+- "soldier"   : radio protocol chatter + military police + digits
+- "officer"   : resistance officer dialogue, jobs, quests
+- "player"    : player character + player actions + passphrases
+- "operative" : fellow resistance fighter
+- "civilian1/2/3" : rotated across AmbientCivilian lines for diversity
 
-Optional:
-    --voice-id <id>      Override env voice id
+Each voice is configured via env vars (or --voice-* flags). Missing voice IDs
+fall back to ELEVENLABS_VOICE_ID (single-voice mode).
+
+Usage (PowerShell):
+    $env:ELEVENLABS_API_KEY = "sk_..."
+    $env:ELEVENLABS_VOICE_SOLDIER   = "<voice_id_for_soldier>"     # e.g. Anthony
+    $env:ELEVENLABS_VOICE_OFFICER   = "<voice_id_for_officer>"     # e.g. Nicolas
+    $env:ELEVENLABS_VOICE_PLAYER    = "<voice_id_for_player>"      # e.g. Denis
+    $env:ELEVENLABS_VOICE_OPERATIVE = "<voice_id_for_operative>"   # e.g. Julien
+    $env:ELEVENLABS_VOICE_CIVILIAN1 = "<voice_id_for_civ1>"        # e.g. Sebastien
+    $env:ELEVENLABS_VOICE_CIVILIAN2 = "<voice_id_for_civ2>"        # e.g. Frederic
+    $env:ELEVENLABS_VOICE_CIVILIAN3 = "<voice_id_for_civ3>"        # e.g. Benjamin
+    python generate_voices.py --limit 5    # smoke test
+    python generate_voices.py              # full run
+
+Flags:
+    --voice-soldier / --voice-officer / --voice-player / etc.   override env
+    --voice-id <id>      fallback for all roles (single voice mode)
     --stability 0.5      0..1, higher = more consistent (default 0.5)
     --similarity 0.75    0..1, higher = closer to reference (default 0.75)
     --style 0.3          0..1, higher = more expressive (default 0.3)
-    --model eleven_multilingual_v2   default model (best for French)
+    --model eleven_multilingual_v2   default model
     --force              Re-generate even if wav already exists
-    --limit N            Only process first N rows (for test)
+    --limit N            Only process first N rows of EACH CSV (test mode)
+    --only radio|speech  Restrict to one CSV
     --dry-run            Print actions but don't call API
-
-Voice id suggestions for French male WW2 chatter (ElevenLabs voice library):
-    - "Antoni" (multilingual, French support)
-    - "Adam" (deep, authoritative)
-    - "Sam" (younger, more agile)
-    - any custom French voice clone of a 1940s recording for max immersion
 
 Requires:
     pip install requests
@@ -43,37 +56,77 @@ from pathlib import Path
 import requests
 
 ROOT = Path(__file__).resolve().parent
-CSV_PATH = ROOT / "Translations_FR.csv"
-SAMPLES_ROOT = ROOT / "Sounds" / "RadioProtocol" / "Samples" / "FR" / "Male1"
+TRANSLATIONS_CSV = ROOT / "Translations_FR.csv"     # NORTHCOM-style radio protocol
+SPEECH_CSV = ROOT / "Speech_FR.csv"                 # FF SpeechBank dialogues
+
+RADIO_SAMPLES_ROOT = ROOT / "Sounds" / "RadioProtocol" / "Samples" / "FR" / "Male1"
+SPEECH_SAMPLES_ROOT = ROOT / "Sounds" / "Voices" / "Samples" / "FR"
 
 API_URL = "https://api.elevenlabs.io/v1/text-to-speech/{voice_id}"
 OUTPUT_FORMAT = "pcm_44100"
 
+# Map FF SpeechBank -> voice role.
+# AmbientCivilian gets a tuple to rotate across multiple voices for diversity.
+BANK_TO_ROLE: dict[str, str | tuple[str, ...]] = {
+    "AmbientCivilian": ("civilian1", "civilian2", "civilian3"),
+    "Default": "soldier",
+    "MilitaryPolice": "soldier",
+    "Passphrases": "player",
+    "Player": "player",
+    "PlayerActions": "player",
+    "Prisoner": "operative",
+    "ResistanceOfficer": "officer",
+    "ResistanceOfficerJobs": "officer",
+    "ResistanceOfficerQuests": "officer",
+    "ResistanceOperative": "operative",
+}
+
+ROLE_ENV_VARS = {
+    "soldier": "ELEVENLABS_VOICE_SOLDIER",
+    "officer": "ELEVENLABS_VOICE_OFFICER",
+    "player": "ELEVENLABS_VOICE_PLAYER",
+    "operative": "ELEVENLABS_VOICE_OPERATIVE",
+    "civilian1": "ELEVENLABS_VOICE_CIVILIAN1",
+    "civilian2": "ELEVENLABS_VOICE_CIVILIAN2",
+    "civilian3": "ELEVENLABS_VOICE_CIVILIAN3",
+}
+
 
 def parse_args() -> argparse.Namespace:
-    p = argparse.ArgumentParser(description="Generate French radio voice samples via ElevenLabs.")
-    p.add_argument("--voice-id", default=os.environ.get("ELEVENLABS_VOICE_ID"))
+    p = argparse.ArgumentParser(description="Generate French radio + dialogue voice samples via ElevenLabs.")
     p.add_argument("--api-key", default=os.environ.get("ELEVENLABS_API_KEY"))
+    p.add_argument("--voice-id", default=os.environ.get("ELEVENLABS_VOICE_ID"), help="Fallback voice for any role missing a specific id")
+    for role, env in ROLE_ENV_VARS.items():
+        p.add_argument(f"--voice-{role}", default=os.environ.get(env), help=f"voice id for {role}")
     p.add_argument("--model", default="eleven_multilingual_v2")
     p.add_argument("--stability", type=float, default=0.5)
     p.add_argument("--similarity", type=float, default=0.75)
     p.add_argument("--style", type=float, default=0.3)
     p.add_argument("--force", action="store_true", help="Re-generate existing wavs")
-    p.add_argument("--limit", type=int, default=0, help="Only process first N rows")
+    p.add_argument("--limit", type=int, default=0, help="Only process first N rows of each CSV")
+    p.add_argument("--only", choices=["radio", "speech"], default=None)
     p.add_argument("--dry-run", action="store_true")
     return p.parse_args()
 
 
-def resolve_output_path(category: str, subcategory: str, wav_name: str) -> Path:
-    """Translations CSV stores Subcategory either as 'BailOut' or as a nested path
-    like 'FactionAndObject/Civilian/Character'. Reproduce the on-disk layout."""
+def resolve_voice(role: str, args: argparse.Namespace) -> str | None:
+    """Return the voice id for a given role, falling back to --voice-id."""
+    specific = getattr(args, f"voice_{role}", None)
+    return specific or args.voice_id
+
+
+def resolve_radio_path(category: str, subcategory: str, wav_name: str) -> Path:
     if subcategory:
-        return SAMPLES_ROOT / category / subcategory / wav_name
-    return SAMPLES_ROOT / category / wav_name
+        return RADIO_SAMPLES_ROOT / category / subcategory / wav_name
+    return RADIO_SAMPLES_ROOT / category / wav_name
 
 
-def synth_one(text: str, args: argparse.Namespace) -> bytes:
-    url = API_URL.format(voice_id=args.voice_id) + f"?output_format={OUTPUT_FORMAT}"
+def resolve_speech_path(bank: str, sample_name: str) -> Path:
+    return SPEECH_SAMPLES_ROOT / bank / f"{sample_name}.wav"
+
+
+def synth_one(text: str, voice_id: str, args: argparse.Namespace) -> bytes:
+    url = API_URL.format(voice_id=voice_id) + f"?output_format={OUTPUT_FORMAT}"
     headers = {
         "xi-api-key": args.api_key,
         "Content-Type": "application/json",
@@ -101,9 +154,9 @@ def pcm_to_wav(pcm_bytes: bytes, out_path: Path) -> None:
     out_path.parent.mkdir(parents=True, exist_ok=True)
     cmd = [
         "ffmpeg", "-y", "-loglevel", "error",
-        "-f", "s16le", "-ar", "44100", "-ac", "1",  # input: raw PCM mono 44.1kHz
+        "-f", "s16le", "-ar", "44100", "-ac", "1",
         "-i", "pipe:0",
-        "-ar", "48000", "-ac", "2", "-c:a", "pcm_s16le",  # output: 48kHz stereo PCM s16le
+        "-ar", "48000", "-ac", "2", "-c:a", "pcm_s16le",
         str(out_path),
     ]
     proc = subprocess.run(cmd, input=pcm_bytes, capture_output=True)
@@ -111,62 +164,102 @@ def pcm_to_wav(pcm_bytes: bytes, out_path: Path) -> None:
         raise RuntimeError(f"ffmpeg failed: {proc.stderr.decode(errors='replace')[:500]}")
 
 
+def process_row(idx: int, row: dict, out_path: Path, role: str, voice_id: str,
+                args: argparse.Namespace, totals: dict) -> None:
+    text = row.get("FR_Translation", "").strip()
+    if not text:
+        print(f"[{idx:3}] SKIP empty translation: {out_path.name}")
+        totals["skipped"] += 1
+        return
+    if not voice_id:
+        print(f"[{idx:3}] SKIP no voice id for role={role}: {out_path.name}")
+        totals["skipped"] += 1
+        return
+    if out_path.exists() and not args.force:
+        print(f"[{idx:3}] EXISTS  {out_path.relative_to(ROOT)}")
+        totals["skipped"] += 1
+        return
+
+    label = "DRY-RUN" if args.dry_run else f"GEN[{role}]"
+    print(f"[{idx:3}] {label:13}  {out_path.relative_to(ROOT)}  <- {text!r}")
+    if args.dry_run:
+        return
+    try:
+        pcm = synth_one(text, voice_id, args)
+        pcm_to_wav(pcm, out_path)
+        totals["done"] += 1
+    except Exception as e:
+        print(f"      FAILED: {e}", file=sys.stderr)
+        totals["failed"] += 1
+
+
+def run_radio(args: argparse.Namespace, totals: dict) -> None:
+    if not TRANSLATIONS_CSV.exists():
+        print(f"ERROR: {TRANSLATIONS_CSV} not found.", file=sys.stderr)
+        return
+    voice_id = resolve_voice("soldier", args)
+    with TRANSLATIONS_CSV.open("r", encoding="utf-8", newline="") as f:
+        rows = list(csv.DictReader(f))
+    if args.limit:
+        rows = rows[: args.limit]
+    print(f"\n=== Radio Protocol ({len(rows)} rows, voice={voice_id or '<MISSING>'}) ===")
+    for i, row in enumerate(rows, 1):
+        out = resolve_radio_path(
+            row["Category"].strip(),
+            row["Subcategory"].strip(),
+            row["WavName"].strip(),
+        )
+        process_row(i, row, out, "soldier", voice_id, args, totals)
+
+
+def run_speech(args: argparse.Namespace, totals: dict) -> None:
+    if not SPEECH_CSV.exists():
+        print(f"ERROR: {SPEECH_CSV} not found.", file=sys.stderr)
+        return
+    with SPEECH_CSV.open("r", encoding="utf-8", newline="") as f:
+        rows = list(csv.DictReader(f))
+    if args.limit:
+        rows = rows[: args.limit]
+    print(f"\n=== FF Speech ({len(rows)} rows) ===")
+    civ_counter = 0
+    for i, row in enumerate(rows, 1):
+        bank = row["Bank"].strip()
+        sample = row["SampleName"].strip()
+        role_or_rotation = BANK_TO_ROLE.get(bank, "soldier")
+        if isinstance(role_or_rotation, tuple):
+            role = role_or_rotation[civ_counter % len(role_or_rotation)]
+            civ_counter += 1
+        else:
+            role = role_or_rotation
+        voice_id = resolve_voice(role, args)
+        out = resolve_speech_path(bank, sample)
+        process_row(i, row, out, role, voice_id, args, totals)
+
+
+def print_voice_summary(args: argparse.Namespace) -> None:
+    print("\nVoice assignments:")
+    for role in ROLE_ENV_VARS:
+        vid = resolve_voice(role, args)
+        marker = "✓" if vid else "✗"
+        print(f"  {marker} {role:11} -> {vid or '<missing>'}")
+
+
 def main() -> int:
     args = parse_args()
-    if not args.voice_id or not args.api_key:
-        print("ERROR: set ELEVENLABS_API_KEY and ELEVENLABS_VOICE_ID (or pass --voice-id / --api-key).", file=sys.stderr)
+    if not args.api_key:
+        print("ERROR: set ELEVENLABS_API_KEY.", file=sys.stderr)
         return 2
     if not shutil.which("ffmpeg") and not args.dry_run:
         print("ERROR: ffmpeg not in PATH.", file=sys.stderr)
         return 2
-    if not CSV_PATH.exists():
-        print(f"ERROR: {CSV_PATH} not found.", file=sys.stderr)
-        return 2
-
-    with CSV_PATH.open("r", encoding="utf-8", newline="") as f:
-        rows = list(csv.DictReader(f))
-
-    if args.limit:
-        rows = rows[: args.limit]
-
-    print(f"Loaded {len(rows)} rows from {CSV_PATH.name}")
-    print(f"Voice: {args.voice_id}  Model: {args.model}  Out: {SAMPLES_ROOT}")
-    print()
-
-    done = skipped = failed = 0
-    for i, row in enumerate(rows, 1):
-        cat = row["Category"].strip()
-        subcat = row["Subcategory"].strip()
-        wav = row["WavName"].strip()
-        text = row["FR_Translation"].strip()
-        out = resolve_output_path(cat, subcat, wav)
-
-        if not text:
-            print(f"[{i:3}/{len(rows)}] SKIP empty translation: {wav}")
-            skipped += 1
-            continue
-        if out.exists() and not args.force:
-            print(f"[{i:3}/{len(rows)}] EXISTS  {out.relative_to(ROOT)}")
-            skipped += 1
-            continue
-
-        action = "DRY-RUN" if args.dry_run else "GEN    "
-        print(f"[{i:3}/{len(rows)}] {action} {out.relative_to(ROOT)}  <- {text!r}")
-
-        if args.dry_run:
-            continue
-
-        try:
-            pcm = synth_one(text, args)
-            pcm_to_wav(pcm, out)
-            done += 1
-        except Exception as e:
-            print(f"          FAILED: {e}", file=sys.stderr)
-            failed += 1
-
-    print()
-    print(f"Done. generated={done}  skipped={skipped}  failed={failed}")
-    return 0 if failed == 0 else 1
+    print_voice_summary(args)
+    totals = {"done": 0, "skipped": 0, "failed": 0}
+    if args.only != "speech":
+        run_radio(args, totals)
+    if args.only != "radio":
+        run_speech(args, totals)
+    print(f"\nDone. generated={totals['done']}  skipped={totals['skipped']}  failed={totals['failed']}")
+    return 0 if totals["failed"] == 0 else 1
 
 
 if __name__ == "__main__":
