@@ -2,7 +2,7 @@ GenericEntity : "{BFE79C383ABDE6D2}Prefabs/Weapons/Rifles/MP40/BC_MP40.et" {
  ID "BF309F21E6D48B6C"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "FFI"
+   "faction affiliation" "FIA"
   }
  }
 }

@@ -2,7 +2,7 @@ GenericEntity : "{5F04139AD86CE1E6}Prefabs/Characters/Footwear/FMJ Boots/FMJ Boo
  ID "9B9A69B2AC014095"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "WEHRMACHT"
+   "faction affiliation" "USSR"
   }
  }
 }

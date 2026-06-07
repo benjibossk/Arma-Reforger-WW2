@@ -13,7 +13,7 @@ SCR_ChimeraCharacter : "{3ECA3A935BC069B9}Prefabs/Characters/Factions/OPFOR/USSR
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "FFI Medic"
-    m_sFaction "FFI"
+    m_sFaction "FIA"
    }
    m_VariantData SCR_EditableEntityVariantData "{26060401F0000009}" {
     m_bRandomizeDefaultVariant 0

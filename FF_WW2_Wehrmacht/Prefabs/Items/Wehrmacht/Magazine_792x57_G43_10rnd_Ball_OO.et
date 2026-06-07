@@ -2,7 +2,7 @@ GenericEntity : "{69713EEF88AEB163}Prefabs/Weapons/Magazines/G43/Magazine_792x57
  ID "71A0B61BB31FB9C3"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "WEHRMACHT"
+   "faction affiliation" "USSR"
   }
  }
 }

@@ -2,7 +2,7 @@ GenericEntity : "{65E86BF91D510331}Prefabs/Weapons/Ammo/BC_Ammo_Rocket_M6A1_HEAT
  ID "5F51402C8EFE3B39"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "US_WW2"
+   "faction affiliation" "US"
   }
  }
 }

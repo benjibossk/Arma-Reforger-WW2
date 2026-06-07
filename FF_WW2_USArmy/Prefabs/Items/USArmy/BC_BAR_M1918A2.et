@@ -2,7 +2,7 @@ GenericEntity : "{61344BDC155A5A28}Prefabs/Weapons/MachineGuns/BAR/BC_BAR_M1918A
  ID "6A24158EA3F16A6E"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "US_WW2"
+   "faction affiliation" "US"
   }
  }
 }

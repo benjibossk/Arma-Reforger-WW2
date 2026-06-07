@@ -2,7 +2,7 @@ GenericEntity : "{310CF986B1E05383}Prefabs/Weapons/Magazines/Drum_MG34.et" {
  ID "B039737B31B30A95"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "WEHRMACHT"
+   "faction affiliation" "USSR"
   }
  }
 }

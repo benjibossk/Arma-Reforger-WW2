@@ -2,7 +2,7 @@ GenericEntity : "{39846FB14FBA4296}Prefabs/Weapons/Grenades/Grenade_Stielhandgra
  ID "A6EE1BE031FEA67E"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "FFI"
+   "faction affiliation" "FIA"
   }
  }
 }

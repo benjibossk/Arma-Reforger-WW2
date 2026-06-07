@@ -2,7 +2,7 @@ GenericEntity : "{69713EEF88AEB163}Prefabs/Weapons/Magazines/MG42/Box_792x57_MG4
  ID "651A8ED544BD36DA"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "WEHRMACHT"
+   "faction affiliation" "USSR"
   }
  }
 }

@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{2608A001A0000003}Configs/Addons/FF_WW2_RedArmy.conf"
+ Name "{5EB46557DF2AA250}Configs/Factions/FF_US.conf"
  Configurations {
   CONFResourceClass PC {}
   CONFResourceClass XBOX_ONE : PC {}

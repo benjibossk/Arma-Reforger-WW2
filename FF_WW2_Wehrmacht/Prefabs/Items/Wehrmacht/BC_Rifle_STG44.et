@@ -2,7 +2,7 @@ GenericEntity : "{62A711001B8FDEEA}Prefabs/Weapons/Rifles/STG44/BC_Rifle_STG44.e
  ID "1EF7986D6FAC72D0"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "WEHRMACHT"
+   "faction affiliation" "USSR"
   }
  }
 }

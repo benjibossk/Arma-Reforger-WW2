@@ -3,7 +3,7 @@ Bike : "{62B4A8E40D31F94B}Prefabs/Vehicles/Wheeled/WW2_Bike/WW2_Bike_base.et" {
  components {
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
-    m_sFaction "WEHRMACHT"
+    m_sFaction "USSR"
    }
   }
  }

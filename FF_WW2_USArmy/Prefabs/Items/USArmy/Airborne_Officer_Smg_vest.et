@@ -2,7 +2,7 @@ GenericEntity : "{5EE4E278D8EF2466}Prefabs/Characters/Vests/Airborne/thompson/Ai
  ID "BD9F9048D1330E1E"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "US_WW2"
+   "faction affiliation" "US"
   }
  }
 }

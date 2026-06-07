@@ -13,7 +13,7 @@ SCR_ChimeraCharacter : "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "FFI AT (Bazooka airdropped)"
-    m_sFaction "FFI"
+    m_sFaction "FIA"
    }
    m_VariantData SCR_EditableEntityVariantData "{26060401F0000007}" {
     m_bRandomizeDefaultVariant 0

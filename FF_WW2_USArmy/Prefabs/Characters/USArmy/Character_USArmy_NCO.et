@@ -13,7 +13,7 @@ SCR_ChimeraCharacter : "{3ECA3A935BC069B9}Prefabs/Characters/Factions/OPFOR/USSR
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "US Army NCO"
-    m_sFaction "US_WW2"
+    m_sFaction "US"
    }
    m_VariantData SCR_EditableEntityVariantData "{26060201F0000002}" {
     m_bRandomizeDefaultVariant 0

@@ -2,7 +2,7 @@ GenericEntity : "{315028DA7FB3851F}Prefabs/Weapons/Magazines/P38/Magazine_9x19_P
  ID "5EC5A33DF7334B87"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "WEHRMACHT"
+   "faction affiliation" "USSR"
   }
  }
 }

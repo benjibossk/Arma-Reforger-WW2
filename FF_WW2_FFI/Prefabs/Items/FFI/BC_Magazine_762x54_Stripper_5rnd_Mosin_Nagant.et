@@ -2,7 +2,7 @@ GenericEntity : "{61BD6595183FCEBD}Prefabs/Weapons/Magazines/BC_Magazine_762x54_
  ID "4AAFD9DC70424EC0"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "FFI"
+   "faction affiliation" "FIA"
   }
  }
 }

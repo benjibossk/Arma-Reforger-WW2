@@ -2,7 +2,7 @@ GenericEntity : "{91A08549810A6AE1}Prefabs/Weapons/Rifles/K98/Rifle_k98k_OO.et" 
  ID "FD336E004143392F"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "FFI"
+   "faction affiliation" "FIA"
   }
  }
 }

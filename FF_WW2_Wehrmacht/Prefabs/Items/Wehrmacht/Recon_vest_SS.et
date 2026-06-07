@@ -2,7 +2,7 @@ GenericEntity : "{5F04139AD86CE1E6}Prefabs/Characters/Vests/Recon Vest/Recon ves
  ID "429808D63661E486"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "WEHRMACHT"
+   "faction affiliation" "USSR"
   }
  }
 }

@@ -2,7 +2,7 @@ GenericEntity : "{5F04139AD86CE1E6}Prefabs/Characters/Vests/Mg Vest/MG Vest SS.e
  ID "0935DEDDA964AD77"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "WEHRMACHT"
+   "faction affiliation" "USSR"
   }
  }
 }

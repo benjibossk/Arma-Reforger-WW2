@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{2608A001A0000002}Configs/Factions/FF_RedArmy.conf"
+ Name "{8053DB656DD18B15}Configs/Factions/FF_FIA.conf"
  Configurations {
   CONFResourceClass PC {}
   CONFResourceClass XBOX_ONE : PC {}

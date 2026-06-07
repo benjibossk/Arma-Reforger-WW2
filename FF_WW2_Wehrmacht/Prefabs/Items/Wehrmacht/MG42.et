@@ -2,7 +2,7 @@ GenericEntity : "{69713EEF88AEB163}Prefabs/Weapons/MachineGuns/MG42/MG42.et" {
  ID "B02AC3C84AF4D9C5"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "WEHRMACHT"
+   "faction affiliation" "USSR"
   }
  }
 }

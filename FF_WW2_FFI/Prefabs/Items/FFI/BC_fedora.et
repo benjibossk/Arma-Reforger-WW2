@@ -2,7 +2,7 @@ GenericEntity : "{60E6F54E174C53C5}Prefabs/Characters/HeadGear/Hat_Fedora/BC_fed
  ID "ABF262FD4C93A381"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "FFI"
+   "faction affiliation" "FIA"
   }
  }
 }

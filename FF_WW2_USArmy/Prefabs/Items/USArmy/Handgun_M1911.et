@@ -2,7 +2,7 @@ GenericEntity : "{6982459DD20FAAAF}Prefabs/Weapons/Handguns/M1911a1/Handgun_M191
  ID "2A2F9225487C5C2B"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "US_WW2"
+   "faction affiliation" "US"
   }
  }
 }

@@ -2,7 +2,7 @@ GenericEntity : "{60E6F54E174C53C5}Prefabs/Characters/Uniforms/Pants_Suit_01/BC_
  ID "05EDEDE2DDA7BEB2"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "FFI"
+   "faction affiliation" "FIA"
   }
  }
 }

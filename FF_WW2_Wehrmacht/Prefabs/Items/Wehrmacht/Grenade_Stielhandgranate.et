@@ -2,7 +2,7 @@ GenericEntity : "{39846FB14FBA4296}Prefabs/Weapons/Grenades/Grenade_Stielhandgra
  ID "75EF480AEE5D3EAB"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "WEHRMACHT"
+   "faction affiliation" "USSR"
   }
  }
 }

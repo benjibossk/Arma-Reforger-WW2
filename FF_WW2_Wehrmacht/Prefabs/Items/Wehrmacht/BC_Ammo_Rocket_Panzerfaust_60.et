@@ -2,7 +2,7 @@ GenericEntity : "{65E86BF91D510331}Prefabs/Weapons/Ammo/BC_Ammo_Rocket_Panzerfau
  ID "F22C8B2245043FBB"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "WEHRMACHT"
+   "faction affiliation" "USSR"
   }
  }
 }

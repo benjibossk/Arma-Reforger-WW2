@@ -2,7 +2,7 @@ GenericEntity : "{62A711001B8FDEEA}Prefabs/Weapons/Magazines/STG44/BC_Magazine_7
  ID "7FDD0D76AF6AE94C"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "WEHRMACHT"
+   "faction affiliation" "USSR"
   }
  }
 }

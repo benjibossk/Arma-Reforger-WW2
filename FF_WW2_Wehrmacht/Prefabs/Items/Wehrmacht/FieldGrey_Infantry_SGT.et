@@ -2,7 +2,7 @@ GenericEntity : "{09E553C40140C11B}Prefabs/Characters/Uniforms/M43 Jacket/Fieldg
  ID "CCBA4074A489246F"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "WEHRMACHT"
+   "faction affiliation" "USSR"
   }
  }
 }

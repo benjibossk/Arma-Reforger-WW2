@@ -3,7 +3,7 @@ Vehicle : "{65AE1353B9C5BC41}Prefabs/Vehicles/Core/Grey_Kubel Wagen_Uncovered.et
  components {
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
-    m_sFaction "WEHRMACHT"
+    m_sFaction "USSR"
    }
   }
  }

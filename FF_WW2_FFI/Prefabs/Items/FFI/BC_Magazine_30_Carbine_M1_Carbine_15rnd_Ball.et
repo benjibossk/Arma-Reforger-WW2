@@ -2,7 +2,7 @@ GenericEntity : "{62A711001B8FDEEA}Prefabs/Weapons/Magazines/M1 Carbine/BC_Magaz
  ID "3BBF814CEF3C830A"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "FFI"
+   "faction affiliation" "FIA"
   }
  }
 }

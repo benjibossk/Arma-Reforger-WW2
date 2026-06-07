@@ -2,7 +2,7 @@ GenericEntity : "{61BD6595183FCEBD}Prefabs/Weapons/Rifles/Mosin/BC_Rifle_Mosin_N
  ID "C03887B81D2C96F9"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "FFI"
+   "faction affiliation" "FIA"
   }
  }
 }

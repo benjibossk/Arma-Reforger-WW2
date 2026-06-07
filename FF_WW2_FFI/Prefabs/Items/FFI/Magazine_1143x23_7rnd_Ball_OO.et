@@ -2,7 +2,7 @@ GenericEntity : "{6982459DD20FAAAF}Prefabs/Weapons/Handguns/M1911a1/Magazine_114
  ID "5C0038696AB77195"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "FFI"
+   "faction affiliation" "FIA"
   }
  }
 }

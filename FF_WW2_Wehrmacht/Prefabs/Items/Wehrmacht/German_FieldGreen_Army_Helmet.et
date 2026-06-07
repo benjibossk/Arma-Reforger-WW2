@@ -2,7 +2,7 @@ GenericEntity : "{78EA818BAF11757B}Prefabs/Characters/HeadGear/Sthalhiem/Field g
  ID "DE6FB3C06623889B"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "WEHRMACHT"
+   "faction affiliation" "USSR"
   }
  }
 }

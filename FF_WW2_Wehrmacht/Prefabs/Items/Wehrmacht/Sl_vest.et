@@ -2,7 +2,7 @@ GenericEntity : "{5DAABE63D5CE413F}Prefabs/Characters/Vests/Sl Vest/Sl vest.et" 
  ID "BAEBF5348EEE9A19"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "WEHRMACHT"
+   "faction affiliation" "USSR"
   }
  }
 }

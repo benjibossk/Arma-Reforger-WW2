@@ -2,7 +2,7 @@ GenericEntity : "{60E6F54E174C53C5}Prefabs/Weapons/Rifles/Thompson M1A1/BC_Rifle
  ID "FFD70DE7E5B55A65"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "FFI"
+   "faction affiliation" "FIA"
   }
  }
 }

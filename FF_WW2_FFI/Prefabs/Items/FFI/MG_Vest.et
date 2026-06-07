@@ -2,7 +2,7 @@ GenericEntity : "{607EE1B3F1322217}Prefabs/Characters/Vests/Mg Vest/MG Vest.et" 
  ID "4F39F85A71E3D08A"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "FFI"
+   "faction affiliation" "FIA"
   }
  }
 }

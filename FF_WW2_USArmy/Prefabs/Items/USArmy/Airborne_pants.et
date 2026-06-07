@@ -2,7 +2,7 @@ GenericEntity : "{5EE4E278D8EF2466}Prefabs/Characters/Uniforms/Airborne/Pants/Ai
  ID "5F62F29C99D7ADFD"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "US_WW2"
+   "faction affiliation" "US"
   }
  }
 }

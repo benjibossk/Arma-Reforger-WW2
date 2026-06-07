@@ -2,7 +2,7 @@ GenericEntity : "{5EE4E278D8EF2466}Prefabs/Characters/Uniforms/Gi Gear/Tempurate
  ID "6381B1E9137D9771"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "US_WW2"
+   "faction affiliation" "US"
   }
  }
 }

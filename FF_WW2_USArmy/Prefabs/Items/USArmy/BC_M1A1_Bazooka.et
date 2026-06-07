@@ -2,7 +2,7 @@ GenericEntity : "{65E86BF91D510331}Prefabs/Weapons/Launchers/M1A1/BC_M1A1_Bazook
  ID "F0B4DC779624B224"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "US_WW2"
+   "faction affiliation" "US"
   }
  }
 }

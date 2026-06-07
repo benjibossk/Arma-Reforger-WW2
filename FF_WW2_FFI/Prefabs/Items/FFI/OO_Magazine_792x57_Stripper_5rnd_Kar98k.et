@@ -2,7 +2,7 @@ GenericEntity : "{0C933836BFE21731}Prefabs/Weapons/Magazines/Kar98k/OO_Magazine_
  ID "0562DC114FB3A990"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "FFI"
+   "faction affiliation" "FIA"
   }
  }
 }

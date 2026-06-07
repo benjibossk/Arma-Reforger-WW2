@@ -2,7 +2,7 @@ GenericEntity : "{B3B3037EA7AB1DC7}Prefabs/Characters/Vests/Kar 98 Vest/Kar 98 v
  ID "FF5E9B7FFFB024A1"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "WEHRMACHT"
+   "faction affiliation" "USSR"
   }
  }
 }

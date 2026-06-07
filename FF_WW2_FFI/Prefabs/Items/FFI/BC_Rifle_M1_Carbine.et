@@ -2,7 +2,7 @@ GenericEntity : "{62A711001B8FDEEA}Prefabs/Weapons/Rifles/M1 Carbine/BC_Rifle_M1
  ID "7A6F24947B1A3425"
  components {
   SCR_FactionAffiliationComponent "{66048DF84CD4CA1F}" {
-   "faction affiliation" "FFI"
+   "faction affiliation" "FIA"
   }
  }
 }
